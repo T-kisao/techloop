@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TechLoop — AI-powered tech news digest for Ireland, UK and Europe. Automatically curated stories on AI, Gadgets, Innovation, Startups and Gaming.">
+<meta name="theme-color" content="#0B1120">
+<title>TechLoop — AI-powered news digest</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="TechLoop — AI-powered news digest">
+<meta property="og:description" content="The best of AI, Gadgets, Innovation, Startups and Gaming — automatically curated and summarised for audiences in Ireland, UK & Europe.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://techloop.ie">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="TechLoop RSS Feed" href="/feed.xml">
+
+<style>
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+a { text-decoration: none; }
+button { font-family: inherit; }
+
+/* ── TOKENS ── */
+:root {
+  --bg-primary:    #0B1120;
+  --bg-secondary:  #111827;
+  --bg-card:       #131f35;
+  --bg-card-hover: #162035;
+  --blue:          #3B82F6;
+  --blue-dark:     #2563EB;
+  --purple:        #8B5CF6;
+  --cyan:          #22D3EE;
+  --text-primary:  #F8FAFC;
+  --text-secondary:#94A3B8;
+  --text-muted:    #4B5563;
+  --border:        #1E293B;
+  --cat-ai:        #22D3EE;
+  --cat-gadgets:   #8B5CF6;
+  --cat-innovation:#34d399;
+  --cat-startups:  #3B82F6;
+  --cat-gaming:    #f59e0b;
+}
+
+/* ── BASE ── */
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── NAVBAR ── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--border);
+  background: rgba(11,17,32,0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-mark {
+  width: 32px; height: 32px;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -1px;
+  flex-shrink: 0;
+}
+.logo-text {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+.logo-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  margin-top: -2px;
+}
+.nav-cats {
+  display: flex;
+  gap: 0;
+  list-style: none;
+}
+.nav-cats li a {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+  letter-spacing: 0.02em;
+  display: block;
+}
+.nav-cats li a:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+.nav-cats li a.active { color: var(--text-primary); }
+.nav-right { display: flex; align-items: center; gap: 12px; }
+.btn-search {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 8px;
+  border-radius: 6px;
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+}
+.btn-search:hover { color: var(--text-primary); }
+.btn-subscribe {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+  letter-spacing: 0.02em;
+}
+.btn-subscribe:hover { background: var(--blue-dark); }
+
+/* ── HERO ── */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 2rem 80px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-bg { position: absolute; inset: 0; pointer-events: none; }
+.hero-glow {
+  position: absolute;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.12;
+}
+.glow-blue  { background: var(--blue);   top: -100px; left: -100px; }
+.glow-purple{ background: var(--purple); bottom: -100px; right: -100px; }
+.glow-cyan  {
+  background: var(--cyan);
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px; height: 400px;
+  opacity: 0.06;
+}
+.hero-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(59,130,246,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 760px;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34,211,238,0.1);
+  border: 1px solid rgba(34,211,238,0.2);
+  border-radius: 100px;
+  padding: 6px 16px;
+  margin-bottom: 2rem;
+}
+.badge-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.8); }
+}
+.badge-text {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--cyan);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+.h1-line2 {
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero-desc {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  letter-spacing: 0.01em;
+}
+.btn-primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.btn-secondary:hover { border-color: var(--text-muted); background: rgba(255,255,255,0.03); }
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border);
+}
+.stat { text-align: center; }
+.stat-num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--text-primary);
+}
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+/* ── TICKER ── */
+.ticker {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+  overflow: hidden;
+  position: relative;
+}
+.ticker::before, .ticker::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 80px;
+  z-index: 2;
+}
+.ticker::before { left: 0;  background: linear-gradient(90deg,  var(--bg-secondary), transparent); }
+.ticker::after  { right: 0; background: linear-gradient(-90deg, var(--bg-secondary), transparent); }
+.ticker-track {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: ticker-scroll 35s linear infinite;
+}
+.ticker-track:hover { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.ticker-cat {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.tc-ai         { color: var(--cat-ai);         background: rgba(34,211,238,0.1); }
+.tc-gadgets    { color: var(--cat-gadgets);    background: rgba(139,92,246,0.1); }
+.tc-innovation { color: var(--cat-innovation); background: rgba(52,211,153,0.1); }
+.tc-startups   { color: var(--cat-startups);   background: rgba(59,130,246,0.1); }
+.tc-gaming     { color: var(--cat-gaming);     background: rgba(245,158,11,0.1); }
+
+/* ── MAIN ── */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+.section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  margin: 0 1.5rem;
+}
+.section-link {
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.section-link:hover { color: var(--text-primary); }
+
+/* ── CARDS ── */
+.card-cat {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.cat-ai         { color: var(--cat-ai); }
+.cat-gadgets    { color: var(--cat-gadgets); }
+.cat-innovation { color: var(--cat-innovation); }
+.cat-startups   { color: var(--cat-startups); }
+.cat-gaming     { color: var(--cat-gaming); }
+
+.ai-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(139,92,246,0.12);
+  border: 1px solid rgba(139,92,246,0.2);
+  color: var(--purple);
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.2rem;
+}
+.card-summary {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  font-weight: 300;
+}
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.card-source { color: var(--text-secondary); font-weight: 500; }
+
+/* ── FEATURED GRID ── */
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.5px;
+  background: var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.card {
+  background: var(--bg-card);
+  padding: 2rem;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.card:hover { background: var(--bg-card-hover); }
+.card-main  { grid-row: span 2; }
+.card-main .card-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+.card-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.6rem;
+  color: var(--text-primary);
+}
+.card-image-placeholder {
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(139,92,246,0.12));
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+/* In production, replace .card-image-placeholder with <img> tags */
+.img-pattern {
+  position: absolute; inset: 0;
+  background-image: radial-gradient(circle, rgba(59,130,246,0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+.img-icon { position: relative; font-size: 2.5rem; opacity: 0.3; }
+
+/* ── ARTICLES GRID ── */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5px;
+  background: var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.article-card {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.article-card:hover { background: var(--bg-card-hover); }
+
+/* ── CATEGORIES ── */
+.cats-section { margin-bottom: 3rem; }
+.cats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.cat-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s;
+  text-align: center;
+}
+.cat-card:hover { transform: translateY(-2px); }
+.cat-ai-card:hover         { border-color: rgba(34,211,238,0.3); }
+.cat-gadgets-card:hover    { border-color: rgba(139,92,246,0.3); }
+.cat-innovation-card:hover { border-color: rgba(52,211,153,0.3); }
+.cat-startups-card:hover   { border-color: rgba(59,130,246,0.3); }
+.cat-gaming-card:hover     { border-color: rgba(245,158,11,0.3); }
+.cat-icon {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  margin: 0 auto 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.cat-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.cat-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  font-family: 'DM Mono', monospace;
+}
+.cat-ai-card .cat-icon         { background: rgba(34,211,238,0.1); }
+.cat-ai-card .cat-name         { color: var(--cat-ai); }
+.cat-gadgets-card .cat-icon    { background: rgba(139,92,246,0.1); }
+.cat-gadgets-card .cat-name    { color: var(--cat-gadgets); }
+.cat-innovation-card .cat-icon { background: rgba(52,211,153,0.1); }
+.cat-innovation-card .cat-name { color: var(--cat-innovation); }
+.cat-startups-card .cat-icon   { background: rgba(59,130,246,0.1); }
+.cat-startups-card .cat-name   { color: var(--cat-startups); }
+.cat-gaming-card .cat-icon     { background: rgba(245,158,11,0.1); }
+.cat-gaming-card .cat-name     { color: var(--cat-gaming); }
+
+/* ── AI DIGEST ── */
+.digest-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.digest-bg {
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 200px; height: 200px;
+  background: radial-gradient(circle, rgba(139,92,246,0.1), transparent 70%);
+  pointer-events: none;
+}
+.digest-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+.digest-icon {
+  width: 40px; height: 40px;
+  background: linear-gradient(135deg, var(--purple), var(--blue));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+.digest-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.digest-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: 'DM Mono', monospace;
+  letter-spacing: 0.5px;
+}
+.digest-content {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-weight: 300;
+  max-width: 700px;
+}
+.digest-content strong { color: var(--text-primary); font-weight: 500; }
+.digest-footer {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.digest-time {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.digest-action {
+  font-size: 13px;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: gap 0.15s;
+}
+.digest-action:hover { gap: 8px; }
+
+/* ── QUIZ ── */
+/* ── VS BADGE ── */
+.vs-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(251,146,60,0.15);
+  border: 1px solid rgba(251,146,60,0.3);
+  color: #fb923c;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+.vs-divider {
+  color: var(--text-muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.85rem;
+  margin: 0 4px;
+}
+
+/* ── QUIZ ── */
+.quiz-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.quiz-bg {
+  position: absolute; top: -60px; right: -60px;
+  width: 220px; height: 220px;
+  background: radial-gradient(circle, rgba(59,130,246,0.08), transparent 70%);
+  pointer-events: none;
+}
+.quiz-header {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.quiz-pill {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px; font-weight: 500;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  background: rgba(59,130,246,0.12);
+  border: 1px solid rgba(59,130,246,0.2);
+  color: var(--blue);
+  padding: 3px 10px; border-radius: 100px;
+}
+.quiz-week {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; color: var(--text-muted); letter-spacing: 0.5px;
+}
+.quiz-question {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700; font-size: 1.15rem;
+  line-height: 1.3; letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+.quiz-options { display: flex; flex-direction: column; gap: 10px; }
+.quiz-option {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  display: flex; align-items: center; gap: 12px;
+  position: relative; overflow: hidden;
+}
+.quiz-option:hover { border-color: rgba(59,130,246,0.4); background: var(--bg-card-hover); }
+.quiz-option.selected { border-color: var(--blue); background: rgba(59,130,246,0.08); }
+.quiz-option.winner   { border-color: var(--cyan); }
+.opt-bar {
+  position: absolute; left: 0; top: 0; bottom: 0;
+  background: rgba(59,130,246,0.12);
+  width: 0%;
+  transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 9px;
+}
+.winner .opt-bar   { background: rgba(34,211,238,0.1); }
+.winner .opt-label { color: var(--cyan); }
+.winner .opt-pct   { color: var(--cyan); }
+.opt-check {
+  width: 18px; height: 18px; border-radius: 50%;
+  border: 1.5px solid var(--border);
+  flex-shrink: 0; position: relative; z-index: 1;
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color 0.15s, background 0.15s;
+  font-size: 10px;
+}
+.selected .opt-check { border-color: var(--blue); background: var(--blue); }
+.winner   .opt-check { border-color: var(--cyan); background: var(--cyan); }
+.opt-label {
+  font-size: 14px; font-weight: 400;
+  color: var(--text-primary);
+  flex: 1; position: relative; z-index: 1;
+}
+.opt-pct {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px; font-weight: 500;
+  color: var(--text-secondary);
+  position: relative; z-index: 1;
+  min-width: 36px; text-align: right;
+  opacity: 0; transition: opacity 0.3s;
+}
+.quiz-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 1.2rem; padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+}
+.quiz-votes { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text-muted); }
+.quiz-votes span { color: var(--text-secondary); font-weight: 500; }
+.quiz-next { font-size: 12px; color: var(--text-muted); }
+.quiz-next b { color: var(--text-secondary); font-weight: 500; }
+.quiz-thanks {
+  display: none; text-align: center;
+  padding: 1rem 0 0.5rem;
+}
+.quiz-thanks-text { font-size: 13px; color: var(--text-secondary); font-weight: 300; }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  padding: 3rem 2rem;
+}
+.footer-inner { max-width: 1200px; margin: 0 auto; }
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+}
+.footer-brand .logo-text {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  color: var(--text-primary);
+}
+.footer-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  max-width: 260px;
+}
+.footer-newsletter { display: flex; }
+.footer-input {
+  flex: 1;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-right: none;
+  color: var(--text-primary);
+  padding: 10px 14px;
+  border-radius: 8px 0 0 8px;
+  font-size: 13px;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.15s;
+}
+.footer-input::placeholder { color: var(--text-muted); }
+.footer-input:focus { border-color: var(--blue); }
+.footer-btn {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.footer-btn:hover { background: var(--blue-dark); }
+.footer-col h4 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.footer-links a {
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-links a:hover { color: var(--text-primary); }
+.footer-links svg { opacity: 0.5; flex-shrink: 0; }
+.rss-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(245,158,11,0.1);
+  border: 1px solid rgba(245,158,11,0.2);
+  color: #f59e0b;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-copy { font-size: 12px; color: var(--text-muted); }
+.footer-copy span { color: var(--purple); }
+.footer-legal { display: flex; gap: 1.5rem; }
+.footer-legal a {
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+.footer-legal a:hover { color: var(--text-secondary); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .nav-cats { display: none; }
+  .featured-grid { grid-template-columns: 1fr; }
+  .card-main { grid-row: span 1; }
+  .cats-grid { grid-template-columns: repeat(3, 1fr); }
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .hero-stats { gap: 2rem; }
+}
+@media (max-width: 600px) {
+  .cats-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-top { grid-template-columns: 1fr; }
+  .hero-stats { flex-wrap: wrap; gap: 1.5rem; }
+  h1 { font-size: 2.4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="logo-mark">TL</div>
+      <div>
+        <div class="logo-text">TechLoop</div>
+        <div class="logo-sub">AI news digest</div>
+      </div>
+    </a>
+    <ul class="nav-cats">
+      <li><a href="/" class="active">All</a></li>
+      <li><a href="/category/ai"         style="color:var(--cat-ai)">AI</a></li>
+      <li><a href="/category/gadgets"    style="color:var(--cat-gadgets)">Gadgets</a></li>
+      <li><a href="/category/innovation" style="color:var(--cat-innovation)">Innovation</a></li>
+      <li><a href="/category/startups"   style="color:var(--cat-startups)">Startups</a></li>
+      <li><a href="/category/gaming"     style="color:var(--cat-gaming)">Gaming</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-search" aria-label="Search">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+        </svg>
+      </button>
+      <button class="btn-subscribe">Subscribe</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-glow glow-blue"></div>
+    <div class="hero-glow glow-purple"></div>
+    <div class="hero-glow glow-cyan"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <div class="badge-dot"></div>
+      <span class="badge-text">Fresh daily</span>
+    </div>
+    <h1>
+      Tech news.<br>
+      <span class="h1-line2">Intelligently filtered.</span>
+    </h1>
+    <p class="hero-desc">
+      The best of AI, Gadgets, Innovation, Startups and Gaming —
+      signal over noise, delivered daily.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.querySelector('main').scrollIntoView({behavior:'smooth'})">
+        Read today's digest →
+      </button>
+      <button class="btn-secondary" onclick="document.querySelector('.cats-section').scrollIntoView({behavior:'smooth'})">
+        Browse categories
+      </button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Sources</div></div>
+      <div class="stat"><div class="stat-num">200+</div><div class="stat-label">Articles/day</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Categories</div></div>
+      <div class="stat"><div class="stat-num">AI</div><div class="stat-label">Summaries</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TICKER ══ -->
+<div class="ticker" aria-label="Breaking news ticker">
+  <div class="ticker-track">
+    <!-- INJECT:TICKER -->
+  </div>
+</div>
+
+<!-- ══ MAIN CONTENT ══ -->
+<main>
+
+  <!-- FEATURED -->
+  <div class="section-header">
+    <span class="section-title">Featured</span>
+    <div class="section-line"></div>
+    <a href="/all" class="section-link">
+      All stories
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+
+  <!--
+    TEMPLATE NOTE:
+    In production, the Python script replaces everything inside .featured-grid
+    with dynamically generated cards from the RSS feeds + Claude Haiku summaries.
+  -->
+  <div class="featured-grid">
+
+    <!-- INJECT:FEATURED -->
+
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="section-header">
+    <span class="section-title">Browse by category</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="cats-section">
+    <div class="cats-grid">
+      <!-- INJECT:CATS -->
+    </div>
+  </div>
+
+  <!-- WEEKLY POLL -->
+  <div class="section-header">
+    <span class="section-title">Weekly Poll</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="quiz-section">
+    <div class="quiz-bg"></div>
+    <div class="quiz-header">
+      <span class="quiz-pill">Weekly Poll</span>
+      <span class="quiz-week" id="quiz-week"></span>
+    </div>
+    <div class="quiz-question" id="quiz-question"></div>
+    <div class="quiz-options" id="quiz-options"></div>
+    <div class="quiz-footer">
+      <span class="quiz-votes" id="quiz-votes"><span>0</span> votes</span>
+      <span class="quiz-next" id="quiz-next"></span>
+    </div>
+    <div class="quiz-thanks" id="quiz-thanks">
+      <div class="quiz-thanks-text">✓ Thanks for voting! Results update in real time.</div>
+    </div>
+  </div>
+
+  <!-- AI DAILY DIGEST -->
+  <div class="digest-section">
+    <div class="digest-bg"></div>
+    <div class="digest-header">
+      <div class="digest-icon">✦</div>
+      <div>
+        <div class="digest-title">AI Daily Digest</div>
+        <div class="digest-sub">Generated <!-- INJECT:TIMESTAMP --></div>
+      </div>
+    </div>
+    <p class="digest-content"><!-- INJECT:DIGEST --></p>
+    <div class="digest-footer">
+      <span class="digest-time">🕐 Updated daily via GitHub Actions</span>
+      <a href="/digest" class="digest-action">Read full digest →</a>
+    </div>
+  </div>
+
+  <!-- LATEST -->
+  <div class="section-header">
+    <span class="section-title">Latest</span>
+    <div class="section-line"></div>
+    <a href="/all" class="section-link">
+      See all
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+  <div class="articles-grid">
+    <!-- INJECT:LATEST -->
+  </div>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-text">TechLoop</span>
+        <p class="footer-desc">Signal over noise, delivered daily. The best of AI, Gadgets, Innovation, Startups and Gaming.</p>
+        <div class="footer-newsletter">
+          <input class="footer-input" type="email" placeholder="your@email.com" aria-label="Email for newsletter">
+          <button class="footer-btn">Subscribe</button>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul class="footer-links">
+          <li><a href="/category/ai">AI</a></li>
+          <li><a href="/category/gadgets">Gadgets</a></li>
+          <li><a href="/category/innovation">Innovation</a></li>
+          <li><a href="/category/startups">Startups</a></li>
+          <li><a href="/category/gaming">Gaming</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="/about">About</a></li>
+          <li><a href="/how-it-works">How it works</a></li>
+          <li><a href="/sources">Sources</a></li>
+          <li><a href="/advertise">Advertise</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="/feed.xml">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                <path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/>
+                <circle cx="5" cy="19" r="1" fill="#f59e0b" stroke="none"/>
+              </svg>
+              RSS Feed
+              <span class="rss-badge">XML</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contact@techloop.ie">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/>
+              </svg>
+              contact@techloop.ie
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 TechLoop. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const QUIZZES = [
+    { q: "Which AI assistant do you use the most?",
+      opts: ["ChatGPT", "Gemini", "Microsoft Copilot", "Perplexity", "Claude"] },
+    { q: "What's the most exciting tech category right now?",
+      opts: ["Artificial Intelligence", "Spatial Computing", "Electric Vehicles", "Quantum Computing", "Robotics"] },
+    { q: "Which European tech hub has the most potential?",
+      opts: ["Dublin", "London", "Berlin", "Amsterdam", "Stockholm"] },
+    { q: "What device do you use most to read tech news?",
+      opts: ["Smartphone", "Laptop", "Desktop", "Tablet", "Smart TV"] },
+    { q: "Which tech giant is leading AI innovation?",
+      opts: ["OpenAI", "Google DeepMind", "Anthropic", "Meta AI", "Mistral"] },
+    { q: "Will AI replace most software developer jobs by 2030?",
+      opts: ["Definitely yes", "Probably yes", "Unlikely", "No chance", "Already happening"] },
+    { q: "Which gaming platform do you prefer?",
+      opts: ["PlayStation", "Xbox", "PC", "Nintendo Switch", "Mobile"] }
+  ];
+
+  function getWeekNumber() {
+    const d = new Date();
+    d.setHours(0,0,0,0);
+    d.setDate(d.getDate() + 3 - (d.getDay() + 6) % 7);
+    const w = new Date(d.getFullYear(), 0, 4);
+    return 1 + Math.round(((d - w) / 86400000 - 3 + (w.getDay() + 6) % 7) / 7);
+  }
+
+  function getMonday() {
+    const d = new Date();
+    const diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? -6 : 1);
+    return new Date(d.setDate(diff)).toLocaleDateString('en-IE', { day: 'numeric', month: 'short' });
+  }
+
+  function getNextMonday() {
+    const d = new Date();
+    const diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? 1 : 8);
+    return new Date(d.setDate(diff)).toLocaleDateString('en-IE', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  const week  = getWeekNumber();
+  const year  = new Date().getFullYear();
+  const key   = 'techloop_quiz_' + year + '_w' + week;
+  const quiz  = QUIZZES[week % QUIZZES.length];
+
+  document.getElementById('quiz-week').textContent     = 'Week ' + week + ' · from ' + getMonday();
+  document.getElementById('quiz-question').textContent = quiz.q;
+  document.getElementById('quiz-next').innerHTML       = 'Refreshes <b>' + getNextMonday() + '</b>';
+
+  let stored = JSON.parse(localStorage.getItem(key) || 'null');
+  if (!stored) {
+    stored = {
+      voted: null,
+      counts: quiz.opts.map(function() { return Math.floor(Math.random() * 40 + 5); })
+    };
+    localStorage.setItem(key, JSON.stringify(stored));
+  }
+
+  function total() { return stored.counts.reduce(function(a,b){ return a+b; }, 0); }
+
+  function render(showResults) {
+    var container = document.getElementById('quiz-options');
+    var maxVotes  = Math.max.apply(null, stored.counts);
+    container.innerHTML = quiz.opts.map(function(opt, i) {
+      var pct      = Math.round(stored.counts[i] / total() * 100);
+      var isWinner = showResults && stored.counts[i] === maxVotes;
+      var isSel    = stored.voted === i;
+      return '<div class="quiz-option' + (isSel ? ' selected' : '') + (isWinner ? ' winner' : '') + '" onclick="window._quizVote(' + i + ')" id="qopt-' + i + '">' +
+        '<div class="opt-bar" id="qbar-' + i + '" style="width:' + (showResults ? pct : 0) + '%"></div>' +
+        '<div class="opt-check">' + (isSel ? '✓' : '') + '</div>' +
+        '<span class="opt-label">' + opt + '</span>' +
+        '<span class="opt-pct" id="qpct-' + i + '" style="opacity:' + (showResults ? 1 : 0) + '">' + pct + '%</span>' +
+        '</div>';
+    }).join('');
+    document.getElementById('quiz-votes').innerHTML = '<span>' + total() + '</span> vote' + (total() !== 1 ? 's' : '');
+    if (showResults) document.getElementById('quiz-thanks').style.display = 'block';
+  }
+
+  window._quizVote = function(i) {
+    if (stored.voted !== null) return;
+    stored.voted = i;
+    stored.counts[i]++;
+    localStorage.setItem(key, JSON.stringify(stored));
+    render(false);
+    setTimeout(function() {
+      var maxVotes = Math.max.apply(null, stored.counts);
+      stored.counts.forEach(function(c, idx) {
+        var pct   = Math.round(c / total() * 100);
+        var bar   = document.getElementById('qbar-'  + idx);
+        var pctEl = document.getElementById('qpct-'  + idx);
+        var optEl = document.getElementById('qopt-'  + idx);
+        if (bar)   bar.style.width   = pct + '%';
+        if (pctEl) { pctEl.textContent = pct + '%'; pctEl.style.opacity = '1'; }
+        if (c === maxVotes && optEl) optEl.classList.add('winner');
+      });
+      document.getElementById('quiz-thanks').style.display = 'block';
+      document.getElementById('quiz-votes').innerHTML = '<span>' + total() + '</span> votes';
+    }, 50);
+  };
+
+  render(stored.voted !== null);
+})();
+</script>
+</body>
+</html>
