@@ -320,7 +320,7 @@ def category_counts_html(all_articles):
 # ── TEMPLATE REBUILD ──────────────────────────────────────────────────────────
 
 def rebuild_html(all_articles, digest):
-    template_path = Path("index.html")
+    template_path = Path("template.html")
     if not template_path.exists():
         print("Error: index.html not found.")
         return
@@ -342,7 +342,7 @@ def rebuild_html(all_articles, digest):
     }.items():
         html = html.replace(marker, content)
 
-    template_path.write_text(html, encoding="utf-8")
+    Path("index.html").write_text(html, encoding="utf-8")
     print(f"index.html rebuilt — {len(all_articles)} articles injected.")
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
