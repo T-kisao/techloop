@@ -23,11 +23,15 @@ from groq import Groq
 from datetime import datetime, timezone, timedelta
 from dateutil import parser as dateparser
 from pathlib import Path
+from html.parser import HTMLParser
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "llama-3.1-8b-instant"
+
+# Max articles to fetch Open Graph images for
+MAX_OG_IMAGES = 15
 
 MAX_PER_CATEGORY = 6
 MAX_AI_SUMMARIES = 10
@@ -106,6 +110,38 @@ def article_hash(title):
     return hashlib.md5(title.lower().strip().encode()).hexdigest()[:12]
 
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
+
+
+def fetch_og_image(url):
+    """Fetch Open Graph image from article URL."""
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (compatible; TechLoop/1.0)",
+        }
+        resp = requests.get(url, headers=headers, timeout=8)
+        if resp.status_code != 200:
+            return ""
+        # Simple search for og:image meta tag
+        html = resp.text[:50000]  # only read first 50KB
+        # Look for og:image
+        idx = html.lower().find('property="og:image"')
+        if idx == -1:
+            idx = html.lower().find("property='og:image'")
+        if idx == -1:
+            return ""
+        # Find content attribute near the og:image tag
+        chunk = html[idx:idx+200]
+        for attr in ['content="', "content='"]:
+            ci = chunk.lower().find(attr)
+            if ci != -1:
+                start = ci + len(attr)
+                end   = chunk.find(attr[-1], start)
+                if end != -1:
+                    return chunk[start:end]
+        return ""
+    except Exception:
+        return ""
+
 
 def fetch_articles(category, urls, seen):
     """Fetch and parse RSS feeds, skipping already seen articles."""
@@ -385,6 +421,16 @@ def main():
         print("  Done.")
     else:
         digest = "Today's digest is unavailable."
+
+
+    # Fetch Open Graph images
+    print(f"\nFetching images (top {MAX_OG_IMAGES})...")
+    for i, article in enumerate(all_articles[:MAX_OG_IMAGES]):
+        if not article.get("image"):
+            img = fetch_og_image(article["link"])
+            if img:
+                article["image"] = img
+                print(f"  [{i+1}] Got image for: {article['title'][:40]}...")
 
     # Rebuild HTML
     print("\nRebuilding index.html...")
