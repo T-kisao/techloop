@@ -15,10 +15,12 @@ Environment variables:
 """
 
 import os
+import json
+import hashlib
 import feedparser
 import requests
 from groq import Groq
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from dateutil import parser as dateparser
 from pathlib import Path
 
@@ -30,6 +32,10 @@ GROQ_MODEL   = "llama-3.1-8b-instant"
 MAX_PER_CATEGORY = 6
 MAX_AI_SUMMARIES = 10
 FEATURED_COUNT   = 3
+
+# How many days to remember seen articles
+SEEN_ARTICLES_TTL_DAYS = 7
+SEEN_ARTICLES_FILE     = Path("seen_articles.json")
 
 # ── RSS SOURCES ───────────────────────────────────────────────────────────────
 
@@ -60,7 +66,7 @@ FEEDS = {
     "Gaming": [
         "https://feeds.ign.com/ign/all",
         "https://www.eurogamer.net/feed",
-        "https://www.rockpapershotgun.com/feed/",
+        "https://www.polygon.com/rss/index.xml",
     ],
 }
 
@@ -72,9 +78,37 @@ CAT_COLORS = {
     "Gaming":     "cat-gaming",
 }
 
+# ── SEEN ARTICLES ─────────────────────────────────────────────────────────────
+
+def load_seen_articles():
+    """Load seen article hashes from file, removing expired entries."""
+    if not SEEN_ARTICLES_FILE.exists():
+        return {}
+    try:
+        data     = json.loads(SEEN_ARTICLES_FILE.read_text(encoding="utf-8"))
+        cutoff   = (datetime.now(timezone.utc) - timedelta(days=SEEN_ARTICLES_TTL_DAYS)).isoformat()
+        filtered = {k: v for k, v in data.items() if v >= cutoff}
+        return filtered
+    except Exception:
+        return {}
+
+
+def save_seen_articles(seen):
+    """Save seen article hashes to file."""
+    try:
+        SEEN_ARTICLES_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
+    except Exception as e:
+        print(f"  Warning: could not save seen articles — {e}")
+
+
+def article_hash(title):
+    """Generate a short hash for an article title."""
+    return hashlib.md5(title.lower().strip().encode()).hexdigest()[:12]
+
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
 
-def fetch_articles(category, urls):
+def fetch_articles(category, urls, seen):
+    """Fetch and parse RSS feeds, skipping already seen articles."""
     articles = []
     headers  = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
 
@@ -84,7 +118,7 @@ def fetch_articles(category, urls):
             feed        = feedparser.parse(resp.content)
             source_name = feed.feed.get("title", url.split("/")[2])
 
-            for entry in feed.entries[:5]:
+            for entry in feed.entries[:10]:  # fetch more to account for seen filtering
                 published = None
                 if hasattr(entry, "published"):
                     try:
@@ -97,27 +131,38 @@ def fetch_articles(category, urls):
                 if published and published.tzinfo is None:
                     published = published.replace(tzinfo=timezone.utc)
 
+                title = entry.get("title", "").strip()
+                if not title:
+                    continue
+
+                # Skip if already seen in the last 7 days
+                h = article_hash(title)
+                if h in seen:
+                    continue
+
                 articles.append({
-                    "title":     entry.get("title", "").strip(),
+                    "title":     title,
                     "link":      entry.get("link", ""),
                     "summary":   entry.get("summary", "")[:500].strip(),
                     "image":     _extract_image(entry),
                     "source":    source_name,
                     "category":  category,
                     "published": published,
+                    "hash":      h,
                 })
         except Exception as e:
             print(f"  Warning: could not fetch {url} — {e}")
 
-    seen   = set()
-    unique = []
+    # Sort by date, remove duplicates
+    deduped = []
+    seen_titles = set()
     for a in sorted(articles, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
         key = a["title"].lower()[:60]
-        if key not in seen and a["title"]:
-            seen.add(key)
-            unique.append(a)
+        if key not in seen_titles:
+            seen_titles.add(key)
+            deduped.append(a)
 
-    return unique[:MAX_PER_CATEGORY]
+    return deduped[:MAX_PER_CATEGORY]
 
 
 def _extract_image(entry):
@@ -309,20 +354,27 @@ def main():
     if not client:
         print("Warning: GROQ_API_KEY not set — AI summaries will be skipped.\n")
 
+    # Load seen articles
+    seen = load_seen_articles()
+    print(f"Seen articles in memory: {len(seen)}\n")
+
+    # Fetch all feeds
     all_articles = []
     for category, urls in FEEDS.items():
         print(f"Fetching {category}...")
-        articles = fetch_articles(category, urls)
-        print(f"  {len(articles)} articles")
+        articles = fetch_articles(category, urls, seen)
+        print(f"  {len(articles)} new articles")
         all_articles.extend(articles)
 
+    # Sort by date
     all_articles.sort(
         key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc),
         reverse=True
     )
-    print(f"\nTotal: {len(all_articles)} articles")
+    print(f"\nTotal new articles: {len(all_articles)}")
 
-    if client:
+    # Generate AI summaries
+    if client and all_articles:
         print(f"\nGenerating summaries (top {MAX_AI_SUMMARIES})...")
         for i, article in enumerate(all_articles[:MAX_AI_SUMMARIES]):
             print(f"  [{i+1}/{MAX_AI_SUMMARIES}] {article['title'][:50]}...")
@@ -332,10 +384,19 @@ def main():
         digest = generate_daily_digest(client, all_articles)
         print("  Done.")
     else:
-        digest = "Today's digest is unavailable — GROQ_API_KEY not configured."
+        digest = "Today's digest is unavailable."
 
+    # Rebuild HTML
     print("\nRebuilding index.html...")
     rebuild_html(all_articles, digest)
+
+    # Mark articles as seen
+    now = datetime.now(timezone.utc).isoformat()
+    for a in all_articles:
+        seen[a["hash"]] = now
+    save_seen_articles(seen)
+    print(f"Marked {len(all_articles)} articles as seen.")
+
     print("\nBuild complete.")
 
 
