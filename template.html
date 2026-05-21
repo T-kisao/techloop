@@ -460,6 +460,15 @@ main {
 }
 .card-bottom-row .card { background: var(--bg-card); }
 .card-bottom-row .card:hover { background: var(--bg-card-hover); }
+.card-bottom-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5px;
+  background: var(--border);
+}
+.card-bottom-row .card { background: var(--bg-card); }
+.card-bottom-row .card:hover { background: var(--bg-card-hover); }
 .card-main .card-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
@@ -988,9 +997,8 @@ footer {
     with dynamically generated cards from the RSS feeds + Claude Haiku summaries.
   -->
   <div class="featured-grid">
-
-    <!-- INJECT:FEATURED -->
-
+    <!-- INJECT:FEATURED_TOP -->
+    <div class="card-bottom-row"><!-- INJECT:FEATURED_BOTTOM --></div>
   </div>
 
   <!-- CATEGORIES -->
