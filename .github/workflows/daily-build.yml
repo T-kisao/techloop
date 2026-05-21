@@ -1,11 +1,9 @@
-name: TechLoop Daily Build
+name: Daily Build
 
 on:
   schedule:
-    # Runs every day at 07:00 IST (06:00 UTC)
-    - cron: '0 6 * * *'
-  workflow_dispatch:
-    # Allows manual trigger from GitHub Actions tab
+    - cron: '0 6 * * *'   # 06:00 UTC = 07:00 IST
+  workflow_dispatch:        # allow manual trigger
 
 jobs:
   build:
@@ -21,17 +19,18 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install feedparser requests groq python-dateutil
 
-      - name: Run news aggregator
+      - name: Run generator
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python generate.py
 
-      - name: Commit and push updated files
+      - name: Commit updated index.html
         run: |
-          git config user.name  "TechLoop Bot"
-          git config user.email "bot@techloop.ie"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html seen_articles.json
-          git commit -m "Daily build: $(date +'%Y-%m-%d %H:%M UTC')" --allow-empty
+          git diff --cached --quiet || git commit -m "chore: daily build $(date +'%Y-%m-%d %H:%M UTC')"
           git push
