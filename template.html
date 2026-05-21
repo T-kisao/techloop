@@ -436,6 +436,7 @@ main {
 .featured-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 1.5px;
   background: var(--border);
   border-radius: 16px;
@@ -450,6 +451,15 @@ main {
 }
 .card:hover { background: var(--bg-card-hover); }
 .card-main  { grid-row: span 2; }
+.card-bottom-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5px;
+  background: var(--border);
+}
+.card-bottom-row .card { background: var(--bg-card); }
+.card-bottom-row .card:hover { background: var(--bg-card-hover); }
 .card-main .card-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
@@ -896,11 +906,11 @@ footer {
     </a>
     <ul class="nav-cats">
       <li><a href="/" class="active">All</a></li>
-      <li><a href="/category/ai"         style="color:var(--cat-ai)">AI</a></li>
-      <li><a href="/category/gadgets"    style="color:var(--cat-gadgets)">Gadgets</a></li>
-      <li><a href="/category/innovation" style="color:var(--cat-innovation)">Innovation</a></li>
-      <li><a href="/category/startups"   style="color:var(--cat-startups)">Startups</a></li>
-      <li><a href="/category/gaming"     style="color:var(--cat-gaming)">Gaming</a></li>
+      <li><a href="#" style="color:var(--cat-ai)">AI</a></li>
+      <li><a href="#" style="color:var(--cat-gadgets)">Gadgets</a></li>
+      <li><a href="#" style="color:var(--cat-innovation)">Innovation</a></li>
+      <li><a href="#" style="color:var(--cat-startups)">Startups</a></li>
+      <li><a href="#" style="color:var(--cat-gaming)">Gaming</a></li>
     </ul>
     <div class="nav-right">
       <button class="btn-search" aria-label="Search">
@@ -935,7 +945,7 @@ footer {
       signal over noise, delivered daily.
     </p>
     <div class="hero-actions">
-      <button class="btn-primary" onclick="document.querySelector('main').scrollIntoView({behavior:'smooth'})">
+      <button class="btn-primary" onclick="document.querySelector('.featured-grid').scrollIntoView({behavior:'smooth'})">
         Read today's digest →
       </button>
       <button class="btn-secondary" onclick="document.querySelector('.cats-section').scrollIntoView({behavior:'smooth'})">
@@ -1022,14 +1032,14 @@ footer {
     <div class="digest-header">
       <div class="digest-icon">✦</div>
       <div>
-        <div class="digest-title">AI Daily Digest</div>
-        <div class="digest-sub">Generated <!-- INJECT:TIMESTAMP --></div>
+        <div class="digest-title">Daily Digest</div>
+        <div class="digest-sub"><!-- INJECT:TIMESTAMP --></div>
       </div>
     </div>
     <p class="digest-content"><!-- INJECT:DIGEST --></p>
     <div class="digest-footer">
-      <span class="digest-time">🕐 Updated daily via GitHub Actions</span>
-      <a href="/digest" class="digest-action">Read full digest →</a>
+      <span class="digest-time">Updated daily</span>
+      <a href="#" onclick="document.querySelector('.digest-section').scrollIntoView({behavior:'smooth'});return false;" class="digest-action">Read full digest →</a>
     </div>
   </div>
 
@@ -1066,21 +1076,21 @@ footer {
       <div class="footer-col">
         <h4>Categories</h4>
         <ul class="footer-links">
-          <li><a href="/category/ai">AI</a></li>
-          <li><a href="/category/gadgets">Gadgets</a></li>
-          <li><a href="/category/innovation">Innovation</a></li>
-          <li><a href="/category/startups">Startups</a></li>
-          <li><a href="/category/gaming">Gaming</a></li>
+          <li><a href="#">AI</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">Innovation</a></li>
+          <li><a href="#">Startups</a></li>
+          <li><a href="#">Gaming</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Company</h4>
         <ul class="footer-links">
-          <li><a href="/about">About</a></li>
-          <li><a href="/how-it-works">How it works</a></li>
-          <li><a href="/sources">Sources</a></li>
-          <li><a href="/advertise">Advertise</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Sources</a></li>
+          <li><a href="#">Advertise</a></li>
         </ul>
       </div>
 
@@ -1112,9 +1122,9 @@ footer {
     <div class="footer-bottom">
       <span class="footer-copy">© 2026 TechLoop. All rights reserved.</span>
       <div class="footer-legal">
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
-        <a href="/cookies">Cookies</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
       </div>
     </div>
   </div>
