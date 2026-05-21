@@ -23,23 +23,18 @@ from groq import Groq
 from datetime import datetime, timezone, timedelta
 from dateutil import parser as dateparser
 from pathlib import Path
-from html.parser import HTMLParser
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "llama-3.1-8b-instant"
 
-# Max articles to fetch Open Graph images for
-MAX_OG_IMAGES = 15
-
-MAX_PER_CATEGORY = 6
-MAX_AI_SUMMARIES = 10
-FEATURED_COUNT   = 3
-
-# How many days to remember seen articles
+MAX_OG_IMAGES        = 15
+MAX_PER_CATEGORY     = 6
+MAX_AI_SUMMARIES     = 10
+FEATURED_COUNT       = 3
 SEEN_ARTICLES_TTL_DAYS = 7
-SEEN_ARTICLES_FILE     = Path("seen_articles.json")
+SEEN_ARTICLES_FILE   = Path("seen_articles.json")
 
 # ── RSS SOURCES ───────────────────────────────────────────────────────────────
 
@@ -74,62 +69,57 @@ FEEDS = {
     ],
 }
 
-CAT_COLORS = {
-    "AI":         "cat-ai",
-    "Gadgets":    "cat-gadgets",
-    "Innovation": "cat-innovation",
-    "Startups":   "cat-startups",
-    "Gaming":     "cat-gaming",
+CAT_CSS = {
+    "AI":         "ai",
+    "Gadgets":    "gadgets",
+    "Innovation": "innovation",
+    "Startups":   "startups",
+    "Gaming":     "gaming",
+}
+
+CAT_ICONS = {
+    "AI": "🤖",
+    "Gadgets": "📱",
+    "Innovation": "💡",
+    "Startups": "🚀",
+    "Gaming": "🎮",
 }
 
 # ── SEEN ARTICLES ─────────────────────────────────────────────────────────────
 
 def load_seen_articles():
-    """Load seen article hashes from file, removing expired entries."""
     if not SEEN_ARTICLES_FILE.exists():
         return {}
     try:
         data     = json.loads(SEEN_ARTICLES_FILE.read_text(encoding="utf-8"))
         cutoff   = (datetime.now(timezone.utc) - timedelta(days=SEEN_ARTICLES_TTL_DAYS)).isoformat()
-        filtered = {k: v for k, v in data.items() if v >= cutoff}
-        return filtered
+        return {k: v for k, v in data.items() if v >= cutoff}
     except Exception:
         return {}
 
-
 def save_seen_articles(seen):
-    """Save seen article hashes to file."""
     try:
         SEEN_ARTICLES_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
     except Exception as e:
         print(f"  Warning: could not save seen articles — {e}")
 
-
 def article_hash(title):
-    """Generate a short hash for an article title."""
     return hashlib.md5(title.lower().strip().encode()).hexdigest()[:12]
 
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
 
-
 def fetch_og_image(url):
-    """Fetch Open Graph image from article URL."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (compatible; TechLoop/1.0)",
-        }
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; TechLoop/1.0)"}
         resp = requests.get(url, headers=headers, timeout=8)
         if resp.status_code != 200:
             return ""
-        # Simple search for og:image meta tag
-        html = resp.text[:50000]  # only read first 50KB
-        # Look for og:image
+        html = resp.text[:50000]
         idx = html.lower().find('property="og:image"')
         if idx == -1:
             idx = html.lower().find("property='og:image'")
         if idx == -1:
             return ""
-        # Find content attribute near the og:image tag
         chunk = html[idx:idx+200]
         for attr in ['content="', "content='"]:
             ci = chunk.lower().find(attr)
@@ -142,19 +132,15 @@ def fetch_og_image(url):
     except Exception:
         return ""
 
-
 def fetch_articles(category, urls, seen):
-    """Fetch and parse RSS feeds, skipping already seen articles."""
     articles = []
     headers  = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
-
     for url in urls:
         try:
             resp        = requests.get(url, headers=headers, timeout=10)
             feed        = feedparser.parse(resp.content)
             source_name = feed.feed.get("title", url.split("/")[2])
-
-            for entry in feed.entries[:10]:  # fetch more to account for seen filtering
+            for entry in feed.entries[:10]:
                 published = None
                 if hasattr(entry, "published"):
                     try:
@@ -163,19 +149,14 @@ def fetch_articles(category, urls, seen):
                         published = datetime.now(timezone.utc)
                 else:
                     published = datetime.now(timezone.utc)
-
                 if published and published.tzinfo is None:
                     published = published.replace(tzinfo=timezone.utc)
-
                 title = entry.get("title", "").strip()
                 if not title:
                     continue
-
-                # Skip if already seen in the last 7 days
                 h = article_hash(title)
                 if h in seen:
                     continue
-
                 articles.append({
                     "title":     title,
                     "link":      entry.get("link", ""),
@@ -189,7 +170,6 @@ def fetch_articles(category, urls, seen):
         except Exception as e:
             print(f"  Warning: could not fetch {url} — {e}")
 
-    # Sort by date, remove duplicates
     deduped = []
     seen_titles = set()
     for a in sorted(articles, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
@@ -197,9 +177,7 @@ def fetch_articles(category, urls, seen):
         if key not in seen_titles:
             seen_titles.add(key)
             deduped.append(a)
-
     return deduped[:MAX_PER_CATEGORY]
-
 
 def _extract_image(entry):
     if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
@@ -233,7 +211,6 @@ def generate_summary(client, article):
     except Exception as e:
         print(f"  Warning: summary failed for '{article['title'][:40]}' — {e}")
         return article["summary"][:200] + "..."
-
 
 def generate_daily_digest(client, all_articles):
     top    = all_articles[:8]
@@ -271,131 +248,230 @@ def time_ago(dt):
         return f"{hours}h ago"
     return f"{hours // 24}d ago"
 
+def _cat_badge(category):
+    css = CAT_CSS.get(category, "ai")
+    return f'<span class="card__cat card__cat--{css}">{category}</span>'
 
-def article_card_html(article, size="normal"):
-    cat_class = CAT_COLORS.get(article["category"], "cat-ai")
-    ago       = time_ago(article["published"])
-    title_esc = article["title"].replace('"', "&quot;")
-    summary   = article.get("ai_summary") or article["summary"][:180] + "..."
+def _card_meta(article):
+    ago = time_ago(article["published"])
+    return f'''<div class="card__meta">
+        <span class="card__source">{article["source"]}</span>
+        <span>·</span>
+        <span>{ago}</span>
+      </div>'''
 
-    if article.get("image"):
-        img_html = f'<img src="{article["image"]}" alt="{title_esc}" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1.2rem">'
-    else:
-        img_html = '<div class="card-image-placeholder"><div class="img-pattern"></div></div>' if size == "main" else ""
-
-    badge = ""
-
-    if size == "main":
-        return f"""
-        <a href="{article['link']}" target="_blank" rel="noopener" class="card card-main" style="text-decoration:none">
-          <span class="card-cat {cat_class}">{article['category']}</span>
-          {img_html}
-          <h2 class="card-title" style="font-size:1.5rem;margin-bottom:1rem">{article['title']}</h2>
-          <p class="card-summary">{summary}</p>
-          <div class="card-meta">
-            <span class="card-source">{article['source']}</span><span>·</span><span>{ago}</span>
-          </div>
-        </a>"""
-    return f"""
-        <a href="{article['link']}" target="_blank" rel="noopener" class="card" style="text-decoration:none">
-          <span class="card-cat {cat_class}">{article['category']}</span>
-          <h3 class="card-title">{article['title']}</h3>
-          <p class="card-summary">{summary}</p>
-          <div class="card-meta">
-            <span class="card-source">{article['source']}</span><span>·</span><span>{ago}</span>
-          </div>
-        </a>"""
+def _img_tag(url, alt, style=""):
+    if url:
+        return f'<img src="{url}" alt="{alt}" class="card__image" style="{style}" loading="lazy">'
+    return f'<div class="card__image card__img-wrap" style="{style}"><svg class="card__img-placeholder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>'
 
 
-def latest_card_html(article):
-    cat_class = CAT_COLORS.get(article["category"], "cat-ai")
-    ago       = time_ago(article["published"])
-    summary   = article.get("ai_summary") or article["summary"][:160] + "..."
-    title_esc = article["title"].replace('"', "&quot;")
-    img_html  = f'<img src="{article["image"]}" alt="{title_esc}" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">' if article.get("image") else ""
-    return f"""
-        <a href="{article['link']}" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
-          {img_html}
-          <span class="card-cat {cat_class}">{article['category']}</span>
-          <h3 class="card-title">{article['title']}</h3>
-          <p class="card-summary">{summary}</p>
-          <div class="card-meta">
-            <span class="card-source">{article['source']}</span><span>·</span><span>{ago}</span>
-          </div>
-        </a>"""
+# ── Featured Top: AI (main) + Gadgets + Innovation ────────────────────────────
 
+def featured_top_html(articles):
+    """
+    Expects list of 3 articles: [AI, Gadgets, Innovation]
+    Outputs:
+      <div class="featured-top">
+        card--main   (AI)
+        card--side   (Gadgets)
+        card--side   (Innovation)
+      </div>
+    """
+    if not articles:
+        return '<div class="featured-top"><p class="empty-state">No featured stories today.</p></div>'
+
+    html = '<div class="featured-top">\n'
+
+    # Main card (AI)
+    main = articles[0]
+    summary = (main.get("ai_summary") or main["summary"][:220] + "…").replace("<", "&lt;").replace(">", "&gt;")
+    title_esc = main["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+    html += f'''  <div class="card card--main fade-in">
+    <a class="card__overlay" href="{main["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
+    {_img_tag(main.get("image",""), title_esc)}
+    <div class="card__body">
+      {_cat_badge(main["category"])}
+      <div class="card__title">{main["title"]}</div>
+      <div class="card__summary">{summary}</div>
+      {_card_meta(main)}
+    </div>
+  </div>\n'''
+
+    # Side cards (Gadgets, Innovation)
+    for a in articles[1:3]:
+        title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        html += f'''  <div class="card card--side fade-in">
+    <a class="card__overlay" href="{a["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
+    {_img_tag(a.get("image",""), title_esc)}
+    <div class="card__body">
+      {_cat_badge(a["category"])}
+      <div class="card__title">{a["title"]}</div>
+      {_card_meta(a)}
+    </div>
+  </div>\n'''
+
+    html += '</div>\n'
+    return html
+
+
+# ── Featured Bottom: Startups + Gaming ───────────────────────────────────────
+
+def featured_bottom_html(articles):
+    """
+    Expects list of 2 articles: [Startups, Gaming]
+    Outputs:
+      <div class="featured-bottom">
+        card--bottom  (Startups)
+        card--bottom  (Gaming)
+      </div>
+    """
+    if not articles:
+        return '<div class="featured-bottom"><p class="empty-state">No stories today.</p></div>'
+
+    html = '<div class="featured-bottom">\n'
+    for a in articles[:2]:
+        summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
+        title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        html += f'''  <div class="card card--bottom fade-in">
+    <a class="card__overlay" href="{a["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
+    {_img_tag(a.get("image",""), title_esc, "width:140px;flex-shrink:0;object-fit:cover;")}
+    <div class="card__body">
+      {_cat_badge(a["category"])}
+      <div class="card__title">{a["title"]}</div>
+      <div class="card__summary">{summary}</div>
+      {_card_meta(a)}
+    </div>
+  </div>\n'''
+    html += '</div>\n'
+    return html
+
+
+# ── Latest grid ───────────────────────────────────────────────────────────────
+
+def latest_cards_html(articles):
+    """
+    Outputs <div class="latest__grid"> with card--small items.
+    """
+    if not articles:
+        return '<div class="latest__grid"><p class="empty-state">No articles yet.</p></div>'
+
+    html = '<div class="latest__grid">\n'
+    for a in articles:
+        summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
+        title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        img_html = ""
+        if a.get("image"):
+            img_html = f'<div class="card__image-wrap"><img src="{a["image"]}" alt="{title_esc}" class="card__image" loading="lazy"></div>'
+        html += f'''  <div class="card card--small fade-in">
+    <a class="card__overlay" href="{a["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
+    {img_html}
+    <div class="card__body">
+      {_cat_badge(a["category"])}
+      <div class="card__title">{a["title"]}</div>
+      <div class="card__summary">{summary}</div>
+      {_card_meta(a)}
+    </div>
+  </div>\n'''
+    html += '</div>\n'
+    return html
+
+
+# ── Ticker ────────────────────────────────────────────────────────────────────
 
 def ticker_items_html(articles):
-    cat_map = {
-        "AI": "tc-ai", "Gadgets": "tc-gadgets",
-        "Innovation": "tc-innovation", "Startups": "tc-startups", "Gaming": "tc-gaming",
-    }
     items = ""
-    for a in articles[:12]:
-        tc    = cat_map.get(a["category"], "tc-ai")
+    for a in articles[:14]:
+        css   = CAT_CSS.get(a["category"], "ai")
         title = a["title"].replace("<", "&lt;").replace(">", "&gt;")
-        items += f'<span class="ticker-item"><span class="ticker-cat {tc}">{a["category"]}</span> {title}</span>\n    '
+        items += f'<span class="ticker__item"><a href="{a["link"]}" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--{css}">{a["category"]}</span> {title}</a></span><span class="ticker__sep">◆</span>\n'
+    # Duplicate for seamless loop
     return items + items
 
 
-def category_counts_html(all_articles):
+# ── Category pills ────────────────────────────────────────────────────────────
+
+def category_pills_html(all_articles):
     counts = {}
     for a in all_articles:
         counts[a["category"]] = counts.get(a["category"], 0) + 1
-    icons = {"AI": "🧠", "Gadgets": "📱", "Innovation": "💡", "Startups": "🚀", "Gaming": "🎮"}
-    html  = ""
-    for cat in CAT_COLORS:
+
+    html = '<div class="cats-grid">\n'
+    for cat, css in CAT_CSS.items():
         count = counts.get(cat, 0)
-        icon  = icons.get(cat, "📰")
-        html += f"""
-      <a href="/category/{cat.lower()}" class="cat-card cat-{cat.lower()}-card" style="display:block;text-decoration:none">
-        <div class="cat-icon">{icon}</div>
-        <div class="cat-name">{cat}</div>
-        <div class="cat-count">{count} articles</div>
-      </a>"""
+        icon  = CAT_ICONS.get(cat, "📰")
+        html += f'''  <a href="/category/{cat.lower()}" class="cat-pill cat-pill--{css}">
+    <div class="cat-pill__icon">{icon}</div>
+    <div class="cat-pill__name">{cat}</div>
+    <div class="cat-pill__count">{count} articles</div>
+  </a>\n'''
+    html += '</div>\n'
     return html
+
+
+# ── Daily Digest items ────────────────────────────────────────────────────────
+
+def digest_items_html(articles, digest_text):
+    """
+    Renders the digest paragraph + numbered article list
+    inside the .digest__body container.
+    """
+    digest_esc = digest_text.replace("<", "&lt;").replace(">", "&gt;")
+    html = f'<p class="digest__intro">{digest_esc}</p>\n<div class="digest__items">\n'
+
+    for i, a in enumerate(articles[:6], 1):
+        title_esc = a["title"].replace("<", "&lt;").replace(">", "&gt;")
+        summary   = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
+        css       = CAT_CSS.get(a["category"], "ai")
+        html += f'''  <div class="digest__item">
+    <div class="digest__num">0{i}</div>
+    <div class="digest__content">
+      <div class="digest__item-title"><a href="{a["link"]}" target="_blank" rel="noopener">{a["title"]}</a></div>
+      <div class="digest__item-sum">{summary}</div>
+      <span class="card__cat card__cat--{css} digest__item-cat">{a["category"]}</span>
+    </div>
+  </div>\n'''
+
+    html += '</div>\n'
+    return html
+
 
 # ── TEMPLATE REBUILD ──────────────────────────────────────────────────────────
 
-def rebuild_html(all_articles, digest):
+def rebuild_html(all_articles, digest_text):
     template_path = Path("template.html")
     if not template_path.exists():
-        print("Error: index.html not found.")
+        print("Error: template.html not found.")
         return
 
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    # Select 1 article per category for featured
+    # Pick 1 article per category for featured
     featured_by_cat = {}
     for a in all_articles:
         cat = a["category"]
         if cat not in featured_by_cat:
             featured_by_cat[cat] = a
 
-    cat_order_top    = ["AI", "Gadgets", "Innovation"]
-    cat_order_bottom = ["Startups", "Gaming"]
+    f_top    = [featured_by_cat[c] for c in ["AI", "Gadgets", "Innovation"] if c in featured_by_cat]
+    f_bottom = [featured_by_cat[c] for c in ["Startups", "Gaming"]          if c in featured_by_cat]
 
-    featured_top    = [featured_by_cat[c] for c in cat_order_top    if c in featured_by_cat]
-    featured_bottom = [featured_by_cat[c] for c in cat_order_bottom if c in featured_by_cat]
-
-    featured_top_html    = "".join(article_card_html(a, "main" if i == 0 else "normal") for i, a in enumerate(featured_top))
-    featured_bottom_html = "".join(article_card_html(a, "normal") for a in featured_bottom)
-
-    # Latest — exclude featured articles
-    featured_links = {a["link"] for a in featured_top + featured_bottom}
+    # Latest — exclude featured
+    featured_links = {a["link"] for a in f_top + f_bottom}
     latest_pool    = [a for a in all_articles if a["link"] not in featured_links]
-    latest_html    = "".join(latest_card_html(a) for a in latest_pool[:3])
 
-    for marker, content in {
-        "<!-- INJECT:FEATURED_TOP -->":    featured_top_html,
-        "<!-- INJECT:FEATURED_BOTTOM -->": featured_bottom_html,
-        "<!-- INJECT:LATEST -->":          latest_html,
-        "<!-- INJECT:TICKER -->":    ticker_items_html(all_articles),
-        "<!-- INJECT:CATS -->":      category_counts_html(all_articles),
-        "<!-- INJECT:DIGEST -->":    digest,
-        "<!-- INJECT:TIMESTAMP -->": timestamp,
-    }.items():
+    injections = {
+        "<!-- INJECT:FEATURED_TOP -->":    featured_top_html(f_top),
+        "<!-- INJECT:FEATURED_BOTTOM -->": featured_bottom_html(f_bottom),
+        "<!-- INJECT:LATEST -->":          latest_cards_html(latest_pool[:9]),
+        "<!-- INJECT:TICKER -->":          ticker_items_html(all_articles),
+        "<!-- INJECT:CATS -->":            category_pills_html(all_articles),
+        "<!-- INJECT:DIGEST -->":          digest_items_html(all_articles, digest_text),
+        "<!-- INJECT:TIMESTAMP -->":       timestamp,
+    }
+
+    for marker, content in injections.items():
         html = html.replace(marker, content)
 
     Path("index.html").write_text(html, encoding="utf-8")
@@ -410,11 +486,9 @@ def main():
     if not client:
         print("Warning: GROQ_API_KEY not set — AI summaries will be skipped.\n")
 
-    # Load seen articles
     seen = load_seen_articles()
     print(f"Seen articles in memory: {len(seen)}\n")
 
-    # Fetch all feeds
     all_articles = []
     for category, urls in FEEDS.items():
         print(f"Fetching {category}...")
@@ -422,29 +496,24 @@ def main():
         print(f"  {len(articles)} new articles")
         all_articles.extend(articles)
 
-    # Sort by date
     all_articles.sort(
         key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc),
         reverse=True
     )
     print(f"\nTotal new articles: {len(all_articles)}")
 
-    # Generate AI summaries
     if client and all_articles:
         print(f"\nGenerating summaries (top {MAX_AI_SUMMARIES})...")
         for i, article in enumerate(all_articles[:MAX_AI_SUMMARIES]):
             print(f"  [{i+1}/{MAX_AI_SUMMARIES}] {article['title'][:50]}...")
             article["ai_summary"] = generate_summary(client, article)
-
         print("\nGenerating daily digest...")
-        digest = generate_daily_digest(client, all_articles)
+        digest_text = generate_daily_digest(client, all_articles)
         print("  Done.")
     else:
-        digest = "Today's digest is unavailable."
+        digest_text = "Today's digest is unavailable — check back soon."
 
-
-    # Fetch Open Graph images
-    print(f"\nFetching images (top {MAX_OG_IMAGES})...")
+    print(f"\nFetching OG images (top {MAX_OG_IMAGES})...")
     for i, article in enumerate(all_articles[:MAX_OG_IMAGES]):
         if not article.get("image"):
             img = fetch_og_image(article["link"])
@@ -452,17 +521,14 @@ def main():
                 article["image"] = img
                 print(f"  [{i+1}] Got image for: {article['title'][:40]}...")
 
-    # Rebuild HTML
     print("\nRebuilding index.html...")
-    rebuild_html(all_articles, digest)
+    rebuild_html(all_articles, digest_text)
 
-    # Mark articles as seen
     now = datetime.now(timezone.utc).isoformat()
     for a in all_articles:
         seen[a["hash"]] = now
     save_seen_articles(seen)
     print(f"Marked {len(all_articles)} articles as seen.")
-
     print("\nBuild complete.")
 
 
