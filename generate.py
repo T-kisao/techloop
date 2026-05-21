@@ -283,13 +283,13 @@ def article_card_html(article, size="normal"):
     else:
         img_html = '<div class="card-image-placeholder"><div class="img-pattern"></div></div>' if size == "main" else ""
 
-    badge = '<div class="ai-badge">&#9889; AI Summary</div>' if article.get("ai_summary") else ""
+    badge = ""
 
     if size == "main":
         return f"""
         <a href="{article['link']}" target="_blank" rel="noopener" class="card card-main" style="text-decoration:none">
           <span class="card-cat {cat_class}">{article['category']}</span>
-          {img_html}{badge}
+          {img_html}
           <h2 class="card-title" style="font-size:1.5rem;margin-bottom:1rem">{article['title']}</h2>
           <p class="card-summary">{summary}</p>
           <div class="card-meta">
@@ -299,7 +299,6 @@ def article_card_html(article, size="normal"):
     return f"""
         <a href="{article['link']}" target="_blank" rel="noopener" class="card" style="text-decoration:none">
           <span class="card-cat {cat_class}">{article['category']}</span>
-          {badge}
           <h3 class="card-title">{article['title']}</h3>
           <p class="card-summary">{summary}</p>
           <div class="card-meta">
@@ -367,13 +366,31 @@ def rebuild_html(all_articles, digest):
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    featured      = all_articles[:FEATURED_COUNT]
-    featured_html = "".join(article_card_html(a, "main" if i == 0 else "normal") for i, a in enumerate(featured))
-    latest_html   = "".join(latest_card_html(a) for a in all_articles[FEATURED_COUNT:FEATURED_COUNT + 3])
+    # Select 1 article per category for featured
+    featured_by_cat = {}
+    for a in all_articles:
+        cat = a["category"]
+        if cat not in featured_by_cat:
+            featured_by_cat[cat] = a
+
+    cat_order_top    = ["AI", "Gadgets", "Innovation"]
+    cat_order_bottom = ["Startups", "Gaming"]
+
+    featured_top    = [featured_by_cat[c] for c in cat_order_top    if c in featured_by_cat]
+    featured_bottom = [featured_by_cat[c] for c in cat_order_bottom if c in featured_by_cat]
+
+    featured_top_html    = "".join(article_card_html(a, "main" if i == 0 else "normal") for i, a in enumerate(featured_top))
+    featured_bottom_html = "".join(article_card_html(a, "normal") for a in featured_bottom)
+
+    # Latest — exclude featured articles
+    featured_links = {a["link"] for a in featured_top + featured_bottom}
+    latest_pool    = [a for a in all_articles if a["link"] not in featured_links]
+    latest_html    = "".join(latest_card_html(a) for a in latest_pool[:3])
 
     for marker, content in {
-        "<!-- INJECT:FEATURED -->":  featured_html,
-        "<!-- INJECT:LATEST -->":    latest_html,
+        "<!-- INJECT:FEATURED_TOP -->":    featured_top_html,
+        "<!-- INJECT:FEATURED_BOTTOM -->": featured_bottom_html,
+        "<!-- INJECT:LATEST -->":          latest_html,
         "<!-- INJECT:TICKER -->":    ticker_items_html(all_articles),
         "<!-- INJECT:CATS -->":      category_counts_html(all_articles),
         "<!-- INJECT:DIGEST -->":    digest,
