@@ -312,8 +312,11 @@ def latest_card_html(article):
     cat_class = CAT_COLORS.get(article["category"], "cat-ai")
     ago       = time_ago(article["published"])
     summary   = article.get("ai_summary") or article["summary"][:160] + "..."
+    title_esc = article["title"].replace('"', "&quot;")
+    img_html  = f'<img src="{article["image"]}" alt="{title_esc}" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">' if article.get("image") else ""
     return f"""
         <a href="{article['link']}" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
+          {img_html}
           <span class="card-cat {cat_class}">{article['category']}</span>
           <h3 class="card-title">{article['title']}</h3>
           <p class="card-summary">{summary}</p>
