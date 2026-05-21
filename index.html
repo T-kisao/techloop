@@ -436,6 +436,7 @@ main {
 .featured-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 1.5px;
   background: var(--border);
   border-radius: 16px;
@@ -450,6 +451,15 @@ main {
 }
 .card:hover { background: var(--bg-card-hover); }
 .card-main  { grid-row: span 2; }
+.card-bottom-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5px;
+  background: var(--border);
+}
+.card-bottom-row .card { background: var(--bg-card); }
+.card-bottom-row .card:hover { background: var(--bg-card-hover); }
 .card-main .card-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
@@ -896,11 +906,11 @@ footer {
     </a>
     <ul class="nav-cats">
       <li><a href="/" class="active">All</a></li>
-      <li><a href="/category/ai"         style="color:var(--cat-ai)">AI</a></li>
-      <li><a href="/category/gadgets"    style="color:var(--cat-gadgets)">Gadgets</a></li>
-      <li><a href="/category/innovation" style="color:var(--cat-innovation)">Innovation</a></li>
-      <li><a href="/category/startups"   style="color:var(--cat-startups)">Startups</a></li>
-      <li><a href="/category/gaming"     style="color:var(--cat-gaming)">Gaming</a></li>
+      <li><a href="#" style="color:var(--cat-ai)">AI</a></li>
+      <li><a href="#" style="color:var(--cat-gadgets)">Gadgets</a></li>
+      <li><a href="#" style="color:var(--cat-innovation)">Innovation</a></li>
+      <li><a href="#" style="color:var(--cat-startups)">Startups</a></li>
+      <li><a href="#" style="color:var(--cat-gaming)">Gaming</a></li>
     </ul>
     <div class="nav-right">
       <button class="btn-search" aria-label="Search">
@@ -935,7 +945,7 @@ footer {
       signal over noise, delivered daily.
     </p>
     <div class="hero-actions">
-      <button class="btn-primary" onclick="document.querySelector('main').scrollIntoView({behavior:'smooth'})">
+      <button class="btn-primary" onclick="document.querySelector('.featured-grid').scrollIntoView({behavior:'smooth'})">
         Read today's digest →
       </button>
       <button class="btn-secondary" onclick="document.querySelector('.cats-section').scrollIntoView({behavior:'smooth'})">
@@ -953,30 +963,30 @@ footer {
 <!-- ══ TICKER ══ -->
 <div class="ticker" aria-label="Breaking news ticker">
   <div class="ticker-track">
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Strike drones startup Stark targeting blockbuster new funding round, sources say</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Trinity College Dublin student wins 2026 Mary Mulvihill Award</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> NYC's Mayor Mamdani is going live on Twitch in new series</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> The 10 best swords in Dungeons & Dragons</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> AT&T announces new $15/month ‘Build-a-Plan’ wireless plan</span>
-    <span class="ticker-item"><span class="ticker-cat tc-innovation">Innovation</span> Jeff Bezos makes a $34 million bet to replace cotton and polyester</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Beauty booking startup Fresha hits $1 billion valuation with KKR backing</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Meta, Snap and Roblox commit to tougher anti-grooming measures in UK</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Finnish SpaceTech company ICEYE secures €300 million revolving credit facility</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Co-op is definitely the worst way to play Subnautica 2, but as a big old sea-wuss, I really don't care</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Zero Parades: For Dead Spies review: a must-play Disco Elysium follow-up</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> HMD Vibe 2 5G goes official with a 6.75-inch screen, 6,000mAh battery</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Strike drones startup Stark targeting blockbuster new funding round, sources say</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Trinity College Dublin student wins 2026 Mary Mulvihill Award</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> NYC's Mayor Mamdani is going live on Twitch in new series</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> The 10 best swords in Dungeons & Dragons</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> AT&T announces new $15/month ‘Build-a-Plan’ wireless plan</span>
-    <span class="ticker-item"><span class="ticker-cat tc-innovation">Innovation</span> Jeff Bezos makes a $34 million bet to replace cotton and polyester</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Beauty booking startup Fresha hits $1 billion valuation with KKR backing</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Meta, Snap and Roblox commit to tougher anti-grooming measures in UK</span>
-    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Finnish SpaceTech company ICEYE secures €300 million revolving credit facility</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Co-op is definitely the worst way to play Subnautica 2, but as a big old sea-wuss, I really don't care</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Zero Parades: For Dead Spies review: a must-play Disco Elysium follow-up</span>
-    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> HMD Vibe 2 5G goes official with a 6.75-inch screen, 6,000mAh battery</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Tesla brings Full Self-Driving to China</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Star Wars Rebels tops Maul when it comes to the best lightsabers</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> OLED MacBook Pro screens on-track amid talk of delayed launch</span>
+    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Scammers are abusing an internal Microsoft account to send spam links</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Former Splinter Cell Creative Director Says Realistic Graphics Are Causing Problems for Modern Stealth Games</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Meta has reportedly laid off 8,000 employees</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Xbox hires analyst who said games were losing the attention battle with gambling, crypto and porn as chief strategy officer in another leadership revamp</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Fable's Sword of Aeons established the series' boldest choices</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Oppo Reno16 series camera details revealed ahead of launch</span>
+    <span class="ticker-item"><span class="ticker-cat tc-innovation">Innovation</span> The era of ‘good enough’ AI has arrived</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Bose QuietComfort Ultra Earbuds' Deep Discount Makes Them Finally Worth the Price</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Tesla brings Full Self-Driving to China</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Star Wars Rebels tops Maul when it comes to the best lightsabers</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> OLED MacBook Pro screens on-track amid talk of delayed launch</span>
+    <span class="ticker-item"><span class="ticker-cat tc-startups">Startups</span> Scammers are abusing an internal Microsoft account to send spam links</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Former Splinter Cell Creative Director Says Realistic Graphics Are Causing Problems for Modern Stealth Games</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Meta has reportedly laid off 8,000 employees</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Xbox hires analyst who said games were losing the attention battle with gambling, crypto and porn as chief strategy officer in another leadership revamp</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Fable's Sword of Aeons established the series' boldest choices</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gadgets">Gadgets</span> Oppo Reno16 series camera details revealed ahead of launch</span>
+    <span class="ticker-item"><span class="ticker-cat tc-innovation">Innovation</span> The era of ‘good enough’ AI has arrived</span>
+    <span class="ticker-item"><span class="ticker-cat tc-gaming">Gaming</span> Bose QuietComfort Ultra Earbuds' Deep Discount Makes Them Finally Worth the Price</span>
     
   </div>
 </div>
@@ -1003,34 +1013,7 @@ footer {
   -->
   <div class="featured-grid">
 
-    
-        <a href="https://sifted.eu/articles/stark-drone-startup-funding-round/" target="_blank" rel="noopener" class="card card-main" style="text-decoration:none">
-          <span class="card-cat cat-startups">Startups</span>
-          <img src="https://images.sifted.eu/wp-content/uploads/2025/07/17153249/JUL6-scaled-e1770195636104.jpg?w=2048&amp;h=956&amp;q=75&amp;fit=crop&amp;auto=compress,format" alt="Strike drones startup Stark targeting blockbuster new funding round, sources say" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1.2rem"><div class="ai-badge">&#9889; AI Summary</div>
-          <h2 class="card-title" style="font-size:1.5rem;margin-bottom:1rem">Strike drones startup Stark targeting blockbuster new funding round, sources say</h2>
-          <p class="card-summary">I'm unable to proceed as the complete content of the article is not provided.</p>
-          <div class="card-meta">
-            <span class="card-source">Sifted</span><span>·</span><span>-19m ago</span>
-          </div>
-        </a>
-        <a href="https://www.siliconrepublic.com/innovation/trinity-college-dublin-student-2026-mary-mulvihill-award-innovation" target="_blank" rel="noopener" class="card" style="text-decoration:none">
-          <span class="card-cat cat-startups">Startups</span>
-          <div class="ai-badge">&#9889; AI Summary</div>
-          <h3 class="card-title">Trinity College Dublin student wins 2026 Mary Mulvihill Award</h3>
-          <p class="card-summary">A student from Trinity College Dublin has taken home the prestigious 2026 Mary Mulvihill Award, recognizing their outstanding contributions in the field of innovation. The award was judged by a distinguished panel, including Margaret Kelleher and Anne Mulvihill, Mary's sister.</p>
-          <div class="card-meta">
-            <span class="card-source">Silicon Republic</span><span>·</span><span>9m ago</span>
-          </div>
-        </a>
-        <a href="https://www.polygon.com/mayor-zohran-mamdani-twitch-stream-talk-with-the-people/" target="_blank" rel="noopener" class="card" style="text-decoration:none">
-          <span class="card-cat cat-gaming">Gaming</span>
-          <div class="ai-badge">&#9889; AI Summary</div>
-          <h3 class="card-title">NYC's Mayor Mamdani is going live on Twitch in new series</h3>
-          <p class="card-summary">New York City's Mayor Mamdani is breaking ground in the world of politics and streaming by becoming the first elected official to host a recurring Twitch series. This innovative move marks a unique blend of technology and governance, where the Mayor will be live on Twitch for a new series, connecting with residents and sharing his city's story.</p>
-          <div class="card-meta">
-            <span class="card-source">Polygon.com</span><span>·</span><span>27m ago</span>
-          </div>
-        </a>
+    <!-- INJECT:FEATURED -->
 
   </div>
 
@@ -1098,14 +1081,14 @@ footer {
     <div class="digest-header">
       <div class="digest-icon">✦</div>
       <div>
-        <div class="digest-title">AI Daily Digest</div>
-        <div class="digest-sub">Generated 21 May 2026 · 11:27 UTC</div>
+        <div class="digest-title">Daily Digest</div>
+        <div class="digest-sub">21 May 2026 · 12:04 UTC</div>
       </div>
     </div>
-    <p class="digest-content">In today's tech landscape, startup innovation continues to drive excitement, with two notable stories emerging. In one corner, Strike drones startup Stark is reportedly poised to secure a massive funding round, hinting at a potential breakthrough in the aerial robotics space. Across the pond, a Trinity College Dublin student has made waves by winning the prestigious Mary Mulvihill Award for outstanding contributions to science and technology. Meanwhile, the gaming world gets a taste of NYC politics as Mayor Mamdani takes to Twitch with a new live series, promising a unique blend of civic engagement and entertainment. As the industry continues to evolve, concerns about online safety and social responsibility are being addressed by major players like Meta, Snap, and Roblox, who are committing to tougher anti-grooming measures in the UK.</p>
+    <p class="digest-content">In a busy tech landscape, Tesla's significant push into China's Full Self-Driving market makes headlines, as the company attempts to expand its autonomous capabilities in the region. Meanwhile, the world of gaming witnessed a price hike for all PS Plus tiers, leaving fans and subscribers feeling the pinch. The tech world is also abuzz with news of Meta's mass layoffs, which saw a staggering 8,000 employees let go, a move that reflects the changing landscape of the industry. Additionally, a leadership revamp at Xbox welcomed a new chief strategy officer, a hire from the analyst world who previously voiced concerns about the industry's waning focus on core gaming offerings. Amidst this backdrop of shifting market dynamics, the tech community waits with bated breath to see what other developments lie ahead.</p>
     <div class="digest-footer">
-      <span class="digest-time">🕐 Updated daily via GitHub Actions</span>
-      <a href="/digest" class="digest-action">Read full digest →</a>
+      <span class="digest-time">Updated daily</span>
+      <a href="#" onclick="document.querySelector('.digest-section').scrollIntoView({behavior:'smooth'});return false;" class="digest-action">Read full digest →</a>
     </div>
   </div>
 
@@ -1122,31 +1105,31 @@ footer {
   </div>
   <div class="articles-grid">
     
-        <a href="https://www.polygon.com/dnd-best-swords-dungeons-dragons/" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
-          <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/book-of-many-things-dnd.jpg" alt="The 10 best swords in Dungeons & Dragons" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
+        <a href="https://www.eurogamer.net/playstation-plus-premium-extra-price-hike" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
+          <img src="https://assetsio.gnwcdn.com/playstation-plus-art-july-2025-v2.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp" alt="It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
           <span class="card-cat cat-gaming">Gaming</span>
-          <h3 class="card-title">The 10 best swords in Dungeons & Dragons</h3>
-          <p class="card-summary">In celebration of Cool Sword Day, Dungeons & Dragons enthusiasts have ranked the 10 most iconic swords from the game's rich history, featuring everything from terrifying greatswords to legendary blades with magical abilities. From the D&D Vorpal Blade to other infamous swords, these iconic creations have captured the imaginations of fantasy fans and players alike.</p>
+          <h3 class="card-title">It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too</h3>
+          <p class="card-summary">PlayStation Plus is getting a price hike across all tiers, with Essential, Premium, and Extra subscriptions now costing more. The updated prices bring Sony's popular gaming membership service in line with growing costs and changing market dynamics.</p>
           <div class="card-meta">
-            <span class="card-source">Polygon.com</span><span>·</span><span>27m ago</span>
+            <span class="card-source">Eurogamer.net Latest Articles Feed</span><span>·</span><span>14m ago</span>
           </div>
         </a>
-        <a href="https://9to5mac.com/2026/05/21/att-announces-new-15-month-build-a-plan-wireless-plan/" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
-          <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/att-logo-dark.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="AT&T announces new $15/month ‘Build-a-Plan’ wireless plan" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
+        <a href="https://9to5mac.com/2026/05/21/oled-macbook-pro-screens-on-track-amid-talk-of-delayed-launch/" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
+          <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/02/macbook-pro-touchscreen-mockup.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="OLED MacBook Pro screens on-track amid talk of delayed launch" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
           <span class="card-cat cat-gadgets">Gadgets</span>
-          <h3 class="card-title">AT&T announces new $15/month ‘Build-a-Plan’ wireless plan</h3>
-          <p class="card-summary">AT&T has introduced a new wireless plan called 'Build-a-Plan,' offering customers the flexibility to customize their features and pricing, starting at just $15 per month. With this plan, users can pick the services that suit their needs, providing a highly personalized and cost-effective mobile experience.</p>
+          <h3 class="card-title">OLED MacBook Pro screens on-track amid talk of delayed launch</h3>
+          <p class="card-summary">The long-awaited MacBook Pro redesign is on track to feature an OLED screen, a major upgrade for the laptop line. Despite initial concerns about a delayed launch, it now appears that the new MacBook Pro with OLED display is still on schedule to arrive this year.</p>
           <div class="card-meta">
-            <span class="card-source">9to5Mac</span><span>·</span><span>27m ago</span>
+            <span class="card-source">9to5Mac</span><span>·</span><span>20m ago</span>
           </div>
         </a>
-        <a href="https://www.fastcompany.com/91538346/jeff-bezos-makes-34-million-bet-replace-cotton-polyester?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
-          <img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/jeff-bezos-lauren-sanchez-inc-2239133340.jpg" alt="Jeff Bezos makes a $34 million bet to replace cotton and polyester" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
-          <span class="card-cat cat-innovation">Innovation</span>
-          <h3 class="card-title">Jeff Bezos makes a $34 million bet to replace cotton and polyester</h3>
-          <p class="card-summary">Amazon founder Jeff Bezos is wagering $34 million on a revolutionary shift in the fashion industry, where clothes could be made from lab-grown fibers instead of traditional materials like cotton and polyester. The investment aims to make sustainable, high-tech fabrics a reality, potentially transforming the way we think about fashion and the environment.</p>
+        <a href="https://www.ign.com/articles/former-splinter-cell-creative-director-says-realistic-graphics-are-causing-problems-for-modern-stealth-games" target="_blank" rel="noopener" class="article-card" style="text-decoration:none">
+          <img src="https://assets-prd.ignimgs.com/2021/12/15/splinter-cell-remake-1639588067789.jpg" alt="Former Splinter Cell Creative Director Says Realistic Graphics Are Causing Problems for Modern Stealth Games" style="width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:1rem">
+          <span class="card-cat cat-gaming">Gaming</span>
+          <h3 class="card-title">Former Splinter Cell Creative Director Says Realistic Graphics Are Causing Problems for Modern Stealth Games</h3>
+          <p class="card-summary">The creative director of the popular Splinter Cell series warns that advancements in lighting and shadow have made stealth games more challenging to create and play. He suggests that these increasingly realistic graphics have added unintended difficulties to the genre that fans and developers alike are still adjusting to.</p>
           <div class="card-meta">
-            <span class="card-source">Fast Company - technology</span><span>·</span><span>27m ago</span>
+            <span class="card-source">IGN Articles</span><span>·</span><span>26m ago</span>
           </div>
         </a>
   </div>
@@ -1169,21 +1152,21 @@ footer {
       <div class="footer-col">
         <h4>Categories</h4>
         <ul class="footer-links">
-          <li><a href="/category/ai">AI</a></li>
-          <li><a href="/category/gadgets">Gadgets</a></li>
-          <li><a href="/category/innovation">Innovation</a></li>
-          <li><a href="/category/startups">Startups</a></li>
-          <li><a href="/category/gaming">Gaming</a></li>
+          <li><a href="#">AI</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">Innovation</a></li>
+          <li><a href="#">Startups</a></li>
+          <li><a href="#">Gaming</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Company</h4>
         <ul class="footer-links">
-          <li><a href="/about">About</a></li>
-          <li><a href="/how-it-works">How it works</a></li>
-          <li><a href="/sources">Sources</a></li>
-          <li><a href="/advertise">Advertise</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Sources</a></li>
+          <li><a href="#">Advertise</a></li>
         </ul>
       </div>
 
@@ -1215,9 +1198,9 @@ footer {
     <div class="footer-bottom">
       <span class="footer-copy">© 2026 TechLoop. All rights reserved.</span>
       <div class="footer-legal">
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
-        <a href="/cookies">Cookies</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
       </div>
     </div>
   </div>
