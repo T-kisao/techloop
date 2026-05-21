@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechLoop — AI-powered news digest</title>
-  <meta name="description" content="Signal over noise, delivered daily. AI-curated tech news for Ireland, UK and Europe." />
-  <meta property="og:title" content="TechLoop — AI-powered news digest" />
+  <title>TechLoop — Tech news digest</title>
+  <meta name="description" content="Signal over noise, delivered daily. The top tech stories from Ireland, UK and Europe." />
+  <meta property="og:title" content="TechLoop — Tech news digest" />
   <meta property="og:description" content="Signal over noise, delivered daily." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0B1120" />
@@ -382,9 +382,10 @@
     .featured-top {
       display: grid;
       grid-template-columns: 1fr 340px;
-      grid-template-rows: auto auto;
+      grid-template-rows: 1fr 1fr;
       gap: 14px;
       margin-bottom: 14px;
+      min-height: 360px;
     }
     .featured-bottom {
       display: grid;
@@ -418,6 +419,7 @@
     .card--main {
       grid-row: 1 / 3;
       min-height: 340px;
+      grid-column: 1;
     }
     .card--main .card__image {
       height: 200px;
@@ -653,6 +655,10 @@
       grid-template-columns: 1fr 300px;
       gap: 20px;
       align-items: start;
+    }
+    .digest__poll {
+      position: sticky;
+      top: 80px;
     }
     .digest__main {
       background: var(--bg-secondary);
@@ -1101,34 +1107,34 @@
     <div class="ticker__label">Breaking</div>
     <div class="ticker__track">
       <div class="ticker__inner" id="ticker-inner">
-        <span class="ticker__item"><a href="https://sifted.eu/articles/kkr-backs-uks-newest-unicorn-in-80m-round/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> KKR backs UK’s newest unicorn in $80m round</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/apple-watch-and-airpods-health-features-get-major-new-global-expansions/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple Watch and AirPods health features get major new global expansions</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/blizzard-admits-it-messed-up-overwatchs-10th-anniversary-event-but-insists-its-happy-with-where-the-game-is-today" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/pokemon-tcg-pocket-paradox-drive/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/gta-6-take-two-earnings-call-q4-2026-how-to-watch/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> How to watch the GTA 6 Take-Two earnings call today</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/legend-of-zelda-biggorons-sword/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Legend of Zelda's best weapon is so much cooler than the Master Sword</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/xiaomi_17_max_arrives_with_200mp_main_cam_and_8000_mah_sic_battery_-news-72937.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Xiaomi 17 Max arrives with 200MP main cam and 8,000 mAh Si-C battery</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Waymo pauses Atlanta service as its robotaxis keep driving into floods</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/apple-tv-to-air-major-live-sporting-event-shot-entirely-on-iphone-17-pro/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple TV to air first major live sporting event shot entirely on iPhone 17 Pro</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/security-bite-tired-of-app-tracking-pop-ups-heres-how-to-auto-deny-them/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Security Bite: Tired of app tracking pop-ups? Here’s how to auto-deny them</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/playstation-plus-price-hike-may-2026-extra-premium-annual-cost/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> PlayStation Plus just got more expensive for all tiers</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/adventure-time-grass-sword-fern-history-origin-adam-muto-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Adventure Time’s Grass Sword changed the show in ways nobody expected</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.theverge.com/reviews/691319/best-switch-2-cases" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> I tested several cases for the Switch 2 and these are the best</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.theverge.com/podcast/934869/elon-musk-sam-altman-openai-suit-loss-pointless" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Musk v. Altman: Much ado about nothing</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://sifted.eu/articles/kkr-backs-uks-newest-unicorn-in-80m-round/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> KKR backs UK’s newest unicorn in $80m round</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/apple-watch-and-airpods-health-features-get-major-new-global-expansions/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple Watch and AirPods health features get major new global expansions</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/blizzard-admits-it-messed-up-overwatchs-10th-anniversary-event-but-insists-its-happy-with-where-the-game-is-today" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/pokemon-tcg-pocket-paradox-drive/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/gta-6-take-two-earnings-call-q4-2026-how-to-watch/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> How to watch the GTA 6 Take-Two earnings call today</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/legend-of-zelda-biggorons-sword/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Legend of Zelda's best weapon is so much cooler than the Master Sword</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/xiaomi_17_max_arrives_with_200mp_main_cam_and_8000_mah_sic_battery_-news-72937.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Xiaomi 17 Max arrives with 200MP main cam and 8,000 mAh Si-C battery</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Waymo pauses Atlanta service as its robotaxis keep driving into floods</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/apple-tv-to-air-major-live-sporting-event-shot-entirely-on-iphone-17-pro/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple TV to air first major live sporting event shot entirely on iPhone 17 Pro</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/security-bite-tired-of-app-tracking-pop-ups-heres-how-to-auto-deny-them/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Security Bite: Tired of app tracking pop-ups? Here’s how to auto-deny them</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/playstation-plus-price-hike-may-2026-extra-premium-annual-cost/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> PlayStation Plus just got more expensive for all tiers</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/adventure-time-grass-sword-fern-history-origin-adam-muto-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Adventure Time’s Grass Sword changed the show in ways nobody expected</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.theverge.com/reviews/691319/best-switch-2-cases" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> I tested several cases for the Switch 2 and these are the best</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.theverge.com/podcast/934869/elon-musk-sam-altman-openai-suit-loss-pointless" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Musk v. Altman: Much ado about nothing</a></span><span class="ticker__sep">◆</span>
+        <span class="ticker__item"><a href="https://www.engadget.com/2178558/netflix-avatar-the-last-airbender-season-2-trailer-shows-plenty-of-live-action-toph/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/deals-m5-macbook-air-m3-ipad-air-iphone-17-pro-max/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/perplexitys-comet-ai-browser-for-ios-upgraded-with-8-major-improvements/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.engadget.com/2178551/meta-oversight-board-will-examine-deefake-video-of-a-uk-politician-facebook-left-online/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/map/subnautica-2-interactive-material-locations/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Subnautica 2 interactive map</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/sorry-cloud-the-buster-sword-aint-the-only-cool-final-fantasy-sword/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> No series does cool swords better than Final Fantasy</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/column/935310/ai-video-luma-hollywood" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> AI video is moving beyond clip slop</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/gadgets/935236/viture-refurbished-smart-glasses-nintendo-switch-2-camera-deal-sale" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Viture’s refurb Luma Pro smart glasses are more than half off at eBay</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/epic-games-store-free-game-5-21-2026-tomb-raider-download/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Epic Games Store has 3 free Tomb Raider games for a limited time</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify takes on Google’s NotebookLM with its new app</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify adds AI-powered Q&A and briefing generation features to podcasts</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify launches an ElevenLabs-powered audiobook creation tool</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/fortnite-chapter-7-season-2-chaos-cube-locations-dark-voyager-path-all/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> All chaos cube locations in Fortnite Chapter 7 Season 2</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.engadget.com/2178558/netflix-avatar-the-last-airbender-season-2-trailer-shows-plenty-of-live-action-toph/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/deals-m5-macbook-air-m3-ipad-air-iphone-17-pro-max/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://9to5mac.com/2026/05/21/perplexitys-comet-ai-browser-for-ios-upgraded-with-8-major-improvements/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.engadget.com/2178551/meta-oversight-board-will-examine-deefake-video-of-a-uk-politician-facebook-left-online/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/map/subnautica-2-interactive-material-locations/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Subnautica 2 interactive map</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/sorry-cloud-the-buster-sword-aint-the-only-cool-final-fantasy-sword/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> No series does cool swords better than Final Fantasy</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/column/935310/ai-video-luma-hollywood" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> AI video is moving beyond clip slop</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/gadgets/935236/viture-refurbished-smart-glasses-nintendo-switch-2-camera-deal-sale" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Viture’s refurb Luma Pro smart glasses are more than half off at eBay</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/epic-games-store-free-game-5-21-2026-tomb-raider-download/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Epic Games Store has 3 free Tomb Raider games for a limited time</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify takes on Google’s NotebookLM with its new app</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify adds AI-powered Q&A and briefing generation features to podcasts</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify launches an ElevenLabs-powered audiobook creation tool</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/fortnite-chapter-7-season-2-chaos-cube-locations-dark-voyager-path-all/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> All chaos cube locations in Fortnite Chapter 7 Season 2</a></span><span class="ticker__sep">◆</span>
 
         <!-- Fallback static items (replaced by script) -->
         <span class="ticker__item">
@@ -1145,19 +1151,19 @@
     <div class="container">
       <div class="hero__inner">
         <div class="hero__text">
-          <div class="hero__eyebrow">AI-powered news digest</div>
+          <div class="hero__eyebrow">Daily tech news digest</div>
           <h1 class="hero__title">
             Signal over noise,<br>
             <span>delivered daily.</span>
           </h1>
           <p class="hero__sub">
             The top tech stories from Europe and beyond —
-            curated by AI, summarised in seconds.
+            curated and summarised daily.
           </p>
         </div>
         <div class="hero__meta">
           <div class="hero__date">
-            21 May 2026 · 15:01 UTC
+            21 May 2026 · 15:41 UTC
             <!-- Replaced at build time -->
           </div>
           <div class="hero__updated">
@@ -1187,29 +1193,29 @@
 
       <div class="featured-top">
   <div class="card card--main fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/05/21/apple-watch-and-airpods-health-features-get-major-new-global-expansions/" target="_blank" rel="noopener" aria-label="Apple Watch and AirPods health features get major new global expansions"></a>
-    <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/09/apple-watch-series-9-vs-8.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Apple Watch and AirPods health features get major new global expansions" class="card__image" style="" loading="lazy">
+    <a class="card__overlay" href="https://www.engadget.com/2178558/netflix-avatar-the-last-airbender-season-2-trailer-shows-plenty-of-live-action-toph/" target="_blank" rel="noopener" aria-label="Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph"></a>
+    <img src="https://www.engadget.com/img/gallery/netflixs-avatar-the-last-airbender-season-2-trailer-shows-plenty-of-live-action-toph/l-intro-1779377621.jpg" alt="Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph" class="card__image" style="" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Apple Watch and AirPods health features get major new global expansions</div>
-      <div class="card__summary">Apple has expanded several health features on its Apple Watch and AirPods to a global audience, offering users more comprehensive tracking and insights into their well-being. The expanded features aim to provide users with a more personalized understanding of their health, allowing them to make informed decisions to improve their quality of life.</div>
+      <div class="card__title">Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph</div>
+      <div class="card__summary">Get ready for action as the highly anticipated second season of Netflix's live-action Avatar: The Last Airbender is set to drop on June 25. The latest trailer offers a thrilling glimpse into the new installment, featuring plenty of live-action scenes with Toph, the lovable and fierce Earth Kingdom earthbender.</div>
       <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
+        <span class="card__source">Engadget - Technology News & Expert Reviews</span>
         <span>·</span>
-        <span>8m ago</span>
+        <span>4m ago</span>
       </div>
     </div>
   </div>
   <div class="card card--side fade-in">
-    <a class="card__overlay" href="https://www.newscientist.com/article/2526378-womens-better-memories-may-delay-alzheimers-diagnosis-by-years/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener" aria-label="Women’s better memories may delay Alzheimer’s diagnosis by years"></a>
-    <img src="https://images.newscientist.com/wp-content/uploads/2026/05/21101233/SEI_2978337091.jpg" alt="Women’s better memories may delay Alzheimer’s diagnosis by years" class="card__image" style="" loading="lazy">
+    <a class="card__overlay" href="https://news.mit.edu/2026/beacon-biosignals-maps-brain-during-sleep-0501" target="_blank" rel="noopener" aria-label="Beacon Biosignals is mapping the brain during sleep"></a>
+    <img src="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/MIT_Beacon-Bio-Signals-01-press.jpg?itok=CqIt-i5V" alt="Beacon Biosignals is mapping the brain during sleep" class="card__image" style="" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--innovation">Innovation</span>
-      <div class="card__title">Women’s better memories may delay Alzheimer’s diagnosis by years</div>
+      <div class="card__title">Beacon Biosignals is mapping the brain during sleep</div>
       <div class="card__meta">
-        <span class="card__source">New Scientist - Home</span>
+        <span class="card__source">MIT News - Innovation and Entrepreneurship (I&amp;E)</span>
         <span>·</span>
-        <span>3h ago</span>
+        <span>20d ago</span>
       </div>
     </div>
   </div>
@@ -1219,30 +1225,30 @@
 
       <div class="featured-bottom">
   <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://sifted.eu/articles/kkr-backs-uks-newest-unicorn-in-80m-round/" target="_blank" rel="noopener" aria-label="KKR backs UK’s newest unicorn in $80m round"></a>
-    <img src="https://images.sifted.eu/wp-content/uploads/2026/05/21145517/Screenshot-2026-05-21-at-14.55.03.png?w=1020&amp;h=678&amp;q=75&amp;fit=crop&amp;auto=compress,format" alt="KKR backs UK’s newest unicorn in $80m round" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" target="_blank" rel="noopener" aria-label="Spotify takes on Google’s NotebookLM with its new app"></a>
+    <img src="https://techcrunch.com/wp-content/uploads/2026/05/Header.jpeg?resize=1200,675" alt="Spotify takes on Google’s NotebookLM with its new app" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">KKR backs UK’s newest unicorn in $80m round</div>
-      <div class="card__summary">Unfortunately, you haven't provided the content of the article. Please share it, and I'll be happy to write a 2-sentence summary for a general audience.</div>
+      <div class="card__title">Spotify takes on Google’s NotebookLM with its new app</div>
+      <div class="card__summary">Spotify is expanding its capabilities with a new desktop app that takes on rival Google's NotebookLM technology, allowing users to access a range of features and tools to enhance their music-listening experience. As a research preview, the new app will be available in over 20 markets, signaling the music streaming giant's ongoing efforts to innovate and stay competitive.</div>
       <div class="card__meta">
-        <span class="card__source">Sifted</span>
+        <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>0m ago</span>
+        <span>14m ago</span>
       </div>
     </div>
   </div>
   <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://www.ign.com/articles/blizzard-admits-it-messed-up-overwatchs-10th-anniversary-event-but-insists-its-happy-with-where-the-game-is-today" target="_blank" rel="noopener" aria-label="Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’"></a>
-    <img src="https://assets-prd.ignimgs.com/2026/05/21/thw2ykpi7qsfmmvssokkw4-1779372494228.jpg" alt="Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <a class="card__overlay" href="https://www.polygon.com/map/subnautica-2-interactive-material-locations/" target="_blank" rel="noopener" aria-label="Subnautica 2 interactive map"></a>
+    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/polygon-subnautica-2-feature.jpg" alt="Subnautica 2 interactive map" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’</div>
-      <div class="card__summary">Blizzard announced that its 10th anniversary event for the popular game Overwatch did not meet the company's expectations, sparking frustration among fans. Despite the event's missteps, Blizzard is optimistic about the game's future and claims to be satisfied with its current state.</div>
+      <div class="card__title">Subnautica 2 interactive map</div>
+      <div class="card__summary">Explore the vast underwater world of Subnautica 2 with our interactive map, which pinpoints every point of interest, resource node, and upgrade location. From discovering hidden treasures to unlocking new abilities, this map is your ultimate guide to navigating the mysteries of Planet 4546B.</div>
       <div class="card__meta">
-        <span class="card__source">IGN Articles</span>
+        <span class="card__source">Polygon.com</span>
         <span>·</span>
-        <span>14m ago</span>
+        <span>11m ago</span>
       </div>
     </div>
   </div>
@@ -1274,7 +1280,7 @@
   <a href="/category/innovation" class="cat-pill cat-pill--innovation">
     <div class="cat-pill__icon">💡</div>
     <div class="cat-pill__name">Innovation</div>
-    <div class="cat-pill__count">6 articles</div>
+    <div class="cat-pill__count">1 articles</div>
   </a>
   <a href="/category/startups" class="cat-pill cat-pill--startups">
     <div class="cat-pill__icon">🚀</div>
@@ -1288,36 +1294,6 @@
   </a>
 </div>
 
-      <!-- Python script injects category pills with counts here -->
-
-      <!-- Static fallback (shown if script hasn't run yet) -->
-      <div class="cats-grid" id="cats-static">
-        <a href="/category/ai" class="cat-pill cat-pill--ai">
-          <div class="cat-pill__icon">🤖</div>
-          <div class="cat-pill__name">AI</div>
-          <div class="cat-pill__count">— articles</div>
-        </a>
-        <a href="/category/gadgets" class="cat-pill cat-pill--gadgets">
-          <div class="cat-pill__icon">📱</div>
-          <div class="cat-pill__name">Gadgets</div>
-          <div class="cat-pill__count">— articles</div>
-        </a>
-        <a href="/category/innovation" class="cat-pill cat-pill--innovation">
-          <div class="cat-pill__icon">💡</div>
-          <div class="cat-pill__name">Innovation</div>
-          <div class="cat-pill__count">— articles</div>
-        </a>
-        <a href="/category/startups" class="cat-pill cat-pill--startups">
-          <div class="cat-pill__icon">🚀</div>
-          <div class="cat-pill__name">Startups</div>
-          <div class="cat-pill__count">— articles</div>
-        </a>
-        <a href="/category/gaming" class="cat-pill cat-pill--gaming">
-          <div class="cat-pill__icon">🎮</div>
-          <div class="cat-pill__name">Gaming</div>
-          <div class="cat-pill__count">— articles</div>
-        </a>
-      </div>
 
     </div>
   </section>
@@ -1339,57 +1315,57 @@
               </svg>
               Today's Top Stories
             </div>
-            <div class="digest__date" id="digest-date-label">21 May 2026 · 15:01 UTC</div>
+            <div class="digest__date" id="digest-date-label">21 May 2026 · 15:41 UTC</div>
           </div>
           <div class="digest__body">
 
-            <p class="digest__intro">Today's tech landscape is buzzing with exciting developments across multiple sectors. In the startup world, a UK-based unicorn just secured an $80m funding boost from global investment giant KKR, solidifying its position as a major player in the tech industry. Meanwhile, Apple is expanding its health-focused offerings with new features for its popular Apple Watch and AirPods, set to debut globally soon. In the gaming space, controversy is brewing as Blizzard faces backlash over its mishandled Overwatch 10th anniversary event, while fans are eagerly awaiting the next update to Pokémon TCG Pocket, which promises to add coveted monsters from the latest Scarlet and Violet games. Rounding out the day's top stories, we're also taking a closer look at the latest releases from Xiaomi and the upcoming GTA 6 earnings call.</p>
+            <p class="digest__intro">In today's tech news, Hollywood meets AI as Netflix's highly-anticipated second season of Avatar: The Last Airbender drops a thrilling trailer featuring a promising live-action Toph. Meanwhile, gadget enthusiasts are in for a treat with massive discounts on Apple's M5 MacBook Air and M3 iPad Air, along with the iPhone 17 Pro Max and various accessories, all heavily discounted on Amazon. Another significant development in the world of gadgets is the upgrade of Perplexity's Comet AI browser for iOS, which boasts 8 major improvements that make it a top contender in the browser market. Additionally, the tech world is grappling with the implications of deepfakes as Meta's Oversight Board prepares to tackle a particularly realistic video of a UK politician that made its way onto Facebook.</p>
 <div class="digest__items">
   <div class="digest__item">
     <div class="digest__num">01</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://sifted.eu/articles/kkr-backs-uks-newest-unicorn-in-80m-round/" target="_blank" rel="noopener">KKR backs UK’s newest unicorn in $80m round</a></div>
-      <div class="digest__item-sum">Unfortunately, you haven't provided the content of the article. Please share it, and I'll be happy to write a 2-sentence summary for a general audience.</div>
-      <span class="card__cat card__cat--startups digest__item-cat">Startups</span>
+      <div class="digest__item-title"><a href="https://www.engadget.com/2178558/netflix-avatar-the-last-airbender-season-2-trailer-shows-plenty-of-live-action-toph/" target="_blank" rel="noopener">Netflix's Avatar: The Last Airbender season 2 trailer shows plenty of live-action Toph</a></div>
+      <div class="digest__item-sum">Get ready for action as the highly anticipated second season of Netflix's live-action Avatar: The Last Airbender is set to drop on June 25. The latest trailer offers a thrilling glimpse into the new installment, featuring plenty of live-action scenes with Toph, the lovable and fierce Earth Kingdom earthbender.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
   <div class="digest__item">
     <div class="digest__num">02</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://9to5mac.com/2026/05/21/apple-watch-and-airpods-health-features-get-major-new-global-expansions/" target="_blank" rel="noopener">Apple Watch and AirPods health features get major new global expansions</a></div>
-      <div class="digest__item-sum">Apple has expanded several health features on its Apple Watch and AirPods to a global audience, offering users more comprehensive tracking and insights into their well-being. The expanded features aim to provide users with a more personalized understanding of their health, allowing them to make informed decisions to improve their quality of life.</div>
+      <div class="digest__item-title"><a href="https://9to5mac.com/2026/05/21/deals-m5-macbook-air-m3-ipad-air-iphone-17-pro-max/" target="_blank" rel="noopener">Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more</a></div>
+      <div class="digest__item-sum">Apple's base 15-inch M5 MacBook Air is on sale at Amazon, with a discount of $199 off its usual price. Meanwhile, the M3 iPad Air is available for $400 off, and other deals include discounts on the iPhone 17 Pro Max and various accessories.</div>
       <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
   <div class="digest__item">
     <div class="digest__num">03</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.ign.com/articles/blizzard-admits-it-messed-up-overwatchs-10th-anniversary-event-but-insists-its-happy-with-where-the-game-is-today" target="_blank" rel="noopener">Blizzard Admits It Messed Up Overwatch’s 10th Anniversary Event, but Insists It’s ‘Happy With Where the Game Is Today’</a></div>
-      <div class="digest__item-sum">Blizzard announced that its 10th anniversary event for the popular game Overwatch did not meet the company's expectations, sparking frustration among fans. Despite the event's missteps, Blizzard is optimistic about the game's future and claims to be satisfied with its current state.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://9to5mac.com/2026/05/21/perplexitys-comet-ai-browser-for-ios-upgraded-with-8-major-improvements/" target="_blank" rel="noopener">Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements</a></div>
+      <div class="digest__item-sum">Perplexity has released a significant update to its groundbreaking Comet AI browser, which is now available on both iOS and iPadOS devices. The update, which includes eight major improvements, aims to enhance user experience with Comet's innovative AI capabilities.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
   <div class="digest__item">
     <div class="digest__num">04</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/pokemon-tcg-pocket-paradox-drive/" target="_blank" rel="noopener">Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters</a></div>
-      <div class="digest__item-sum">The Pokémon Trading Card Game (TCG) Pocket app is set to get an exciting update, adding new booster pack content called Paradox Drive next week. This new content will introduce Ancient and Future Pokémon from the Scarlet and Violet games, giving fans more to discover and collect.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.engadget.com/2178551/meta-oversight-board-will-examine-deefake-video-of-a-uk-politician-facebook-left-online/" target="_blank" rel="noopener">Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online</a></div>
+      <div class="digest__item-sum">Meta's Oversight Board has taken on a new case, reviewing the decision to leave a deepfake video of a UK politician online, which spread false and inflammatory claims about refugees. The video, allegedly created using artificial intelligence, has raised concerns about the spread of misinformation and the impact of AI-generated content on online platforms.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
   <div class="digest__item">
     <div class="digest__num">05</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/gta-6-take-two-earnings-call-q4-2026-how-to-watch/" target="_blank" rel="noopener">How to watch the GTA 6 Take-Two earnings call today</a></div>
-      <div class="digest__item-sum">Fans of Grand Theft Auto 6 are in for a major update, with Take-Two's earnings call scheduled to be released later today, potentially shedding light on the latest developments in the game's production. Here's how you can tune in and stay up-to-date on any exciting news related to GTA 6.</div>
+      <div class="digest__item-title"><a href="https://www.polygon.com/map/subnautica-2-interactive-material-locations/" target="_blank" rel="noopener">Subnautica 2 interactive map</a></div>
+      <div class="digest__item-sum">Explore the vast underwater world of Subnautica 2 with our interactive map, which pinpoints every point of interest, resource node, and upgrade location. From discovering hidden treasures to unlocking new abilities, this map is your ultimate guide to navigating the mysteries of Planet 4546B.</div>
       <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
   <div class="digest__item">
     <div class="digest__num">06</div>
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/legend-of-zelda-biggorons-sword/" target="_blank" rel="noopener">The Legend of Zelda's best weapon is so much cooler than the Master Sword</a></div>
-      <div class="digest__item-sum">In the vast world of The Legend of Zelda, there's a sword that outshines the legendary Master Sword - a powerful and intimidating blade that's often overlooked but deserves the spotlight. This unsung hero sword is a force to be reckoned with, showcasing the game's creativity and diversity in its arsenal of epic weapons.</div>
+      <div class="digest__item-title"><a href="https://www.polygon.com/sorry-cloud-the-buster-sword-aint-the-only-cool-final-fantasy-sword/" target="_blank" rel="noopener">No series does cool swords better than Final Fantasy</a></div>
+      <div class="digest__item-sum">In the world of fantasy games, swords are more than just a tool for battle - they're a statement of power and style, and nowhere does this shine brighter than in the iconic Final Fantasy series. With some of the coolest, most legendary swords in gaming history, it's no wonder that Final Fantasy's sword-crafting is a hallmark of the beloved RPG franchise.</div>
       <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
@@ -1442,128 +1418,128 @@
 
       <div class="latest__grid">
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/pokemon-tcg-pocket-paradox-drive/" target="_blank" rel="noopener" aria-label="Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters"></a>
-    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/pokemon-tcg-pocket-paradox-drive.JPG" alt="Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Pokémon TCG Pocket's next update adds Scarlet and Violet's best monsters</div>
-      <div class="card__summary">The Pokémon Trading Card Game (TCG) Pocket app is set to get an exciting update, adding new booster pack content called Paradox Drive next week. This new content will introduce Ancient and Future Pokémon from the Scarlet and Violet games, giving fans more to discover and collect.</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>20m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/gta-6-take-two-earnings-call-q4-2026-how-to-watch/" target="_blank" rel="noopener" aria-label="How to watch the GTA 6 Take-Two earnings call today"></a>
-    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/gta-6-take-two-earnings-call.jpg" alt="How to watch the GTA 6 Take-Two earnings call today" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">How to watch the GTA 6 Take-Two earnings call today</div>
-      <div class="card__summary">Fans of Grand Theft Auto 6 are in for a major update, with Take-Two's earnings call scheduled to be released later today, potentially shedding light on the latest developments in the game's production. Here's how you can tune in and stay up-to-date on any exciting news related to GTA 6.</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>28m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/legend-of-zelda-biggorons-sword/" target="_blank" rel="noopener" aria-label="The Legend of Zelda's best weapon is so much cooler than the Master Sword"></a>
-    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/the-legend-of-zelda-tears-of-the-kingdom-biggerons-sword.jpg" alt="The Legend of Zelda's best weapon is so much cooler than the Master Sword" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">The Legend of Zelda's best weapon is so much cooler than the Master Sword</div>
-      <div class="card__summary">In the vast world of The Legend of Zelda, there's a sword that outshines the legendary Master Sword - a powerful and intimidating blade that's often overlooked but deserves the spotlight. This unsung hero sword is a force to be reckoned with, showcasing the game's creativity and diversity in its arsenal of epic weapons.</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>30m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.gsmarena.com/xiaomi_17_max_arrives_with_200mp_main_cam_and_8000_mah_sic_battery_-news-72937.php" target="_blank" rel="noopener" aria-label="Xiaomi 17 Max arrives with 200MP main cam and 8,000 mAh Si-C battery"></a>
-    <div class="card__image-wrap"><img src="https://fdn.gsmarena.com/imgroot/news/26/05/xiaomi-17-max-ofic/-952x498w6/gsmarena_00.jpg" alt="Xiaomi 17 Max arrives with 200MP main cam and 8,000 mAh Si-C battery" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://9to5mac.com/2026/05/21/deals-m5-macbook-air-m3-ipad-air-iphone-17-pro-max/" target="_blank" rel="noopener" aria-label="Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more"></a>
+    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/Apple-deals-MacBook-Air-M5-Neo-iPhone-17-Pro-Max.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Xiaomi 17 Max arrives with 200MP main cam and 8,000 mAh Si-C battery</div>
-      <div class="card__summary">The Xiaomi 17 Max smartphone has been unveiled, boasting a powerful 200MP main camera and a long-lasting 8,000mAh battery. Unlike its Pro counterpart, the Max model prioritizes a more understated design, without a secondary rear display screen, making it a versatile option for users seeking balance and performance.</div>
+      <div class="card__title">Deals: M5 MacBook Air $199 off Amazon low, M3 iPad Air $400 off, iPhone 17 Pro Max, accessories, more</div>
+      <div class="card__summary">Apple's base 15-inch M5 MacBook Air is on sale at Amazon, with a discount of $199 off its usual price. Meanwhile, the M3 iPad Air is available for $400 off, and other deals include discounts on the iPhone 17 Pro Max and various accessories.</div>
       <div class="card__meta">
-        <span class="card__source">GSMArena.com - Latest articles</span>
+        <span class="card__source">9to5Mac</span>
         <span>·</span>
-        <span>33m ago</span>
+        <span>6m ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/" target="_blank" rel="noopener" aria-label="Waymo pauses Atlanta service as its robotaxis keep driving into floods"></a>
-    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2026/03/waymo-interior.jpg?resize=1200,802" alt="Waymo pauses Atlanta service as its robotaxis keep driving into floods" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://9to5mac.com/2026/05/21/perplexitys-comet-ai-browser-for-ios-upgraded-with-8-major-improvements/" target="_blank" rel="noopener" aria-label="Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements"></a>
+    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/Comet-iOS-app.webp?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">Perplexity’s Comet AI browser for iOS upgraded with 8 major improvements</div>
+      <div class="card__summary">Perplexity has released a significant update to its groundbreaking Comet AI browser, which is now available on both iOS and iPadOS devices. The update, which includes eight major improvements, aims to enhance user experience with Comet's innovative AI capabilities.</div>
+      <div class="card__meta">
+        <span class="card__source">9to5Mac</span>
+        <span>·</span>
+        <span>8m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.engadget.com/2178551/meta-oversight-board-will-examine-deefake-video-of-a-uk-politician-facebook-left-online/" target="_blank" rel="noopener" aria-label="Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online"></a>
+    <div class="card__image-wrap"><img src="https://www.engadget.com/img/gallery/metas-oversight-board-will-examine-deepfake-video-of-a-uk-politician-facebook-left-online/l-intro-1779375883.jpg" alt="Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">Meta's Oversight Board will examine deepfake video of a UK politician Facebook left online</div>
+      <div class="card__summary">Meta's Oversight Board has taken on a new case, reviewing the decision to leave a deepfake video of a UK politician online, which spread false and inflammatory claims about refugees. The video, allegedly created using artificial intelligence, has raised concerns about the spread of misinformation and the impact of AI-generated content on online platforms.</div>
+      <div class="card__meta">
+        <span class="card__source">Engadget - Technology News & Expert Reviews</span>
+        <span>·</span>
+        <span>10m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/sorry-cloud-the-buster-sword-aint-the-only-cool-final-fantasy-sword/" target="_blank" rel="noopener" aria-label="No series does cool swords better than Final Fantasy"></a>
+    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/final-fantasy-swords-brotherhood-1.jpg" alt="No series does cool swords better than Final Fantasy" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">No series does cool swords better than Final Fantasy</div>
+      <div class="card__summary">In the world of fantasy games, swords are more than just a tool for battle - they're a statement of power and style, and nowhere does this shine brighter than in the iconic Final Fantasy series. With some of the coolest, most legendary swords in gaming history, it's no wonder that Final Fantasy's sword-crafting is a hallmark of the beloved RPG franchise.</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>11m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.theverge.com/column/935310/ai-video-luma-hollywood" target="_blank" rel="noopener" aria-label="AI video is moving beyond clip slop"></a>
+    
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">AI video is moving beyond clip slop</div>
+      <div class="card__summary">A new generation of AI video technology is emerging, capable of creating smooth and convincing clips that blur the line between reality and digital creation. From AI-generated action scenes to realistic celebrity clips, the field is shifting beyond the early "clip slop" that characterized its infancy, opening up new possibilities for storytelling and entertainment.</div>
+      <div class="card__meta">
+        <span class="card__source">The Verge</span>
+        <span>·</span>
+        <span>11m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.theverge.com/gadgets/935236/viture-refurbished-smart-glasses-nintendo-switch-2-camera-deal-sale" target="_blank" rel="noopener" aria-label="Viture’s refurb Luma Pro smart glasses are more than half off at eBay"></a>
+    
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">Viture’s refurb Luma Pro smart glasses are more than half off at eBay</div>
+      <div class="card__summary">If you've been eyeing smart glasses for gaming, movie nights, or computer use, they might be more affordable than you think. For just $271, you can get a refurbished pair of Viture's Luma Pro smart glasses on eBay, with a $129 discount and a special promo code.</div>
+      <div class="card__meta">
+        <span class="card__source">The Verge</span>
+        <span>·</span>
+        <span>12m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/epic-games-store-free-game-5-21-2026-tomb-raider-download/" target="_blank" rel="noopener" aria-label="Epic Games Store has 3 free Tomb Raider games for a limited time"></a>
+    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/polygon-graphic-free-game-sale-banner-epic-games.jpg" alt="Epic Games Store has 3 free Tomb Raider games for a limited time" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">Epic Games Store has 3 free Tomb Raider games for a limited time</div>
+      <div class="card__summary">The Epic Games Store is giving away three iconic Tomb Raider games for free until May 28, offering players a chance to explore the popular adventure series. This limited-time offer is part of the store's regular free game promotions, which change every week.</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>12m ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener" aria-label="Spotify adds AI-powered Q&A and briefing generation features to podcasts"></a>
+    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-21-at-5.45.05-PM.jpg?resize=1200,675" alt="Spotify adds AI-powered Q&A and briefing generation features to podcasts" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">Waymo pauses Atlanta service as its robotaxis keep driving into floods</div>
-      <div class="card__summary">Waymo has temporarily halted its robotaxi service in Atlanta and San Antonio due to a frustrating issue: its self-driving cars keep getting stuck in flooded roads. The company is working to address the problem and prevent its vehicles from navigating into areas that could put passengers at risk.</div>
+      <div class="card__title">Spotify adds AI-powered Q&A and briefing generation features to podcasts</div>
+      <div class="card__summary">Spotify will let you generate daily or weekly briefs based on your prompts…</div>
       <div class="card__meta">
         <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>33m ago</span>
+        <span>14m ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/05/21/apple-tv-to-air-major-live-sporting-event-shot-entirely-on-iphone-17-pro/" target="_blank" rel="noopener" aria-label="Apple TV to air first major live sporting event shot entirely on iPhone 17 Pro"></a>
-    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/iphone-17-pro-cameras.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Apple TV to air first major live sporting event shot entirely on iPhone 17 Pro" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener" aria-label="Spotify launches an ElevenLabs-powered audiobook creation tool"></a>
+    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2026/05/Spotify-Audiobooks-Ux.jpg?resize=1200,675" alt="Spotify launches an ElevenLabs-powered audiobook creation tool" class="card__image" loading="lazy"></div>
     <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Apple TV to air first major live sporting event shot entirely on iPhone 17 Pro</div>
-      <div class="card__summary">Apple TV is set to air a groundbreaking live sporting event shot entirely on the iPhone 17 Pro, marking a significant milestone in mobile filmmaking technology. The upcoming broadcast will be a major professional sports event, although the specific sport was not mentioned in the article.</div>
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">Spotify launches an ElevenLabs-powered audiobook creation tool</div>
+      <div class="card__summary">Spotify is releasing new audiobook plans later this year…</div>
       <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
+        <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>38m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/05/21/security-bite-tired-of-app-tracking-pop-ups-heres-how-to-auto-deny-them/" target="_blank" rel="noopener" aria-label="Security Bite: Tired of app tracking pop-ups? Here’s how to auto-deny them"></a>
-    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-privacy-att-prompt.webp?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Security Bite: Tired of app tracking pop-ups? Here’s how to auto-deny them" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Security Bite: Tired of app tracking pop-ups? Here’s how to auto-deny them</div>
-      <div class="card__summary">A new update is available for Apple devices, allowing users to automatically reject app tracking notifications, also known as "Privacy ATT Prompt" pop-ups. This feature enables a seamless user experience by eliminating the need to constantly interact with these pop-ups, providing a more streamlined and private browsing experience.</div>
-      <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
-        <span>·</span>
-        <span>49m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/playstation-plus-price-hike-may-2026-extra-premium-annual-cost/" target="_blank" rel="noopener" aria-label="PlayStation Plus just got more expensive for all tiers"></a>
-    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24179333/kratos_cave2.jpg" alt="PlayStation Plus just got more expensive for all tiers" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">PlayStation Plus just got more expensive for all tiers</div>
-      <div class="card__summary">Sony has raised subscription prices for all tiers of PlayStation Plus: Essential, Extra, and Premium.…</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>59m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/adventure-time-grass-sword-fern-history-origin-adam-muto-interview/" target="_blank" rel="noopener" aria-label="Adventure Time’s Grass Sword changed the show in ways nobody expected"></a>
-    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/mv5bmdm1n2nkmtutowzims00mdq5ltkxntctmjyzzdbjmda4mdi3xkeyxkfqcgc-_v1_.jpg" alt="Adventure Time’s Grass Sword changed the show in ways nobody expected" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Adventure Time’s Grass Sword changed the show in ways nobody expected</div>
-      <div class="card__summary">To celebrate Cool Sword Day, Polygon caught up with Adventure Time's Adam Muto to unpack the origins of the Grass Sword and its evolution into Fern.…</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>59m ago</span>
+        <span>14m ago</span>
       </div>
     </div>
   </div>
@@ -1585,7 +1561,7 @@
           </div>
           <p class="footer__tagline">
             Signal over noise, delivered daily.<br>
-            AI-curated tech news for Europe.
+            Tech news for Ireland, UK and Europe.
           </p>
           <div class="footer__region">🇮🇪 Ireland &nbsp;·&nbsp; 🇬🇧 UK &nbsp;·&nbsp; 🇪🇺 Europe</div>
         </div>
@@ -1628,7 +1604,7 @@
           News articles linked to their original sources.
         </p>
         <div class="footer__built">
-          Built with <span>Claude</span> · Hosted on Vercel · Updated daily
+          Hosted on Vercel · Updated daily
         </div>
       </div>
     </div>
