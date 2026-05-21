@@ -400,7 +400,7 @@ def category_pills_html(all_articles):
     for cat, css in CAT_CSS.items():
         count = counts.get(cat, 0)
         icon  = CAT_ICONS.get(cat, "📰")
-        html += f'''  <a href="/category/{cat.lower()}" class="cat-pill cat-pill--{css}">
+        html += f'''  <a href="#" class="cat-pill cat-pill--{css}">
     <div class="cat-pill__icon">{icon}</div>
     <div class="cat-pill__name">{cat}</div>
     <div class="cat-pill__count">{count} articles</div>
@@ -423,8 +423,17 @@ def digest_items_html(articles, digest_text):
         title_esc = a["title"].replace("<", "&lt;").replace(">", "&gt;")
         summary   = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
         css       = CAT_CSS.get(a["category"], "ai")
-        html += f'''  <div class="digest__item">
-    <div class="digest__num">0{i}</div>
+        num       = f"0{i}" if i < 10 else str(i)
+
+        # Thumbnail
+        if a.get("image"):
+            thumb_html = f'<img src="{a["image"]}" alt="{title_esc}" style="width:56px;height:56px;object-fit:cover;border-radius:6px;flex-shrink:0;margin-top:2px;" loading="lazy">'
+        else:
+            thumb_html = f'<div style="width:56px;height:56px;border-radius:6px;flex-shrink:0;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:20px;">{CAT_ICONS.get(a["category"],"📰")}</div>'
+
+        html += f'''  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+    <div class="digest__num">{num}</div>
+    {thumb_html}
     <div class="digest__content">
       <div class="digest__item-title"><a href="{a["link"]}" target="_blank" rel="noopener">{a["title"]}</a></div>
       <div class="digest__item-sum">{summary}</div>
@@ -448,14 +457,50 @@ def rebuild_html(all_articles, digest_text):
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
     # Pick 1 article per category for featured
+    # Priority order for top: AI first, then Gadgets, Innovation
+    # If a category has 0 articles, fill with next available from any category
     featured_by_cat = {}
     for a in all_articles:
         cat = a["category"]
         if cat not in featured_by_cat:
             featured_by_cat[cat] = a
 
-    f_top    = [featured_by_cat[c] for c in ["AI", "Gadgets", "Innovation"] if c in featured_by_cat]
-    f_bottom = [featured_by_cat[c] for c in ["Startups", "Gaming"]          if c in featured_by_cat]
+    # Build top 3 slots — fill gaps with any available category
+    top_order = ["AI", "Gadgets", "Innovation"]
+    f_top = []
+    used_links = set()
+    for cat in top_order:
+        if cat in featured_by_cat:
+            a = featured_by_cat[cat]
+            f_top.append(a)
+            used_links.add(a["link"])
+
+    # If fewer than 3, fill with articles from other categories
+    if len(f_top) < 3:
+        for a in all_articles:
+            if len(f_top) >= 3:
+                break
+            if a["link"] not in used_links:
+                f_top.append(a)
+                used_links.add(a["link"])
+
+    # Bottom 2 slots: Startups + Gaming
+    bottom_order = ["Startups", "Gaming"]
+    f_bottom = []
+    for cat in bottom_order:
+        if cat in featured_by_cat and featured_by_cat[cat]["link"] not in used_links:
+            a = featured_by_cat[cat]
+            f_bottom.append(a)
+            used_links.add(a["link"])
+
+    # Fill bottom gaps too if needed
+    if len(f_bottom) < 2:
+        for a in all_articles:
+            if len(f_bottom) >= 2:
+                break
+            if a["link"] not in used_links:
+                f_bottom.append(a)
+                used_links.add(a["link"])
 
     # Latest — exclude featured
     featured_links = {a["link"] for a in f_top + f_bottom}
