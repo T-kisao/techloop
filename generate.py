@@ -26,8 +26,9 @@ from pathlib import Path
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL   = "llama-3.1-8b-instant"
+GROQ_API_KEY   = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL     = "llama-3.1-8b-instant"
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "")
 
 MAX_OG_IMAGES        = 15
 MAX_PER_CATEGORY     = 6
@@ -35,6 +36,9 @@ MAX_AI_SUMMARIES     = 10
 FEATURED_COUNT       = 3
 SEEN_ARTICLES_TTL_DAYS = 7
 SEEN_ARTICLES_FILE   = Path("seen_articles.json")
+
+# Cache Pexels results per category to avoid repeated requests
+_pexels_cache: dict = {}
 
 # ── RSS SOURCES ───────────────────────────────────────────────────────────────
 
@@ -132,7 +136,41 @@ def fetch_og_image(url):
     except Exception:
         return ""
 
-def fetch_articles(category, urls, seen):
+def fetch_pexels_image(category):
+    """Fetch a fallback image from Pexels for a given category. Cached per run."""
+    if not PEXELS_API_KEY:
+        return ""
+    if category in _pexels_cache:
+        return _pexels_cache[category]
+
+    keywords = {
+        "AI":         "artificial intelligence technology",
+        "Gadgets":    "smartphone gadgets technology",
+        "Innovation": "innovation science research",
+        "Startups":   "startup business technology",
+        "Gaming":     "video game gaming",
+    }
+    query = keywords.get(category, "technology")
+    try:
+        resp = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": PEXELS_API_KEY},
+            params={"query": query, "per_page": 10, "orientation": "landscape"},
+            timeout=8,
+        )
+        if resp.status_code == 200:
+            photos = resp.json().get("photos", [])
+            if photos:
+                import random
+                photo = random.choice(photos[:5])
+                url = photo["src"]["medium"]
+                _pexels_cache[category] = url
+                print(f"  Pexels fallback for {category}: {url[:60]}...")
+                return url
+    except Exception as e:
+        print(f"  Warning: Pexels fetch failed for {category} — {e}")
+    _pexels_cache[category] = ""
+    return ""
     articles = []
     headers  = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
     for url in urls:
@@ -427,9 +465,9 @@ def digest_items_html(articles, digest_text):
 
         # Thumbnail
         if a.get("image"):
-            thumb_html = f'<img src="{a["image"]}" alt="{title_esc}" style="width:56px;height:56px;object-fit:cover;border-radius:6px;flex-shrink:0;margin-top:2px;" loading="lazy">'
+            thumb_html = f'<img src="{a["image"]}" alt="{title_esc}" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">'
         else:
-            thumb_html = f'<div style="width:56px;height:56px;border-radius:6px;flex-shrink:0;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:20px;">{CAT_ICONS.get(a["category"],"📰")}</div>'
+            thumb_html = f'<div style="width:100px;height:100px;border-radius:8px;flex-shrink:0;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:28px;">{CAT_ICONS.get(a["category"],"📰")}</div>'
 
         html += f'''  <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">{num}</div>
@@ -564,7 +602,14 @@ def main():
             img = fetch_og_image(article["link"])
             if img:
                 article["image"] = img
-                print(f"  [{i+1}] Got image for: {article['title'][:40]}...")
+                print(f"  [{i+1}] Got OG image for: {article['title'][:40]}...")
+
+    # Pexels fallback — for any article still without an image
+    if PEXELS_API_KEY:
+        print("\nApplying Pexels fallback for articles without images...")
+        for article in all_articles:
+            if not article.get("image"):
+                article["image"] = fetch_pexels_image(article["category"])
 
     print("\nRebuilding index.html...")
     rebuild_html(all_articles, digest_text)
