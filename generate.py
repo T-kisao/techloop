@@ -171,6 +171,8 @@ def fetch_pexels_image(category):
         print(f"  Warning: Pexels fetch failed for {category} — {e}")
     _pexels_cache[category] = ""
     return ""
+
+def fetch_articles(category, urls, seen):
     articles = []
     headers  = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
     for url in urls:
