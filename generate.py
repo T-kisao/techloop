@@ -66,6 +66,30 @@ def _is_inaccessible(summary: str) -> bool:
     low = summary.lower()
     return any(phrase in low for phrase in _INACCESSIBLE_PHRASES)
 
+def _title_words(title: str) -> set:
+    """Return significant words from a title for fuzzy comparison."""
+    stopwords = {"a","an","the","is","in","of","to","and","or","for","on",
+                 "with","at","by","it","its","this","that","are","was","be",
+                 "as","not","but","from","has","have","will","what","how",
+                 "who","why","when","says","say","new","just","about","up",
+                 "after","more","than","could","would","should"}
+    words = re.findall(r"[a-z0-9']+", title.lower())
+    return {w for w in words if w not in stopwords and len(w) > 2}
+
+def _is_duplicate_title(title: str, seen_titles_words: list, threshold: float = 0.35) -> bool:
+    """Return True if title shares >= threshold of the shorter title's words with any seen title.
+    Using the shorter title as denominator catches same-story coverage across different sources."""
+    words = _title_words(title)
+    if not words:
+        return False
+    for seen_words in seen_titles_words:
+        if not seen_words:
+            continue
+        overlap = len(words & seen_words) / min(len(words), len(seen_words))
+        if overlap >= threshold:
+            return True
+    return False
+
 # Cache Pexels results per category to avoid repeated requests
 _pexels_cache: dict = {}
 
@@ -241,12 +265,12 @@ def fetch_articles(category, urls, seen):
             print(f"  Warning: could not fetch {url} — {e}")
 
     deduped = []
-    seen_titles = set()
+    seen_titles_words_local = []
     for a in sorted(articles, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
-        key = a["title"].lower()[:60]
-        if key not in seen_titles:
-            seen_titles.add(key)
-            deduped.append(a)
+        if _is_duplicate_title(a["title"], seen_titles_words_local):
+            continue
+        seen_titles_words_local.append(_title_words(a["title"]))
+        deduped.append(a)
     return deduped[:MAX_PER_CATEGORY]
 
 def _extract_image(entry):
@@ -622,16 +646,19 @@ def main():
     )
 
     # Global deduplication across all categories (same build)
+    # Uses exact link/title match + fuzzy title word-overlap to catch
+    # the same story covered by multiple sources.
     global_seen_links  = set()
-    global_seen_titles = set()
+    seen_title_words   = []
     deduped_all = []
     for a in all_articles:
-        link_key  = a["link"].strip().lower()
-        title_key = a["title"].lower()[:80]
-        if link_key in global_seen_links or title_key in global_seen_titles:
+        link_key = a["link"].strip().lower()
+        if link_key in global_seen_links:
+            continue
+        if _is_duplicate_title(a["title"], seen_title_words):
             continue
         global_seen_links.add(link_key)
-        global_seen_titles.add(title_key)
+        seen_title_words.append(_title_words(a["title"]))
         deduped_all.append(a)
     all_articles = deduped_all
     print(f"\nTotal new articles (after global dedup): {len(all_articles)}")
