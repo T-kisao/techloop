@@ -90,8 +90,8 @@ def _is_duplicate_title(title: str, seen_titles_words: list, threshold: float = 
             return True
     return False
 
-# Cache Pexels results per category to avoid repeated requests
-_pexels_cache: dict = {}
+# Track Pexels URLs already used this build to avoid duplicate images
+_pexels_used_urls: set = set()
 
 # ── RSS SOURCES ───────────────────────────────────────────────────────────────
 
@@ -189,40 +189,56 @@ def fetch_og_image(url):
     except Exception:
         return ""
 
-def fetch_pexels_image(category):
-    """Fetch a fallback image from Pexels for a given category. Cached per run."""
+def _pexels_query_from_title(title: str, category: str) -> str:
+    """Extract 3-4 meaningful keywords from the article title for Pexels search."""
+    stopwords = {
+        "a","an","the","is","in","of","to","and","or","for","on","with","at",
+        "by","it","its","this","that","are","was","be","as","not","but","from",
+        "has","have","will","what","how","who","why","when","says","say","new",
+        "just","about","up","after","more","than","could","would","should","get",
+        "gets","got","make","makes","made","let","lets","now","over","out","all",
+        "can","may","their","our","your","his","her","they","you","we","us",
+        "plan","plans","report","reports","claims","claim",
+    }
+    words = re.findall(r"[a-zA-Z]{4,}", title)
+    keywords = [w for w in words if w.lower() not in stopwords][:4]
+    if keywords:
+        return " ".join(keywords)
+    cat_fallbacks = {
+        "AI": "artificial intelligence technology",
+        "Gadgets": "technology gadgets devices",
+        "Innovation": "innovation science research",
+        "Startups": "startup business technology",
+        "Gaming": "video game gaming",
+    }
+    return cat_fallbacks.get(category, "technology")
+
+def fetch_pexels_image(title: str, category: str) -> str:
+    """Fetch a unique Pexels image based on article title keywords."""
     if not PEXELS_API_KEY:
         return ""
-    if category in _pexels_cache:
-        return _pexels_cache[category]
-
-    keywords = {
-        "AI":         "artificial intelligence technology",
-        "Gadgets":    "smartphone gadgets technology",
-        "Innovation": "innovation science research",
-        "Startups":   "startup business technology",
-        "Gaming":     "video game gaming",
-    }
-    query = keywords.get(category, "technology")
+    query = _pexels_query_from_title(title, category)
     try:
+        import random
         resp = requests.get(
             "https://api.pexels.com/v1/search",
             headers={"Authorization": PEXELS_API_KEY},
-            params={"query": query, "per_page": 10, "orientation": "landscape"},
+            params={"query": query, "per_page": 15, "orientation": "landscape"},
             timeout=8,
         )
         if resp.status_code == 200:
             photos = resp.json().get("photos", [])
-            if photos:
-                import random
-                photo = random.choice(photos[:5])
+            unused = [p for p in photos if p["src"]["medium"] not in _pexels_used_urls]
+            if not unused:
+                unused = photos  # fallback: allow reuse if all exhausted
+            if unused:
+                photo = random.choice(unused[:8])
                 url = photo["src"]["medium"]
-                _pexels_cache[category] = url
-                print(f"  Pexels fallback for {category}: {url[:60]}...")
+                _pexels_used_urls.add(url)
+                print(f"  Pexels [{query[:40]}]: {url[:60]}...")
                 return url
     except Exception as e:
-        print(f"  Warning: Pexels fetch failed for {category} — {e}")
-    _pexels_cache[category] = ""
+        print(f"  Warning: Pexels fetch failed for '{title[:40]}' — {e}")
     return ""
 
 def fetch_articles(category, urls, seen):
@@ -546,7 +562,7 @@ def digest_items_html(articles, digest_text):
 
 # ── TEMPLATE REBUILD ──────────────────────────────────────────────────────────
 
-def rebuild_html(all_articles, digest_text):
+def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     template_path = Path("template.html")
     if not template_path.exists():
         print("Error: template.html not found.")
@@ -555,16 +571,15 @@ def rebuild_html(all_articles, digest_text):
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    # Pick 1 article per category for featured
-    # Priority order for top: AI first, then Gadgets, Innovation
-    # If a category has 0 articles, fill with next available from any category
+    # Build a per-category index from ALL articles (new + seen fallback)
+    # so Featured always has 1 article per category
     featured_by_cat = {}
-    for a in all_articles:
+    for a in all_articles_including_seen:
         cat = a["category"]
         if cat not in featured_by_cat:
             featured_by_cat[cat] = a
 
-    # Build top 3 slots — fill gaps with any available category
+    # Top 3 slots: AI, Gadgets, Innovation — guaranteed 1 each
     top_order = ["AI", "Gadgets", "Innovation"]
     f_top = []
     used_links = set()
@@ -574,7 +589,7 @@ def rebuild_html(all_articles, digest_text):
             f_top.append(a)
             used_links.add(a["link"])
 
-    # If fewer than 3, fill with articles from other categories
+    # Fill any remaining top slots from new articles
     if len(f_top) < 3:
         for a in all_articles:
             if len(f_top) >= 3:
@@ -583,7 +598,7 @@ def rebuild_html(all_articles, digest_text):
                 f_top.append(a)
                 used_links.add(a["link"])
 
-    # Bottom 2 slots: Startups + Gaming
+    # Bottom 2 slots: Startups + Gaming — guaranteed 1 each
     bottom_order = ["Startups", "Gaming"]
     f_bottom = []
     for cat in bottom_order:
@@ -592,7 +607,7 @@ def rebuild_html(all_articles, digest_text):
             f_bottom.append(a)
             used_links.add(a["link"])
 
-    # Fill bottom gaps too if needed
+    # Fill any remaining bottom slots from new articles
     if len(f_bottom) < 2:
         for a in all_articles:
             if len(f_bottom) >= 2:
@@ -601,9 +616,13 @@ def rebuild_html(all_articles, digest_text):
                 f_bottom.append(a)
                 used_links.add(a["link"])
 
-    # Latest — exclude featured
-    featured_links = {a["link"] for a in f_top + f_bottom}
-    latest_pool    = [a for a in all_articles if a["link"] not in featured_links]
+    # Digest — top 6 from new articles
+    digest_articles = all_articles[:6]
+    digest_links    = {a["link"] for a in digest_articles}
+
+    # Latest — exclude featured AND digest articles
+    excluded_links = used_links | digest_links
+    latest_pool    = [a for a in all_articles if a["link"] not in excluded_links]
 
     injections = {
         "<!-- INJECT:FEATURED_TOP -->":    featured_top_html(f_top),
@@ -611,7 +630,7 @@ def rebuild_html(all_articles, digest_text):
         "<!-- INJECT:LATEST -->":          latest_cards_html(latest_pool[:9]),
         "<!-- INJECT:TICKER -->":          ticker_items_html(all_articles),
         "<!-- INJECT:CATS -->":            category_pills_html(all_articles),
-        "<!-- INJECT:DIGEST -->":          digest_items_html(all_articles, digest_text),
+        "<!-- INJECT:DIGEST -->":          digest_items_html(digest_articles, digest_text),
         "<!-- INJECT:TIMESTAMP -->":       timestamp,
     }
 
@@ -639,6 +658,55 @@ def main():
         articles = fetch_articles(category, urls, seen)
         print(f"  {len(articles)} new articles")
         all_articles.extend(articles)
+
+    # Also fetch 1 recent article per category ignoring seen filter
+    # — used only as Featured fallback if a category has no new articles today
+    print("\nFetching seen-fallback pool for Featured (1 per category)...")
+    seen_fallback_by_cat = {}
+    for category, urls in FEEDS.items():
+        if category in {a["category"] for a in all_articles}:
+            # Already have new articles for this category
+            continue
+        for url in urls[:2]:  # only check first 2 feeds per category
+            try:
+                headers = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
+                resp    = requests.get(url, headers=headers, timeout=10)
+                feed    = feedparser.parse(resp.content)
+                source_name = feed.feed.get("title", url.split("/")[2])
+                for entry in feed.entries[:5]:
+                    title = entry.get("title", "").strip()
+                    if not title or category in seen_fallback_by_cat:
+                        break
+                    published = datetime.now(timezone.utc)
+                    if hasattr(entry, "published"):
+                        try:
+                            published = dateparser.parse(entry.published)
+                            if published and published.tzinfo is None:
+                                published = published.replace(tzinfo=timezone.utc)
+                        except Exception:
+                            pass
+                    raw_summary = _strip_html(entry.get("summary", ""))
+                    seen_fallback_by_cat[category] = {
+                        "title":     title,
+                        "link":      entry.get("link", ""),
+                        "summary":   raw_summary[:500].strip(),
+                        "image":     _extract_image(entry),
+                        "source":    source_name,
+                        "category":  category,
+                        "published": published,
+                        "hash":      article_hash(title),
+                    }
+                    break
+            except Exception:
+                continue
+
+    # Merge: new articles first, then seen fallbacks for missing categories
+    new_article_cats = {a["category"] for a in all_articles}
+    all_articles_including_seen = list(all_articles)
+    for cat, article in seen_fallback_by_cat.items():
+        if cat not in new_article_cats:
+            all_articles_including_seen.append(article)
+            print(f"  Added seen fallback for {cat}: {article['title'][:50]}...")
 
     all_articles.sort(
         key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc),
@@ -704,10 +772,10 @@ def main():
         print("\nApplying Pexels fallback for articles without images...")
         for article in all_articles:
             if not article.get("image"):
-                article["image"] = fetch_pexels_image(article["category"])
+                article["image"] = fetch_pexels_image(article["title"], article["category"])
 
     print("\nRebuilding index.html...")
-    rebuild_html(all_articles, digest_text)
+    rebuild_html(all_articles, all_articles_including_seen, digest_text)
 
     now = datetime.now(timezone.utc).isoformat()
     for a in all_articles:
