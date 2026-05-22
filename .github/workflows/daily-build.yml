@@ -34,4 +34,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html seen_articles.json
           git diff --cached --quiet || git commit -m "chore: daily build $(date +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
