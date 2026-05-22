@@ -571,66 +571,85 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    # Build a per-category index from ALL articles (new + seen fallback)
-    # so Featured always has 1 article per category
+    # ── STEP 1: FEATURED — selected first, guaranteed 1 per category ──────────
+    # Build best-article-per-category from full pool (new + seen fallback)
     featured_by_cat = {}
     for a in all_articles_including_seen:
         cat = a["category"]
         if cat not in featured_by_cat:
             featured_by_cat[cat] = a
 
-    # Top 3 slots: AI, Gadgets, Innovation — guaranteed 1 each
+    used_links = set()  # tracks every article already placed on the page
+
+    # Top 3: AI, Gadgets, Innovation
     top_order = ["AI", "Gadgets", "Innovation"]
     f_top = []
-    used_links = set()
     for cat in top_order:
         if cat in featured_by_cat:
             a = featured_by_cat[cat]
-            f_top.append(a)
-            used_links.add(a["link"])
-
-    # Fill any remaining top slots from new articles
-    if len(f_top) < 3:
-        for a in all_articles:
-            if len(f_top) >= 3:
-                break
             if a["link"] not in used_links:
                 f_top.append(a)
                 used_links.add(a["link"])
 
-    # Bottom 2 slots: Startups + Gaming — guaranteed 1 each
+    # Fill remaining top slots with any unused new article
+    for a in all_articles:
+        if len(f_top) >= 3:
+            break
+        if a["link"] not in used_links:
+            f_top.append(a)
+            used_links.add(a["link"])
+
+    # Bottom 2: Startups, Gaming
     bottom_order = ["Startups", "Gaming"]
     f_bottom = []
     for cat in bottom_order:
-        if cat in featured_by_cat and featured_by_cat[cat]["link"] not in used_links:
+        if cat in featured_by_cat:
             a = featured_by_cat[cat]
-            f_bottom.append(a)
-            used_links.add(a["link"])
-
-    # Fill any remaining bottom slots from new articles
-    if len(f_bottom) < 2:
-        for a in all_articles:
-            if len(f_bottom) >= 2:
-                break
             if a["link"] not in used_links:
                 f_bottom.append(a)
                 used_links.add(a["link"])
 
-    # Digest — top 6 from new articles
-    digest_articles = all_articles[:6]
-    digest_links    = {a["link"] for a in digest_articles}
+    # Fill remaining bottom slots with any unused new article
+    for a in all_articles:
+        if len(f_bottom) >= 2:
+            break
+        if a["link"] not in used_links:
+            f_bottom.append(a)
+            used_links.add(a["link"])
 
-    # Latest — exclude featured AND digest articles
-    excluded_links = used_links | digest_links
-    latest_pool    = [a for a in all_articles if a["link"] not in excluded_links]
+    print(f"  Featured top: {[a['category'] for a in f_top]}")
+    print(f"  Featured bottom: {[a['category'] for a in f_bottom]}")
+
+    # ── STEP 2: DIGEST — exclude all featured articles ────────────────────────
+    digest_articles = []
+    for a in all_articles:
+        if len(digest_articles) >= 6:
+            break
+        if a["link"] not in used_links:
+            digest_articles.append(a)
+            used_links.add(a["link"])
+
+    # ── STEP 3: LATEST — exclude featured + digest ────────────────────────────
+    latest_pool = []
+    for a in all_articles:
+        if len(latest_pool) >= 9:
+            break
+        if a["link"] not in used_links:
+            latest_pool.append(a)
+            used_links.add(a["link"])
+
+    # ── STEP 4: TICKER — exclude everything already placed ────────────────────
+    ticker_pool = [a for a in all_articles if a["link"] not in used_links]
+    # Prepend featured + digest to ticker so it always has content
+    ticker_all  = f_top + f_bottom + digest_articles + ticker_pool
 
     injections = {
         "<!-- INJECT:FEATURED_TOP -->":    featured_top_html(f_top),
         "<!-- INJECT:FEATURED_BOTTOM -->": featured_bottom_html(f_bottom),
-        "<!-- INJECT:LATEST -->":          latest_cards_html(latest_pool[:9]),
-        "<!-- INJECT:TICKER -->":          ticker_items_html(all_articles),
-        "<!-- INJECT:CATS -->":            category_pills_html(all_articles),
         "<!-- INJECT:DIGEST -->":          digest_items_html(digest_articles, digest_text),
+        "<!-- INJECT:LATEST -->":          latest_cards_html(latest_pool),
+        "<!-- INJECT:TICKER -->":          ticker_items_html(ticker_all),
+        "<!-- INJECT:CATS -->":            category_pills_html(all_articles),
         "<!-- INJECT:TIMESTAMP -->":       timestamp,
     }
 
@@ -638,7 +657,9 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
         html = html.replace(marker, content)
 
     Path("index.html").write_text(html, encoding="utf-8")
-    print(f"index.html rebuilt — {len(all_articles)} articles injected.")
+    print(f"  index.html rebuilt — {len(all_articles)} articles | "
+          f"featured={len(f_top+f_bottom)} digest={len(digest_articles)} "
+          f"latest={len(latest_pool)} ticker={len(ticker_all)}")
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
