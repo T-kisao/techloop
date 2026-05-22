@@ -16,6 +16,7 @@ Environment variables:
 
 import os
 import json
+import re
 import hashlib
 import feedparser
 import requests
@@ -36,6 +37,34 @@ MAX_AI_SUMMARIES     = 10
 FEATURED_COUNT       = 3
 SEEN_ARTICLES_TTL_DAYS = 7
 SEEN_ARTICLES_FILE   = Path("seen_articles.json")
+
+# Phrases that indicate the AI could not access/summarise the article
+_INACCESSIBLE_PHRASES = [
+    "i'm unable to access",
+    "i am unable to access",
+    "i cannot access",
+    "i can't access",
+    "not provided",
+    "could not access",
+    "no content provided",
+    "unable to summarize",
+    "unable to summarise",
+    "i would be happy to summarize if you",
+    "please provide the article",
+    "i don't have access",
+]
+
+def _strip_html(text: str) -> str:
+    """Remove HTML tags and decode common entities from a string."""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = text.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">") \
+               .replace("&quot;", '"').replace("&#39;", "'").replace("&nbsp;", " ")
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+def _is_inaccessible(summary: str) -> bool:
+    """Return True if the AI summary indicates the article could not be accessed."""
+    low = summary.lower()
+    return any(phrase in low for phrase in _INACCESSIBLE_PHRASES)
 
 # Cache Pexels results per category to avoid repeated requests
 _pexels_cache: dict = {}
@@ -197,10 +226,11 @@ def fetch_articles(category, urls, seen):
                 h = article_hash(title)
                 if h in seen:
                     continue
+                raw_summary = _strip_html(entry.get("summary", ""))
                 articles.append({
                     "title":     title,
                     "link":      entry.get("link", ""),
-                    "summary":   entry.get("summary", "")[:500].strip(),
+                    "summary":   raw_summary[:500].strip(),
                     "image":     _extract_image(entry),
                     "source":    source_name,
                     "category":  category,
@@ -235,11 +265,13 @@ def _extract_image(entry):
 # ── AI SUMMARIES ──────────────────────────────────────────────────────────────
 
 def generate_summary(client, article):
+    clean_title   = _strip_html(article["title"])
+    clean_content = _strip_html(article["summary"])
     prompt = (
         "Write a 2-sentence summary of this tech article for a general audience. "
         "Be concise, factual, and engaging. Do not start with 'This article'.\n\n"
-        f"Title: {article['title']}\n"
-        f"Content: {article['summary']}"
+        f"Title: {clean_title}\n"
+        f"Content: {clean_content}"
     )
     try:
         response = client.chat.completions.create(
@@ -247,7 +279,10 @@ def generate_summary(client, article):
             max_tokens=120,
             messages=[{"role": "user", "content": prompt}],
         )
-        return response.choices[0].message.content.strip()
+        result = response.choices[0].message.content.strip()
+        if _is_inaccessible(result):
+            return None  # Signal caller to skip this article
+        return result
     except Exception as e:
         print(f"  Warning: summary failed for '{article['title'][:40]}' — {e}")
         return article["summary"][:200] + "..."
@@ -585,13 +620,44 @@ def main():
         key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc),
         reverse=True
     )
-    print(f"\nTotal new articles: {len(all_articles)}")
+
+    # Global deduplication across all categories (same build)
+    global_seen_links  = set()
+    global_seen_titles = set()
+    deduped_all = []
+    for a in all_articles:
+        link_key  = a["link"].strip().lower()
+        title_key = a["title"].lower()[:80]
+        if link_key in global_seen_links or title_key in global_seen_titles:
+            continue
+        global_seen_links.add(link_key)
+        global_seen_titles.add(title_key)
+        deduped_all.append(a)
+    all_articles = deduped_all
+    print(f"\nTotal new articles (after global dedup): {len(all_articles)}")
 
     if client and all_articles:
         print(f"\nGenerating summaries (top {MAX_AI_SUMMARIES})...")
-        for i, article in enumerate(all_articles[:MAX_AI_SUMMARIES]):
-            print(f"  [{i+1}/{MAX_AI_SUMMARIES}] {article['title'][:50]}...")
-            article["ai_summary"] = generate_summary(client, article)
+        kept = []
+        skipped = 0
+        i = 0
+        candidates = list(all_articles)  # iterate over full pool
+        summarised = 0
+        for article in candidates:
+            if summarised >= MAX_AI_SUMMARIES:
+                kept.append(article)  # keep remaining without summary
+                continue
+            print(f"  [{summarised+1}/{MAX_AI_SUMMARIES}] {article['title'][:50]}...")
+            summary = generate_summary(client, article)
+            if summary is None:
+                print(f"    → Skipped (inaccessible content)")
+                skipped += 1
+                continue
+            article["ai_summary"] = summary
+            kept.append(article)
+            summarised += 1
+        all_articles = kept
+        print(f"  Skipped {skipped} inaccessible article(s).")
         print("\nGenerating daily digest...")
         digest_text = generate_daily_digest(client, all_articles)
         print("  Done.")
