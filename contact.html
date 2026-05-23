@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — TechLoop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0B1120;
+      --bg-secondary: #111827;
+      --blue: #3B82F6;
+      --purple: #8B5CF6;
+      --cyan: #22D3EE;
+      --green: #34d399;
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --border: rgba(255,255,255,0.06);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Space Grotesk', sans-serif;
+      min-height: 100vh;
+    }
+    nav {
+      background: rgba(11,17,32,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; gap: 2rem; height: 60px;
+    }
+    .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+    .logo-icon {
+      width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 14px; color: white;
+    }
+    .logo-text { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--text-primary); }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; margin-left: 1rem; }
+    .nav-links a { text-decoration: none; font-size: 0.85rem; font-weight: 500; color: var(--text-secondary); transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text-primary); }
+    .nav-links a.home { color: var(--text-primary); }
+    .nav-links a.ai { color: var(--cyan); }
+    .nav-links a.gadgets { color: var(--purple); }
+    .nav-links a.innovation { color: #34d399; }
+    .nav-links a.startups { color: var(--blue); }
+    .nav-links a.gaming { color: #f59e0b; }
+
+    .page-hero {
+      background: linear-gradient(135deg, rgba(34,211,238,0.07) 0%, rgba(59,130,246,0.06) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .page-hero .tag {
+      display: inline-block;
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--green);
+      border: 1px solid rgba(52,211,153,0.25);
+      border-radius: 100px; padding: 0.3rem 1rem; margin-bottom: 1.5rem;
+    }
+    .page-hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800; margin-bottom: 0.75rem;
+    }
+    .page-hero p { color: var(--text-secondary); font-size: 1rem; }
+
+    .content {
+      max-width: 600px; margin: 0 auto; padding: 4rem 2rem 6rem;
+      text-align: center;
+    }
+
+    .contact-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 2rem;
+      transition: border-color 0.3s;
+    }
+    .contact-card:hover { border-color: rgba(59,130,246,0.3); }
+
+    .contact-icon {
+      width: 60px; height: 60px;
+      background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(139,92,246,0.15));
+      border: 1px solid rgba(59,130,246,0.2);
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      margin: 0 auto 1.5rem;
+    }
+
+    .contact-card h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem; font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .contact-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .email-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 2rem;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .email-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    .topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .topic-tag {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    .note {
+      color: var(--text-secondary);
+      font-size: 0.88rem;
+      line-height: 1.7;
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 2rem; text-align: center;
+    }
+    footer p { color: var(--text-secondary); font-size: 0.82rem; }
+    footer a { color: var(--blue); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon">TL</div>
+        <span class="logo-text">TechLoop</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/category/ai" class="ai">AI</a></li>
+        <li><a href="/category/gadgets" class="gadgets">Gadgets</a></li>
+        <li><a href="/category/innovation" class="innovation">Innovation</a></li>
+        <li><a href="/category/startups" class="startups">Startups</a></li>
+        <li><a href="/category/gaming" class="gaming">Gaming</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <span class="tag">Get in touch</span>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you.</p>
+  </section>
+
+  <div class="content">
+
+    <div class="contact-card">
+      <div class="contact-icon">✉️</div>
+      <h2>Say Hello</h2>
+      <p>Have a question, a suggestion, or just want to talk tech? Drop us an email — we read every message.</p>
+      <a href="mailto:hello@techloop.ie" class="email-btn">
+        hello@techloop.ie
+      </a>
+    </div>
+
+    <p style="color: var(--text-secondary); font-size:0.9rem; margin-bottom:1rem;">We're happy to hear about:</p>
+    <div class="topics">
+      <span class="topic-tag">📰 Story suggestions</span>
+      <span class="topic-tag">🤝 Partnerships</span>
+      <span class="topic-tag">🐛 Bug reports</span>
+      <span class="topic-tag">💡 Feedback</span>
+      <span class="topic-tag">📣 Advertising</span>
+    </div>
+
+    <p class="note">We aim to reply within 2 business days. TechLoop is based in Ireland 🇮🇪</p>
+
+  </div>
+
+  <footer>
+    <p>© 2025 TechLoop. All rights reserved. · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>

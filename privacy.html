@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — TechLoop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0B1120;
+      --bg-secondary: #111827;
+      --blue: #3B82F6;
+      --purple: #8B5CF6;
+      --cyan: #22D3EE;
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --border: rgba(255,255,255,0.06);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Space Grotesk', sans-serif;
+      min-height: 100vh;
+    }
+    nav {
+      background: rgba(11,17,32,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; gap: 2rem; height: 60px;
+    }
+    .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+    .logo-icon {
+      width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 14px; color: white;
+    }
+    .logo-text { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--text-primary); }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; margin-left: 1rem; }
+    .nav-links a { text-decoration: none; font-size: 0.85rem; font-weight: 500; color: var(--text-secondary); transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text-primary); }
+    .nav-links a.home { color: var(--text-primary); }
+    .nav-links a.ai { color: var(--cyan); }
+    .nav-links a.gadgets { color: var(--purple); }
+    .nav-links a.innovation { color: #34d399; }
+    .nav-links a.startups { color: var(--blue); }
+    .nav-links a.gaming { color: #f59e0b; }
+
+    .page-hero {
+      background: linear-gradient(135deg, rgba(139,92,246,0.08) 0%, rgba(59,130,246,0.06) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .page-hero .tag {
+      display: inline-block;
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--purple);
+      border: 1px solid rgba(139,92,246,0.25);
+      border-radius: 100px; padding: 0.3rem 1rem; margin-bottom: 1.5rem;
+    }
+    .page-hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800; margin-bottom: 0.75rem;
+    }
+    .page-hero .updated {
+      color: var(--text-secondary); font-size: 0.88rem;
+    }
+
+    .content {
+      max-width: 760px; margin: 0 auto; padding: 4rem 2rem 6rem;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    .section h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.15rem; font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .section p {
+      color: var(--text-secondary);
+      font-size: 0.98rem;
+      line-height: 1.85;
+    }
+    .section a { color: var(--blue); text-decoration: none; }
+    .section a:hover { text-decoration: underline; }
+
+    footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 2rem; text-align: center;
+    }
+    footer p { color: var(--text-secondary); font-size: 0.82rem; }
+    footer a { color: var(--blue); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon">TL</div>
+        <span class="logo-text">TechLoop</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/category/ai" class="ai">AI</a></li>
+        <li><a href="/category/gadgets" class="gadgets">Gadgets</a></li>
+        <li><a href="/category/innovation" class="innovation">Innovation</a></li>
+        <li><a href="/category/startups" class="startups">Startups</a></li>
+        <li><a href="/category/gaming" class="gaming">Gaming</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <span class="tag">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 2025</p>
+  </section>
+
+  <div class="content">
+
+    <div class="section">
+      <p>TechLoop ("we", "us", or "our") is committed to protecting your privacy. This policy explains how we handle information when you visit techloop.ie.</p>
+    </div>
+
+    <div class="section">
+      <h2>Information We Collect</h2>
+      <p>TechLoop does not collect personal data. We do not require registration, login, or any form of account creation to use this website. We may use anonymous analytics tools (such as page view counters) to understand general traffic patterns. This data is aggregated and cannot be used to identify individual users.</p>
+    </div>
+
+    <div class="section">
+      <h2>Third-Party Links</h2>
+      <p>All news articles on TechLoop link to their original sources. We are not responsible for the privacy practices of third-party websites. We encourage you to read the privacy policy of any website you visit.</p>
+    </div>
+
+    <div class="section">
+      <h2>Cookies</h2>
+      <p>TechLoop uses minimal cookies strictly necessary for the website to function. We do not use tracking or advertising cookies.</p>
+    </div>
+
+    <div class="section">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this policy occasionally. Any changes will be reflected on this page with an updated date.</p>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>For any privacy-related questions, please contact us at <a href="mailto:hello@techloop.ie">hello@techloop.ie</a></p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 TechLoop. All rights reserved. · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+  </footer>
+
+</body>
+</html>
