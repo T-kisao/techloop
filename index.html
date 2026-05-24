@@ -415,7 +415,6 @@
       z-index: 2;
     }
 
-    /* Main AI card */
     .card--main {
       grid-row: 1 / 3;
       min-height: 340px;
@@ -446,7 +445,6 @@
       overflow: hidden;
     }
 
-    /* Side cards (Gadgets, Innovation) */
     .card--side {
       flex-direction: row;
       min-height: 110px;
@@ -476,7 +474,6 @@
       overflow: hidden;
     }
 
-    /* Bottom cards (Startups, Gaming) */
     .card--bottom {
       flex-direction: row;
       min-height: 120px;
@@ -514,7 +511,6 @@
       overflow: hidden;
     }
 
-    /* Shared card elements */
     .card__cat {
       display: inline-flex;
       align-items: center;
@@ -559,7 +555,6 @@
       text-transform: uppercase;
     }
 
-    /* Placeholder image fallback */
     .card__img-wrap {
       background: var(--bg-card-alt);
       display: flex;
@@ -592,6 +587,7 @@
       transition: border-color .25s, transform .25s, box-shadow .25s, background .25s;
       position: relative;
       overflow: hidden;
+      text-decoration: none;
     }
     .cat-pill::before {
       content: '';
@@ -605,12 +601,12 @@
       box-shadow: 0 12px 32px rgba(0,0,0,.3);
     }
     .cat-pill:hover::before { opacity: 1; }
-    .cat-pill--ai::before    { background: radial-gradient(ellipse at top, rgba(34,211,238,.1), transparent 60%); }
-    .cat-pill--gadgets::before  { background: radial-gradient(ellipse at top, rgba(139,92,246,.1), transparent 60%); }
+    .cat-pill--ai::before         { background: radial-gradient(ellipse at top, rgba(34,211,238,.1), transparent 60%); }
+    .cat-pill--gadgets::before    { background: radial-gradient(ellipse at top, rgba(139,92,246,.1), transparent 60%); }
     .cat-pill--innovation::before { background: radial-gradient(ellipse at top, rgba(52,211,153,.1), transparent 60%); }
-    .cat-pill--startups::before { background: radial-gradient(ellipse at top, rgba(59,130,246,.1), transparent 60%); }
-    .cat-pill--gaming::before   { background: radial-gradient(ellipse at top, rgba(245,158,11,.1), transparent 60%); }
-    .cat-pill--ai:hover    { border-color: rgba(34,211,238,.4); }
+    .cat-pill--startups::before   { background: radial-gradient(ellipse at top, rgba(59,130,246,.1), transparent 60%); }
+    .cat-pill--gaming::before     { background: radial-gradient(ellipse at top, rgba(245,158,11,.1), transparent 60%); }
+    .cat-pill--ai:hover         { border-color: rgba(34,211,238,.4); }
     .cat-pill--gadgets:hover    { border-color: rgba(139,92,246,.4); }
     .cat-pill--innovation:hover { border-color: rgba(52,211,153,.4); }
     .cat-pill--startups:hover   { border-color: rgba(59,130,246,.4); }
@@ -624,11 +620,11 @@
       justify-content: center;
       font-size: 18px;
     }
-    .cat-pill--ai    .cat-pill__icon { background: rgba(34,211,238,.15); }
-    .cat-pill--gadgets .cat-pill__icon { background: rgba(139,92,246,.15); }
+    .cat-pill--ai         .cat-pill__icon { background: rgba(34,211,238,.15); }
+    .cat-pill--gadgets    .cat-pill__icon { background: rgba(139,92,246,.15); }
     .cat-pill--innovation .cat-pill__icon { background: rgba(52,211,153,.15); }
-    .cat-pill--startups .cat-pill__icon { background: rgba(59,130,246,.15); }
-    .cat-pill--gaming .cat-pill__icon { background: rgba(245,158,11,.15); }
+    .cat-pill--startups   .cat-pill__icon { background: rgba(59,130,246,.15); }
+    .cat-pill--gaming     .cat-pill__icon { background: rgba(245,158,11,.15); }
 
     .cat-pill__name {
       font-family: var(--font-display);
@@ -636,11 +632,11 @@
       font-weight: 700;
       letter-spacing: .04em;
     }
-    .cat-pill--ai    .cat-pill__name { color: var(--cat-ai); }
-    .cat-pill--gadgets .cat-pill__name { color: var(--cat-gadgets); }
+    .cat-pill--ai         .cat-pill__name { color: var(--cat-ai); }
+    .cat-pill--gadgets    .cat-pill__name { color: var(--cat-gadgets); }
     .cat-pill--innovation .cat-pill__name { color: var(--cat-innovation); }
-    .cat-pill--startups .cat-pill__name { color: var(--cat-startups); }
-    .cat-pill--gaming .cat-pill__name { color: var(--cat-gaming); }
+    .cat-pill--startups   .cat-pill__name { color: var(--cat-startups); }
+    .cat-pill--gaming     .cat-pill__name { color: var(--cat-gaming); }
 
     .cat-pill__count {
       font-family: var(--font-mono);
@@ -656,10 +652,7 @@
       gap: 20px;
       align-items: start;
     }
-    .digest__poll {
-      position: sticky;
-      top: 80px;
-    }
+    .digest__poll { position: sticky; top: 80px; }
     .digest__main {
       background: var(--bg-secondary);
       border: 1px solid var(--border);
@@ -717,21 +710,15 @@
       line-height: 1.4;
       margin-bottom: 5px;
     }
-    .digest__item-title a {
-      transition: color .2s;
-    }
+    .digest__item-title a { transition: color .2s; }
     .digest__item-title a:hover { color: var(--cyan); }
     .digest__item-sum {
       font-size: 13px;
       color: var(--text-secondary);
       line-height: 1.6;
     }
-    .digest__item-cat {
-      margin-top: 6px;
-      display: inline-block;
-    }
+    .digest__item-cat { margin-top: 6px; display: inline-block; }
 
-    /* Poll widget */
     .digest__poll {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -811,11 +798,7 @@
       border-radius: 50%;
       background: var(--blue);
     }
-    .poll-result-bar {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
+    .poll-result-bar { display: flex; flex-direction: column; gap: 8px; }
     .poll-result-item { display: flex; flex-direction: column; gap: 4px; }
     .poll-result-label {
       display: flex;
@@ -854,15 +837,9 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
     }
-    .card--small .card__image-wrap {
-      height: 150px;
-      overflow: hidden;
-    }
+    .card--small .card__image-wrap { height: 150px; overflow: hidden; }
     .card--small .card__image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .4s;
+      width: 100%; height: 100%; object-fit: cover; transition: transform .4s;
     }
     .card--small:hover .card__image { transform: scale(1.04); }
     .card--small .card__body { padding: 16px; flex: 1; }
@@ -896,7 +873,7 @@
     }
     .footer__top {
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr;
       gap: 40px;
       padding-bottom: 32px;
       border-bottom: 1px solid var(--border);
@@ -966,10 +943,7 @@
       flex-wrap: wrap;
       gap: 12px;
     }
-    .footer__copy {
-      font-size: 12px;
-      color: var(--text-muted);
-    }
+    .footer__copy { font-size: 12px; color: var(--text-muted); }
     .footer__copy a { color: var(--blue); }
     .footer__built {
       font-family: var(--font-mono);
@@ -1005,7 +979,6 @@
     @media (max-width: 1024px) {
       .featured-top { grid-template-columns: 1fr; }
       .card--main { grid-row: auto; }
-      .card--side { flex-direction: row; }
       .cats-grid { grid-template-columns: repeat(3, 1fr); }
       .footer__top { grid-template-columns: 1fr 1fr; }
     }
@@ -1056,15 +1029,12 @@
       transform: translateY(16px);
       transition: opacity .5s ease, transform .5s ease;
     }
-    .fade-in.visible {
-      opacity: 1;
-      transform: none;
-    }
+    .fade-in.visible { opacity: 1; transform: none; }
   </style>
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════════════ NAVBAR -->
+  <!-- NAVBAR -->
   <nav class="navbar" aria-label="Main navigation">
     <div class="container">
       <div class="navbar__inner">
@@ -1075,11 +1045,11 @@
 
         <div class="navbar__nav" role="navigation">
           <a href="/" class="active">Home</a>
-          <a href="#" style="color:#22D3EE">AI</a>
-          <a href="#" style="color:#8B5CF6">Gadgets</a>
-          <a href="#" style="color:#34d399">Innovation</a>
-          <a href="#" style="color:#3B82F6">Startups</a>
-          <a href="#" style="color:#f59e0b">Gaming</a>
+          <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+          <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+          <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+          <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+          <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
         </div>
 
         <div class="navbar__right">
@@ -1095,42 +1065,41 @@
   <!-- Mobile nav -->
   <div class="mobile-nav" id="mobile-nav">
     <a href="/">Home</a>
-    <a href="#" style="color:#22D3EE">AI</a>
-    <a href="#" style="color:#8B5CF6">Gadgets</a>
-    <a href="#" style="color:#34d399">Innovation</a>
-    <a href="#" style="color:#3B82F6">Startups</a>
-    <a href="#" style="color:#f59e0b">Gaming</a>
+    <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+    <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+    <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+    <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+    <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
   </div>
 
-  <!-- ═══════════════════════════════════════════════════ TICKER -->
+  <!-- TICKER -->
   <div class="ticker" role="marquee" aria-label="Breaking news ticker">
     <div class="ticker__label">Breaking</div>
     <div class="ticker__track">
       <div class="ticker__inner" id="ticker-inner">
-        <span class="ticker__item"><a href="https://www.theverge.com/column/935545/hackers-ai-chatbots" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Hackers are learning to exploit chatbot &#8216;personalities&#8217;</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Technology usually creates jobs for young, skilled workers. Will AI do the same?</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/steel-ball-run-episode-2-second-stage-jesus-christ-explained/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Steel Ball Run episode 2 could introduce a mind-blowing character you'll never see coming</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/a-petition-calling-on-sony-to-greenlight-destiny-3-has-over-120000-signatures-already-and-its-rising-fast" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> A Petition Calling on Sony to Greenlight Destiny 3 Has Over 120,000 Signatures Already — and It's Rising Fast</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/deals_galaxy_s26_ultra_is_250_off_foldables_on_sale_sony_wh1000x_the_collexion_launches-news-72949.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Deals: Galaxy S26 Ultra is $250 off, foldables on sale, Sony WH-1000X The ColleXion launches</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/23/focus-filters-group-chat-support-ios-27-suggestion/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple’s Focus filters are a great feature, but they have a glaring blind spot: group chats</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/apple_sleep_apnea_hearing_test_features_india-news-72969.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple's sleep apnea notifications and hearing test features are now available in India</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/dead-by-daylight-players-react-after-traumatizing-cabin-stream-confirms-jason-voorhees-as-new-killer" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Dead by Daylight Players React After 'Traumatizing' Cabin Stream Confirms Jason Voorhees as New Killer</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/resident-evil-movie-director-says-fans-would-be-bummed-if-he-just-did-the-story-of-the-games" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Resident Evil Movie Director Says Fans Would Be 'Bummed' If He 'Just Did the Story of the Games'</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/23/these-premium-desk-accessories-completely-upgraded-my-setup-video/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> These premium desk accessories completely upgraded my setup [Video]</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.theverge.com/column/935545/hackers-ai-chatbots" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Hackers are learning to exploit chatbot &#8216;personalities&#8217;</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Technology usually creates jobs for young, skilled workers. Will AI do the same?</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/steel-ball-run-episode-2-second-stage-jesus-christ-explained/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Steel Ball Run episode 2 could introduce a mind-blowing character you'll never see coming</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/a-petition-calling-on-sony-to-greenlight-destiny-3-has-over-120000-signatures-already-and-its-rising-fast" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> A Petition Calling on Sony to Greenlight Destiny 3 Has Over 120,000 Signatures Already — and It's Rising Fast</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/deals_galaxy_s26_ultra_is_250_off_foldables_on_sale_sony_wh1000x_the_collexion_launches-news-72949.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Deals: Galaxy S26 Ultra is $250 off, foldables on sale, Sony WH-1000X The ColleXion launches</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/23/focus-filters-group-chat-support-ios-27-suggestion/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple’s Focus filters are a great feature, but they have a glaring blind spot: group chats</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.gsmarena.com/apple_sleep_apnea_hearing_test_features_india-news-72969.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Apple's sleep apnea notifications and hearing test features are now available in India</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/dead-by-daylight-players-react-after-traumatizing-cabin-stream-confirms-jason-voorhees-as-new-killer" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Dead by Daylight Players React After 'Traumatizing' Cabin Stream Confirms Jason Voorhees as New Killer</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.ign.com/articles/resident-evil-movie-director-says-fans-would-be-bummed-if-he-just-did-the-story-of-the-games" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Resident Evil Movie Director Says Fans Would Be 'Bummed' If He 'Just Did the Story of the Games'</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/05/23/these-premium-desk-accessories-completely-upgraded-my-setup-video/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> These premium desk accessories completely upgraded my setup [Video]</a></span><span class="ticker__sep">◆</span>
+        <span class="ticker__item"><a href="https://www.gsmarena.com/top_10_trending_phones_of_week_21-news-72971.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Top 10 trending phones of week 21</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.fastcompany.com/91546429/amazons-drone-ambitions-are-about-to-reshape-chicagos-south-suburbs?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Amazon’s drone ambitions are about to reshape Chicago’s south suburbs</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/poltergeist-ii-retrospective/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Poltergeist II was a huge step down, but it's still worth watching</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.eurogamer.net/007-first-light-leak" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.ign.com/articles/karmine-corp-wins-rlcs-paris-major-2026" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Karmine Corp Crowned Champions of Rocket League Paris Major</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/spider-noirs-nic-cage-claims-he-turned-down-a-role-in-a-beloved-christopher-nolan-movie/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Spider-Noir's Nic Cage turned down a role in  beloved Christopher Nolan movie Insomnia</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.ign.com/articles/best-deals-for-may-24-2026" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Best Deals Today: RX 9070 XT, M5 MacBook Air, LEGO Back to the Future, and More</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/songs-of-the-dead-brandon-sanderson-peter-orullian-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Peter Orullian talks working with Brandon Sanderson on Songs of the Dead</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.engadget.com/2180247/white-house-is-reportedly-forcing-its-official-app-onto-all-government-employee-phones/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> The White House is reportedly forcing its official app onto all government employee phones</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> 6 kitchen gadgets that make adulting feel easier</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/top_10_trending_phones_of_week_21-news-72971.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Top 10 trending phones of week 21</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.fastcompany.com/91546429/amazons-drone-ambitions-are-about-to-reshape-chicagos-south-suburbs?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Amazon’s drone ambitions are about to reshape Chicago’s south suburbs</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/poltergeist-ii-retrospective/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Poltergeist II was a huge step down, but it's still worth watching</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.eurogamer.net/007-first-light-leak" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.ign.com/articles/karmine-corp-wins-rlcs-paris-major-2026" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Karmine Corp Crowned Champions of Rocket League Paris Major</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/spider-noirs-nic-cage-claims-he-turned-down-a-role-in-a-beloved-christopher-nolan-movie/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Spider-Noir's Nic Cage turned down a role in  beloved Christopher Nolan movie Insomnia</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.ign.com/articles/best-deals-for-may-24-2026" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Best Deals Today: RX 9070 XT, M5 MacBook Air, LEGO Back to the Future, and More</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/songs-of-the-dead-brandon-sanderson-peter-orullian-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Peter Orullian talks working with Brandon Sanderson on Songs of the Dead</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.engadget.com/2180247/white-house-is-reportedly-forcing-its-official-app-onto-all-government-employee-phones/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> The White House is reportedly forcing its official app onto all government employee phones</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> 6 kitchen gadgets that make adulting feel easier</a></span><span class="ticker__sep">◆</span>
 
-        <!-- Fallback static items (replaced by script) -->
         <span class="ticker__item">
           <span class="ticker__cat ticker__cat--ai">AI</span>
           <span>Latest tech news loading…</span>
@@ -1140,7 +1109,7 @@
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════════════════ HERO -->
+  <!-- HERO -->
   <section class="hero">
     <div class="container">
       <div class="hero__inner">
@@ -1157,8 +1126,7 @@
         </div>
         <div class="hero__meta">
           <div class="hero__date">
-            24 May 2026 · 12:13 UTC
-            <!-- Replaced at build time -->
+            24 May 2026 · 21:22 UTC
           </div>
           <div class="hero__updated">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
@@ -1172,7 +1140,7 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ FEATURED -->
+  <!-- FEATURED -->
   <section class="featured">
     <div class="container">
       <div class="section-head">
@@ -1184,95 +1152,89 @@
           </svg>
         </a>
       </div>
-
       <div class="featured-top">
   <div class="card card--main fade-in">
-    <a class="card__overlay" href="https://www.theverge.com/column/935545/hackers-ai-chatbots" target="_blank" rel="noopener" aria-label="Hackers are learning to exploit chatbot &#8216;personalities&#8217;"></a>
-    <img src="https://images.pexels.com/photos/17887854/pexels-photo-17887854.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Hackers are learning to exploit chatbot &#8216;personalities&#8217;" class="card__image" style="" loading="lazy">
+    <a class="card__overlay" href="https://www.gsmarena.com/top_10_trending_phones_of_week_21-news-72971.php" target="_blank" rel="noopener" aria-label="Top 10 trending phones of week 21"></a>
+    <img src="https://fdn.gsmarena.com/imgroot/news/19/04/top10-trending-phones/-952x498w6/gsmarena_002.jpg" alt="Top 10 trending phones of week 21" class="card__image" style="" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Hackers are learning to exploit chatbot &#8216;personalities&#8217;</div>
-      <div class="card__summary">Hackers are discovering new vulnerabilities in AI chatbots by targeting their unique personalities, which are designed to make interactions more relatable and engaging. As chatbots become more prevalent in our daily lives, they're becoming increasingly attractive targets for malicious actors looking to exploit their weaknesses.</div>
+      <div class="card__title">Top 10 trending phones of week 21</div>
+      <div class="card__summary">The Samsung Galaxy A57 takes the top spot in this week's trending phone chart, closely followed by the Galaxy S26 Ultra in second place. Rounding out the top three is the new Sony Xperia 1 VIII, while other popular models include the Xiaomi 17 Max and the budget-friendly Samsung Galaxy A17.</div>
       <div class="card__meta">
-        <span class="card__source">The Verge</span>
-        <span>·</span>
-        <span>13m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--side fade-in">
-    <a class="card__overlay" href="https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521" target="_blank" rel="noopener" aria-label="Technology usually creates jobs for young, skilled workers. Will AI do the same?"></a>
-    <img src="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-NewWork-01-press.jpg?itok=byMeP8Rb" alt="Technology usually creates jobs for young, skilled workers. Will AI do the same?" class="card__image" style="" loading="lazy">
-    <div class="card__body">
-      <span class="card__cat card__cat--innovation">Innovation</span>
-      <div class="card__title">Technology usually creates jobs for young, skilled workers. Will AI do the same?</div>
-      <div class="card__meta">
-        <span class="card__source">MIT News - Innovation and Entrepreneurship (I&amp;E)</span>
-        <span>·</span>
-        <span>3d ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--side fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/steel-ball-run-episode-2-second-stage-jesus-christ-explained/" target="_blank" rel="noopener" aria-label="Steel Ball Run episode 2 could introduce a mind-blowing character you'll never see coming"></a>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/hdskcp3wgaedt4q.jpg" alt="Steel Ball Run episode 2 could introduce a mind-blowing character you'll never see coming" class="card__image" style="" loading="lazy">
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Steel Ball Run episode 2 could introduce a mind-blowing character you'll never see coming</div>
-      <div class="card__meta">
-        <span class="card__source">Polygon.com</span>
-        <span>·</span>
-        <span>12m ago</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <!-- Python script injects AI (main) + Gadgets + Innovation cards here -->
-
-      <div class="featured-bottom">
-  <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/" target="_blank" rel="noopener" aria-label="SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest"></a>
-    <div class="card__image card__img-wrap" style="width:140px;flex-shrink:0;object-fit:cover;"><svg class="card__img-placeholder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest</div>
-      <div class="card__summary">SolarSquare could be valued at up to $500 million in the financing expected to close next month.…</div>
-      <div class="card__meta">
-        <span class="card__source">TechCrunch</span>
-        <span>·</span>
-        <span>16h ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://www.ign.com/articles/a-petition-calling-on-sony-to-greenlight-destiny-3-has-over-120000-signatures-already-and-its-rising-fast" target="_blank" rel="noopener" aria-label="A Petition Calling on Sony to Greenlight Destiny 3 Has Over 120,000 Signatures Already — and It's Rising Fast"></a>
-    <img src="https://assets-prd.ignimgs.com/2026/05/24/918hlteaoxl-ac-sl1500-1779620615618.jpg" alt="A Petition Calling on Sony to Greenlight Destiny 3 Has Over 120,000 Signatures Already — and It's Rising Fast" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
-    <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">A Petition Calling on Sony to Greenlight Destiny 3 Has Over 120,000 Signatures Already — and It's Rising Fast</div>
-      <div class="card__summary">A passionate community of Destiny fans has rallied behind a petition calling on Sony to officially announce Destiny 3, reaching an impressive 120,000 signatures. While the petition's success is undeniable, the game's fate remains uncertain, and it's unclear if Sony will give the green light to a new installment in the popular franchise.</div>
-      <div class="card__meta">
-        <span class="card__source">IGN Articles</span>
+        <span class="card__source">GSMArena.com - Latest articles</span>
         <span>·</span>
         <span>1h ago</span>
       </div>
     </div>
   </div>
+  <div class="card card--side fade-in">
+    <a class="card__overlay" href="https://www.fastcompany.com/91546429/amazons-drone-ambitions-are-about-to-reshape-chicagos-south-suburbs?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener" aria-label="Amazon’s drone ambitions are about to reshape Chicago’s south suburbs"></a>
+    <img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-2-91546429-amazons-drone-ambitions-are-about-to-reshape-chicagos-south-suburbs.jpg" alt="Amazon’s drone ambitions are about to reshape Chicago’s south suburbs" class="card__image" style="" loading="lazy">
+    <div class="card__body">
+      <span class="card__cat card__cat--innovation">Innovation</span>
+      <div class="card__title">Amazon’s drone ambitions are about to reshape Chicago’s south suburbs</div>
+      <div class="card__meta">
+        <span class="card__source">Fast Company - technology</span>
+        <span>·</span>
+        <span>9h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--side fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/poltergeist-ii-retrospective/" target="_blank" rel="noopener" aria-label="Poltergeist II was a huge step down, but it's still worth watching"></a>
+    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/julian-beck-as-reverend-kane-poltergeist-2.jpg" alt="Poltergeist II was a huge step down, but it's still worth watching" class="card__image" style="" loading="lazy">
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">Poltergeist II was a huge step down, but it's still worth watching</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>21m ago</span>
+      </div>
+    </div>
+  </div>
 </div>
 
-      <!-- Python script injects Startups + Gaming cards here -->
+      <div class="featured-bottom">
+  <div class="card card--bottom fade-in">
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/" target="_blank" rel="noopener" aria-label="Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry"></a>
+    <img src="https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-22-at-9.02.36-AM.png?resize=1200,673" alt="Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <div class="card__body">
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry</div>
+      <div class="card__summary">Xreal, a company partnering with Google on smartglasses technology, believes it has cracked the code on creating successful and user-friendly smart glasses. With a potential breakthrough, founder and CEO Chi Xu says the industry has reached a turning point after years of trying to perfect the concept.</div>
+      <div class="card__meta">
+        <span class="card__source">TechCrunch</span>
+        <span>·</span>
+        <span>2h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--bottom fade-in">
+    <a class="card__overlay" href="https://www.eurogamer.net/007-first-light-leak" target="_blank" rel="noopener" aria-label="As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission"></a>
+    <img src="https://images.pexels.com/photos/6939344/pexels-photo-6939344.jpeg?auto=compress&cs=tinysrgb&h=350" alt="As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission</div>
+      <div class="card__summary">IO Interactive has officially released footage of the opening mission from its upcoming James Bond game, 007 First Light, amidst a leaked version of the first 13 minutes of gameplay that appeared online. The shared footage offers a sneak peek into the game's early stages, revealing the action-packed style and cinematic quality expected from the highly anticipated game.</div>
+      <div class="card__meta">
+        <span class="card__source">Eurogamer.net Latest Articles Feed</span>
+        <span>·</span>
+        <span>35m ago</span>
+      </div>
+    </div>
+  </div>
+</div>
 
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ CATEGORIES -->
+  <!-- CATEGORIES -->
   <section class="categories">
     <div class="container">
       <div class="section-head">
         <h2 class="section-head__title">Browse by Category</h2>
       </div>
-
       <div class="cats-grid">
   <a href="#" class="cat-pill cat-pill--ai">
     <div class="cat-pill__icon">🤖</div>
@@ -1287,12 +1249,12 @@
   <a href="#" class="cat-pill cat-pill--innovation">
     <div class="cat-pill__icon">💡</div>
     <div class="cat-pill__name">Innovation</div>
-    <div class="cat-pill__count">0 articles</div>
+    <div class="cat-pill__count">1 articles</div>
   </a>
   <a href="#" class="cat-pill cat-pill--startups">
     <div class="cat-pill__icon">🚀</div>
     <div class="cat-pill__name">Startups</div>
-    <div class="cat-pill__count">0 articles</div>
+    <div class="cat-pill__count">6 articles</div>
   </a>
   <a href="#" class="cat-pill cat-pill--gaming">
     <div class="cat-pill__icon">🎮</div>
@@ -1301,18 +1263,16 @@
   </a>
 </div>
 
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ DIGEST -->
+  <!-- DIGEST -->
   <section class="digest">
     <div class="container">
       <div class="section-head">
         <h2 class="section-head__title">Daily Digest</h2>
         <span class="hero__date" id="digest-date"></span>
       </div>
-
       <div class="digest__grid">
         <div class="digest__main">
           <div class="digest__header">
@@ -1322,69 +1282,68 @@
               </svg>
               Today's Top Stories
             </div>
-            <div class="digest__date" id="digest-date-label">24 May 2026 · 12:13 UTC</div>
+            <div class="digest__date" id="digest-date-label">24 May 2026 · 21:22 UTC</div>
           </div>
           <div class="digest__body">
-
-            <p class="digest__intro">Today's tech scene is buzzing with a mix of intriguing announcements and alarming trends. Gaming enthusiasts are abuzz over the forthcoming episode 2 of Steel Ball Run, which is expected to introduce a jaw-dropping character that will leave fans stunned. Meanwhile, the gaming world is abuzz with a petition calling on Sony to greenlight a much-awaited Destiny 3, which has already garnered over 120,000 signatures. Unfortunately, the increasing sophistication of hackers targeting chatbots has cast a shadow over the tech industry, revealing the potential for these digital personas to be exploited for malicious purposes. In more positive news, Apple has rolled out several new features, including sleep apnea notifications and hearing tests, which are now available in India to improve users' overall digital well-being.</p>
+            <p class="digest__intro">Today's tech headlines are dominated by gaming, with the Rocket League Paris Major culminating in Karmine Corp's champion title, while 007 First Light's official footage has been released, coinciding with leaked footage of the game's first 13 minutes going online. Meanwhile, IO Interactive's upcoming title is generating excitement alongside the revelation that Spider-Noir's Nic Cage was approached to star in Christopher Nolan's Insomnia - a role that ultimately went to Al Pacino. The gaming deals of the day feature enticing offers on hardware like the RX 9070 XT and the M5 MacBook Air, while writers like Peter Orullian are dishing on the creative process behind Songs of the Dead, a collaboration with bestselling author Brandon Sanderson. Amidst the gaming frenzy, breakthroughs in gadget tech have been spotted, with Xreal's smartglasses gaining serious traction as Google's long-time partner.</p>
 <div class="digest__items">
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">01</div>
-    <img src="https://fdn.gsmarena.com/imgroot/news/26/05/weekly-deals-22/-952x498w6/gsmarena_us.jpg" alt="Deals: Galaxy S26 Ultra is $250 off, foldables on sale, Sony WH-1000X The ColleXion launches" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://assets-prd.ignimgs.com/2026/05/24/20260523-michalkonkol-rlcs-paris-major-144243-1779654535585.jpg" alt="Karmine Corp Crowned Champions of Rocket League Paris Major" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.gsmarena.com/deals_galaxy_s26_ultra_is_250_off_foldables_on_sale_sony_wh1000x_the_collexion_launches-news-72949.php" target="_blank" rel="noopener">Deals: Galaxy S26 Ultra is $250 off, foldables on sale, Sony WH-1000X The ColleXion launches</a></div>
-      <div class="digest__item-sum">The Samsung Galaxy S26 Ultra is now on sale, offering customers a $250 discount from its original price. Upgrades to the phone are also underway, with a new One UI 9 beta available, featuring enhanced accessibility, security, and UI improvements based on Android 17.</div>
-      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
+      <div class="digest__item-title"><a href="https://www.ign.com/articles/karmine-corp-wins-rlcs-paris-major-2026" target="_blank" rel="noopener">Karmine Corp Crowned Champions of Rocket League Paris Major</a></div>
+      <div class="digest__item-sum">Karmine Corp made history by winning the 2026 RLCS Paris Major championship in a thrilling tournament that brought the house down. The victory came just as Rocket League unveiled a surprise teaser showcasing its upcoming upgrade to Unreal Engine 6.</div>
+      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">02</div>
-    <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/12/messages-app-icon-ios-26.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Apple’s Focus filters are a great feature, but they have a glaring blind spot: group chats" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/nore_still_7_3000.jpg" alt="Spider-Noir's Nic Cage turned down a role in  beloved Christopher Nolan movie Insomnia" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://9to5mac.com/2026/05/23/focus-filters-group-chat-support-ios-27-suggestion/" target="_blank" rel="noopener">Apple’s Focus filters are a great feature, but they have a glaring blind spot: group chats</a></div>
-      <div class="digest__item-sum">Apple's Focus Filters offer a convenient way to block distractions and prioritize tasks by silencing unnecessary notifications and apps. However, the feature falls short for group chats, where the filters only block notifications from people outside of a specific focus, making it less effective than promised.</div>
-      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
+      <div class="digest__item-title"><a href="https://www.polygon.com/spider-noirs-nic-cage-claims-he-turned-down-a-role-in-a-beloved-christopher-nolan-movie/" target="_blank" rel="noopener">Spider-Noir's Nic Cage turned down a role in  beloved Christopher Nolan movie Insomnia</a></div>
+      <div class="digest__item-sum">Nicolas Cage has revealed that he once turned down a role in Christopher Nolan's 2002 movie Insomnia, which starred Al Pacino and Robin Williams. Cage's decision reportedly led to a rift with the acclaimed director, who hasn't called him back for any projects since.</div>
+      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">03</div>
-    <img src="https://fdn.gsmarena.com/imgroot/news/26/05/apple-sleep-apnea-hearing-test-features-india/-952x498w6/gsmarena_001.jpg" alt="Apple's sleep apnea notifications and hearing test features are now available in India" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://assets-prd.ignimgs.com/2026/05/18/gigabyte9070xt-1779124537228.jpg" alt="The Best Deals Today: RX 9070 XT, M5 MacBook Air, LEGO Back to the Future, and More" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.gsmarena.com/apple_sleep_apnea_hearing_test_features_india-news-72969.php" target="_blank" rel="noopener">Apple's sleep apnea notifications and hearing test features are now available in India</a></div>
-      <div class="digest__item-sum">Apple has expanded two health features to India: sleep apnea notifications, which alert users to potential breathing disruptions during sleep, and hearing tests, designed to detect early signs of hearing loss. These features, powered by the Apple Watch, can help users identify potential health issues, such as hypertension and cardiac problems, and promote timely medical attention.</div>
-      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
+      <div class="digest__item-title"><a href="https://www.ign.com/articles/best-deals-for-may-24-2026" target="_blank" rel="noopener">The Best Deals Today: RX 9070 XT, M5 MacBook Air, LEGO Back to the Future, and More</a></div>
+      <div class="digest__item-sum">I'm not able to access the requested content as you didn't provide the text for the article. However, based on the title, here's a 2-sentence summary of what it might be about:
+
+Get ready to save big on the latest tech deals, including a powerful graphics card, a sleek MacBook Air, and more exciting offers. Whether you're a gamer, a student, or a fan of nostalgic LEGO sets, there's something for everyone in today's collection of hot deals.</div>
+      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">04</div>
-    <img src="https://assets-prd.ignimgs.com/2026/05/23/dead-by-daylight-jason-1779559537807.png" alt="Dead by Daylight Players React After 'Traumatizing' Cabin Stream Confirms Jason Voorhees as New Killer" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/strata-wars.jpg" alt="Peter Orullian talks working with Brandon Sanderson on Songs of the Dead" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.ign.com/articles/dead-by-daylight-players-react-after-traumatizing-cabin-stream-confirms-jason-voorhees-as-new-killer" target="_blank" rel="noopener">Dead by Daylight Players React After 'Traumatizing' Cabin Stream Confirms Jason Voorhees as New Killer</a></div>
-      <div class="digest__item-sum">A long-held request from Dead by Daylight players has finally been fulfilled asBehaviour Interactive has confirmed Jason Voorhees as the game's newest killer. After a suspenseful 13-hour livestream, fans were revealed the long-awaited news, ending a decade-long wait for the iconic horror character.</div>
+      <div class="digest__item-title"><a href="https://www.polygon.com/songs-of-the-dead-brandon-sanderson-peter-orullian-interview/" target="_blank" rel="noopener">Peter Orullian talks working with Brandon Sanderson on Songs of the Dead</a></div>
+      <div class="digest__item-sum">Peter Orullian, author of the Modern Gods series, partnered with renowned fantasy writer Brandon Sanderson on the Songs of the Dead series, weaving a thrilling tale of magic and mystery set in a hidden world beneath London. Their collaboration brings together two masters of the genre to create an immersive and epic fantasy experience for readers.</div>
       <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
     </div>
   </div>
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">05</div>
-    <img src="https://assets-prd.ignimgs.com/2026/04/28/residentevil-thumb-1777417521520.jpg" alt="Resident Evil Movie Director Says Fans Would Be 'Bummed' If He 'Just Did the Story of the Games'" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://www.engadget.com/img/gallery/the-white-house-is-reportedly-forcing-its-official-app-onto-all-government-employee-phones/l-intro-1779645823.jpg" alt="The White House is reportedly forcing its official app onto all government employee phones" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.ign.com/articles/resident-evil-movie-director-says-fans-would-be-bummed-if-he-just-did-the-story-of-the-games" target="_blank" rel="noopener">Resident Evil Movie Director Says Fans Would Be 'Bummed' If He 'Just Did the Story of the Games'</a></div>
-      <div class="digest__item-sum">Resident Evil movie director Zach Cregger has faced criticism for deviating from the game's storyline, but he aims to bring a fresh perspective to fans rather than simply retelling the games. By creating his own narrative, Cregger hopes to give audiences a unique take on the popular franchise, rather than just regurgitating existing material.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.engadget.com/2180247/white-house-is-reportedly-forcing-its-official-app-onto-all-government-employee-phones/" target="_blank" rel="noopener">The White House is reportedly forcing its official app onto all government employee phones</a></div>
+      <div class="digest__item-sum">The White House is taking a bold step in mobile app marketing by mandating that all government employee phones download its official app, likely in a bid to boost its download numbers. The move aims to increase app usage and engagement among government workers, though details on how this decision was made remain unclear.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
   <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">06</div>
-    <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/desk-accessories.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="These premium desk accessories completely upgraded my setup [Video]" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
+    <img src="https://techcrunch.com/wp-content/uploads/2015/04/lego-chef.jpg?resize=1200,686" alt="6 kitchen gadgets that make adulting feel easier" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://9to5mac.com/2026/05/23/these-premium-desk-accessories-completely-upgraded-my-setup-video/" target="_blank" rel="noopener">These premium desk accessories completely upgraded my setup [Video]</a></div>
-      <div class="digest__item-sum">People who invest in premium desk accessories often find they last longer and improve their workflow. By choosing well-built and thoughtfully designed products, individuals can create a more efficient and lasting workspace despite the constant changes in technology.</div>
-      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
+      <div class="digest__item-title"><a href="https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/" target="_blank" rel="noopener">6 kitchen gadgets that make adulting feel easier</a></div>
+      <div class="digest__item-sum">Kitchen gadgets can make cooking and baking feel less overwhelming, thanks to innovative tools like robots that stir and heat soups, and bread machines that knead dough. By automating certain tasks, these gadgets make cooking feel more manageable, allowing home cooks to focus on creative recipes and experimentation.</div>
+      <span class="card__cat card__cat--startups digest__item-cat">Startups</span>
     </div>
   </div>
 </div>
-
-            <!-- Python script injects numbered digest items here -->
 
           </div>
         </div>
@@ -1412,11 +1371,10 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ LATEST -->
+  <!-- LATEST -->
   <section class="latest" id="latest">
     <div class="container">
       <div class="section-head">
@@ -1428,58 +1386,125 @@
           </svg>
         </a>
       </div>
-
       <div class="latest__grid">
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.ign.com/articles/vampyros-lesbos-she-killed-in-ecstasy-review-jess-franco-soledad-miranda" target="_blank" rel="noopener" aria-label="Vampyros Lesbos/She Killed in Ecstasy Review"></a>
-    <div class="card__image-wrap"><img src="https://assets-prd.ignimgs.com/2026/05/18/soledadtimestwoa-1779142285788.jpg" alt="Vampyros Lesbos/She Killed in Ecstasy Review" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/" target="_blank" rel="noopener" aria-label="TechCrunch Mobility: Robotaxi reality check"></a>
+    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2026/05/waymo-back-getty.jpg?resize=1200,800" alt="TechCrunch Mobility: Robotaxi reality check" class="card__image" loading="lazy"></div>
     <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Vampyros Lesbos/She Killed in Ecstasy Review</div>
-      <div class="card__summary">Spanish film director Jess Franco's cult classics "Vampyros Lesbos" and "She Killed in Ecstasy" have been beautifully restored in stunning 4K quality, giving new life to these iconic 1970s horror classics. The high-definition upgrades allow fans to experience Franco's unique blend of horror and eroticism in vivid detail, making these films a must-see for anyone interested in the art of cult cinema.</div>
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">TechCrunch Mobility: Robotaxi reality check</div>
+      <div class="card__summary">Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.…</div>
       <div class="card__meta">
-        <span class="card__source">IGN Articles</span>
+        <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>22h ago</span>
+        <span>5h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/05/23/belkin-5000mah-magsafe-slim-battery-bank-hands-on-kickstand/" target="_blank" rel="noopener" aria-label="Hands-on: Belkin’s new 5K MagSafe battery bank offers a kickstand in a slim design"></a>
-    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/Belkin-MagSafe-slim.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Hands-on: Belkin’s new 5K MagSafe battery bank offers a kickstand in a slim design" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://9to5mac.com/2026/05/24/apple-improving-heart-rate-tracking-in-watchos-27-mulberry-health-coach-delays/" target="_blank" rel="noopener" aria-label="Report: watchOS 27 to improve heart-rate tracking; AI health coach may not debut at launch"></a>
+    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/watchos-27-apple-watch-ultra-blue.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Report: watchOS 27 to improve heart-rate tracking; AI health coach may not debut at launch" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Hands-on: Belkin’s new 5K MagSafe battery bank offers a kickstand in a slim design</div>
-      <div class="card__summary">After being introduced at CES, Belkin has recently started shipping some of its newest MagSafe and Qi2 products for 2026. First up is their slim Qi2 battery ban…</div>
+      <div class="card__title">Report: watchOS 27 to improve heart-rate tracking; AI health coach may not debut at launch</div>
+      <div class="card__summary">For the better part of a year, we’ve been hearing about Project Mulberry : Apple’s AI-powered health coach. Back in February, it was reported that these efforts…</div>
       <div class="card__meta">
         <span class="card__source">9to5Mac</span>
         <span>·</span>
-        <span>22h ago</span>
+        <span>5h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.eurogamer.net/kotick-activision-ap7-lawsuit-embracer" target="_blank" rel="noopener" aria-label="Former CEO Bobby Kotick claims lawsuit against Microsoft's acquisition of Activision was only filed to help Embracer"></a>
-    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/34816940/pexels-photo-34816940.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Former CEO Bobby Kotick claims lawsuit against Microsoft's acquisition of Activision was only filed to help Embracer" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://www.engadget.com/2180225/kalshi-and-rhode-island-sue-each-other-in-latest-challenge-to-prediction-markets/" target="_blank" rel="noopener" aria-label="Kalshi and Rhode Island sue each other in latest challenge to prediction markets"></a>
+    <div class="card__image-wrap"><img src="https://www.engadget.com/img/gallery/kalshi-and-rhode-island-sue-each-other-in-latest-challenge-to-prediction-markets/l-intro-1779636733.jpg" alt="Kalshi and Rhode Island sue each other in latest challenge to prediction markets" class="card__image" loading="lazy"></div>
     <div class="card__body">
-      <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Former CEO Bobby Kotick claims lawsuit against Microsoft's acquisition of Activision was only filed to help Embracer</div>
-      <div class="card__summary">Ex-Activision Blizzard boss Bobby Kotick has claimed that a lawsuit opposing Microsoft's acquisition of the Call of Duty maker for $67.8bn was allegedly designe…</div>
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">Kalshi and Rhode Island sue each other in latest challenge to prediction markets</div>
+      <div class="card__summary">Rhode Island joins other states that have taken similar legal action.…</div>
       <div class="card__meta">
-        <span class="card__source">Eurogamer.net Latest Articles Feed</span>
+        <span class="card__source">Engadget - Technology News & Expert Reviews</span>
         <span>·</span>
-        <span>23h ago</span>
+        <span>5h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.gsmarena.com/our_realme_16t_battery_life_and_charging_test_is_done-news-72959.php" target="_blank" rel="noopener" aria-label="Our Realme 16T battery life and charging test is ready"></a>
+    <div class="card__image-wrap"><img src="https://fdn.gsmarena.com/imgroot/news/26/05/realme-16t-battery-life-test/-952x498w6/gsmarena_0000.jpg" alt="Our Realme 16T battery life and charging test is ready" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">Our Realme 16T battery life and charging test is ready</div>
+      <div class="card__summary">The Realme 16T combines a massive 8,000mAh battery with a reasonably-specced base for an affordable price - starts at INR29,999 (around €270, converted). Realme…</div>
+      <div class="card__meta">
+        <span class="card__source">GSMArena.com - Latest articles</span>
+        <span>·</span>
+        <span>5h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.theverge.com/entertainment/936860/robert-moor-on-trails-book-review" target="_blank" rel="noopener" aria-label="On Trails is a wandering tale that blends hiking, science, and history"></a>
+    <div class="card__image-wrap"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/On-Trails.jpg?quality=90&amp;strip=all&amp;crop=5.234375%2C0%2C89.53125%2C100&amp;w=1200" alt="On Trails is a wandering tale that blends hiking, science, and history" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gadgets">Gadgets</span>
+      <div class="card__title">On Trails is a wandering tale that blends hiking, science, and history</div>
+      <div class="card__summary">Hiking is one of life's great joys. Turning off the screens and stepping out into nature for an extended period of time, perhaps even several days, is rejuvenat…</div>
+      <div class="card__meta">
+        <span class="card__source">The Verge</span>
+        <span>·</span>
+        <span>6h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/" target="_blank" rel="noopener" aria-label="I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out"></a>
+    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/5942025/pexels-photo-5942025.jpeg?auto=compress&cs=tinysrgb&h=350" alt="I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out</div>
+      <div class="card__summary">Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.…</div>
+      <div class="card__meta">
+        <span class="card__source">TechCrunch</span>
+        <span>·</span>
+        <span>6h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.siliconrepublic.com/start-ups/vc-funding-in-irish-smes-falls-58pc-in-q1-ivca-finds" target="_blank" rel="noopener" aria-label="VC funding in Irish SMEs falls 58pc in Q1, IVCA finds"></a>
+    <div class="card__image-wrap"><img src="https://www.siliconrepublic.com/wp-content/uploads/2026/05/63-Caroline-Gaynor-chairperson-Irish-Venture-Capital-Association.-Photo-Fennell-Photography.-330x251.jpg" alt="VC funding in Irish SMEs falls 58pc in Q1, IVCA finds" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">VC funding in Irish SMEs falls 58pc in Q1, IVCA finds</div>
+      <div class="card__summary">Notable rounds this past quarter include Neurent Medical, Aerska, Evervault, Circuit and XFuel. Read more: VC funding in Irish SMEs falls 58pc in Q1, IVCA finds…</div>
+      <div class="card__meta">
+        <span class="card__source">Silicon Republic</span>
+        <span>·</span>
+        <span>8h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://techcrunch.com/2026/05/24/the-dreamie-alarm-clock-got-me-to-stop-using-my-phone-in-bed/" target="_blank" rel="noopener" aria-label="The Dreamie alarm clock got me to stop using my phone in bed"></a>
+    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/26184175/pexels-photo-26184175.jpeg?auto=compress&cs=tinysrgb&h=350" alt="The Dreamie alarm clock got me to stop using my phone in bed" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--startups">Startups</span>
+      <div class="card__title">The Dreamie alarm clock got me to stop using my phone in bed</div>
+      <div class="card__summary">What sets Dreamie apart from all of the other fancy alarm clocks is laughably simple: It can play podcasts.…</div>
+      <div class="card__meta">
+        <span class="card__source">TechCrunch</span>
+        <span>·</span>
+        <span>8h ago</span>
       </div>
     </div>
   </div>
 </div>
 
-      <!-- Python script injects latest article cards (3-column grid) here -->
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ FOOTER -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
@@ -1498,22 +1523,11 @@
         <div>
           <div class="footer__col-title">Categories</div>
           <div class="footer__links">
-            <a href="#">AI</a>
-            <a href="#">Gadgets</a>
-            <a href="#">Innovation</a>
-            <a href="#">Startups</a>
-            <a href="#">Gaming</a>
-          </div>
-        </div>
-
-        <div>
-          <div class="footer__col-title">Sources</div>
-          <div class="footer__links">
-            <a href="#" rel="noopener">MIT Tech Review</a>
-            <a href="#" rel="noopener">The Verge</a>
-            <a href="#" rel="noopener">TechCrunch</a>
-            <a href="#" rel="noopener">Eurogamer</a>
-            <a href="#" rel="noopener">Silicon Republic</a>
+            <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+            <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+            <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+            <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+            <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
           </div>
         </div>
 
@@ -1539,9 +1553,9 @@
     </div>
   </footer>
 
-  <!-- ═══════════════════════════════════════════════════ SCRIPTS -->
+  <!-- SCRIPTS -->
   <script>
-    /* ── Hamburger ─────────────────────────────────────────── */
+    /* Hamburger */
     const hamburger = document.getElementById('hamburger');
     const mobileNav = document.getElementById('mobile-nav');
     hamburger?.addEventListener('click', () => {
@@ -1552,148 +1566,86 @@
       a.addEventListener('click', () => mobileNav.classList.remove('open'));
     });
 
-    /* ── Ticker duplicate for seamless loop ────────────────── */
+    /* Ticker duplicate */
     const tickerInner = document.getElementById('ticker-inner');
     if (tickerInner && tickerInner.children.length) {
       const clone = tickerInner.cloneNode(true);
       tickerInner.parentElement.appendChild(clone);
     }
 
-    /* ── Scroll fade-in ────────────────────────────────────── */
+    /* Scroll fade-in */
     const fadeEls = document.querySelectorAll('.fade-in');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
       });
     }, { threshold: 0.12 });
     fadeEls.forEach(el => observer.observe(el));
 
-    /* ── Weekly Poll ────────────────────────────────────────── */
+    /* Weekly Poll */
     const POLLS = [
-      {
-        q: "Which AI assistant do you use most in 2025?",
-        opts: ["ChatGPT", "Claude", "Gemini", "Other"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Will foldable phones become mainstream by 2027?",
-        opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "What's the most exciting tech trend of 2025?",
-        opts: ["AI agents", "AR/VR glasses", "EVs", "Robotics"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Is the EU's approach to AI regulation good for innovation?",
-        opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "How do you primarily read tech news?",
-        opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Will AI replace most junior coding jobs by 2030?",
-        opts: ["Definitely yes", "Partially yes", "Unlikely", "No"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Best gaming platform right now?",
-        opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"],
-        votes: [0,0,0,0]
-      }
+      { q: "Which AI assistant do you use most in 2025?", opts: ["ChatGPT", "Claude", "Gemini", "Other"], votes: [0,0,0,0] },
+      { q: "Will foldable phones become mainstream by 2027?", opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"], votes: [0,0,0,0] },
+      { q: "What's the most exciting tech trend of 2025?", opts: ["AI agents", "AR/VR glasses", "EVs", "Robotics"], votes: [0,0,0,0] },
+      { q: "Is the EU's approach to AI regulation good for innovation?", opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"], votes: [0,0,0,0] },
+      { q: "How do you primarily read tech news?", opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"], votes: [0,0,0,0] },
+      { q: "Will AI replace most junior coding jobs by 2030?", opts: ["Definitely yes", "Partially yes", "Unlikely", "No"], votes: [0,0,0,0] },
+      { q: "Best gaming platform right now?", opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"], votes: [0,0,0,0] }
     ];
-
     function getWeekPollIndex() {
       const now = new Date();
       const start = new Date(now.getFullYear(), 0, 1);
       const week = Math.floor((now - start) / (7 * 24 * 3600 * 1000));
       return week % POLLS.length;
     }
-
     function getPollKey() {
       const now = new Date();
       const year = now.getFullYear();
       const week = Math.floor((now - new Date(year,0,1)) / (7*24*3600*1000));
       return `tl_poll_${year}_${week}`;
     }
-
     function loadPollState() {
-      try {
-        const raw = localStorage.getItem(getPollKey());
-        return raw ? JSON.parse(raw) : null;
-      } catch { return null; }
+      try { const raw = localStorage.getItem(getPollKey()); return raw ? JSON.parse(raw) : null; } catch { return null; }
     }
-
     function savePollState(state) {
       try { localStorage.setItem(getPollKey(), JSON.stringify(state)); } catch {}
     }
-
     function renderPoll() {
       const idx = getWeekPollIndex();
       const poll = POLLS[idx];
       const state = loadPollState() || { votes: [...poll.votes], voted: null };
-
       const qEl = document.getElementById('poll-question');
       const optsEl = document.getElementById('poll-options');
       const votesEl = document.getElementById('poll-votes');
-
       if (!qEl || !optsEl) return;
       qEl.textContent = poll.q;
-
       const totalVotes = state.votes.reduce((a, b) => a + b, 0);
       votesEl.textContent = `${totalVotes} vote${totalVotes !== 1 ? 's' : ''}`;
-
       if (state.voted !== null) {
-        // Show results
         optsEl.innerHTML = '';
         const div = document.createElement('div');
         div.className = 'poll-result-bar';
         poll.opts.forEach((opt, i) => {
           const pct = totalVotes ? Math.round(state.votes[i] / totalVotes * 100) : 0;
-          div.innerHTML += `
-            <div class="poll-result-item">
-              <div class="poll-result-label">
-                <span>${opt}${i === state.voted ? ' ✓' : ''}</span>
-                <span>${pct}%</span>
-              </div>
-              <div class="poll-bar-track">
-                <div class="poll-bar-fill" style="width:${pct}%"></div>
-              </div>
-            </div>`;
+          div.innerHTML += `<div class="poll-result-item"><div class="poll-result-label"><span>${opt}${i === state.voted ? ' ✓' : ''}</span><span>${pct}%</span></div><div class="poll-bar-track"><div class="poll-bar-fill" style="width:${pct}%"></div></div></div>`;
         });
         optsEl.appendChild(div);
       } else {
-        // Show voting options
         optsEl.innerHTML = '';
         poll.opts.forEach((opt, i) => {
           const btn = document.createElement('button');
           btn.className = 'poll-option';
           btn.innerHTML = `<span class="poll-option__dot"></span>${opt}`;
-          btn.addEventListener('click', () => {
-            state.votes[i]++;
-            state.voted = i;
-            savePollState(state);
-            renderPoll();
-          });
+          btn.addEventListener('click', () => { state.votes[i]++; state.voted = i; savePollState(state); renderPoll(); });
           optsEl.appendChild(btn);
         });
       }
     }
-
     renderPoll();
 
-    /* ── Timestamp fill ─────────────────────────────────────── */
+    /* Timestamp */
     const now = new Date();
-    const fmt = new Intl.DateTimeFormat('en-IE', {
-      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
-    });
+    const fmt = new Intl.DateTimeFormat('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     document.querySelectorAll('.hero__date, #digest-date-label, #digest-date').forEach(el => {
       if (el && !el.textContent.trim()) el.textContent = fmt.format(now);
     });
