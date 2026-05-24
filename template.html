@@ -415,7 +415,6 @@
       z-index: 2;
     }
 
-    /* Main AI card */
     .card--main {
       grid-row: 1 / 3;
       min-height: 340px;
@@ -446,7 +445,6 @@
       overflow: hidden;
     }
 
-    /* Side cards (Gadgets, Innovation) */
     .card--side {
       flex-direction: row;
       min-height: 110px;
@@ -476,7 +474,6 @@
       overflow: hidden;
     }
 
-    /* Bottom cards (Startups, Gaming) */
     .card--bottom {
       flex-direction: row;
       min-height: 120px;
@@ -514,7 +511,6 @@
       overflow: hidden;
     }
 
-    /* Shared card elements */
     .card__cat {
       display: inline-flex;
       align-items: center;
@@ -559,7 +555,6 @@
       text-transform: uppercase;
     }
 
-    /* Placeholder image fallback */
     .card__img-wrap {
       background: var(--bg-card-alt);
       display: flex;
@@ -592,6 +587,7 @@
       transition: border-color .25s, transform .25s, box-shadow .25s, background .25s;
       position: relative;
       overflow: hidden;
+      text-decoration: none;
     }
     .cat-pill::before {
       content: '';
@@ -605,12 +601,12 @@
       box-shadow: 0 12px 32px rgba(0,0,0,.3);
     }
     .cat-pill:hover::before { opacity: 1; }
-    .cat-pill--ai::before    { background: radial-gradient(ellipse at top, rgba(34,211,238,.1), transparent 60%); }
-    .cat-pill--gadgets::before  { background: radial-gradient(ellipse at top, rgba(139,92,246,.1), transparent 60%); }
+    .cat-pill--ai::before         { background: radial-gradient(ellipse at top, rgba(34,211,238,.1), transparent 60%); }
+    .cat-pill--gadgets::before    { background: radial-gradient(ellipse at top, rgba(139,92,246,.1), transparent 60%); }
     .cat-pill--innovation::before { background: radial-gradient(ellipse at top, rgba(52,211,153,.1), transparent 60%); }
-    .cat-pill--startups::before { background: radial-gradient(ellipse at top, rgba(59,130,246,.1), transparent 60%); }
-    .cat-pill--gaming::before   { background: radial-gradient(ellipse at top, rgba(245,158,11,.1), transparent 60%); }
-    .cat-pill--ai:hover    { border-color: rgba(34,211,238,.4); }
+    .cat-pill--startups::before   { background: radial-gradient(ellipse at top, rgba(59,130,246,.1), transparent 60%); }
+    .cat-pill--gaming::before     { background: radial-gradient(ellipse at top, rgba(245,158,11,.1), transparent 60%); }
+    .cat-pill--ai:hover         { border-color: rgba(34,211,238,.4); }
     .cat-pill--gadgets:hover    { border-color: rgba(139,92,246,.4); }
     .cat-pill--innovation:hover { border-color: rgba(52,211,153,.4); }
     .cat-pill--startups:hover   { border-color: rgba(59,130,246,.4); }
@@ -624,11 +620,11 @@
       justify-content: center;
       font-size: 18px;
     }
-    .cat-pill--ai    .cat-pill__icon { background: rgba(34,211,238,.15); }
-    .cat-pill--gadgets .cat-pill__icon { background: rgba(139,92,246,.15); }
+    .cat-pill--ai         .cat-pill__icon { background: rgba(34,211,238,.15); }
+    .cat-pill--gadgets    .cat-pill__icon { background: rgba(139,92,246,.15); }
     .cat-pill--innovation .cat-pill__icon { background: rgba(52,211,153,.15); }
-    .cat-pill--startups .cat-pill__icon { background: rgba(59,130,246,.15); }
-    .cat-pill--gaming .cat-pill__icon { background: rgba(245,158,11,.15); }
+    .cat-pill--startups   .cat-pill__icon { background: rgba(59,130,246,.15); }
+    .cat-pill--gaming     .cat-pill__icon { background: rgba(245,158,11,.15); }
 
     .cat-pill__name {
       font-family: var(--font-display);
@@ -636,11 +632,11 @@
       font-weight: 700;
       letter-spacing: .04em;
     }
-    .cat-pill--ai    .cat-pill__name { color: var(--cat-ai); }
-    .cat-pill--gadgets .cat-pill__name { color: var(--cat-gadgets); }
+    .cat-pill--ai         .cat-pill__name { color: var(--cat-ai); }
+    .cat-pill--gadgets    .cat-pill__name { color: var(--cat-gadgets); }
     .cat-pill--innovation .cat-pill__name { color: var(--cat-innovation); }
-    .cat-pill--startups .cat-pill__name { color: var(--cat-startups); }
-    .cat-pill--gaming .cat-pill__name { color: var(--cat-gaming); }
+    .cat-pill--startups   .cat-pill__name { color: var(--cat-startups); }
+    .cat-pill--gaming     .cat-pill__name { color: var(--cat-gaming); }
 
     .cat-pill__count {
       font-family: var(--font-mono);
@@ -656,10 +652,7 @@
       gap: 20px;
       align-items: start;
     }
-    .digest__poll {
-      position: sticky;
-      top: 80px;
-    }
+    .digest__poll { position: sticky; top: 80px; }
     .digest__main {
       background: var(--bg-secondary);
       border: 1px solid var(--border);
@@ -717,21 +710,15 @@
       line-height: 1.4;
       margin-bottom: 5px;
     }
-    .digest__item-title a {
-      transition: color .2s;
-    }
+    .digest__item-title a { transition: color .2s; }
     .digest__item-title a:hover { color: var(--cyan); }
     .digest__item-sum {
       font-size: 13px;
       color: var(--text-secondary);
       line-height: 1.6;
     }
-    .digest__item-cat {
-      margin-top: 6px;
-      display: inline-block;
-    }
+    .digest__item-cat { margin-top: 6px; display: inline-block; }
 
-    /* Poll widget */
     .digest__poll {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -811,11 +798,7 @@
       border-radius: 50%;
       background: var(--blue);
     }
-    .poll-result-bar {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
+    .poll-result-bar { display: flex; flex-direction: column; gap: 8px; }
     .poll-result-item { display: flex; flex-direction: column; gap: 4px; }
     .poll-result-label {
       display: flex;
@@ -854,15 +837,9 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
     }
-    .card--small .card__image-wrap {
-      height: 150px;
-      overflow: hidden;
-    }
+    .card--small .card__image-wrap { height: 150px; overflow: hidden; }
     .card--small .card__image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .4s;
+      width: 100%; height: 100%; object-fit: cover; transition: transform .4s;
     }
     .card--small:hover .card__image { transform: scale(1.04); }
     .card--small .card__body { padding: 16px; flex: 1; }
@@ -896,7 +873,7 @@
     }
     .footer__top {
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr;
       gap: 40px;
       padding-bottom: 32px;
       border-bottom: 1px solid var(--border);
@@ -966,10 +943,7 @@
       flex-wrap: wrap;
       gap: 12px;
     }
-    .footer__copy {
-      font-size: 12px;
-      color: var(--text-muted);
-    }
+    .footer__copy { font-size: 12px; color: var(--text-muted); }
     .footer__copy a { color: var(--blue); }
     .footer__built {
       font-family: var(--font-mono);
@@ -1005,7 +979,6 @@
     @media (max-width: 1024px) {
       .featured-top { grid-template-columns: 1fr; }
       .card--main { grid-row: auto; }
-      .card--side { flex-direction: row; }
       .cats-grid { grid-template-columns: repeat(3, 1fr); }
       .footer__top { grid-template-columns: 1fr 1fr; }
     }
@@ -1056,15 +1029,12 @@
       transform: translateY(16px);
       transition: opacity .5s ease, transform .5s ease;
     }
-    .fade-in.visible {
-      opacity: 1;
-      transform: none;
-    }
+    .fade-in.visible { opacity: 1; transform: none; }
   </style>
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════════════ NAVBAR -->
+  <!-- NAVBAR -->
   <nav class="navbar" aria-label="Main navigation">
     <div class="container">
       <div class="navbar__inner">
@@ -1075,11 +1045,11 @@
 
         <div class="navbar__nav" role="navigation">
           <a href="/" class="active">Home</a>
-          <a href="#" style="color:#22D3EE">AI</a>
-          <a href="#" style="color:#8B5CF6">Gadgets</a>
-          <a href="#" style="color:#34d399">Innovation</a>
-          <a href="#" style="color:#3B82F6">Startups</a>
-          <a href="#" style="color:#f59e0b">Gaming</a>
+          <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+          <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+          <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+          <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+          <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
         </div>
 
         <div class="navbar__right">
@@ -1095,20 +1065,19 @@
   <!-- Mobile nav -->
   <div class="mobile-nav" id="mobile-nav">
     <a href="/">Home</a>
-    <a href="#" style="color:#22D3EE">AI</a>
-    <a href="#" style="color:#8B5CF6">Gadgets</a>
-    <a href="#" style="color:#34d399">Innovation</a>
-    <a href="#" style="color:#3B82F6">Startups</a>
-    <a href="#" style="color:#f59e0b">Gaming</a>
+    <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+    <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+    <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+    <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+    <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
   </div>
 
-  <!-- ═══════════════════════════════════════════════════ TICKER -->
+  <!-- TICKER -->
   <div class="ticker" role="marquee" aria-label="Breaking news ticker">
     <div class="ticker__label">Breaking</div>
     <div class="ticker__track">
       <div class="ticker__inner" id="ticker-inner">
         <!-- INJECT:TICKER -->
-        <!-- Fallback static items (replaced by script) -->
         <span class="ticker__item">
           <span class="ticker__cat ticker__cat--ai">AI</span>
           <span>Latest tech news loading…</span>
@@ -1118,7 +1087,7 @@
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════════════════ HERO -->
+  <!-- HERO -->
   <section class="hero">
     <div class="container">
       <div class="hero__inner">
@@ -1136,7 +1105,6 @@
         <div class="hero__meta">
           <div class="hero__date">
             <!-- INJECT:TIMESTAMP -->
-            <!-- Replaced at build time -->
           </div>
           <div class="hero__updated">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
@@ -1150,7 +1118,7 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ FEATURED -->
+  <!-- FEATURED -->
   <section class="featured">
     <div class="container">
       <div class="section-head">
@@ -1162,36 +1130,28 @@
           </svg>
         </a>
       </div>
-
       <!-- INJECT:FEATURED_TOP -->
-      <!-- Python script injects AI (main) + Gadgets + Innovation cards here -->
-
       <!-- INJECT:FEATURED_BOTTOM -->
-      <!-- Python script injects Startups + Gaming cards here -->
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ CATEGORIES -->
+  <!-- CATEGORIES -->
   <section class="categories">
     <div class="container">
       <div class="section-head">
         <h2 class="section-head__title">Browse by Category</h2>
       </div>
-
       <!-- INJECT:CATS -->
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ DIGEST -->
+  <!-- DIGEST -->
   <section class="digest">
     <div class="container">
       <div class="section-head">
         <h2 class="section-head__title">Daily Digest</h2>
         <span class="hero__date" id="digest-date"></span>
       </div>
-
       <div class="digest__grid">
         <div class="digest__main">
           <div class="digest__header">
@@ -1204,10 +1164,7 @@
             <div class="digest__date" id="digest-date-label"><!-- INJECT:TIMESTAMP --></div>
           </div>
           <div class="digest__body">
-
             <!-- INJECT:DIGEST -->
-            <!-- Python script injects numbered digest items here -->
-
           </div>
         </div>
 
@@ -1234,11 +1191,10 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ LATEST -->
+  <!-- LATEST -->
   <section class="latest" id="latest">
     <div class="container">
       <div class="section-head">
@@ -1250,14 +1206,11 @@
           </svg>
         </a>
       </div>
-
       <!-- INJECT:LATEST -->
-      <!-- Python script injects latest article cards (3-column grid) here -->
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════ FOOTER -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
@@ -1276,22 +1229,11 @@
         <div>
           <div class="footer__col-title">Categories</div>
           <div class="footer__links">
-            <a href="#">AI</a>
-            <a href="#">Gadgets</a>
-            <a href="#">Innovation</a>
-            <a href="#">Startups</a>
-            <a href="#">Gaming</a>
-          </div>
-        </div>
-
-        <div>
-          <div class="footer__col-title">Sources</div>
-          <div class="footer__links">
-            <a href="#" rel="noopener">MIT Tech Review</a>
-            <a href="#" rel="noopener">The Verge</a>
-            <a href="#" rel="noopener">TechCrunch</a>
-            <a href="#" rel="noopener">Eurogamer</a>
-            <a href="#" rel="noopener">Silicon Republic</a>
+            <a href="/category/ai.html" style="color:#22D3EE">AI</a>
+            <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
+            <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
+            <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
+            <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
           </div>
         </div>
 
@@ -1317,9 +1259,9 @@
     </div>
   </footer>
 
-  <!-- ═══════════════════════════════════════════════════ SCRIPTS -->
+  <!-- SCRIPTS -->
   <script>
-    /* ── Hamburger ─────────────────────────────────────────── */
+    /* Hamburger */
     const hamburger = document.getElementById('hamburger');
     const mobileNav = document.getElementById('mobile-nav');
     hamburger?.addEventListener('click', () => {
@@ -1330,148 +1272,86 @@
       a.addEventListener('click', () => mobileNav.classList.remove('open'));
     });
 
-    /* ── Ticker duplicate for seamless loop ────────────────── */
+    /* Ticker duplicate */
     const tickerInner = document.getElementById('ticker-inner');
     if (tickerInner && tickerInner.children.length) {
       const clone = tickerInner.cloneNode(true);
       tickerInner.parentElement.appendChild(clone);
     }
 
-    /* ── Scroll fade-in ────────────────────────────────────── */
+    /* Scroll fade-in */
     const fadeEls = document.querySelectorAll('.fade-in');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
       });
     }, { threshold: 0.12 });
     fadeEls.forEach(el => observer.observe(el));
 
-    /* ── Weekly Poll ────────────────────────────────────────── */
+    /* Weekly Poll */
     const POLLS = [
-      {
-        q: "Which AI assistant do you use most in 2025?",
-        opts: ["ChatGPT", "Claude", "Gemini", "Other"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Will foldable phones become mainstream by 2027?",
-        opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "What's the most exciting tech trend of 2025?",
-        opts: ["AI agents", "AR/VR glasses", "EVs", "Robotics"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Is the EU's approach to AI regulation good for innovation?",
-        opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "How do you primarily read tech news?",
-        opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Will AI replace most junior coding jobs by 2030?",
-        opts: ["Definitely yes", "Partially yes", "Unlikely", "No"],
-        votes: [0,0,0,0]
-      },
-      {
-        q: "Best gaming platform right now?",
-        opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"],
-        votes: [0,0,0,0]
-      }
+      { q: "Which AI assistant do you use most in 2025?", opts: ["ChatGPT", "Claude", "Gemini", "Other"], votes: [0,0,0,0] },
+      { q: "Will foldable phones become mainstream by 2027?", opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"], votes: [0,0,0,0] },
+      { q: "What's the most exciting tech trend of 2025?", opts: ["AI agents", "AR/VR glasses", "EVs", "Robotics"], votes: [0,0,0,0] },
+      { q: "Is the EU's approach to AI regulation good for innovation?", opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"], votes: [0,0,0,0] },
+      { q: "How do you primarily read tech news?", opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"], votes: [0,0,0,0] },
+      { q: "Will AI replace most junior coding jobs by 2030?", opts: ["Definitely yes", "Partially yes", "Unlikely", "No"], votes: [0,0,0,0] },
+      { q: "Best gaming platform right now?", opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"], votes: [0,0,0,0] }
     ];
-
     function getWeekPollIndex() {
       const now = new Date();
       const start = new Date(now.getFullYear(), 0, 1);
       const week = Math.floor((now - start) / (7 * 24 * 3600 * 1000));
       return week % POLLS.length;
     }
-
     function getPollKey() {
       const now = new Date();
       const year = now.getFullYear();
       const week = Math.floor((now - new Date(year,0,1)) / (7*24*3600*1000));
       return `tl_poll_${year}_${week}`;
     }
-
     function loadPollState() {
-      try {
-        const raw = localStorage.getItem(getPollKey());
-        return raw ? JSON.parse(raw) : null;
-      } catch { return null; }
+      try { const raw = localStorage.getItem(getPollKey()); return raw ? JSON.parse(raw) : null; } catch { return null; }
     }
-
     function savePollState(state) {
       try { localStorage.setItem(getPollKey(), JSON.stringify(state)); } catch {}
     }
-
     function renderPoll() {
       const idx = getWeekPollIndex();
       const poll = POLLS[idx];
       const state = loadPollState() || { votes: [...poll.votes], voted: null };
-
       const qEl = document.getElementById('poll-question');
       const optsEl = document.getElementById('poll-options');
       const votesEl = document.getElementById('poll-votes');
-
       if (!qEl || !optsEl) return;
       qEl.textContent = poll.q;
-
       const totalVotes = state.votes.reduce((a, b) => a + b, 0);
       votesEl.textContent = `${totalVotes} vote${totalVotes !== 1 ? 's' : ''}`;
-
       if (state.voted !== null) {
-        // Show results
         optsEl.innerHTML = '';
         const div = document.createElement('div');
         div.className = 'poll-result-bar';
         poll.opts.forEach((opt, i) => {
           const pct = totalVotes ? Math.round(state.votes[i] / totalVotes * 100) : 0;
-          div.innerHTML += `
-            <div class="poll-result-item">
-              <div class="poll-result-label">
-                <span>${opt}${i === state.voted ? ' ✓' : ''}</span>
-                <span>${pct}%</span>
-              </div>
-              <div class="poll-bar-track">
-                <div class="poll-bar-fill" style="width:${pct}%"></div>
-              </div>
-            </div>`;
+          div.innerHTML += `<div class="poll-result-item"><div class="poll-result-label"><span>${opt}${i === state.voted ? ' ✓' : ''}</span><span>${pct}%</span></div><div class="poll-bar-track"><div class="poll-bar-fill" style="width:${pct}%"></div></div></div>`;
         });
         optsEl.appendChild(div);
       } else {
-        // Show voting options
         optsEl.innerHTML = '';
         poll.opts.forEach((opt, i) => {
           const btn = document.createElement('button');
           btn.className = 'poll-option';
           btn.innerHTML = `<span class="poll-option__dot"></span>${opt}`;
-          btn.addEventListener('click', () => {
-            state.votes[i]++;
-            state.voted = i;
-            savePollState(state);
-            renderPoll();
-          });
+          btn.addEventListener('click', () => { state.votes[i]++; state.voted = i; savePollState(state); renderPoll(); });
           optsEl.appendChild(btn);
         });
       }
     }
-
     renderPoll();
 
-    /* ── Timestamp fill ─────────────────────────────────────── */
+    /* Timestamp */
     const now = new Date();
-    const fmt = new Intl.DateTimeFormat('en-IE', {
-      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
-    });
+    const fmt = new Intl.DateTimeFormat('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     document.querySelectorAll('.hero__date, #digest-date-label, #digest-date').forEach(el => {
       if (el && !el.textContent.trim()) el.textContent = fmt.format(now);
     });
