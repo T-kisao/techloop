@@ -223,8 +223,10 @@ def _pexels_query_from_title(title: str, category: str) -> str:
 
 def fetch_pexels_image(title: str, category: str) -> str:
     if not PEXELS_API_KEY:
+        print(f"  Warning: PEXELS_API_KEY not set — skipping Pexels for '{title[:40]}'")
         return ""
     query = _pexels_query_from_title(title, category)
+    print(f"  Pexels query for '{title[:40]}': '{query}'")
     try:
         import random
         resp = requests.get(
@@ -233,17 +235,22 @@ def fetch_pexels_image(title: str, category: str) -> str:
             params={"query": query, "per_page": 15, "orientation": "landscape"},
             timeout=8,
         )
-        if resp.status_code == 200:
-            photos = resp.json().get("photos", [])
-            unused = [p for p in photos if p["src"]["medium"] not in _pexels_used_urls]
-            if not unused:
-                unused = photos
-            if unused:
-                photo = random.choice(unused[:8])
-                url = photo["src"]["medium"]
-                _pexels_used_urls.add(url)
-                print(f"  Pexels [{query[:40]}]: {url[:60]}...")
-                return url
+        if resp.status_code != 200:
+            print(f"  Warning: Pexels returned {resp.status_code} for query '{query}'")
+            return ""
+        photos = resp.json().get("photos", [])
+        if not photos:
+            print(f"  Warning: Pexels returned 0 photos for query '{query}'")
+            return ""
+        unused = [p for p in photos if p["src"]["medium"] not in _pexels_used_urls]
+        if not unused:
+            unused = photos
+        if unused:
+            photo = random.choice(unused[:8])
+            url = photo["src"]["medium"]
+            _pexels_used_urls.add(url)
+            print(f"  Pexels [{query[:40]}]: {url[:60]}...")
+            return url
     except Exception as e:
         print(f"  Warning: Pexels fetch failed for '{title[:40]}' — {e}")
     return ""
@@ -297,17 +304,35 @@ def fetch_articles(category, urls, seen):
     return deduped[:MAX_PER_CATEGORY]
 
 def _extract_image(entry):
+    url = ""
     if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
-        return entry.media_thumbnail[0].get("url", "")
-    if hasattr(entry, "media_content") and entry.media_content:
+        url = entry.media_thumbnail[0].get("url", "")
+    elif hasattr(entry, "media_content") and entry.media_content:
         for m in entry.media_content:
             if m.get("type", "").startswith("image"):
-                return m.get("url", "")
-    if hasattr(entry, "enclosures") and entry.enclosures:
+                url = m.get("url", "")
+                break
+    elif hasattr(entry, "enclosures") and entry.enclosures:
         for enc in entry.enclosures:
             if enc.get("type", "").startswith("image"):
-                return enc.get("href", "")
-    return ""
+                url = enc.get("href", "")
+                break
+
+    if not url:
+        return ""
+
+    # Validate URL is actually accessible before accepting it
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; TechLoop/1.0)"}
+        resp = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
+        if resp.status_code == 200:
+            return url
+        else:
+            print(f"  Warning: RSS image returned {resp.status_code} — will use Pexels fallback")
+            return ""
+    except Exception:
+        print(f"  Warning: RSS image unreachable — will use Pexels fallback")
+        return ""
 
 # ── AI SUMMARIES ──────────────────────────────────────────────────────────────
 
@@ -521,7 +546,6 @@ def category_cards_html(articles):
         summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
         title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
         css = CAT_CSS.get(a["category"], "ai")
-        colors = CAT_COLORS.get(a["category"], CAT_COLORS["AI"])
         ago = time_ago(a["published"])
 
         img_html = ""
