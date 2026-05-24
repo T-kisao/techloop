@@ -1,37 +1,30 @@
 name: Daily Build
-
 on:
   schedule:
   - cron: '0 15 * * *'   # 15:00 UTC / 16:00 Irish Time
   workflow_dispatch:        # allow manual trigger
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install feedparser requests groq python-dateutil
-
       - name: Run generator
         env:
           GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python generate.py
-
-      - name: Commit updated index.html
+      - name: Commit updated files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html seen_articles.json
-          git diff --cached --quiet || git commit -m "chore: daily build $(date +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
+          git add index.html seen_articles.json category/
+          git diff --cached --quiet || git commit -m "chore: daily build $(date +'%Y-%m-%d %H:%M UTC')"
           git push
