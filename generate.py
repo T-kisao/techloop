@@ -2,7 +2,7 @@
 TechLoop — Daily News Aggregator
 ---------------------------------
 Fetches RSS feeds, generates AI summaries via Groq (free tier),
-and rebuilds index.html ready for Vercel deployment.
+and rebuilds index.html + category pages ready for Vercel deployment.
 
 Usage:
     python generate.py
@@ -38,7 +38,6 @@ FEATURED_COUNT       = 3
 SEEN_ARTICLES_TTL_DAYS = 7
 SEEN_ARTICLES_FILE   = Path("seen_articles.json")
 
-# Phrases that indicate the AI could not access/summarise the article
 _INACCESSIBLE_PHRASES = [
     "i'm unable to access",
     "i am unable to access",
@@ -55,19 +54,16 @@ _INACCESSIBLE_PHRASES = [
 ]
 
 def _strip_html(text: str) -> str:
-    """Remove HTML tags and decode common entities from a string."""
     text = re.sub(r"<[^>]+>", " ", text)
     text = text.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">") \
                .replace("&quot;", '"').replace("&#39;", "'").replace("&nbsp;", " ")
     return re.sub(r"\s{2,}", " ", text).strip()
 
 def _is_inaccessible(summary: str) -> bool:
-    """Return True if the AI summary indicates the article could not be accessed."""
     low = summary.lower()
     return any(phrase in low for phrase in _INACCESSIBLE_PHRASES)
 
 def _title_words(title: str) -> set:
-    """Return significant words from a title for fuzzy comparison."""
     stopwords = {"a","an","the","is","in","of","to","and","or","for","on",
                  "with","at","by","it","its","this","that","are","was","be",
                  "as","not","but","from","has","have","will","what","how",
@@ -77,8 +73,6 @@ def _title_words(title: str) -> set:
     return {w for w in words if w not in stopwords and len(w) > 2}
 
 def _is_duplicate_title(title: str, seen_titles_words: list, threshold: float = 0.35) -> bool:
-    """Return True if title shares >= threshold of the shorter title's words with any seen title.
-    Using the shorter title as denominator catches same-story coverage across different sources."""
     words = _title_words(title)
     if not words:
         return False
@@ -90,7 +84,6 @@ def _is_duplicate_title(title: str, seen_titles_words: list, threshold: float = 
             return True
     return False
 
-# Track Pexels URLs already used this build to avoid duplicate images
 _pexels_used_urls: set = set()
 
 # ── RSS SOURCES ───────────────────────────────────────────────────────────────
@@ -142,14 +135,30 @@ CAT_ICONS = {
     "Gaming": "🎮",
 }
 
+CAT_COLORS = {
+    "AI":         {"color": "#22D3EE", "dim": "rgba(34,211,238,0.08)", "border": "rgba(34,211,238,0.2)"},
+    "Gadgets":    {"color": "#8B5CF6", "dim": "rgba(139,92,246,0.08)", "border": "rgba(139,92,246,0.2)"},
+    "Innovation": {"color": "#34d399", "dim": "rgba(52,211,153,0.08)", "border": "rgba(52,211,153,0.2)"},
+    "Startups":   {"color": "#3B82F6", "dim": "rgba(59,130,246,0.08)", "border": "rgba(59,130,246,0.2)"},
+    "Gaming":     {"color": "#f59e0b", "dim": "rgba(245,158,11,0.08)", "border": "rgba(245,158,11,0.2)"},
+}
+
+CAT_TITLES = {
+    "AI":         "Artificial <span>Intelligence</span>",
+    "Gadgets":    "Latest <span>Gadgets</span>",
+    "Innovation": "Tech <span>Innovation</span>",
+    "Startups":   "Tech <span>Startups</span>",
+    "Gaming":     "Tech <span>Gaming</span>",
+}
+
 # ── SEEN ARTICLES ─────────────────────────────────────────────────────────────
 
 def load_seen_articles():
     if not SEEN_ARTICLES_FILE.exists():
         return {}
     try:
-        data     = json.loads(SEEN_ARTICLES_FILE.read_text(encoding="utf-8"))
-        cutoff   = (datetime.now(timezone.utc) - timedelta(days=SEEN_ARTICLES_TTL_DAYS)).isoformat()
+        data   = json.loads(SEEN_ARTICLES_FILE.read_text(encoding="utf-8"))
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=SEEN_ARTICLES_TTL_DAYS)).isoformat()
         return {k: v for k, v in data.items() if v >= cutoff}
     except Exception:
         return {}
@@ -190,7 +199,6 @@ def fetch_og_image(url):
         return ""
 
 def _pexels_query_from_title(title: str, category: str) -> str:
-    """Extract 3-4 meaningful keywords from the article title for Pexels search."""
     stopwords = {
         "a","an","the","is","in","of","to","and","or","for","on","with","at",
         "by","it","its","this","that","are","was","be","as","not","but","from",
@@ -214,7 +222,6 @@ def _pexels_query_from_title(title: str, category: str) -> str:
     return cat_fallbacks.get(category, "technology")
 
 def fetch_pexels_image(title: str, category: str) -> str:
-    """Fetch a unique Pexels image based on article title keywords."""
     if not PEXELS_API_KEY:
         return ""
     query = _pexels_query_from_title(title, category)
@@ -230,7 +237,7 @@ def fetch_pexels_image(title: str, category: str) -> str:
             photos = resp.json().get("photos", [])
             unused = [p for p in photos if p["src"]["medium"] not in _pexels_used_urls]
             if not unused:
-                unused = photos  # fallback: allow reuse if all exhausted
+                unused = photos
             if unused:
                 photo = random.choice(unused[:8])
                 url = photo["src"]["medium"]
@@ -321,7 +328,7 @@ def generate_summary(client, article):
         )
         result = response.choices[0].message.content.strip()
         if _is_inaccessible(result):
-            return None  # Signal caller to skip this article
+            return None
         return result
     except Exception as e:
         print(f"  Warning: summary failed for '{article['title'][:40]}' — {e}")
@@ -380,25 +387,10 @@ def _img_tag(url, alt, style=""):
         return f'<img src="{url}" alt="{alt}" class="card__image" style="{style}" loading="lazy">'
     return f'<div class="card__image card__img-wrap" style="{style}"><svg class="card__img-placeholder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>'
 
-
-# ── Featured Top: AI (main) + Gadgets + Innovation ────────────────────────────
-
 def featured_top_html(articles):
-    """
-    Expects list of 3 articles: [AI, Gadgets, Innovation]
-    Outputs:
-      <div class="featured-top">
-        card--main   (AI)
-        card--side   (Gadgets)
-        card--side   (Innovation)
-      </div>
-    """
     if not articles:
         return '<div class="featured-top"><p class="empty-state">No featured stories today.</p></div>'
-
     html = '<div class="featured-top">\n'
-
-    # Main card (AI)
     main = articles[0]
     summary = (main.get("ai_summary") or main["summary"][:220] + "…").replace("<", "&lt;").replace(">", "&gt;")
     title_esc = main["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
@@ -412,8 +404,6 @@ def featured_top_html(articles):
       {_card_meta(main)}
     </div>
   </div>\n'''
-
-    # Side cards (Gadgets, Innovation)
     for a in articles[1:3]:
         title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
         html += f'''  <div class="card card--side fade-in">
@@ -425,25 +415,12 @@ def featured_top_html(articles):
       {_card_meta(a)}
     </div>
   </div>\n'''
-
     html += '</div>\n'
     return html
 
-
-# ── Featured Bottom: Startups + Gaming ───────────────────────────────────────
-
 def featured_bottom_html(articles):
-    """
-    Expects list of 2 articles: [Startups, Gaming]
-    Outputs:
-      <div class="featured-bottom">
-        card--bottom  (Startups)
-        card--bottom  (Gaming)
-      </div>
-    """
     if not articles:
         return '<div class="featured-bottom"><p class="empty-state">No stories today.</p></div>'
-
     html = '<div class="featured-bottom">\n'
     for a in articles[:2]:
         summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
@@ -461,16 +438,9 @@ def featured_bottom_html(articles):
     html += '</div>\n'
     return html
 
-
-# ── Latest grid ───────────────────────────────────────────────────────────────
-
 def latest_cards_html(articles):
-    """
-    Outputs <div class="latest__grid"> with card--small items.
-    """
     if not articles:
         return '<div class="latest__grid"><p class="empty-state">No articles yet.</p></div>'
-
     html = '<div class="latest__grid">\n'
     for a in articles:
         summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
@@ -491,31 +461,23 @@ def latest_cards_html(articles):
     html += '</div>\n'
     return html
 
-
-# ── Ticker ────────────────────────────────────────────────────────────────────
-
 def ticker_items_html(articles):
     items = ""
     for a in articles[:14]:
         css   = CAT_CSS.get(a["category"], "ai")
         title = a["title"].replace("<", "&lt;").replace(">", "&gt;")
         items += f'<span class="ticker__item"><a href="{a["link"]}" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--{css}">{a["category"]}</span> {title}</a></span><span class="ticker__sep">◆</span>\n'
-    # Duplicate for seamless loop
     return items + items
-
-
-# ── Category pills ────────────────────────────────────────────────────────────
 
 def category_pills_html(all_articles):
     counts = {}
     for a in all_articles:
         counts[a["category"]] = counts.get(a["category"], 0) + 1
-
     html = '<div class="cats-grid">\n'
     for cat, css in CAT_CSS.items():
         count = counts.get(cat, 0)
         icon  = CAT_ICONS.get(cat, "📰")
-        html += f'''  <a href="#" class="cat-pill cat-pill--{css}">
+        html += f'''  <a href="/category/{css}.html" class="cat-pill cat-pill--{css}">
     <div class="cat-pill__icon">{icon}</div>
     <div class="cat-pill__name">{cat}</div>
     <div class="cat-pill__count">{count} articles</div>
@@ -523,29 +485,18 @@ def category_pills_html(all_articles):
     html += '</div>\n'
     return html
 
-
-# ── Daily Digest items ────────────────────────────────────────────────────────
-
 def digest_items_html(articles, digest_text):
-    """
-    Renders the digest paragraph + numbered article list
-    inside the .digest__body container.
-    """
     digest_esc = digest_text.replace("<", "&lt;").replace(">", "&gt;")
     html = f'<p class="digest__intro">{digest_esc}</p>\n<div class="digest__items">\n'
-
     for i, a in enumerate(articles[:6], 1):
         title_esc = a["title"].replace("<", "&lt;").replace(">", "&gt;")
         summary   = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
         css       = CAT_CSS.get(a["category"], "ai")
         num       = f"0{i}" if i < 10 else str(i)
-
-        # Thumbnail
         if a.get("image"):
             thumb_html = f'<img src="{a["image"]}" alt="{title_esc}" style="width:100px;height:100px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-top:2px;" loading="lazy">'
         else:
             thumb_html = f'<div style="width:100px;height:100px;border-radius:8px;flex-shrink:0;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:28px;">{CAT_ICONS.get(a["category"],"📰")}</div>'
-
         html += f'''  <div class="digest__item" style="align-items:flex-start;gap:14px;">
     <div class="digest__num">{num}</div>
     {thumb_html}
@@ -555,9 +506,76 @@ def digest_items_html(articles, digest_text):
       <span class="card__cat card__cat--{css} digest__item-cat">{a["category"]}</span>
     </div>
   </div>\n'''
-
     html += '</div>\n'
     return html
+
+
+# ── CATEGORY PAGE CARDS ───────────────────────────────────────────────────────
+
+def category_cards_html(articles):
+    """Generate article cards for a category page."""
+    if not articles:
+        return '<p class="empty-state">No articles in the last 7 days. Check back soon.</p>'
+    html = ""
+    for a in articles:
+        summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
+        title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        css = CAT_CSS.get(a["category"], "ai")
+        colors = CAT_COLORS.get(a["category"], CAT_COLORS["AI"])
+        ago = time_ago(a["published"])
+
+        img_html = ""
+        if a.get("image"):
+            img_html = f'<div class="card__image-wrap"><img src="{a["image"]}" alt="{title_esc}" class="card__image" loading="lazy"></div>'
+
+        html += f'''  <div class="card card--small fade-in">
+    <a class="card__overlay" href="{a["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
+    {img_html}
+    <div class="card__body">
+      <span class="card__cat card__cat--{css}">{a["category"]}</span>
+      <div class="card__meta">
+        <span class="card__source">{a["source"]}</span>
+        <span>·</span>
+        <span>{ago}</span>
+      </div>
+      <div class="card__title">{a["title"]}</div>
+      <div class="card__summary">{summary}</div>
+    </div>
+  </div>\n'''
+    return html
+
+
+# ── CATEGORY PAGE REBUILD ─────────────────────────────────────────────────────
+
+def rebuild_category_pages(articles_by_cat):
+    """Rebuild all 5 category HTML pages with real articles."""
+    cat_dir = Path("category")
+    cat_dir.mkdir(exist_ok=True)
+
+    for cat, css in CAT_CSS.items():
+        template_path = cat_dir / f"{css}.html"
+        if not template_path.exists():
+            print(f"  Warning: category/{css}.html not found — skipping.")
+            continue
+
+        html = template_path.read_text(encoding="utf-8")
+        articles = articles_by_cat.get(cat, [])
+        cards_html = category_cards_html(articles)
+        count = len(articles)
+
+        # Replace the INJECT marker
+        marker = f"<!-- INJECT:CAT_{cat.upper()} -->"
+        html = html.replace(marker, cards_html)
+
+        # Update article count in stat box
+        html = re.sub(
+            r'(<div class="stat-value" id="article-count">)[^<]*(</div>)',
+            rf'\g<1>{count}\2',
+            html
+        )
+
+        template_path.write_text(html, encoding="utf-8")
+        print(f"  category/{css}.html rebuilt — {count} articles")
 
 
 # ── TEMPLATE REBUILD ──────────────────────────────────────────────────────────
@@ -571,17 +589,15 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    # ── STEP 1: FEATURED — selected first, guaranteed 1 per category ──────────
-    # Build best-article-per-category from full pool (new + seen fallback)
+    # ── FEATURED ──────────────────────────────────────────────────────────────
     featured_by_cat = {}
     for a in all_articles_including_seen:
         cat = a["category"]
         if cat not in featured_by_cat:
             featured_by_cat[cat] = a
 
-    used_links = set()  # tracks every article already placed on the page
+    used_links = set()
 
-    # Top 3: AI, Gadgets, Innovation
     top_order = ["AI", "Gadgets", "Innovation"]
     f_top = []
     for cat in top_order:
@@ -591,7 +607,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
                 f_top.append(a)
                 used_links.add(a["link"])
 
-    # Fill remaining top slots with any unused new article
     for a in all_articles:
         if len(f_top) >= 3:
             break
@@ -599,7 +614,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
             f_top.append(a)
             used_links.add(a["link"])
 
-    # Bottom 2: Startups, Gaming
     bottom_order = ["Startups", "Gaming"]
     f_bottom = []
     for cat in bottom_order:
@@ -609,7 +623,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
                 f_bottom.append(a)
                 used_links.add(a["link"])
 
-    # Fill remaining bottom slots with any unused new article
     for a in all_articles:
         if len(f_bottom) >= 2:
             break
@@ -620,7 +633,7 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     print(f"  Featured top: {[a['category'] for a in f_top]}")
     print(f"  Featured bottom: {[a['category'] for a in f_bottom]}")
 
-    # ── STEP 2: DIGEST — exclude all featured articles ────────────────────────
+    # ── DIGEST ────────────────────────────────────────────────────────────────
     digest_articles = []
     for a in all_articles:
         if len(digest_articles) >= 6:
@@ -629,7 +642,7 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
             digest_articles.append(a)
             used_links.add(a["link"])
 
-    # ── STEP 3: LATEST — exclude featured + digest ────────────────────────────
+    # ── LATEST ────────────────────────────────────────────────────────────────
     latest_pool = []
     for a in all_articles:
         if len(latest_pool) >= 9:
@@ -638,9 +651,8 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
             latest_pool.append(a)
             used_links.add(a["link"])
 
-    # ── STEP 4: TICKER — exclude everything already placed ────────────────────
+    # ── TICKER ────────────────────────────────────────────────────────────────
     ticker_pool = [a for a in all_articles if a["link"] not in used_links]
-    # Prepend featured + digest to ticker so it always has content
     ticker_all  = f_top + f_bottom + digest_articles + ticker_pool
 
     injections = {
@@ -661,6 +673,18 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
           f"featured={len(f_top+f_bottom)} digest={len(digest_articles)} "
           f"latest={len(latest_pool)} ticker={len(ticker_all)}")
 
+    # ── CATEGORY PAGES ────────────────────────────────────────────────────────
+    print("\nRebuilding category pages...")
+    articles_by_cat = {}
+    for a in all_articles:
+        cat = a["category"]
+        if cat not in articles_by_cat:
+            articles_by_cat[cat] = []
+        articles_by_cat[cat].append(a)
+
+    rebuild_category_pages(articles_by_cat)
+
+
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -680,15 +704,12 @@ def main():
         print(f"  {len(articles)} new articles")
         all_articles.extend(articles)
 
-    # Also fetch 1 recent article per category ignoring seen filter
-    # — used only as Featured fallback if a category has no new articles today
     print("\nFetching seen-fallback pool for Featured (1 per category)...")
     seen_fallback_by_cat = {}
     for category, urls in FEEDS.items():
         if category in {a["category"] for a in all_articles}:
-            # Already have new articles for this category
             continue
-        for url in urls[:2]:  # only check first 2 feeds per category
+        for url in urls[:2]:
             try:
                 headers = {"User-Agent": "TechLoop/1.0 (+https://techloop.ie)"}
                 resp    = requests.get(url, headers=headers, timeout=10)
@@ -721,7 +742,6 @@ def main():
             except Exception:
                 continue
 
-    # Merge: new articles first, then seen fallbacks for missing categories
     new_article_cats = {a["category"] for a in all_articles}
     all_articles_including_seen = list(all_articles)
     for cat, article in seen_fallback_by_cat.items():
@@ -734,9 +754,6 @@ def main():
         reverse=True
     )
 
-    # Global deduplication across all categories (same build)
-    # Uses exact link/title match + fuzzy title word-overlap to catch
-    # the same story covered by multiple sources.
     global_seen_links  = set()
     seen_title_words   = []
     deduped_all = []
@@ -756,12 +773,11 @@ def main():
         print(f"\nGenerating summaries (top {MAX_AI_SUMMARIES})...")
         kept = []
         skipped = 0
-        i = 0
-        candidates = list(all_articles)  # iterate over full pool
+        candidates = list(all_articles)
         summarised = 0
         for article in candidates:
             if summarised >= MAX_AI_SUMMARIES:
-                kept.append(article)  # keep remaining without summary
+                kept.append(article)
                 continue
             print(f"  [{summarised+1}/{MAX_AI_SUMMARIES}] {article['title'][:50]}...")
             summary = generate_summary(client, article)
@@ -788,14 +804,13 @@ def main():
                 article["image"] = img
                 print(f"  [{i+1}] Got OG image for: {article['title'][:40]}...")
 
-    # Pexels fallback — for any article still without an image
     if PEXELS_API_KEY:
         print("\nApplying Pexels fallback for articles without images...")
         for article in all_articles:
             if not article.get("image"):
                 article["image"] = fetch_pexels_image(article["title"], article["category"])
 
-    print("\nRebuilding index.html...")
+    print("\nRebuilding index.html + category pages...")
     rebuild_html(all_articles, all_articles_including_seen, digest_text)
 
     now = datetime.now(timezone.utc).isoformat()
