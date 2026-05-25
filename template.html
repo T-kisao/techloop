@@ -1290,13 +1290,63 @@
 
     /* Weekly Poll */
     const POLLS = [
-      { q: "Which AI assistant do you use most in 2025?", opts: ["ChatGPT", "Claude", "Gemini", "Other"], votes: [0,0,0,0] },
-      { q: "Will foldable phones become mainstream by 2027?", opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"], votes: [0,0,0,0] },
-      { q: "What's the most exciting tech trend of 2025?", opts: ["AI agents", "AR/VR glasses", "EVs", "Robotics"], votes: [0,0,0,0] },
-      { q: "Is the EU's approach to AI regulation good for innovation?", opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"], votes: [0,0,0,0] },
-      { q: "How do you primarily read tech news?", opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"], votes: [0,0,0,0] },
+      // 🤖 AI (15 perguntas)
+      { q: "Which AI assistant do you use most in 2026?", opts: ["ChatGPT", "Claude", "Gemini", "Other"], votes: [0,0,0,0] },
+      { q: "Do you trust AI-generated news summaries?", opts: ["Yes, completely", "Mostly yes", "Mostly no", "Not at all"], votes: [0,0,0,0] },
       { q: "Will AI replace most junior coding jobs by 2030?", opts: ["Definitely yes", "Partially yes", "Unlikely", "No"], votes: [0,0,0,0] },
-      { q: "Best gaming platform right now?", opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"], votes: [0,0,0,0] }
+      { q: "Which AI use case excites you most in 2026?", opts: ["AI agents", "Image generation", "Code assistants", "Healthcare AI"], votes: [0,0,0,0] },
+      { q: "Is the EU AI Act good for European innovation?", opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"], votes: [0,0,0,0] },
+      { q: "How often do you use AI tools at work?", opts: ["Every day", "A few times a week", "Rarely", "Never"], votes: [0,0,0,0] },
+      { q: "Which company is leading AI in 2026?", opts: ["OpenAI", "Google", "Anthropic", "Meta"], votes: [0,0,0,0] },
+      { q: "Are you concerned about AI safety risks?", opts: ["Very concerned", "Somewhat concerned", "Not really", "Not at all"], votes: [0,0,0,0] },
+      { q: "Will AI become smarter than humans by 2035?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No chance"], votes: [0,0,0,0] },
+      { q: "Do you use AI to help you read or summarise news?", opts: ["Yes, daily", "Sometimes", "Rarely", "Never"], votes: [0,0,0,0] },
+      { q: "Should AI-generated content be clearly labelled?", opts: ["Always", "Only for news", "Only for images", "No need"], votes: [0,0,0,0] },
+      { q: "Which AI skill is most valuable to learn in 2026?", opts: ["Prompt engineering", "Fine-tuning models", "AI ethics", "Data analysis"], votes: [0,0,0,0] },
+      { q: "How do you feel about AI in healthcare?", opts: ["Very positive", "Cautiously optimistic", "Sceptical", "Against it"], votes: [0,0,0,0] },
+      { q: "Will AI make remote work more or less common?", opts: ["Much more common", "Slightly more", "No change", "Less common"], votes: [0,0,0,0] },
+      { q: "Which AI product surprised you most in 2026?", opts: ["AI agents", "Voice assistants", "AI video tools", "AI coding tools"], votes: [0,0,0,0] },
+      // 📱 Gadgets (10 perguntas)
+      { q: "Will foldable phones become mainstream by 2028?", opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"], votes: [0,0,0,0] },
+      { q: "What is your primary device for reading news?", opts: ["Smartphone", "Laptop", "Tablet", "Desktop"], votes: [0,0,0,0] },
+      { q: "Are you planning to buy a new smartphone in 2026?", opts: ["Yes, already decided", "Maybe", "Probably not", "No"], votes: [0,0,0,0] },
+      { q: "Which smartphone brand do you prefer?", opts: ["Apple", "Samsung", "Google Pixel", "Other"], votes: [0,0,0,0] },
+      { q: "Are smartwatches worth the money?", opts: ["Absolutely", "For some people", "Probably not", "Waste of money"], votes: [0,0,0,0] },
+      { q: "Will AR glasses replace smartphones by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
+      { q: "How long do you typically keep your smartphone?", opts: ["1-2 years", "2-3 years", "3-4 years", "4+ years"], votes: [0,0,0,0] },
+      { q: "Which gadget has improved your life most?", opts: ["Smartphone", "Laptop", "Wireless earbuds", "Smart home devices"], votes: [0,0,0,0] },
+      { q: "Are you interested in buying an AR/VR headset?", opts: ["Already have one", "Planning to buy", "Maybe someday", "Not interested"], votes: [0,0,0,0] },
+      { q: "Do you use wireless charging regularly?", opts: ["Yes, every day", "Sometimes", "Rarely", "Never"], votes: [0,0,0,0] },
+      // 🚀 Startups (10 perguntas)
+      { q: "What's the most exciting European startup scene in 2026?", opts: ["Ireland", "Germany", "France", "Netherlands"], votes: [0,0,0,0] },
+      { q: "Would you work for a startup over a big tech company?", opts: ["Yes, definitely", "Probably yes", "Probably not", "No"], votes: [0,0,0,0] },
+      { q: "Which sector has the most startup potential in 2026?", opts: ["AI & ML", "Green tech", "FinTech", "HealthTech"], votes: [0,0,0,0] },
+      { q: "Is venture capital funding becoming harder to get?", opts: ["Much harder", "Slightly harder", "About the same", "Easier"], votes: [0,0,0,0] },
+      { q: "Should governments fund more tech startups?", opts: ["Yes, absolutely", "To some extent", "Leave it to market", "No"], votes: [0,0,0,0] },
+      { q: "What kills most startups?", opts: ["Lack of funding", "Wrong product", "Bad timing", "Team problems"], votes: [0,0,0,0] },
+      { q: "Is Ireland a good place to launch a tech startup?", opts: ["One of the best", "Pretty good", "Average", "Not ideal"], votes: [0,0,0,0] },
+      { q: "Would you invest in a European AI startup today?", opts: ["Yes, definitely", "Maybe", "Too risky", "No"], votes: [0,0,0,0] },
+      { q: "What matters most in a startup's early stage?", opts: ["Product", "Team", "Funding", "Market timing"], votes: [0,0,0,0] },
+      { q: "Will more Irish startups go global in 2026?", opts: ["Yes, many", "Some will", "About the same", "Fewer than before"], votes: [0,0,0,0] },
+      // 🎮 Gaming (10 perguntas)
+      { q: "Best gaming platform right now?", opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"], votes: [0,0,0,0] },
+      { q: "How many hours per week do you game?", opts: ["Less than 2", "2-5 hours", "5-10 hours", "10+ hours"], votes: [0,0,0,0] },
+      { q: "Do you prefer single-player or multiplayer games?", opts: ["Single-player", "Multiplayer", "Both equally", "Neither"], votes: [0,0,0,0] },
+      { q: "Will cloud gaming replace consoles by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
+      { q: "Are game prices too high in 2026?", opts: ["Way too high", "A bit high", "About right", "Good value"], votes: [0,0,0,0] },
+      { q: "Do you use a gaming subscription service?", opts: ["Xbox Game Pass", "PlayStation Plus", "Both", "Neither"], votes: [0,0,0,0] },
+      { q: "What genre do you play most?", opts: ["Action/Adventure", "FPS", "RPG", "Sports/Racing"], votes: [0,0,0,0] },
+      { q: "Will AI change game development significantly?", opts: ["Already has", "Will in 2-3 years", "Eventually", "Overhyped"], votes: [0,0,0,0] },
+      { q: "Do you watch gaming content on YouTube/Twitch?", opts: ["Daily", "A few times a week", "Rarely", "Never"], votes: [0,0,0,0] },
+      { q: "Are eSports a legitimate career path?", opts: ["Absolutely", "For a few talented people", "Very risky", "No"], votes: [0,0,0,0] },
+      // 💡 Innovation & Tech Geral (7 perguntas)
+      { q: "What's the most exciting tech trend of 2026?", opts: ["AI agents", "Green energy tech", "Space tech", "Quantum computing"], votes: [0,0,0,0] },
+      { q: "How do you primarily read tech news?", opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"], votes: [0,0,0,0] },
+      { q: "Will quantum computing be mainstream by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
+      { q: "Is remote work better for productivity?", opts: ["Much better", "Slightly better", "About the same", "Worse"], votes: [0,0,0,0] },
+      { q: "Which is more important for Europe's future?", opts: ["AI investment", "Green energy", "Digital infrastructure", "Space tech"], votes: [0,0,0,0] },
+      { q: "Do you think tech companies pay enough tax in Ireland?", opts: ["Yes, enough", "Could pay more", "Should pay much more", "Not sure"], votes: [0,0,0,0] },
+      { q: "Will humans live on Mars before 2050?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No chance"], votes: [0,0,0,0] }
     ];
     function getWeekPollIndex() {
       const now = new Date();
