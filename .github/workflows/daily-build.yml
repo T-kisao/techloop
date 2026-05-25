@@ -1,7 +1,5 @@
 name: Daily Build
 on:
-  schedule:
-  - cron: '0 15 * * *'   # 15:00 UTC / 16:00 Irish Time
   workflow_dispatch:        # allow manual trigger
 jobs:
   build:
