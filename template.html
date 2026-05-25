@@ -9,6 +9,7 @@
   <meta property="og:description" content="Signal over noise, delivered daily." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0B1120" />
+  <link rel="icon" type="image/png" href="/favicon.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -1403,9 +1404,4 @@
     const now = new Date();
     const fmt = new Intl.DateTimeFormat('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     document.querySelectorAll('.hero__date, #digest-date-label, #digest-date').forEach(el => {
-      if (el && !el.textContent.trim()) el.textContent = fmt.format(now);
-    });
-  </script>
-
-</body>
-</html>
+      if (el && !el.textContent.trim()) el.textContent
