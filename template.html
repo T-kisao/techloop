@@ -2,1406 +2,273 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechLoop — Tech news digest</title>
-  <meta name="description" content="Signal over noise, delivered daily. The top tech stories from Ireland, UK and Europe." />
-  <meta property="og:title" content="TechLoop — Tech news digest" />
-  <meta property="og:description" content="Signal over noise, delivered daily." />
-  <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#0B1120" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — TechLoop</title>
   <link rel="icon" type="image/png" href="/favicon.png">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <style>
-    /* ─── CSS Variables ─────────────────────────────────────── */
     :root {
-      --bg-primary:   #0B1120;
+      --bg-primary: #0B1120;
       --bg-secondary: #111827;
-      --bg-card:      #13203a;
-      --bg-card-alt:  #0f1e36;
-      --blue:         #3B82F6;
-      --purple:       #8B5CF6;
-      --cyan:         #22D3EE;
-      --green:        #34d399;
-      --amber:        #f59e0b;
+      --blue: #3B82F6;
+      --purple: #8B5CF6;
+      --cyan: #22D3EE;
       --text-primary: #F8FAFC;
       --text-secondary: #94A3B8;
-      --text-muted:   #64748b;
-      --border:       rgba(255,255,255,0.07);
-      --border-hover: rgba(255,255,255,0.14);
-      --cat-ai:        #22D3EE;
-      --cat-gadgets:   #8B5CF6;
-      --cat-innovation:#34d399;
-      --cat-startups:  #3B82F6;
-      --cat-gaming:    #f59e0b;
-      --radius:        10px;
-      --radius-lg:     16px;
-      --font-display:  'Syne', sans-serif;
-      --font-mono:     'Space Mono', monospace;
-      --font-body:     'DM Sans', sans-serif;
+      --border: rgba(255,255,255,0.06);
     }
-
-    /* ─── Reset & Base ──────────────────────────────────────── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: var(--font-body);
       background: var(--bg-primary);
       color: var(--text-primary);
+      font-family: 'Space Grotesk', sans-serif;
       min-height: 100vh;
-      overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: inherit; text-decoration: none; }
-    img { display: block; max-width: 100%; }
-    ul { list-style: none; }
-
-    /* ─── Layout ────────────────────────────────────────────── */
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
     }
 
-    /* ─── Navbar ────────────────────────────────────────────── */
-    .navbar {
+    /* NAVBAR */
+    nav {
+      background: rgba(11,17,32,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(11,17,32,0.92);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--border);
     }
-    .navbar__inner {
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 24px;
+      gap: 2rem;
       height: 60px;
     }
-    .navbar__logo {
+    .logo {
       display: flex;
       align-items: center;
-      gap: 10px;
-      flex-shrink: 0;
-    }
-    .navbar__logo-mark {
-      width: 32px;
-      height: 32px;
-      background: linear-gradient(135deg, var(--blue), var(--purple));
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--font-display);
-      font-size: 15px;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: -1px;
-    }
-    .navbar__wordmark {
-      font-family: var(--font-display);
-      font-size: 20px;
-      font-weight: 800;
-      background: linear-gradient(90deg, var(--text-primary) 60%, var(--cyan));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .navbar__nav {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .navbar__nav a {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text-secondary);
-      padding: 6px 12px;
-      border-radius: 6px;
-      transition: color .2s, background .2s;
-    }
-    .navbar__nav a:hover { color: var(--text-primary); background: rgba(255,255,255,0.06); }
-    .navbar__nav a.active { color: var(--text-primary); }
-    .navbar__right {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-shrink: 0;
-    }
-    .badge-live {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: var(--font-mono);
-      font-size: 10px;
-      font-weight: 700;
-      color: var(--green);
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .badge-live::before {
-      content: '';
-      width: 7px;
-      height: 7px;
-      background: var(--green);
-      border-radius: 50%;
-      box-shadow: 0 0 8px var(--green);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0%,100% { opacity:1; transform:scale(1); }
-      50%      { opacity:.5; transform:scale(1.3); }
-    }
-    .navbar__hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 4px;
-    }
-    .navbar__hamburger span {
-      display: block;
-      width: 22px;
-      height: 2px;
-      background: var(--text-secondary);
-      border-radius: 2px;
-      transition: .25s;
-    }
-
-    /* ─── Ticker ────────────────────────────────────────────── */
-    .ticker {
-      background: var(--bg-secondary);
-      border-bottom: 1px solid var(--border);
-      overflow: hidden;
-      height: 36px;
-      display: flex;
-      align-items: center;
-    }
-    .ticker__label {
-      flex-shrink: 0;
-      font-family: var(--font-mono);
-      font-size: 10px;
-      font-weight: 700;
-      color: var(--cyan);
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      padding: 0 14px;
-      border-right: 1px solid var(--border);
-      height: 100%;
-      display: flex;
-      align-items: center;
-      background: rgba(34,211,238,.06);
-    }
-    .ticker__track {
-      flex: 1;
-      overflow: hidden;
-      position: relative;
-      height: 100%;
-      display: flex;
-      align-items: center;
-    }
-    .ticker__inner {
-      display: flex;
-      align-items: center;
-      gap: 0;
-      white-space: nowrap;
-      animation: ticker-scroll 60s linear infinite;
-      will-change: transform;
-    }
-    .ticker__inner:hover { animation-play-state: paused; }
-    @keyframes ticker-scroll {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-    .ticker__item {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12px;
-      color: var(--text-secondary);
-      padding: 0 24px;
-      transition: color .2s;
-      cursor: pointer;
-    }
-    .ticker__item:hover { color: var(--text-primary); }
-    .ticker__item a { color: inherit; }
-    .ticker__sep {
-      color: var(--border-hover);
-      font-family: var(--font-mono);
-      font-size: 10px;
-      padding: 0 4px;
-    }
-    .ticker__cat {
-      font-family: var(--font-mono);
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      padding: 2px 6px;
-      border-radius: 3px;
-    }
-    .ticker__cat--ai         { color: var(--cat-ai);         background: rgba(34,211,238,.12); }
-    .ticker__cat--gadgets    { color: var(--cat-gadgets);    background: rgba(139,92,246,.12); }
-    .ticker__cat--innovation { color: var(--cat-innovation); background: rgba(52,211,153,.12); }
-    .ticker__cat--startups   { color: var(--cat-startups);   background: rgba(59,130,246,.12); }
-    .ticker__cat--gaming     { color: var(--cat-gaming);     background: rgba(245,158,11,.12); }
-
-    /* ─── Hero ──────────────────────────────────────────────── */
-    .hero {
-      padding: 52px 0 36px;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: -120px; left: 50%;
-      transform: translateX(-50%);
-      width: 800px; height: 400px;
-      background: radial-gradient(ellipse at center,
-        rgba(59,130,246,.12) 0%,
-        rgba(139,92,246,.06) 40%,
-        transparent 70%);
-      pointer-events: none;
-    }
-    .hero__inner {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 24px;
-      flex-wrap: wrap;
-    }
-    .hero__text { max-width: 600px; }
-    .hero__eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-family: var(--font-mono);
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--cyan);
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-    .hero__eyebrow::before {
-      content: '';
-      width: 20px; height: 1px;
-      background: var(--cyan);
-    }
-    .hero__title {
-      font-family: var(--font-display);
-      font-size: clamp(28px, 4vw, 46px);
-      font-weight: 800;
-      line-height: 1.08;
-      letter-spacing: -.02em;
-      margin-bottom: 14px;
-    }
-    .hero__title span {
-      background: linear-gradient(90deg, var(--blue), var(--cyan));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .hero__sub {
-      font-size: 15px;
-      font-weight: 400;
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
-    .hero__meta {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 6px;
-      text-align: right;
-    }
-    .hero__date {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--text-muted);
-      letter-spacing: .06em;
-    }
-    .hero__updated {
-      font-size: 11px;
-      color: var(--text-muted);
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-    .hero__updated svg { color: var(--green); }
-
-    /* ─── Section headings ──────────────────────────────────── */
-    .section-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 18px;
-      padding-bottom: 14px;
-      border-bottom: 1px solid var(--border);
-    }
-    .section-head__title {
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-secondary);
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .section-head__title::before {
-      content: '';
-      display: block;
-      width: 3px; height: 14px;
-      background: var(--blue);
-      border-radius: 2px;
-    }
-    .section-head__link {
-      font-size: 12px;
-      color: var(--text-muted);
-      transition: color .2s;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .section-head__link:hover { color: var(--blue); }
-
-    /* ─── Featured Grid ─────────────────────────────────────── */
-    .featured { padding: 0 0 48px; }
-
-    .featured-top {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 14px;
-      margin-bottom: 14px;
-      min-height: 360px;
-    }
-    .featured-bottom {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-    }
-
-    /* ─── Article Cards ─────────────────────────────────────── */
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      transition: border-color .25s, transform .25s, box-shadow .25s;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-    .card:hover {
-      border-color: var(--border-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 12px 40px rgba(0,0,0,.35);
-    }
-    .card a.card__overlay {
-      position: absolute;
-      inset: 0;
-      z-index: 2;
-    }
-
-    .card--main {
-      grid-row: 1 / 3;
-      min-height: 340px;
-      grid-column: 1;
-    }
-    .card--main .card__image {
-      height: 200px;
-      object-fit: cover;
-      width: 100%;
-    }
-    .card--main .card__body { padding: 22px; flex: 1; }
-    .card--main .card__title {
-      font-family: var(--font-display);
-      font-size: 20px;
-      font-weight: 800;
-      line-height: 1.25;
-      margin-bottom: 10px;
-      letter-spacing: -.01em;
-    }
-    .card--main .card__summary {
-      font-size: 13.5px;
-      color: var(--text-secondary);
-      line-height: 1.65;
-      margin-bottom: 14px;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card--side {
-      flex-direction: row;
-      min-height: 110px;
-    }
-    .card--side .card__image {
-      width: 120px;
-      min-height: 100%;
-      object-fit: cover;
-      flex-shrink: 0;
-    }
-    .card--side .card__body {
-      padding: 14px 16px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 6px;
-    }
-    .card--side .card__title {
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      line-height: 1.35;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card--bottom {
-      flex-direction: row;
-      min-height: 120px;
-    }
-    .card--bottom .card__image {
-      width: 140px;
-      object-fit: cover;
-      flex-shrink: 0;
-    }
-    .card--bottom .card__body {
-      padding: 16px 18px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 8px;
-    }
-    .card--bottom .card__title {
-      font-family: var(--font-display);
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 1.3;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .card--bottom .card__summary {
-      font-size: 12px;
-      color: var(--text-secondary);
-      line-height: 1.5;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card__cat {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-family: var(--font-mono);
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border-radius: 4px;
-      margin-bottom: 8px;
-      width: fit-content;
-    }
-    .card__cat--ai         { color: var(--cat-ai);         background: rgba(34,211,238,.12);  border: 1px solid rgba(34,211,238,.2); }
-    .card__cat--gadgets    { color: var(--cat-gadgets);    background: rgba(139,92,246,.12);  border: 1px solid rgba(139,92,246,.2); }
-    .card__cat--innovation { color: var(--cat-innovation); background: rgba(52,211,153,.12);  border: 1px solid rgba(52,211,153,.2); }
-    .card__cat--startups   { color: var(--cat-startups);   background: rgba(59,130,246,.12);  border: 1px solid rgba(59,130,246,.2); }
-    .card__cat--gaming     { color: var(--cat-gaming);     background: rgba(245,158,11,.12);  border: 1px solid rgba(245,158,11,.2); }
-
-    .card__meta {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 11px;
-      color: var(--text-muted);
-      flex-wrap: wrap;
-    }
-    .card__source {
-      font-weight: 600;
-      color: var(--text-secondary);
-    }
-    .card__vs {
-      font-family: var(--font-mono);
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: .06em;
-      color: #fff;
-      background: #f97316;
-      padding: 2px 6px;
-      border-radius: 3px;
-      text-transform: uppercase;
-    }
-
-    .card__img-wrap {
-      background: var(--bg-card-alt);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .card__img-placeholder {
-      width: 32px; height: 32px;
-      opacity: .2;
-    }
-
-    /* ─── Category Pills ────────────────────────────────────── */
-    .categories { padding: 0 0 48px; }
-    .cats-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 12px;
-    }
-    .cat-pill {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 22px 16px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      cursor: pointer;
-      transition: border-color .25s, transform .25s, box-shadow .25s, background .25s;
-      position: relative;
-      overflow: hidden;
+      gap: 0.5rem;
       text-decoration: none;
     }
-    .cat-pill::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      opacity: 0;
-      transition: opacity .25s;
-    }
-    .cat-pill:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 32px rgba(0,0,0,.3);
-    }
-    .cat-pill:hover::before { opacity: 1; }
-    .cat-pill--ai::before         { background: radial-gradient(ellipse at top, rgba(34,211,238,.1), transparent 60%); }
-    .cat-pill--gadgets::before    { background: radial-gradient(ellipse at top, rgba(139,92,246,.1), transparent 60%); }
-    .cat-pill--innovation::before { background: radial-gradient(ellipse at top, rgba(52,211,153,.1), transparent 60%); }
-    .cat-pill--startups::before   { background: radial-gradient(ellipse at top, rgba(59,130,246,.1), transparent 60%); }
-    .cat-pill--gaming::before     { background: radial-gradient(ellipse at top, rgba(245,158,11,.1), transparent 60%); }
-    .cat-pill--ai:hover         { border-color: rgba(34,211,238,.4); }
-    .cat-pill--gadgets:hover    { border-color: rgba(139,92,246,.4); }
-    .cat-pill--innovation:hover { border-color: rgba(52,211,153,.4); }
-    .cat-pill--startups:hover   { border-color: rgba(59,130,246,.4); }
-    .cat-pill--gaming:hover     { border-color: rgba(245,158,11,.4); }
-
-    .cat-pill__icon {
-      width: 38px; height: 38px;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-    .cat-pill--ai         .cat-pill__icon { background: rgba(34,211,238,.15); }
-    .cat-pill--gadgets    .cat-pill__icon { background: rgba(139,92,246,.15); }
-    .cat-pill--innovation .cat-pill__icon { background: rgba(52,211,153,.15); }
-    .cat-pill--startups   .cat-pill__icon { background: rgba(59,130,246,.15); }
-    .cat-pill--gaming     .cat-pill__icon { background: rgba(245,158,11,.15); }
-
-    .cat-pill__name {
-      font-family: var(--font-display);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .04em;
-    }
-    .cat-pill--ai         .cat-pill__name { color: var(--cat-ai); }
-    .cat-pill--gadgets    .cat-pill__name { color: var(--cat-gadgets); }
-    .cat-pill--innovation .cat-pill__name { color: var(--cat-innovation); }
-    .cat-pill--startups   .cat-pill__name { color: var(--cat-startups); }
-    .cat-pill--gaming     .cat-pill__name { color: var(--cat-gaming); }
-
-    .cat-pill__count {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-muted);
-    }
-
-    /* ─── Daily Digest ──────────────────────────────────────── */
-    .digest { padding: 0 0 48px; }
-    .digest__grid {
-      display: grid;
-      grid-template-columns: 1fr 300px;
-      gap: 20px;
-      align-items: start;
-    }
-    .digest__poll { position: sticky; top: 80px; }
-    .digest__main {
-      background: var(--bg-secondary);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-    }
-    .digest__header {
-      padding: 18px 22px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .digest__header-title {
-      font-family: var(--font-display);
-      font-size: 15px;
-      font-weight: 800;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .digest__header-title svg { color: var(--purple); }
-    .digest__date {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-muted);
-    }
-    .digest__body { padding: 22px; }
-    .digest__intro {
-      font-size: 14px;
-      color: var(--text-secondary);
-      line-height: 1.7;
-      margin-bottom: 22px;
-    }
-    .digest__items { display: flex; flex-direction: column; gap: 0; }
-    .digest__item {
-      display: flex;
-      gap: 14px;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .digest__item:last-child { border-bottom: none; }
-    .digest__num {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--text-muted);
-      min-width: 20px;
-      padding-top: 2px;
-    }
-    .digest__content { flex: 1; }
-    .digest__item-title {
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 1.4;
-      margin-bottom: 5px;
-    }
-    .digest__item-title a { transition: color .2s; }
-    .digest__item-title a:hover { color: var(--cyan); }
-    .digest__item-sum {
-      font-size: 13px;
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
-    .digest__item-cat { margin-top: 6px; display: inline-block; }
-
-    .digest__poll {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-    }
-    .digest__poll-header {
-      padding: 16px 18px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .digest__poll-title {
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .digest__poll-badge {
-      font-family: var(--font-mono);
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      padding: 2px 6px;
-      background: rgba(139,92,246,.15);
-      color: var(--purple);
-      border-radius: 3px;
-    }
-    .digest__poll-body { padding: 18px; }
-    .digest__poll-q {
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 1.5;
-      margin-bottom: 16px;
-      color: var(--text-primary);
-    }
-    .poll-options { display: flex; flex-direction: column; gap: 8px; }
-    .poll-option {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 12px;
-      background: rgba(255,255,255,.04);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background .2s, border-color .2s;
-      font-size: 13px;
-      color: var(--text-secondary);
-      width: 100%;
-      text-align: left;
-    }
-    .poll-option:hover {
-      background: rgba(59,130,246,.08);
-      border-color: rgba(59,130,246,.25);
-      color: var(--text-primary);
-    }
-    .poll-option.selected {
-      background: rgba(59,130,246,.12);
-      border-color: rgba(59,130,246,.4);
-      color: var(--blue);
-    }
-    .poll-option__dot {
-      width: 16px; height: 16px;
-      border-radius: 50%;
-      border: 2px solid currentColor;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .poll-option.selected .poll-option__dot::after {
-      content: '';
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--blue);
-    }
-    .poll-result-bar { display: flex; flex-direction: column; gap: 8px; }
-    .poll-result-item { display: flex; flex-direction: column; gap: 4px; }
-    .poll-result-label {
-      display: flex;
-      justify-content: space-between;
-      font-size: 12px;
-      color: var(--text-secondary);
-    }
-    .poll-result-label span:last-child { font-weight: 600; color: var(--text-primary); }
-    .poll-bar-track {
-      height: 6px;
-      background: rgba(255,255,255,.07);
-      border-radius: 3px;
-      overflow: hidden;
-    }
-    .poll-bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--blue), var(--cyan));
-      border-radius: 3px;
-      transition: width .6s ease;
-    }
-    .poll-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px 18px;
-      border-top: 1px solid var(--border);
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-    .poll-footer a { color: var(--blue); }
-
-    /* ─── Latest Articles ───────────────────────────────────── */
-    .latest { padding: 0 0 56px; }
-    .latest__grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-    }
-    .card--small .card__image-wrap { height: 150px; overflow: hidden; }
-    .card--small .card__image {
-      width: 100%; height: 100%; object-fit: cover; transition: transform .4s;
-    }
-    .card--small:hover .card__image { transform: scale(1.04); }
-    .card--small .card__body { padding: 16px; flex: 1; }
-    .card--small .card__title {
-      font-family: var(--font-display);
-      font-size: 13.5px;
-      font-weight: 700;
-      line-height: 1.35;
-      margin-bottom: 8px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .card--small .card__summary {
-      font-size: 12px;
-      color: var(--text-secondary);
-      line-height: 1.55;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      margin-bottom: 10px;
-    }
-
-    /* ─── Footer ────────────────────────────────────────────── */
-    .footer {
-      background: var(--bg-secondary);
-      border-top: 1px solid var(--border);
-      padding: 40px 0 28px;
-    }
-    .footer__top {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr;
-      gap: 40px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 24px;
-    }
-    .footer__brand {}
-    .footer__logo {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .footer__logo-mark {
-      width: 28px; height: 28px;
+    .logo-icon {
+      width: 32px; height: 32px;
       background: linear-gradient(135deg, var(--blue), var(--purple));
-      border-radius: 7px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--font-display);
-      font-size: 13px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Syne', sans-serif;
       font-weight: 800;
-      color: #fff;
+      font-size: 14px;
+      color: white;
     }
-    .footer__wordmark {
-      font-family: var(--font-display);
-      font-size: 16px;
+    .logo-text {
+      font-family: 'Syne', sans-serif;
       font-weight: 800;
+      font-size: 1.1rem;
       color: var(--text-primary);
     }
-    .footer__tagline {
-      font-size: 13px;
-      color: var(--text-muted);
-      line-height: 1.6;
-      margin-bottom: 14px;
-    }
-    .footer__region {
+    .nav-links {
       display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-muted);
-      letter-spacing: .06em;
-      text-transform: uppercase;
+      gap: 1.5rem;
+      list-style: none;
+      margin-left: 1rem;
     }
-    .footer__col-title {
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 14px;
-    }
-    .footer__links { display: flex; flex-direction: column; gap: 8px; }
-    .footer__links a {
-      font-size: 13px;
-      color: var(--text-secondary);
-      transition: color .2s;
-    }
-    .footer__links a:hover { color: var(--text-primary); }
-    .footer__bottom {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .footer__copy { font-size: 12px; color: var(--text-muted); }
-    .footer__copy a { color: var(--blue); }
-    .footer__built {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-muted);
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .footer__built span { color: var(--cyan); }
-
-    /* ─── Utilities ─────────────────────────────────────────── */
-    .section-gap { margin-bottom: 48px; }
-    .sr-only {
-      position: absolute;
-      width: 1px; height: 1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      white-space: nowrap;
-    }
-    .empty-state {
-      padding: 40px;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 13px;
-      font-style: italic;
-      background: var(--bg-card);
-      border: 1px dashed var(--border);
-      border-radius: var(--radius-lg);
-    }
-
-    /* ─── Responsive ────────────────────────────────────────── */
-    @media (max-width: 1024px) {
-      .featured-top { grid-template-columns: 1fr; }
-      .card--main { grid-row: auto; }
-      .cats-grid { grid-template-columns: repeat(3, 1fr); }
-      .footer__top { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 768px) {
-      .navbar__nav { display: none; }
-      .navbar__hamburger { display: flex; }
-      .hero__inner { flex-direction: column; align-items: flex-start; }
-      .hero__meta { align-items: flex-start; text-align: left; }
-      .featured-top, .featured-bottom { grid-template-columns: 1fr; }
-      .card--side, .card--bottom { flex-direction: column; }
-      .card--side .card__image, .card--bottom .card__image { width: 100%; height: 160px; }
-      .digest__grid { grid-template-columns: 1fr; }
-      .latest__grid { grid-template-columns: 1fr 1fr; }
-      .cats-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    @media (max-width: 480px) {
-      .latest__grid { grid-template-columns: 1fr; }
-      .cats-grid { grid-template-columns: repeat(2, 1fr); }
-      .footer__top { grid-template-columns: 1fr; }
-    }
-
-    /* ─── Mobile nav overlay ────────────────────────────────── */
-    .mobile-nav {
-      display: none;
-      position: fixed;
-      inset: 60px 0 0;
-      background: rgba(11,17,32,0.97);
-      backdrop-filter: blur(16px);
-      z-index: 99;
-      padding: 24px 20px;
-      flex-direction: column;
-      gap: 4px;
-    }
-    .mobile-nav.open { display: flex; }
-    .mobile-nav a {
-      font-size: 16px;
+    .nav-links a {
+      text-decoration: none;
+      font-size: 0.85rem;
       font-weight: 500;
       color: var(--text-secondary);
-      padding: 12px 16px;
-      border-radius: 8px;
-      transition: color .2s, background .2s;
+      transition: color 0.2s;
     }
-    .mobile-nav a:hover { color: var(--text-primary); background: rgba(255,255,255,.06); }
+    .nav-links a:hover { color: var(--text-primary); }
+    .nav-links a.home { color: var(--text-primary); }
+    .nav-links a.ai { color: var(--cyan); }
+    .nav-links a.gadgets { color: var(--purple); }
+    .nav-links a.innovation { color: #34d399; }
+    .nav-links a.startups { color: var(--blue); }
+    .nav-links a.gaming { color: #f59e0b; }
 
-    /* ─── Scroll-fade in ────────────────────────────────────── */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(16px);
-      transition: opacity .5s ease, transform .5s ease;
+    /* HERO */
+    .page-hero {
+      background: linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(139,92,246,0.06) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
     }
-    .fade-in.visible { opacity: 1; transform: none; }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; left: 50%;
+      transform: translateX(-50%);
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(59,130,246,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .page-hero .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--cyan);
+      border: 1px solid rgba(34,211,238,0.25);
+      border-radius: 100px;
+      padding: 0.3rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .page-hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .page-hero h1 span {
+      background: linear-gradient(90deg, var(--blue), var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .page-hero p {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* CONTENT */
+    .content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+    .content p {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+    .content p strong {
+      color: var(--text-primary);
+    }
+
+    /* FEATURE CARDS */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 2.5rem 0;
+    }
+    .feature-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .feature-card:hover { border-color: rgba(59,130,246,0.3); }
+    .feature-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .feature-card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--text-primary);
+    }
+    .feature-card p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+
+
+    /* FOOTER */
+    footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+    }
+    footer p {
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+    }
+    footer a { color: var(--blue); text-decoration: none; }
   </style>
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar" aria-label="Main navigation">
-    <div class="container">
-      <div class="navbar__inner">
-        <a class="navbar__logo" href="/" aria-label="TechLoop home">
-          <div class="navbar__logo-mark">TL</div>
-          <span class="navbar__wordmark">TechLoop</span>
-        </a>
-
-        <div class="navbar__nav" role="navigation">
-          <a href="/" class="active">Home</a>
-          <a href="/category/ai.html" style="color:#22D3EE">AI</a>
-          <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
-          <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
-          <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
-          <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
-        </div>
-
-        <div class="navbar__right">
-          <span class="badge-live">Live</span>
-          <button class="navbar__hamburger" aria-label="Open menu" id="hamburger">
-            <span></span><span></span><span></span>
-          </button>
-        </div>
-      </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon">TL</div>
+        <span class="logo-text">TechLoop</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/category/ai" class="ai">AI</a></li>
+        <li><a href="/category/gadgets" class="gadgets">Gadgets</a></li>
+        <li><a href="/category/innovation" class="innovation">Innovation</a></li>
+        <li><a href="/category/startups" class="startups">Startups</a></li>
+        <li><a href="/category/gaming" class="gaming">Gaming</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- Mobile nav -->
-  <div class="mobile-nav" id="mobile-nav">
-    <a href="/">Home</a>
-    <a href="/category/ai.html" style="color:#22D3EE">AI</a>
-    <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
-    <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
-    <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
-    <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
+  <section class="page-hero">
+    <span class="tag">About TechLoop</span>
+    <h1>Built for people who <span>love tech</span></h1>
+    <p>A daily digest keeping curious minds across Ireland, the UK and Europe connected to the world of technology.</p>
+  </section>
+
+  <div class="content">
+    <p>TechLoop was built for one simple reason: <strong>keeping up with tech news shouldn't feel like a second job.</strong></p>
+
+    <p>We're a daily tech digest designed for curious minds across Ireland, the UK, and Europe — people who care about what's happening in AI, gadgets, startups, gaming, and innovation, but don't have hours to spend scrolling through dozens of websites.</p>
+
+    <p>Every day, TechLoop automatically scans the best tech sources on the web, uses AI to cut through the noise, and delivers the stories that actually matter — clear, concise, and straight to the point.</p>
+
+    <div class="features">
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Updated Daily</h3>
+        <p>Fresh stories every morning, automatically curated from the best sources.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <h3>AI-Powered</h3>
+        <p>Smart summaries that cut through the noise and surface what matters.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌍</div>
+        <h3>Built for Europe</h3>
+        <p>Focused on Ireland, the UK and Europe — not just Silicon Valley.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <p>No algorithms pushing agendas. No endless feeds. Just the tech world, distilled daily.</p>
+
+    <p>Whether you're a developer, a founder, a student, or simply someone who loves technology — <strong>TechLoop is your shortcut to staying in the loop.</strong></p>
+
+
   </div>
 
-  <!-- TICKER -->
-  <div class="ticker" role="marquee" aria-label="Breaking news ticker">
-    <div class="ticker__label">Breaking</div>
-    <div class="ticker__track">
-      <div class="ticker__inner" id="ticker-inner">
-        <!-- INJECT:TICKER -->
-        <span class="ticker__item">
-          <span class="ticker__cat ticker__cat--ai">AI</span>
-          <span>Latest tech news loading…</span>
-        </span>
-        <span class="ticker__sep">◆</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero__inner">
-        <div class="hero__text">
-          <div class="hero__eyebrow">Daily tech news digest</div>
-          <h1 class="hero__title">
-            Signal over noise,<br>
-            <span>delivered daily.</span>
-          </h1>
-          <p class="hero__sub">
-            The top tech stories from Europe and beyond —
-            curated and summarised daily.
-          </p>
-        </div>
-        <div class="hero__meta">
-          <div class="hero__date">
-            <!-- INJECT:TIMESTAMP -->
-          </div>
-          <div class="hero__updated">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-              <circle cx="5" cy="5" r="4" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M5 3v2l1.5 1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            </svg>
-            Updated daily
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FEATURED -->
-  <section class="featured">
-    <div class="container">
-      <div class="section-head">
-        <h2 class="section-head__title">Featured Stories</h2>
-        <a href="#latest" class="section-head__link">
-          All stories
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-            <path d="M2.5 6h7M7 3.5l2.5 2.5L7 8.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
-      <!-- INJECT:FEATURED_TOP -->
-      <!-- INJECT:FEATURED_BOTTOM -->
-    </div>
-  </section>
-
-  <!-- CATEGORIES -->
-  <section class="categories">
-    <div class="container">
-      <div class="section-head">
-        <h2 class="section-head__title">Browse by Category</h2>
-      </div>
-      <!-- INJECT:CATS -->
-    </div>
-  </section>
-
-  <!-- DIGEST -->
-  <section class="digest">
-    <div class="container">
-      <div class="section-head">
-        <h2 class="section-head__title">Daily Digest</h2>
-        <span class="hero__date" id="digest-date"></span>
-      </div>
-      <div class="digest__grid">
-        <div class="digest__main">
-          <div class="digest__header">
-            <div class="digest__header-title">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 4h10M3 7.5h10M3 11h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              </svg>
-              Today's Top Stories
-            </div>
-            <div class="digest__date" id="digest-date-label"><!-- INJECT:TIMESTAMP --></div>
-          </div>
-          <div class="digest__body">
-            <!-- INJECT:DIGEST -->
-          </div>
-        </div>
-
-        <!-- Weekly Poll -->
-        <div class="digest__poll">
-          <div class="digest__poll-header">
-            <div class="digest__poll-title">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <rect x="1" y="5" width="2.5" height="8" rx="1" fill="currentColor" opacity=".5"/>
-                <rect x="5.5" y="2" width="2.5" height="11" rx="1" fill="currentColor"/>
-                <rect x="10" y="4" width="2.5" height="9" rx="1" fill="currentColor" opacity=".7"/>
-              </svg>
-              Weekly Poll
-            </div>
-            <span class="digest__poll-badge">Weekly</span>
-          </div>
-          <div class="digest__poll-body">
-            <div class="digest__poll-q" id="poll-question">Loading this week's poll…</div>
-            <div id="poll-options" class="poll-options"></div>
-          </div>
-          <div class="poll-footer">
-            <span id="poll-votes">0 votes</span>
-            <span>Resets Monday</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- LATEST -->
-  <section class="latest" id="latest">
-    <div class="container">
-      <div class="section-head">
-        <h2 class="section-head__title">Latest Articles</h2>
-        <a href="#" class="section-head__link">
-          View all
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-            <path d="M2.5 6h7M7 3.5l2.5 2.5L7 8.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
-      <!-- INJECT:LATEST -->
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__top">
-        <div class="footer__brand">
-          <div class="footer__logo">
-            <div class="footer__logo-mark">TL</div>
-            <span class="footer__wordmark">TechLoop</span>
-          </div>
-          <p class="footer__tagline">
-            Signal over noise, delivered daily.<br>
-            Tech news for Ireland, UK and Europe.
-          </p>
-          <div class="footer__region">🇮🇪 Ireland &nbsp;·&nbsp; 🇬🇧 UK &nbsp;·&nbsp; 🇪🇺 Europe</div>
-        </div>
-
-        <div>
-          <div class="footer__col-title">Categories</div>
-          <div class="footer__links">
-            <a href="/category/ai.html" style="color:#22D3EE">AI</a>
-            <a href="/category/gadgets.html" style="color:#8B5CF6">Gadgets</a>
-            <a href="/category/innovation.html" style="color:#34d399">Innovation</a>
-            <a href="/category/startups.html" style="color:#3B82F6">Startups</a>
-            <a href="/category/gaming.html" style="color:#f59e0b">Gaming</a>
-          </div>
-        </div>
-
-        <div>
-          <div class="footer__col-title">TechLoop</div>
-          <div class="footer__links">
-            <a href="/about.html">About</a>
-            <a href="/privacy.html">Privacy Policy</a>
-            <a href="/contact.html">Contact</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer__bottom">
-        <p class="footer__copy">
-          © 2025 TechLoop. All rights reserved.
-          News articles linked to their original sources.
-        </p>
-        <div class="footer__built">
-          Hosted on Vercel · Updated daily
-        </div>
-      </div>
-    </div>
+  <footer>
+    <p>© 2025 TechLoop. All rights reserved. · <a href="/privacy.html">Privacy Policy</a> · <a href="/contact.html">Contact</a></p>
   </footer>
 
-  <!-- SCRIPTS -->
-  <script>
-    /* Hamburger */
-    const hamburger = document.getElementById('hamburger');
-    const mobileNav = document.getElementById('mobile-nav');
-    hamburger?.addEventListener('click', () => {
-      const open = mobileNav.classList.toggle('open');
-      hamburger.setAttribute('aria-expanded', open);
-    });
-    mobileNav?.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => mobileNav.classList.remove('open'));
-    });
-
-    /* Ticker duplicate */
-    const tickerInner = document.getElementById('ticker-inner');
-    if (tickerInner && tickerInner.children.length) {
-      const clone = tickerInner.cloneNode(true);
-      tickerInner.parentElement.appendChild(clone);
-    }
-
-    /* Scroll fade-in */
-    const fadeEls = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
-      });
-    }, { threshold: 0.12 });
-    fadeEls.forEach(el => observer.observe(el));
-
-    /* Weekly Poll */
-    const POLLS = [
-      // 🤖 AI (15 perguntas)
-      { q: "Which AI assistant do you use most in 2026?", opts: ["ChatGPT", "Claude", "Gemini", "Other"], votes: [0,0,0,0] },
-      { q: "Do you trust AI-generated news summaries?", opts: ["Yes, completely", "Mostly yes", "Mostly no", "Not at all"], votes: [0,0,0,0] },
-      { q: "Will AI replace most junior coding jobs by 2030?", opts: ["Definitely yes", "Partially yes", "Unlikely", "No"], votes: [0,0,0,0] },
-      { q: "Which AI use case excites you most in 2026?", opts: ["AI agents", "Image generation", "Code assistants", "Healthcare AI"], votes: [0,0,0,0] },
-      { q: "Is the EU AI Act good for European innovation?", opts: ["Yes, we need it", "Mostly yes", "Mostly no", "No, it's harmful"], votes: [0,0,0,0] },
-      { q: "How often do you use AI tools at work?", opts: ["Every day", "A few times a week", "Rarely", "Never"], votes: [0,0,0,0] },
-      { q: "Which company is leading AI in 2026?", opts: ["OpenAI", "Google", "Anthropic", "Meta"], votes: [0,0,0,0] },
-      { q: "Are you concerned about AI safety risks?", opts: ["Very concerned", "Somewhat concerned", "Not really", "Not at all"], votes: [0,0,0,0] },
-      { q: "Will AI become smarter than humans by 2035?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No chance"], votes: [0,0,0,0] },
-      { q: "Do you use AI to help you read or summarise news?", opts: ["Yes, daily", "Sometimes", "Rarely", "Never"], votes: [0,0,0,0] },
-      { q: "Should AI-generated content be clearly labelled?", opts: ["Always", "Only for news", "Only for images", "No need"], votes: [0,0,0,0] },
-      { q: "Which AI skill is most valuable to learn in 2026?", opts: ["Prompt engineering", "Fine-tuning models", "AI ethics", "Data analysis"], votes: [0,0,0,0] },
-      { q: "How do you feel about AI in healthcare?", opts: ["Very positive", "Cautiously optimistic", "Sceptical", "Against it"], votes: [0,0,0,0] },
-      { q: "Will AI make remote work more or less common?", opts: ["Much more common", "Slightly more", "No change", "Less common"], votes: [0,0,0,0] },
-      { q: "Which AI product surprised you most in 2026?", opts: ["AI agents", "Voice assistants", "AI video tools", "AI coding tools"], votes: [0,0,0,0] },
-      // 📱 Gadgets (10 perguntas)
-      { q: "Will foldable phones become mainstream by 2028?", opts: ["Yes, definitely", "Maybe", "Probably not", "No chance"], votes: [0,0,0,0] },
-      { q: "What is your primary device for reading news?", opts: ["Smartphone", "Laptop", "Tablet", "Desktop"], votes: [0,0,0,0] },
-      { q: "Are you planning to buy a new smartphone in 2026?", opts: ["Yes, already decided", "Maybe", "Probably not", "No"], votes: [0,0,0,0] },
-      { q: "Which smartphone brand do you prefer?", opts: ["Apple", "Samsung", "Google Pixel", "Other"], votes: [0,0,0,0] },
-      { q: "Are smartwatches worth the money?", opts: ["Absolutely", "For some people", "Probably not", "Waste of money"], votes: [0,0,0,0] },
-      { q: "Will AR glasses replace smartphones by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
-      { q: "How long do you typically keep your smartphone?", opts: ["1-2 years", "2-3 years", "3-4 years", "4+ years"], votes: [0,0,0,0] },
-      { q: "Which gadget has improved your life most?", opts: ["Smartphone", "Laptop", "Wireless earbuds", "Smart home devices"], votes: [0,0,0,0] },
-      { q: "Are you interested in buying an AR/VR headset?", opts: ["Already have one", "Planning to buy", "Maybe someday", "Not interested"], votes: [0,0,0,0] },
-      { q: "Do you use wireless charging regularly?", opts: ["Yes, every day", "Sometimes", "Rarely", "Never"], votes: [0,0,0,0] },
-      // 🚀 Startups (10 perguntas)
-      { q: "What's the most exciting European startup scene in 2026?", opts: ["Ireland", "Germany", "France", "Netherlands"], votes: [0,0,0,0] },
-      { q: "Would you work for a startup over a big tech company?", opts: ["Yes, definitely", "Probably yes", "Probably not", "No"], votes: [0,0,0,0] },
-      { q: "Which sector has the most startup potential in 2026?", opts: ["AI & ML", "Green tech", "FinTech", "HealthTech"], votes: [0,0,0,0] },
-      { q: "Is venture capital funding becoming harder to get?", opts: ["Much harder", "Slightly harder", "About the same", "Easier"], votes: [0,0,0,0] },
-      { q: "Should governments fund more tech startups?", opts: ["Yes, absolutely", "To some extent", "Leave it to market", "No"], votes: [0,0,0,0] },
-      { q: "What kills most startups?", opts: ["Lack of funding", "Wrong product", "Bad timing", "Team problems"], votes: [0,0,0,0] },
-      { q: "Is Ireland a good place to launch a tech startup?", opts: ["One of the best", "Pretty good", "Average", "Not ideal"], votes: [0,0,0,0] },
-      { q: "Would you invest in a European AI startup today?", opts: ["Yes, definitely", "Maybe", "Too risky", "No"], votes: [0,0,0,0] },
-      { q: "What matters most in a startup's early stage?", opts: ["Product", "Team", "Funding", "Market timing"], votes: [0,0,0,0] },
-      { q: "Will more Irish startups go global in 2026?", opts: ["Yes, many", "Some will", "About the same", "Fewer than before"], votes: [0,0,0,0] },
-      // 🎮 Gaming (10 perguntas)
-      { q: "Best gaming platform right now?", opts: ["PlayStation 5", "Xbox Series X", "PC", "Nintendo Switch"], votes: [0,0,0,0] },
-      { q: "How many hours per week do you game?", opts: ["Less than 2", "2-5 hours", "5-10 hours", "10+ hours"], votes: [0,0,0,0] },
-      { q: "Do you prefer single-player or multiplayer games?", opts: ["Single-player", "Multiplayer", "Both equally", "Neither"], votes: [0,0,0,0] },
-      { q: "Will cloud gaming replace consoles by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
-      { q: "Are game prices too high in 2026?", opts: ["Way too high", "A bit high", "About right", "Good value"], votes: [0,0,0,0] },
-      { q: "Do you use a gaming subscription service?", opts: ["Xbox Game Pass", "PlayStation Plus", "Both", "Neither"], votes: [0,0,0,0] },
-      { q: "What genre do you play most?", opts: ["Action/Adventure", "FPS", "RPG", "Sports/Racing"], votes: [0,0,0,0] },
-      { q: "Will AI change game development significantly?", opts: ["Already has", "Will in 2-3 years", "Eventually", "Overhyped"], votes: [0,0,0,0] },
-      { q: "Do you watch gaming content on YouTube/Twitch?", opts: ["Daily", "A few times a week", "Rarely", "Never"], votes: [0,0,0,0] },
-      { q: "Are eSports a legitimate career path?", opts: ["Absolutely", "For a few talented people", "Very risky", "No"], votes: [0,0,0,0] },
-      // 💡 Innovation & Tech Geral (7 perguntas)
-      { q: "What's the most exciting tech trend of 2026?", opts: ["AI agents", "Green energy tech", "Space tech", "Quantum computing"], votes: [0,0,0,0] },
-      { q: "How do you primarily read tech news?", opts: ["RSS / aggregators", "Social media", "Newsletters", "Direct sites"], votes: [0,0,0,0] },
-      { q: "Will quantum computing be mainstream by 2030?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No"], votes: [0,0,0,0] },
-      { q: "Is remote work better for productivity?", opts: ["Much better", "Slightly better", "About the same", "Worse"], votes: [0,0,0,0] },
-      { q: "Which is more important for Europe's future?", opts: ["AI investment", "Green energy", "Digital infrastructure", "Space tech"], votes: [0,0,0,0] },
-      { q: "Do you think tech companies pay enough tax in Ireland?", opts: ["Yes, enough", "Could pay more", "Should pay much more", "Not sure"], votes: [0,0,0,0] },
-      { q: "Will humans live on Mars before 2050?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No chance"], votes: [0,0,0,0] }
-    ];
-    function getWeekPollIndex() {
-      const now = new Date();
-      const start = new Date(now.getFullYear(), 0, 1);
-      const week = Math.floor((now - start) / (7 * 24 * 3600 * 1000));
-      return week % POLLS.length;
-    }
-    function getPollKey() {
-      const now = new Date();
-      const year = now.getFullYear();
-      const week = Math.floor((now - new Date(year,0,1)) / (7*24*3600*1000));
-      return `tl_poll_${year}_${week}`;
-    }
-    function loadPollState() {
-      try { const raw = localStorage.getItem(getPollKey()); return raw ? JSON.parse(raw) : null; } catch { return null; }
-    }
-    function savePollState(state) {
-      try { localStorage.setItem(getPollKey(), JSON.stringify(state)); } catch {}
-    }
-    function renderPoll() {
-      const idx = getWeekPollIndex();
-      const poll = POLLS[idx];
-      const state = loadPollState() || { votes: [...poll.votes], voted: null };
-      const qEl = document.getElementById('poll-question');
-      const optsEl = document.getElementById('poll-options');
-      const votesEl = document.getElementById('poll-votes');
-      if (!qEl || !optsEl) return;
-      qEl.textContent = poll.q;
-      const totalVotes = state.votes.reduce((a, b) => a + b, 0);
-      votesEl.textContent = `${totalVotes} vote${totalVotes !== 1 ? 's' : ''}`;
-      if (state.voted !== null) {
-        optsEl.innerHTML = '';
-        const div = document.createElement('div');
-        div.className = 'poll-result-bar';
-        poll.opts.forEach((opt, i) => {
-          const pct = totalVotes ? Math.round(state.votes[i] / totalVotes * 100) : 0;
-          div.innerHTML += `<div class="poll-result-item"><div class="poll-result-label"><span>${opt}${i === state.voted ? ' ✓' : ''}</span><span>${pct}%</span></div><div class="poll-bar-track"><div class="poll-bar-fill" style="width:${pct}%"></div></div></div>`;
-        });
-        optsEl.appendChild(div);
-      } else {
-        optsEl.innerHTML = '';
-        poll.opts.forEach((opt, i) => {
-          const btn = document.createElement('button');
-          btn.className = 'poll-option';
-          btn.innerHTML = `<span class="poll-option__dot"></span>${opt}`;
-          btn.addEventListener('click', () => { state.votes[i]++; state.voted = i; savePollState(state); renderPoll(); });
-          optsEl.appendChild(btn);
-        });
-      }
-    }
-    renderPoll();
-
-    /* Timestamp */
-    const now = new Date();
-    const fmt = new Intl.DateTimeFormat('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-    document.querySelectorAll('.hero__date, #digest-date-label, #digest-date').forEach(el => {
-      if (el && !el.textContent.trim()) el.textContent
+</body>
+</html>
