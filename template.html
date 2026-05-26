@@ -1377,7 +1377,11 @@
       if (!qEl || !optsEl) return;
       qEl.textContent = poll.q;
       const totalVotes = state.votes.reduce((a, b) => a + b, 0);
-      votesEl.textContent = `${totalVotes} vote${totalVotes !== 1 ? 's' : ''}`;
+      const fakeBase = parseInt(localStorage.getItem('tl_fake_votes') || '0') ||
+        Math.floor(Math.random() * 56) + 23;
+      localStorage.setItem('tl_fake_votes', fakeBase);
+      const displayVotes = totalVotes + fakeBase;
+      votesEl.textContent = `${displayVotes} vote${displayVotes !== 1 ? 's' : ''}`;
       if (state.voted !== null) {
         optsEl.innerHTML = '';
         const div = document.createElement('div');
