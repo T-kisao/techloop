@@ -93,13 +93,12 @@ FEEDS = {
         "https://feeds.feedburner.com/mit-technology-review/fvDp",
         "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
         "https://venturebeat.com/category/ai/feed/",
-        "https://www.wired.com/feed/tag/artificial-intelligence/rss",
+        "https://www.wired.com/feed/category/artificial-intelligence/rss",
     ],
     "Gadgets": [
-        "https://www.theverge.com/rss/index.xml",
+        "https://www.theverge.com/rss/tech/index.xml",
         "https://9to5mac.com/feed/",
         "https://www.gsmarena.com/rss-news-reviews.php3",
-        "https://www.engadget.com/rss.xml",
     ],
     "Innovation": [
         "https://news.mit.edu/rss/topic/innovation",
@@ -113,7 +112,7 @@ FEEDS = {
         "https://sifted.eu/feed/",
     ],
     "Gaming": [
-        "https://feeds.ign.com/ign/all",
+        "https://kotaku.com/rss",
         "https://www.eurogamer.net/feed",
         "https://www.polygon.com/rss/index.xml",
     ],
@@ -321,7 +320,6 @@ def _extract_image(entry):
     if not url:
         return ""
 
-    # Validate URL is actually accessible before accepting it
     try:
         headers = {"User-Agent": "Mozilla/5.0 (compatible; TechLoop/1.0)"}
         resp = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
@@ -587,11 +585,9 @@ def rebuild_category_pages(articles_by_cat):
         cards_html = category_cards_html(articles)
         count = len(articles)
 
-        # Replace the INJECT marker
         marker = f"<!-- INJECT:CAT_{cat.upper()} -->"
         html = html.replace(marker, cards_html)
 
-        # Update article count in stat box
         html = re.sub(
             r'(<div class="stat-value" id="article-count">)[^<]*(</div>)',
             rf'\g<1>{count}\2',
@@ -613,7 +609,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     html      = template_path.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%-d %b %Y · %H:%M UTC")
 
-    # ── FEATURED ──────────────────────────────────────────────────────────────
     featured_by_cat = {}
     for a in all_articles_including_seen:
         cat = a["category"]
@@ -657,7 +652,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
     print(f"  Featured top: {[a['category'] for a in f_top]}")
     print(f"  Featured bottom: {[a['category'] for a in f_bottom]}")
 
-    # ── DIGEST ────────────────────────────────────────────────────────────────
     digest_articles = []
     for a in all_articles:
         if len(digest_articles) >= 6:
@@ -666,7 +660,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
             digest_articles.append(a)
             used_links.add(a["link"])
 
-    # ── LATEST ────────────────────────────────────────────────────────────────
     latest_pool = []
     for a in all_articles:
         if len(latest_pool) >= 9:
@@ -675,7 +668,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
             latest_pool.append(a)
             used_links.add(a["link"])
 
-    # ── TICKER ────────────────────────────────────────────────────────────────
     ticker_pool = [a for a in all_articles if a["link"] not in used_links]
     ticker_all  = f_top + f_bottom + digest_articles + ticker_pool
 
@@ -697,7 +689,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
           f"featured={len(f_top+f_bottom)} digest={len(digest_articles)} "
           f"latest={len(latest_pool)} ticker={len(ticker_all)}")
 
-    # ── CATEGORY PAGES ────────────────────────────────────────────────────────
     print("\nRebuilding category pages...")
     articles_by_cat = {}
     for a in all_articles:
