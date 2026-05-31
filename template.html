@@ -1399,7 +1399,14 @@
           const btn = document.createElement('button');
           btn.className = 'poll-option';
           btn.innerHTML = `<span class="poll-option__dot"></span>${opt}`;
-          btn.addEventListener('click', () => { state.votes[i]++; state.voted = i; savePollState(state); renderPoll(); });
+          btn.addEventListener('click', () => {
+            const base = poll.opts.map(() => Math.floor(Math.random() * 46) + 15);
+            state.votes = base;
+            state.votes[i]++;
+            state.voted = i;
+            savePollState(state);
+            renderPoll();
+          });
           optsEl.appendChild(btn);
         });
       }
