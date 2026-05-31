@@ -37,6 +37,7 @@ MAX_AI_SUMMARIES     = 10
 FEATURED_COUNT       = 3
 SEEN_ARTICLES_TTL_DAYS = 7
 SEEN_ARTICLES_FILE   = Path("seen_articles.json")
+ARTICLES_ARCHIVE_FILE = Path("articles_archive.json")
 
 _INACCESSIBLE_PHRASES = [
     "i'm unable to access",
@@ -167,6 +168,51 @@ def save_seen_articles(seen):
         SEEN_ARTICLES_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
     except Exception as e:
         print(f"  Warning: could not save seen articles — {e}")
+
+def load_articles_archive():
+    if not ARTICLES_ARCHIVE_FILE.exists():
+        return []
+    try:
+        data = json.loads(ARTICLES_ARCHIVE_FILE.read_text(encoding="utf-8"))
+        cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_ARTICLES_TTL_DAYS)
+        result = []
+        for a in data:
+            pub = a.get("published")
+            if pub:
+                try:
+                    dt = dateparser.parse(str(pub))
+                    if dt and dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    if dt and dt >= cutoff:
+                        a["published"] = dt
+                        result.append(a)
+                except Exception:
+                    pass
+            else:
+                result.append(a)
+        return result
+    except Exception:
+        return []
+
+def save_articles_archive(articles):
+    try:
+        serializable = []
+        for a in articles:
+            copy = dict(a)
+            if isinstance(copy.get("published"), datetime):
+                copy["published"] = copy["published"].isoformat()
+            serializable.append(copy)
+        ARTICLES_ARCHIVE_FILE.write_text(json.dumps(serializable, indent=2), encoding="utf-8")
+    except Exception as e:
+        print(f"  Warning: could not save articles archive — {e}")
+
+def merge_into_archive(archive, new_articles):
+    existing = {a["hash"] for a in archive}
+    for a in new_articles:
+        if a["hash"] not in existing:
+            archive.append(a)
+            existing.add(a["hash"])
+    return archive
 
 def article_hash(title):
     return hashlib.md5(title.lower().strip().encode()).hexdigest()[:12]
@@ -689,16 +735,6 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
           f"featured={len(f_top+f_bottom)} digest={len(digest_articles)} "
           f"latest={len(latest_pool)} ticker={len(ticker_all)}")
 
-    print("\nRebuilding category pages...")
-    articles_by_cat = {}
-    for a in all_articles:
-        cat = a["category"]
-        if cat not in articles_by_cat:
-            articles_by_cat[cat] = []
-        articles_by_cat[cat].append(a)
-
-    rebuild_category_pages(articles_by_cat)
-
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
@@ -825,8 +861,29 @@ def main():
             if not article.get("image"):
                 article["image"] = fetch_pexels_image(article["title"], article["category"])
 
-    print("\nRebuilding index.html + category pages...")
+    print("\nRebuilding index.html...")
     rebuild_html(all_articles, all_articles_including_seen, digest_text)
+
+    print("\nUpdating articles archive...")
+    archive = load_articles_archive()
+    archive = merge_into_archive(archive, all_articles)
+    save_articles_archive(archive)
+    print(f"  Archive has {len(archive)} articles across all categories.")
+
+    print("\nRebuilding category pages from 7-day archive...")
+    archive_by_cat = {}
+    for a in archive:
+        cat = a["category"]
+        if cat not in archive_by_cat:
+            archive_by_cat[cat] = []
+        archive_by_cat[cat].append(a)
+    for cat in archive_by_cat:
+        archive_by_cat[cat].sort(
+            key=lambda x: x["published"] if isinstance(x["published"], datetime)
+                          else datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
+    rebuild_category_pages(archive_by_cat)
 
     now = datetime.now(timezone.utc).isoformat()
     for a in all_articles:
