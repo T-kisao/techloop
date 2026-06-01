@@ -1351,17 +1351,19 @@
       { q: "Do you think tech companies pay enough tax in Ireland?", opts: ["Yes, enough", "Could pay more", "Should pay much more", "Not sure"], votes: [0,0,0,0] },
       { q: "Will humans live on Mars before 2050?", opts: ["Yes, definitely", "Maybe", "Unlikely", "No chance"], votes: [0,0,0,0] }
     ];
+    function getWeekNumber() {
+      const d = new Date();
+      const day = d.getDay() || 7;
+      d.setDate(d.getDate() - (day - 1));
+      d.setHours(0, 0, 0, 0);
+      const ref = new Date(2026, 0, 5); // Monday, Jan 5 2026
+      return Math.floor((d - ref) / (7 * 24 * 3600 * 1000));
+    }
     function getWeekPollIndex() {
-      const now = new Date();
-      const start = new Date(now.getFullYear(), 0, 1);
-      const week = Math.floor((now - start) / (7 * 24 * 3600 * 1000));
-      return week % POLLS.length;
+      return ((getWeekNumber() % POLLS.length) + POLLS.length) % POLLS.length;
     }
     function getPollKey() {
-      const now = new Date();
-      const year = now.getFullYear();
-      const week = Math.floor((now - new Date(year,0,1)) / (7*24*3600*1000));
-      return `tl_poll_${year}_${week}`;
+      return `tl_poll_iso_${getWeekNumber()}`;
     }
     function loadPollState() {
       try { const raw = localStorage.getItem(getPollKey()); return raw ? JSON.parse(raw) : null; } catch { return null; }
