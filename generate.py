@@ -631,8 +631,12 @@ def rebuild_category_pages(articles_by_cat):
         cards_html = category_cards_html(articles)
         count = len(articles)
 
-        marker = f"<!-- INJECT:CAT_{cat.upper()} -->"
-        html = html.replace(marker, cards_html)
+        html = re.sub(
+            r'(<div class="articles-grid" id="articles-grid">).*?(\n+      </div>\n    </div>)',
+            lambda m: m.group(1) + '\n' + cards_html + '\n      </div>\n    </div>',
+            html,
+            flags=re.DOTALL
+        )
 
         html = re.sub(
             r'(<div class="stat-value" id="article-count">)[^<]*(</div>)',
