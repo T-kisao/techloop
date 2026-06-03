@@ -91,8 +91,8 @@ _pexels_used_urls: set = set()
 
 FEEDS = {
     "AI": [
-        "https://feeds.feedburner.com/mit-technology-review/fvDp",
-        "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+        "https://www.technologyreview.com/feed/",
+        "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "https://venturebeat.com/category/ai/feed/",
         "https://www.wired.com/feed/category/artificial-intelligence/rss",
     ],
@@ -650,7 +650,7 @@ def rebuild_category_pages(articles_by_cat):
 
 # ── TEMPLATE REBUILD ──────────────────────────────────────────────────────────
 
-def rebuild_html(all_articles, all_articles_including_seen, digest_text):
+def rebuild_html(all_articles, all_articles_including_seen, digest_text, archive=None):
     template_path = Path("template.html")
     if not template_path.exists():
         print("Error: template.html not found.")
@@ -727,7 +727,7 @@ def rebuild_html(all_articles, all_articles_including_seen, digest_text):
         "<!-- INJECT:DIGEST -->":          digest_items_html(digest_articles, digest_text),
         "<!-- INJECT:LATEST -->":          latest_cards_html(latest_pool),
         "<!-- INJECT:TICKER -->":          ticker_items_html(ticker_all),
-        "<!-- INJECT:CATS -->":            category_pills_html(all_articles),
+        "<!-- INJECT:CATS -->":            category_pills_html(archive if archive is not None else all_articles),
         "<!-- INJECT:TIMESTAMP -->":       timestamp,
     }
 
@@ -865,14 +865,14 @@ def main():
             if not article.get("image"):
                 article["image"] = fetch_pexels_image(article["title"], article["category"])
 
-    print("\nRebuilding index.html...")
-    rebuild_html(all_articles, all_articles_including_seen, digest_text)
-
     print("\nUpdating articles archive...")
     archive = load_articles_archive()
     archive = merge_into_archive(archive, all_articles)
     save_articles_archive(archive)
     print(f"  Archive has {len(archive)} articles across all categories.")
+
+    print("\nRebuilding index.html...")
+    rebuild_html(all_articles, all_articles_including_seen, digest_text, archive)
 
     print("\nRebuilding category pages from 7-day archive...")
     archive_by_cat = {}
