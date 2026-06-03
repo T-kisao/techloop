@@ -728,5 +728,295 @@
     "category": "Innovation",
     "published": "2026-06-02T17:00:31+01:00",
     "hash": "400d77138e16"
+  },
+  {
+    "title": "Wordsmith lands $70m Series B to turbocharge legal work with AI",
+    "link": "https://sifted.eu/articles/wordsmith-ai-legal-tech-raise-index-ventures-highland/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/03150303/IMG_9561-scaled-e1780495414359.jpg?w=1362&amp;h=1150&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-03T15:04:07+00:00",
+    "hash": "c9b772aaddd0",
+    "ai_summary": "Unfortunately, I don't see the actual content of the article. Please provide the text so I can create a summary for a general audience. I'll create a 2-sentence summary that's concise, factual, and engaging."
+  },
+  {
+    "title": "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
+    "link": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+    "summary": "The startup's own stack for Africa and Middle East is now handling more than 17,000 calls per day.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/Athx-Pictures_-Right-Mariama-Left-Ayooluwa.jpg?resize=1200,675",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-03T15:00:00+00:00",
+    "hash": "f9639082b050",
+    "ai_summary": "Two tech entrepreneurs, formerly of Goldman Sachs and Meta, have left their high-profile jobs to revolutionize voice AI for emerging markets, successfully processing over 17,000 calls daily in Africa and the Middle East. Their innovative startup is bridging the gap in accessible financial tools for underserved regions, offering a vital lifeline to local communities."
+  },
+  {
+    "title": "GitLab cuts 14% of staff as it scales its platform to serve AI workloads",
+    "link": "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/",
+    "summary": "The company is reducing its workforce as it exits 22 countries, reduces management layers, and invests in its infrastructure to scale its platform.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/12/PXL_20220520_112153305.jpg?resize=1200,903",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-03T14:59:30+00:00",
+    "hash": "facfe3c9acca",
+    "ai_summary": "GitLab is downsizing, cutting approximately 14% of its workforce as it refocuses efforts to accommodate growing demand for its platform in the AI industry. The company is streamlining its operations by merging countries where possible, reducing management layers, and upgrading its infrastructure for scalability."
+  },
+  {
+    "title": "Publishers will be able to opt out of AI Search, thanks to new regulation",
+    "link": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+    "summary": "U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the UK then rolled out globally.",
+    "image": "https://techcrunch.com/wp-content/uploads/2019/10/google-search-app-ios.jpg?resize=1200,644",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-03T14:58:33+00:00",
+    "hash": "9323e5154424",
+    "ai_summary": "Publishers in the UK are about to gain a new level of control over their websites, thanks to a forthcoming regulation that will allow them to opt out of Google's generative AI-powered search features. This global rollout is set to give website owners a greater say over how their content is processed by AI, starting with a test in the UK."
+  },
+  {
+    "title": "AI changing jobs faster than companies can keep up with, finds report",
+    "link": "https://www.siliconrepublic.com/machines/ai-changing-jobs-companies-report-skills-ai-survey-working-life",
+    "summary": "The BCG report found that many organisations are struggling to turn AI into a resource that shows genuine company-wide value. Read more: AI changing jobs faster than companies can keep up with, finds report",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Reshaping-work-AI-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-03T14:58:27+00:00",
+    "hash": "3542a01f854c",
+    "ai_summary": "A recent report reveals that AI is transforming jobs at an astonishing rate, leaving many companies scrambling to adapt and harness its full potential. Despite the rapid changes, the report finds that many organizations are struggling to turn AI into a valuable resource that benefits the entire company."
+  },
+  {
+    "title": "These iPhones, iPads, Macs may not support Apple\u2019s new software",
+    "link": "https://9to5mac.com/2026/06/03/these-iphones-ipads-macs-may-not-support-apples-new-software/",
+    "summary": "Next week Apple will unveil iOS 27, iPadOS 27, and macOS 27 at WWDC , but rumors indicate certain iPhone, Mac, and iPad models won\u2019t support the new software. Here\u2019s what to expect. more\u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-logo-wwdc-2026.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-03T14:54:04+00:00",
+    "hash": "36586cc46383",
+    "ai_summary": "Apple is set to unveil its latest software updates, iOS 27, iPadOS 27, and macOS 27, at its upcoming WWDC event, but some older iPhone, Mac, and iPad models may not be compatible with the new system. Users of these older devices can expect to miss out on the latest features and improvements that come with the new software releases."
+  },
+  {
+    "title": "Dreame&#8217;s L20 Ultra robovac is an unbeatable deal for $280",
+    "link": "https://www.theverge.com/gadgets/942184/dreame-l20-ultra-audible-bose-soundlink-flex-deal-sale",
+    "summary": "The Dreame L20 Ultra isn\u2019t the company&#8217;s newest model, but it&#8217;s still a great robovac / mop hybrid that offers strong performance while requiring very little day-to-day maintenance thanks to its included trash bin and AI obstacle avoidance. Verge readers can get for its best-ever price right now. Originally $1,400 when it launched in 2023, [&#8230;]",
+    "image": "https://images.pexels.com/photos/8566427/pexels-photo-8566427.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-03T10:53:10-04:00",
+    "hash": "c5ca40ecac13",
+    "ai_summary": "Get ready to swoop up a bargain, as the Dreame L20 Ultra, a high-performing robovac and mop hybrid, is now available at its lowest price ever of $280. This impressive device boasts strong cleaning capabilities, AI-powered obstacle avoidance, and requires minimal maintenance, making it a must-have for any household looking to upgrade their cleaning routine."
+  },
+  {
+    "title": "Why your funding announcement is not the PR win you think it is \u2013 and why speaking at events is",
+    "link": "https://www.eu-startups.com/2026/06/why-your-funding-announcement-is-not-the-pr-win-you-think-it-is-and-why-speaking-at-events-is/",
+    "summary": "In the European tech ecosystem, we have a Series B problem, and it\u2019s not new. We are excellent at launching startups with Seed funding, but many struggle to maintain the velocity required to become global leaders. There are many reasons for this, but from a PR perspective, the missing ingredient is often the architecture of [&#8230;] The post Why your funding announcement is not the PR win you think it is &#8211; and why speaking at events is appeared first on EU-Startups .",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Speaking-at-events.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-06-03T14:38:26+00:00",
+    "hash": "84192f34f337",
+    "ai_summary": "European tech startups often excel at securing initial funding, but struggle to sustain momentum and become global leaders. One key reason for this stagnation may be the lack of strategic planning and communication, leading to underwhelming public relations results from funding announcements."
+  },
+  {
+    "title": "Trump\u2019s AI order gives Washington a look at frontier models, but not much leverage",
+    "link": "https://www.fastcompany.com/91552553/trumps-ai-order-gives-washington-a-look-at-frontier-models-but-not-much-leverage?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The most powerful AI models are now treated, at least in Washington, as potential national-security events. Before companies release them to the public, the government wants a chance to see what they can do: whether they can discover software vulnerabilities, assist cyberattacks, or otherwise introduce risks that federal officials may not fully understand until the models are already in use. President Trump\u2019s new executive order, signed Tuesday , is meant to give the government that chance. But",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91552553-trumps-ai-executive-order.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-03T14:38:01+00:00",
+    "hash": "5df690a5a646",
+    "ai_summary": "The US government is cracking down on powerful AI models, requiring companies to share their capabilities with Washington before releasing them to the public. The goal is to identify potential security risks and vulnerabilities that could be exploited by hackers or used for malicious purposes."
+  },
+  {
+    "title": "Apple Vision Pro gains a free, native app that takes you on an immersive private flight",
+    "link": "https://9to5mac.com/2026/06/03/apple-vision-pro-gains-a-free-native-app-that-takes-you-on-an-immersive-private-flight/",
+    "summary": "There\u2019s just something special about Apple Vision Pro and airplanes. From turning in-flight entertainment into a cinematic experience to supporting the world\u2019s most advanced flight simulator, Apple Vision Pro has earned its wings. Now there\u2019s a new native app that\u2019s free to download and experience that takes Apple Vision Pro users on an immersive private flight from the comfort of your living room. more\u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/letsGoFly_immersive_cockpit.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-03T14:31:27+00:00",
+    "hash": "869e956b4067",
+    "ai_summary": "Apple has introduced a free, native app for their Vision Pro headset that allows users to experience a thrilling, immersive private flight from the comfort of their own home. With this app, Vision Pro users can feel like they're soaring through the skies, bringing a new level of excitement to their daily lives."
+  },
+  {
+    "title": "New Apple TV thriller sounds like the first must-watch of summer, reviews here",
+    "link": "https://9to5mac.com/2026/06/03/new-apple-tv-thriller-sounds-like-the-first-must-watch-of-summer-reviews-here/",
+    "summary": "Cape Fear premieres this week on Apple TV , a new psychological thriller inspired by Martin Scorsese\u2019s 1991 film. Reviews debuted today, and it sounds like Cape Fear has all the makings of the first must-watch show of the summer. more\u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/amy-adams-cape-fear-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-03T14:18:28+00:00",
+    "hash": "8d11f9ed8acb"
+  },
+  {
+    "title": "After Working With Christopher Nolan, Spider-Man Star Tom Holland Suddenly Realized Marvel Movies Are A Factory",
+    "link": "https://kotaku.com/after-working-with-christopher-nolan-spider-man-star-tom-holland-suddenly-realized-marvel-movies-are-a-factory-2000701960",
+    "summary": "Wait a minute...are we just making this movie to make a billion dollars?",
+    "image": "https://kotaku.com/app/uploads/2026/04/Spider-Man-getting-snapped-in-Avengers-Infinity-War-Disney.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-03T14:09:50+00:00",
+    "hash": "19ceb77729ae"
+  },
+  {
+    "title": "Microsoft and OpenAI broke up \u2014\u00a0now they\u2019re ready to fight",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+    "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's [&#8230;]",
+    "image": "https://images.pexels.com/photos/16027820/pexels-photo-16027820.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-03T10:04:00-04:00",
+    "hash": "5e64495f7f8d"
+  },
+  {
+    "title": "Here's when the Xiaomi 18 series, vivo X500 family, and Oppo Find X10 devices are rumored to launch",
+    "link": "https://www.gsmarena.com/heres_when_the_xiaomi_18_series_vivo_x500_family_and_oppo_find_x10_devices_are_rumored_to_launch-news-73111.php",
+    "summary": "Last year, Xiaomi launched the 17, 17 Pro, and 17 Pro Max in September, while vivo and Oppo came out with the X300, X300 Pro, Find X9, and Find X9 Pro in October. According to a new rumor from China, Xiaomi will launch the 18 series this September, which is hardly surprising. However, the source claims that vivo and Oppo are also aiming to unveil the X500 series and Find X10 series, respectively, in September too. Xiaomi 17 Pro Max That would allow them to better compete with Xiaomi from the beg",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/xiaomi-18-vivo-x500-oppo-find-x10-launch-month/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-03T16:03:03+02:00",
+    "hash": "d4a26411302c"
+  },
+  {
+    "title": "These phones take photos that really don\u2019t look like they came from a phone",
+    "link": "https://www.fastcompany.com/91550680/these-phones-take-photos-really-dont-look-like-came-from-phone?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "For the last few years, my favorite compact cameras haven\u2019t been traditional cameras at all; instead, they\u2019ve been smartphones produced by the Chinese tech giant Xiaomi . Part of that is because of the company\u2019s work on cutting-edge mobile hardware , but a huge factor is its collaboration with legendary German camera maker Leica. In a world of overprocessed, HDR-heavy smartphone photos, Leica contributes realistic, tasteful color science to Xiaomi devices . While all smartphones need to operate",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-91550680-Xiaomi-17T.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-03T13:53:12+00:00",
+    "hash": "d62067a8c1c6"
+  },
+  {
+    "title": "No, God Of War Isn\u2019t Leaving Kratos Behind: \u2018We\u2019ll Always Tell Stories About Kratos\u2019",
+    "link": "https://kotaku.com/god-of-war-laufey-kratos-faye-sindri-atreus-next-game-2000701959",
+    "summary": "Santa Monica Studios says the new Faye-centric Laufey is \u2018not a departure; it's more of an expansion\u2019",
+    "image": "https://kotaku.com/app/uploads/2025/09/God-War-Sad.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-03T13:49:54+00:00",
+    "hash": "86b8acce3a22"
+  },
+  {
+    "title": "A conspicuous absence of live-service, a wealth of single-player games, and the spectre of a \u00a3500 console: what we made of PlayStation's June State of Play",
+    "link": "https://www.eurogamer.net/playstation-state-of-play-recap-2026-june",
+    "summary": "Last night's PlayStation State of Play was a big one for Sony. We're still reeling from the platform holder's announcement in March that the PS5, PS5 Pro, and Portal would be getting major price hikes thanks to \"continued pressures in the global economic landscape\". And there's the most recent PS Plus price hike too. What's more, there have been recent reports that Sony plans to ditch PC versions of its single-player PS5 games , and all the while the company has apparently been selling fewer and",
+    "image": "https://images.pexels.com/photos/34594711/pexels-photo-34594711.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-06-03T13:24:28+00:00",
+    "hash": "74ba54dc84e9"
+  },
+  {
+    "title": "Patreon CEO Refuses To Remove YouTuber\u2019s Viral Lego Investigation Despite Takedown Notice And Lawsuit: \u2018Bricks & Minifigs Can Stuff It\u2019",
+    "link": "https://kotaku.com/lego-star-wars-reckless-ben-youtube-bricks-minifigs-patreon-mormon-mafia-2000701942",
+    "summary": "Reckless Ben has gained a new ally in his fight against Lego reseller Bricks & Minifigs: the CEO of Patreon",
+    "image": "https://kotaku.com/app/uploads/2026/06/Thumbnail-from-Reckless-Bens-video-I-got-arrested-because-of-legos.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-03T13:23:01+00:00",
+    "hash": "a26937ddfdfe"
+  },
+  {
+    "title": "Keto diet shows real promise for anorexia recovery",
+    "link": "https://www.newscientist.com/article/2528945-keto-diet-shows-real-promise-for-anorexia-recovery/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Restricting carbohydrates may sound like an unlikely approach to treating anorexia, but following a ketogenic diet was linked to recovery in 3 in 4 people with the eating disorder in a small trial",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/03105849/SEI_299913248.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-03T14:00:20+01:00",
+    "hash": "a5f3a80399d6"
+  },
+  {
+    "title": "Google Play Store Deletes Clone Of Nintendo\u2019s Tomodachi Life After It Gets Over 50,000 Downloads",
+    "link": "https://kotaku.com/google-play-store-deletes-clone-of-nintendos-tomodachi-life-after-it-gets-over-50000-downloads-2000701618",
+    "summary": "\u201cIT ISN'T TOMODACHI LIFE!!!!!\u201d",
+    "image": "https://kotaku.com/app/uploads/2026/06/tomo-life-1280x687.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-03T12:39:24+00:00",
+    "hash": "0c9454db05b3"
+  },
+  {
+    "title": "The X-Men don't exist in Marvel's Wolverine, and while Spider-Man does, he'll only appear fleetingly in an \"Easter-eggy\" kind of way",
+    "link": "https://www.eurogamer.net/marvels-wolverine-x-men-dont-exist-spider-man-cameo",
+    "summary": "Seeing Jean Gray in the trailer for Marvel's Wolverine yesterday , and her ability to work with Logan as an ally in combat, naturally gave rise to another question about the game: which other famous X-Men characters will we see? Read more",
+    "image": "https://images.pexels.com/photos/13865985/pexels-photo-13865985.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-06-03T12:20:22+00:00",
+    "hash": "bc5a37816cf6"
+  },
+  {
+    "title": "Can AI be humane? Aza Raskin says only if we change the development race",
+    "link": "https://www.fastcompany.com/91552576/can-ai-be-humane-aza-raskin-says-only-if-we-change-the-race?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Aza Raskin, a cofounder of the Center for Humane Technology, has spent years sounding the alarm about where the race to build powerful AI is taking us. Just days after the center&#8217;s other cofounder visited the Vatican, Raskin unpacks the significance of Pope Leo XIV&#8217;s sweeping new encyclical on artificial intelligence , and exposes the incentive structures pushing Silicon Valley toward dangerous territory\u2014while making the case that it&#8217;s not too late to change course. This is an",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91552576-can-ai-be-humane-aza-raskin-says-only-if-we-change-the-race.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-03T12:11:00+00:00",
+    "hash": "a2dec166e549"
+  },
+  {
+    "title": "The Download: Trump\u2019s new AI order, and smart glasses for warfare",
+    "link": "https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. 5 key points in Trump&#8217;s new AI order Less than two weeks after scrapping an executive order on AI, President Donald Trump signed a new one on Tuesday. Promising to promote&#8230;",
+    "image": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-06-03T12:10:00+00:00",
+    "hash": "4e69e1e91df2"
+  },
+  {
+    "title": "Brightline proved America wants trains. Can it survive?",
+    "link": "https://www.fastcompany.com/91552398/brightline-proved-america-wants-trains-can-it-survive?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "When Brightline first launched its train service in Florida five years ago, it was a turning point for passenger rail in the U.S. The sleek new trains were fast and equipped with features like free wi-fi; the spotless new train stations looked more like modern hotel lobbies than the aging depots used at many Amtrak stops. It was the first privately-owned intercity rail in the U.S. in decades, and boosters argued that it was proof that private companies could build rail faster and better than the",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91552398-what-went-wrong-at-brightline.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-03T11:08:00+00:00",
+    "hash": "e59a7f4ee9fb"
+  },
+  {
+    "title": "Coursera now offers an AI-powered feed of short form educational content",
+    "link": "https://www.fastcompany.com/91552461/coursera-now-offers-an-ai-powered-feed-of-short-form-educational-content?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Coursera , the online learning platform that hosts online courses from major universities and tech companies, announced on Wednesday a new app called Ollie, which offers bite-size lessons that take only a minute or two to complete. The lessons include short vertical videos, often around 90 seconds long, clipped from Coursera\u2019s extensive library of learning materials. Users can find lessons recommended based on their interests through a front page or a social media-style feed, scrolling down to e",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-3-91552461-coursera-now-offers-an-ai-powered-feed-of-short-form-educational-content-copy.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-03T10:00:00+00:00",
+    "hash": "4588db36a4d0"
+  },
+  {
+    "title": "AI has a water problem. Google thinks it has a fix",
+    "link": "https://www.theverge.com/policy/942296/google-water-commitments-data-centers",
+    "summary": "In the face of widespread backlash to the AI data center buildout throughout the US, Google is touting its efforts to minimize the environmental impact by actually increasing water for local communities. The company laid out five commitments around water use in a new blog post published Wednesday, including a goal to replenish more water [&#8230;]",
+    "image": "https://images.pexels.com/photos/4085422/pexels-photo-4085422.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-03T05:00:00-04:00",
+    "hash": "125473cc7b12"
+  },
+  {
+    "title": "Microsoft Build 2026: The 7 biggest announcements",
+    "link": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+    "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the [&#8230;]",
+    "image": "https://images.pexels.com/photos/28774616/pexels-photo-28774616.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-02T15:23:52-04:00",
+    "hash": "2c4df59b5788"
+  },
+  {
+    "title": "Trump signs executive order to review AI models before they\u2019re released",
+    "link": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+    "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [&#8230;]",
+    "image": "https://images.pexels.com/photos/1464202/pexels-photo-1464202.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-02T14:33:42-04:00",
+    "hash": "e2c59071ea9c"
   }
 ]
