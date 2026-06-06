@@ -2460,33 +2460,293 @@
     "hash": "2e94fd48b90b"
   },
   {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures , Redpoint , and Unusual Ventures . The investment values Railway as one of the most significant infrastructur",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-22T14:00:00+00:00",
-    "hash": "5d53b2a70527"
+    "title": "Modern Warfare 4's DMZ mode is going full Arc Raiders",
+    "link": "https://www.polygon.com/modern-warfare-4-mw4-dmz-call-of-duty-arc-raiders/",
+    "summary": "Modern Warfare 4 is bringing back a vastly improved DMZ mode later this year and it looks phenomenal, with inspiration from other extraction shooters.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/modern-warfare-4-dmz-header.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-06T15:00:21+00:00",
+    "hash": "5d72f9970488",
+    "ai_summary": "Call of Duty: Modern Warfare 4 is revamping its DMZ mode, drawing inspiration from the extraction shooter genre, and promises a vastly improved experience later this year. The revamped DMZ mode will offer an exciting gameplay twist, blending the best of its predecessor with new features and mechanics to keep players on the edge of their seats."
   },
   {
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing \u2014 ranging from $20 to $200 per month depending on usage \u2014 has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose , an open-source AI agent developed by B",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-19T14:00:00+00:00",
-    "hash": "65248b0266dc"
+    "title": "Beyond Instagram: Introducing the next generation of social apps",
+    "link": "https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/",
+    "summary": "These newer social apps offer alternatives to Big Tech\u2019s feeds, focusing on interests, creativity, and community.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/image_664f47.png?resize=1200,732",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-06T15:00:00+00:00",
+    "hash": "2ced0230ad25",
+    "ai_summary": "A new wave of social apps is revolutionizing the way we connect online, shifting away from the feed-based models of platforms like Instagram and embracing more focused, community-driven experiences. These innovative alternatives prioritize users' interests and creativity, offering fresh ways to engage and interact with friends and like-minded individuals."
   },
   {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 \u2014 a fifth of his marketing budget \u2014 on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin ni",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&q=30",
+    "title": "Godzilla Is The Only One Not Afraid Of GTA 6 As Another November Release Date Finally Leaks",
+    "link": "https://kotaku.com/godzilla-is-the-only-one-not-afraid-of-gta-6-as-another-november-release-date-finally-leaks-2000703439",
+    "summary": "A cult-favorite GameCube game is reportedly coming back",
+    "image": "https://kotaku.com/app/uploads/2026/06/godiziall.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-06T14:46:53+00:00",
+    "hash": "a8694b720b30",
+    "ai_summary": "A new leak suggests that GTA 6 will arrive in November, sparking both excitement and skepticism among gamers. Meanwhile, a much-anticipated release is also rumored for November, as the beloved cult classic 'Eternal Darkness: Sanity's Requiem' reportedly makes its way back to gaming consoles after years of being a highly sought-after retro title."
+  },
+  {
+    "title": "Fortnite Chapter 7 Season 3 map and loot pool changes",
+    "link": "https://www.polygon.com/fortnite-chapter-7-season-3-c7s3-map-weapons-loot-pool-poi/",
+    "summary": "Fortnite Chapter 7 Season 3 features a ton of changes as there is a brand new map along with additional weapons and items.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/c7s3_fn.jpeg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-06T14:21:23+00:00",
+    "hash": "b19ba0892c5f",
+    "ai_summary": "Fortnite players are in for a fresh challenge with the launch of Chapter 7 Season 3, which brings a completely new map to the popular battle royale game. Along with the revamped terrain, players can also look forward to discovering new loot and gear, including additional weapons and items."
+  },
+  {
+    "title": "A Beloved Final Fantasy 7 Character Is Getting Rebuilt From The Ground Up For Street Fighter 6",
+    "link": "https://kotaku.com/a-beloved-final-fantasy-7-character-is-getting-rebuilt-from-the-ground-up-for-street-fighter-6-2000703222",
+    "summary": "Tifa will be coming to Capcom's fighter with her very own magic system",
+    "image": "https://kotaku.com/app/uploads/2026/06/tifa.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-06T14:04:27+00:00",
+    "hash": "750e453badd0",
+    "ai_summary": "Get ready for a thrilling addition to the world of Street Fighter 6 as Tifa Lockhart from Final Fantasy 7 makes her way to the popular fighting game, bringing with her a unique magic system that's sure to shake up the competition. With her rebuilt character, fans of both Final Fantasy 7 and Street Fighter can expect an exciting and unpredictable gaming experience."
+  },
+  {
+    "title": "Simpsons legends Al Jean and Mike Reiss weigh in on Obsession being inspired by one of their episodes",
+    "link": "https://www.polygon.com/the-simpsons-legends-al-jean-and-mike-reiss-weigh-in-on-the-horror-sensation-obsession-being-inspired-by-one-of-their-episodes/",
+    "summary": "Writers Al Jean and Mike Reiss talk about the horror movie Obsession, which was inspired by one of their episodes of The Simpsons",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/screen-shot-2026-06-01-at-3-56-24-pm.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-06T14:01:19+00:00",
+    "hash": "65d433512b9b",
+    "ai_summary": "Writers Al Jean and Mike Reiss, legends behind The Simpsons, have revealed that the 1976 horror film Obsession was inspired by one of their early episodes, showcasing the influence of the popular sitcom on popular culture. The eerie film's plot, which revolves around obsession and mental instability, shares eerie parallels with Jean and Reiss's writing, proving that even the smallest ideas can have a lasting impact."
+  },
+  {
+    "title": "Meta made its own AI-generated clickbait news feed",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+    "summary": "Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable [&#8230;]",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C78.534031413613&amp;w=1200",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-06T10:00:00-04:00",
+    "hash": "04d32886751e",
+    "ai_summary": "Meta, the company behind Facebook, has developed an AI-powered news feed that generates clickbait-style articles, complete with eye-catching headlines and images. The \"For You\" section in Meta's standalone AI app showcases a curated list of AI-generated stories, showcasing the company's foray into AI-created content."
+  },
+  {
+    "title": "The Legend of Vox Machina season 4's massive cliffhanger sets the stage for an emotional season 5",
+    "link": "https://www.polygon.com/legend-of-vox-machina-season-4-finale-setup/",
+    "summary": "Critical Role shares how The Legend of Vox Machina season 4 is a strategic setup for a poignant season 5 conclusion.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/vxma_s4_fg_00001216_still003_3000.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-06T13:31:19+00:00",
+    "hash": "306a150ae365",
+    "ai_summary": "Fans of The Legend of Vox Machina got a major revelation in season 4, setting the stage for an emotionally charged season 5. According to Critical Role, the creators carefully crafted season 4 as a strategic setup for a poignant conclusion that will leave viewers stunned."
+  },
+  {
+    "title": "Apple @ Work: How zero-touch enrollment killed the market for stolen corporate devices",
+    "link": "https://9to5mac.com/2026/06/06/apple-work-how-zero-touch-enrollment-killed-the-market-for-stolen-corporate-devices/",
+    "summary": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage, and protect Apple devices at work. Over 45,000 organizations trust Mosyle to make millions of Apple devices work-ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/apple-business.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-06T13:00:00+00:00",
+    "hash": "4c391227be5f",
+    "ai_summary": "A new security feature has become a major deterrent for corporate device theft, as companies increasingly adopt \"zero-touch enrollment,\" where devices are instantly configured and secured for work use, making stolen devices almost worthless. As a result, thieves have seen their market shrunk, as stolen corporate devices are now much harder to sell due to their secure and easily identifiable state."
+  },
+  {
+    "title": "Samsung Galaxy S27 Pro's battery capacity will surprise you",
+    "link": "https://www.gsmarena.com/samsung_galaxy_s27_pros_battery_capacity_will_surprise_you-news-73160.php",
+    "summary": "Samsung is rumored to be launching the Galaxy S27 Pro alongside the Galaxy S27, Galaxy S27+, and Galaxy S27 Ultra in January. The Pro will apparently be a smaller Ultra, without an S Pen. It's allegedly going to have a 6.47-inch screen, and the same main camera and ultrawide as the Ultra (but a different telephoto). If you've been wondering what to expect from the Pro in terms of battery capacity, you probably assumed it would be lesser in this area than the Ultra considering its slightly smalle",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/samsung-galaxy-s27-pro-battery-capacity/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-06T14:04:02+02:00",
+    "hash": "bd8a22ba000b",
+    "ai_summary": "Samsung is set to release the Galaxy S27 Pro in January alongside its larger counterparts, featuring a 6.47-inch screen and similar camera capabilities to the Galaxy S27 Ultra. Contrary to expectations, the Galaxy S27 Pro's battery capacity might actually rival that of the larger Galaxy S27 Ultra, offering a surprising level of power in a more compact package."
+  },
+  {
+    "title": "Here comes new Siri again",
+    "link": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+    "summary": "Apple has been on its back foot, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move. At WWDC on Monday, Apple appears to be getting ready to reintroduce us to the new Siri. Again. As a reminder, we met the new Siri in [&#8230;]",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/wwdc_2024.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.597538331207%2C100%2C78.804923337586&amp;w=1200",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-06T08:00:00-04:00",
+    "hash": "4dd22816d08c"
+  },
+  {
+    "title": "The next YouTube phenomenon hitting the big screen",
+    "link": "https://www.theverge.com/tech/944942/amazing-digital-circus-lego-pokemon-installer",
+    "summary": "Hi, friends! Welcome to Installer No. 131, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy last week of productivity before the World Cup starts, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about the World Cup [&#8230;]",
+    "image": "https://images.pexels.com/photos/13883892/pexels-photo-13883892.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-06T08:00:00-04:00",
+    "hash": "3e03e4b1adf2"
+  },
+  {
+    "title": "11 ways to make your time feel less rushed during a busy week",
+    "link": "https://www.fastcompany.com/91554860/11-ways-to-make-your-time-feel-less-rushed-during-a-busy-week?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "This article is republished with permission from Wonder Tools , a newsletter that helps you discover the most useful sites and apps. I love Laura Vanderkam\u2019s books about how to make the most of time. It\u2019s never about stuffing more into our days. It\u2019s not about productivity . It\u2019s about savoring and being creatively thoughtful about what we choose to do. Her books 168 Hours and Tranquility by Tuesday changed how I think about my own weeks. For example, her argument for \u201ceffortful before effortles",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91554860-11-ways-to-make-your-time-feel-less-rushed-during-a-busy-week.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-06T12:00:00+00:00",
+    "hash": "38de9dd5d4ca"
+  },
+  {
+    "title": "Weekly deals: Xiaomi 17 Ultra is \u20ac300 off, Pixel 10 phones and Moto Razr Fold get extra discounts",
+    "link": "https://www.gsmarena.com/weekly_deals_xiaomi_17_ultra_is_300_off_pixel_10_phones_and_moto_razr_fold_get_extra_discounts-news-73150.php",
+    "summary": "This week Amazon Germany is offering additional discounts at checkout for several high-profile phones. But first, let\u2019s have a quick look at the Xiaomi 17T series that launched last week. Not much has changed, but if you have a Prime Student subscription, you can get 5% off. It doesn\u2019t sound like much, but it works out to \u20ac50 off the Xiaomi 17T Pro, which is barely a week old. By the way, the tablet bundle deals from last week are still active. In the meantime, we have published a Xiaomi 17T vs.",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/weekly-deals-5/-952x498w6/gsmarena_de.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-06T12:02:02+02:00",
+    "hash": "4db52d9d58d2"
+  },
+  {
+    "title": "What to expect from Apple at WWDC 26 on Monday: Siri AI, iOS 27, refined Liquid Glass, John Ternus, and more",
+    "link": "https://www.fastcompany.com/91551472/apple-wwdc-26-when-what-to-expect-monday-siri-ai-gemini-ios-27-refined-liquid-glass-john-ternus?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "On Monday, June 8, Apple\u2019s annual Worldwide Developers\u2019 Conference (WWDC) kicks off. As its name suggests, the weeklong event is primarily aimed at developers who make apps for Apple\u2019s myriad operating systems. But it\u2019s also a big day for Apple consumers, who get to see previews of the software that will be available on Apple devices this fall. Thanks to an AI focus, WWDC26 may be one of the most consequential Apple developer conferences ever. Here\u2019s what to expect from Apple when the company\u2019s",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91551472-what-to-expect-at-apple-wwdc-26-john-ternus.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-06T09:00:00+00:00",
+    "hash": "5329daee2709"
+  },
+  {
+    "title": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
+    "link": "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/",
+    "summary": "Lectric, which says the U.S. market is ripe for competition and choice, has launched three new brands in the past six months.",
+    "image": "https://images.pexels.com/photos/12835327/pexels-photo-12835327.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-05T17:38:06+00:00",
+    "hash": "f41f07422454"
+  },
+  {
+    "title": "The most interesting startups right now want to get you off your phone",
+    "link": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+    "summary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck creators are going viral&#160;crafting whimsical DIY computers that&#160;literally encourage&#160;users to touch grass. Unlike the&#160;AI-free browser crowd, this&#160;doesn&#8217;t&#160;just&#160;feel",
+    "image": "https://images.pexels.com/photos/6774948/pexels-photo-6774948.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-05T17:17:06+00:00",
+    "hash": "a1e7a61c9aea"
+  },
+  {
+    "title": "Supabase doubles valuation to $10B in 8 months",
+    "link": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+    "summary": "Supabase, an example of an open source project becoming a fast-growing company, has greatly benefited from AI tools like Claude, Codex, and other vibe-coding platforms.",
+    "image": "https://images.pexels.com/photos/2504924/pexels-photo-2504924.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-05T16:32:27+00:00",
+    "hash": "689be4cc6d71"
+  },
+  {
+    "title": "Ghent-based Sensie raises \u20ac500k to bring real-time plant intelligence to greenhouse growers",
+    "link": "https://www.eu-startups.com/2026/06/ghent-based-sensie-raises-e500k-to-bring-real-time-plant-intelligence-to-greenhouse-growers/",
+    "summary": "Sensie, a Ghent-based AgTech startup, has raised \u20ac500k in a pre-Seed funding round to accelerate plant intelligence for professional greenhouse growers. The round was led by Division Q, with participation from NewSchool.vc and Percival Participations. This announcement follows shortly after its initial greenhouse deployments, public launch, and its nomination as a Top 3 finalist for [&#8230;] The post Ghent-based Sensie raises \u20ac500k to bring real-time plant intelligence to greenhouse growers app",
+    "image": "https://images.pexels.com/photos/35027182/pexels-photo-35027182.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-06-05T13:27:33+00:00",
+    "hash": "6ff62eae12dd"
+  },
+  {
+    "title": "Dublin\u2019s Pilot Photonics bags \u20ac1m from ESA to upgrade satellite tech",
+    "link": "https://www.siliconrepublic.com/innovation/dublins-pilot-photonics-bags-e1m-from-esa-to-spruce-up-satellite-comms",
+    "summary": "The project will 'accelerate the OFGU's readiness for space ... after which early demonstrations in orbit can commence,' said the company product lead. Read more: Dublin&#8217;s Pilot Photonics bags \u20ac1m from ESA to upgrade satellite tech",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2018/02/Pilot-Photonics-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-05T11:58:38+00:00",
+    "hash": "d43448a71232"
+  },
+  {
+    "title": "Everyone is Lying to You for Money is a must-watch expos\u00e9 of crypto",
+    "link": "https://www.newscientist.com/article/2527505-everyone-is-lying-to-you-for-money-is-a-must-watch-expose-of-crypto/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Actor Ben McKenzie explores the world of crypto in an entertaining documentary that doesn't shy away from calling out those who have promoted the currency",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/22085210/sei298345063.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-03T19:00:37+01:00",
+    "hash": "81cb41a2a1dd"
+  },
+  {
+    "title": "Escher: The paradoxical artist beloved by mathematicians",
+    "link": "https://www.newscientist.com/article/2528873-escher-the-paradoxical-artist-beloved-by-mathematicians/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "A new retrospective of M.C. Escher\u2019s work opens this week. Explore some of his most mind-bending, mathematically inspired works here",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/02155024/sei299831800.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-03T19:00:32+01:00",
+    "hash": "ce691ed3c004"
+  },
+  {
+    "title": "New laboratory at MIT aims to advance quantum research for the nation",
+    "link": "https://news.mit.edu/2026/new-laboratory-aims-to-advance-quantum-research-nation-0528",
+    "summary": "The Quantum Systems Laboratory will catalyze quantum innovation and be open to government, academic, and industry researchers.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT_Quantum-Announcement-01a.jpg?itok=NUBwrm3c",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-05-28T17:20:00-04:00",
+    "hash": "6d8137254062"
+  },
+  {
+    "title": "MIT researchers develop a low-cost technique to get lithium out of rocks",
+    "link": "https://news.mit.edu/2026/mit-researchers-develop-low-cost-technique-lithium-from-rocks-0528",
+    "summary": "The low-temperature process could unlock cleaner lithium from America\u2019s abundant hard rock while minimizing waste.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-LithiumLoop-01-press.jpg?itok=iIeMnLiJ",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-05-28T14:00:00-04:00",
+    "hash": "6c287d2fc1d1"
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees. The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce&#x27;s most aggressive move yet to position Slack at the center of the emerging \"agen",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
     "source": "AI | VentureBeat",
     "category": "AI",
-    "published": "2026-01-16T14:01:00+00:00",
-    "hash": "b38a14630ce1"
+    "published": "2026-01-13T13:00:00+00:00",
+    "hash": "37f7465d4311"
+  },
+  {
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files \u2014 no coding required",
+    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users \u2014 and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Micros",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
+    "source": "AI | VentureBeat",
+    "category": "AI",
+    "published": "2026-01-12T11:30:00+00:00",
+    "hash": "23a2d4f1db58"
+  },
+  {
+    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems \u2014 trained in just four days using 48 of Nvidia&#x27;s latest B200 graphics processors . The model, called NousCoder-14B , is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code , the agentic programming tool f",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
+    "source": "AI | VentureBeat",
+    "category": "AI",
+    "published": "2026-01-07T20:00:00+00:00",
+    "hash": "da0fb803a370"
+  },
+  {
+    "title": "Databricks Has a Trick That Lets AI Models Improve Themselves",
+    "link": "https://www.wired.com/story/databricks-has-a-trick-that-lets-ai-models-improve-themselves/",
+    "summary": "Using several recent innovations, the company Databricks will let customers boost the IQ of their AI models even if they don\u2019t have squeaky clean data.",
+    "image": "https://media.wired.com/photos/67db5aa5da19484f5df2d477/master/pass/AI-Model-Performance-Boost-Business.jpg",
+    "source": "The Artificial Intelligence Database",
+    "category": "AI",
+    "published": "2025-03-25T20:00:11+00:00",
+    "hash": "f3963457c657"
   }
 ]
