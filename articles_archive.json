@@ -2900,103 +2900,263 @@
     "hash": "94588e40799b"
   },
   {
-    "title": "Media Advisory: MIT to establish regional quantum hub",
-    "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
-    "summary": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-ManufacturingAnn-01-press_0.jpg?itok=FagXN0Md",
+    "title": "The Virtual OS Museum lets you relive over 600 operating systems right on your desktop",
+    "link": "https://www.theverge.com/tech/945246/virtual-os-museum-dos-windows-mac-os",
+    "summary": "The Virtual OS Museum isn't a physical place, it's a collection of over 1,700 distinct installations of over 600 operating systems for over 250 platforms that you can download and run via emulation right on your computer. It's largely the work of one man, Andrew Warkentin, a developer and OS historian who has been slowly [&#8230;]",
+    "image": "https://images.pexels.com/photos/7047200/pexels-photo-7047200.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-07T10:17:00-04:00",
+    "hash": "fc24e284dbfb",
+    "ai_summary": "A treasure trove for tech enthusiasts, the Virtual OS Museum offers over 1,700 installations of over 600 operating systems, spanning 250 different platforms, which you can run directly on your computer via emulation. This incredible collection, curated by a dedicated developer and OS historian named Andrew Warkentin, is a fascinating journey through the history of computing."
+  },
+  {
+    "title": "iPhone Fold photo leak, Nvidia RTX Spark is official, Week 23 in review",
+    "link": "https://www.gsmarena.com/iphone_fold_photo_leak_nvidia_rtx_spark_is_official_week_23_in_review-news-73151.php",
+    "summary": "Another week, another couple of foldable iPhone stories. The first is a big one, coming straight from Ice Universe; it's a photo of the device in the wild. The photo shows the White/Silver finish of the inaugural foldable and confirms its stocky shape. Another rumor claims the foldable iPhone will have a vapor chamber for cooling. It's not surprising, given that the iPhone Pro models have a vapor chamber. Motorola unveiled the Edge (2026) for the US and Canadian markets. The phone brings a small",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/week-23-in-review/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-07T16:04:02+02:00",
+    "hash": "46ff4670e3d8",
+    "ai_summary": "A leaked photo of Apple's foldable iPhone has surfaced, giving us our first glimpse of the device's design, which features a stocky shape and a White/Silver finish. The image, shared by Ice Universe, also fuels speculation about the phone's advanced cooling system, which could include a vapor chamber to prevent overheating."
+  },
+  {
+    "title": "How Queen guitarist Brian May made Masters of the Universe truly rock",
+    "link": "https://www.polygon.com/masters-of-the-universe-soundtrack-music-brian-may-queen/",
+    "summary": "Masters of the Universe director Travis Knight explains how he got Brian May to work on the movie's score",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/motu_2026_ut_250410_keygil_15269_r6_3000.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-07T14:00:20+00:00",
+    "hash": "611cef1d2c9c",
+    "ai_summary": "Music legend Brian May of Queen brought his iconic guitar style to the 2021 animated film Masters of the Universe, creating a memorable soundtrack that elevated the fantasy adventure to new heights. Director Travis Knight teamed up with May to infuse the movie's score with Queen's signature rock sound, resulting in an unforgettable cinematic experience."
+  },
+  {
+    "title": "Dell&#8217;s new XPS 14 is better in almost every way",
+    "link": "https://www.theverge.com/tech/944360/dell-xps-14-2026-review",
+    "summary": "The 2026 XPS 14 is the best premium laptop we've seen from Dell in a while, with incredible build quality in a thin machine and good performance thanks to Intel's Core Ultra Series 3 \"Panther Lake\" chips. A bonus: Dell killed its lame \"Premium Plus\" naming scheme. XPS is so back! I can't believe how [&#8230;]",
+    "image": "https://images.pexels.com/photos/1432679/pexels-photo-1432679.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-07T10:00:00-04:00",
+    "hash": "21d9ba41ca6c",
+    "ai_summary": "Dell's new XPS 14 is a top-of-the-line laptop that boasts exceptional build quality, impressive thin design, and strong performance thanks to its Intel Core Ultra Series 3 \"Panther Lake\" chips. Say goodbye to confusing naming schemes, as Dell has dropped its \"Premium Plus\" label, allowing the XPS to stand on its own as a premium laptop."
+  },
+  {
+    "title": "Hacked, leaked, and held for ransom: the worst breaches of 2026 so far",
+    "link": "https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/",
+    "summary": "From a massive DOGE data breach and the hacking of critical energy and water systems to the hack of an FBI surveillance system, here are the most damaging security incidents and data breaches of 2026.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/water-dam-spill-2263108794.jpg?resize=1200,801",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-07T14:00:00+00:00",
+    "hash": "d34a714a3ed0",
+    "ai_summary": "Major data breaches and cyberattacks have rocked the world in 2026, including a massive hack of the popular cryptocurrency DOGE and a cyberattack on critical energy and water systems. These security incidents also highlighted vulnerabilities in even the most secure systems, such as the FBI's surveillance system, leaving millions of users vulnerable to identity theft and other cyber threats."
+  },
+  {
+    "title": "New dummy units give our closest look yet at the iPhone Fold",
+    "link": "https://9to5mac.com/2026/06/07/dummy-unit-iphone-fold-ultra-new-look/",
+    "summary": "We don\u2019t know yet whether Apple will call it the iPhone Fold, iPhone Ultra, or something else \u2014\u00a0but everyone expects the company to announce its first foldable phone later this year. Via Sonny Dickson , these dummy unit photos give us our closest look yet at what we expect the design to be. The foldable iPhone will feature an approximately 7.8-inch screen when unfolded, giving an effective inner screen area similar to an iPad mini. As shown by these dummy mockup models, the front-facing camera w",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/iphone-foldable-dummy-photos.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-07T13:29:38+00:00",
+    "hash": "aba95f9943ca",
+    "ai_summary": "A highly anticipated Apple device is expected to be announced later this year, and dummy units have given us a glimpse into its design. The rumored foldable iPhone features a 7.8-inch screen when unfolded, making it suitable for tasks that typically require a larger display, similar to an iPad mini."
+  },
+  {
+    "title": "Lego Batman voice actor avoided copying Will Arnett in Legacy of the Dark Knight",
+    "link": "https://www.polygon.com/lego-batman-legacy-of-the-dark-knight-shair-matheson-interview/",
+    "summary": "Shai Matheson spoke to Polygon about how he found his voice for Batman in Lego Batman Legacy of the Dark Knight.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/lego-batman-legacy-of-the-dark-knight-art-1.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-07T13:00:22+00:00",
+    "hash": "17b4c2edfdf6",
+    "ai_summary": "Shai Matheson, the voice actor behind Batman in Lego Batman 3: The Legacy of Batman, opened up about how he crafted his character's tone without emulating previous Batman voice actor Will Arnett's style. By drawing inspiration from different adaptations and comics, Matheson was able to bring a unique take to the iconic character."
+  },
+  {
+    "title": "Kill some time with these much needed distractions",
+    "link": "https://www.theverge.com/entertainment/945205/weekend-time-waster-internet-browser-game-rabibit-hole",
+    "summary": "Constantly being plugged into the news grind is mentally exhausting. Sometimes we just need to take a break, unwind, and do something fun. That\u2019s why we&#8217;ve built up a collection of distracting time-wasters for when we need a break from being obsessively online. We figured you might enjoy these harmless rabbit holes, mildly addictive browser [&#8230;]",
+    "image": "https://images.pexels.com/photos/33930/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-07T09:00:00-04:00",
+    "hash": "7cfa852e5de2",
+    "ai_summary": "To give your mind a break from the constant stream of news, consider trying some fun and harmless online diversions that can help you unwind and relax. A collection of mildly addictive browser games and distractions can provide a welcome escape from the online grind."
+  },
+  {
+    "title": "Another World review: a stunning animated movie with an incredibly ugly story",
+    "link": "https://www.polygon.com/another-world-review-hong-kong-anime/",
+    "summary": "The Golden Horse-winning Hong Kong anime movie Another World is a parade of murder, grief, abuse, and suffering, with staggeringly gorgeous imagery.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/artwork-waterfall.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-07T12:31:18+00:00",
+    "hash": "01206dcd355e",
+    "ai_summary": "\"Another World\" is a visually stunning animated movie from Hong Kong that boasts breathtaking imagery, despite its dark and disturbing storyline featuring themes of violence, grief, and abuse. Director's use of beautiful animation elevates the emotional impact of the film's intense and often unsettling narrative."
+  },
+  {
+    "title": "AI \u2018content creators\u2019 are getting harder to spot",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started At first, AI influencers were relatively easy to identify - and to [&#8230;]",
+    "image": "https://images.pexels.com/photos/19473174/pexels-photo-19473174.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-07T08:00:00-04:00",
+    "hash": "4e80a276de0e",
+    "ai_summary": "AI-generated content is becoming increasingly difficult to distinguish from human-created content, blurring the lines between reality and artificial intelligence. As a result, people are struggling to identify when they are interacting with AI-powered content or influencers."
+  },
+  {
+    "title": "Star Wars parallels Cassian Andor's prison break arc with Jyn Erso comic",
+    "link": "https://www.polygon.com/jyn-erso-comic-andor/",
+    "summary": "The standalone Jyn Erso comic perfectly mirrors Cassian Andor's Narkina-5 arc.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24123691/keef_girgo.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-07T11:01:18+00:00",
+    "hash": "04f1d5988fb6"
+  },
+  {
+    "title": "Xbox Games Showcase 2026 live report - all the news and announcements as Asha Sharma presents for the first time",
+    "link": "https://www.eurogamer.net/xbox-games-showcase-2026-live-report",
+    "summary": "The Xbox Games Showcase is today, Sunday 7th June, at 6pm BST (7pm CEST / 1pm EDT / 10am PDT), and we're covering all the news and announcements from live, right here, in this article. Read more",
+    "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox-showcase-2026.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-06-07T10:39:30+00:00",
+    "hash": "3dc0f612ca1d"
+  },
+  {
+    "title": "Mononoke is unlike anything you've ever seen",
+    "link": "https://www.polygon.com/eccentric-horror-anime-binge-watch-psychedelic-visuals/",
+    "summary": "Mononoke experiments with form and aesthetics to weave a wild, esoteric saga.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/w1500_50807454.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-07T10:00:28+00:00",
+    "hash": "77dbef459e71"
+  },
+  {
+    "title": "Forget eBay: This is the better way to get fast cash for an old phone",
+    "link": "https://www.fastcompany.com/91539360/sell-phone-ebay-alternative?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "While sites like eBay can help you turn old gadgets into cash, they\u2019re also kind of a hassle. You\u2019ve got to create a listing with photos and a description, figure out a competitive sale price, and pay for shipping. Selling locally on Facebook Marketplace, meanwhile, means dealing with flaky buyers and awkward meetup locations. You\u2019d be forgiven for just leaving your old phones or tablets in a drawer instead. Fortunately, there are easier ways to offload your used tech gear while still fetching f",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539360-forget-ebay-this-is-the-better-way-to-get-fast-cash-for-an-old-phone.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-07T09:00:00+00:00",
+    "hash": "3481b73f52a8"
+  },
+  {
+    "title": "How authoritarian governments twist AI safety to coerce tech companies to comply",
+    "link": "https://www.fastcompany.com/91554101/authoritarian-governments-twist-ai-safety-coerce-tech-companies?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "When researchers founded Anthropic in 2021, they said the race to build powerful AI was moving too recklessly. They inserted detailed safety measures into their products and marketed their commitment to safety as the corporate quality that distinguished them from competitors\u2014notably OpenAI , the rival company they had left. In March 2026 that reputation was tested when the Trump administration declared that Anthropic was a supply chain risk. The company had refused to remove built-in safeguards",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-conversation-91554101-from-oversight-to-coercion-how-authoritarian-governments-are-twisting-ai-safety-to-get-tech-companies-to-fall-in-line.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-07T08:00:00+00:00",
+    "hash": "ce87e0dba76e"
+  },
+  {
+    "title": "Paris-based Innovafeed secures \u20ac51 million to scale sustainable insect-based ingredients for animal and plant nutrition",
+    "link": "https://www.eu-startups.com/2026/06/paris-based-innovafeed-secures-e51-million-to-scale-sustainable-insect-based-ingredients-for-animal-and-plant-nutrition/",
+    "summary": "Innovafeed, a Paris-based BioTech startup producing functional and sustainable insect-based ingredients for animal nutrition, pet food and agriculture, has entered a new development phase backed by a \u20ac51 million funding round secured largely from its financial partners. The company has received support from its historical shareholders, notably Creadev, QIA, Temasek, FFC, ABC Impact, and ADM, [&#8230;] The post Paris-based Innovafeed secures \u20ac51 million to scale sustainable insect-based ingredien",
+    "image": "https://images.pexels.com/photos/29731402/pexels-photo-29731402.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-06-05T11:17:14+00:00",
+    "hash": "dab4eea100e8"
+  },
+  {
+    "title": "Finland\u2019s Resand expands Norion Bank loan facility to \u20ac25 million to scale foundry sand regeneration and recycling",
+    "link": "https://www.eu-startups.com/2026/06/finlands-resand-expands-norion-bank-loan-facility-to-e25-million-to-scale-foundry-sand-regeneration-and-recycling/",
+    "summary": "Resand, a Nuutaj\u00e4rvi-based technology company specialising in the reclamation and recycling of foundry sand, has expanded its loan facility with Norion Bank. The \u20ac14.5 million equipment financing facility, agreed in November 2025, has been increased to \u20ac25 million. The company plans to use the additional financing to fund new customer agreements, enabling Resand to invest [&#8230;] The post Finland\u2019s Resand expands Norion Bank loan facility to \u20ac25 million to scale foundry sand regeneration and r",
+    "image": "https://images.pexels.com/photos/10060088/pexels-photo-10060088.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-06-05T08:58:27+00:00",
+    "hash": "33a45f3378ae"
+  },
+  {
+    "title": "Shortage of skills and people putting pressure on organisations, finds EY",
+    "link": "https://www.siliconrepublic.com/careers/shortage-of-skills-people-pressure-organisations-ey-report",
+    "summary": "Up significantly from last year\u2019s research, companies are struggling to find the tech employees needed to drive their businesses forward. Read more: Shortage of skills and people putting pressure on organisations, finds EY",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Ronan-Walsh-EY-Ireland-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-05T08:33:34+00:00",
+    "hash": "3667ac9e5054"
+  },
+  {
+    "title": "Canada joins EU in push for tech sovereignty with new AI strategy",
+    "link": "https://www.siliconrepublic.com/business/canada-joins-eu-in-push-for-tech-sovereignty-with-new-ai-strategy",
+    "summary": "A new national AI strategy puts sovereignty front and centre as Canada moves to reduce its dependence on foreign cloud and AI providers. Read more: Canada joins EU in push for tech sovereignty with new AI strategy",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Mark-Carney-Canada-2026-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-05T07:49:28+00:00",
+    "hash": "056cfe5b1861"
+  },
+  {
+    "title": "Alice Roberts: 'We are fundamentally, at the end of the day, animals'",
+    "link": "https://www.newscientist.com/article/mg27035982-200-alice-roberts-we-are-fundamentally-at-the-end-of-the-day-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Why do we have big brains? Or walk on two legs? Biological anthropologist and broadcaster Alice Roberts talks human exceptionalism, evolution and her new book Humans with Michael Marshall",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/02125352/SEI_298999560.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-03T19:00:00+01:00",
+    "hash": "5b7b96cdaca3"
+  },
+  {
+    "title": "MIT practicum connects students with Ukrainian city leaders on economic development",
+    "link": "https://news.mit.edu/2026/mit-practicum-connects-students-ukrainian-city-leaders-economic-development-0515",
+    "summary": "Students in a Department of Urban Studies and Planning course work with leaders from Vinnytsia, Ukraine, exploring innovation ecosystems, infrastructure, and workforce development amid constraints of war.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/mit-sap-dusp-ukraine-practicum_0.jpg?itok=LFkxZbT0",
     "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
     "category": "Innovation",
-    "published": "2026-05-28T12:00:00-04:00",
-    "hash": "de6b0d8d29d4"
+    "published": "2026-05-15T16:00:00-04:00",
+    "hash": "514769f70115"
   },
   {
-    "title": "A day in the life of MIT Sloan Fellow Alecia Asiamigbe",
-    "link": "https://news.mit.edu/2026/day-life-mit-sloan-fellow-alecia-asiamigbe-0526",
-    "summary": "The MBA student and entrepreneur is learning to lead a more resilient future with her renewable energy company.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/mit-sloan-day-in-the-life.JPG?itok=nWReYJa1",
+    "title": "Big strides in cancer detection and treatment from the tiniest technologies",
+    "link": "https://news.mit.edu/2026/big-strides-cancer-detection-treatment-tiniest-technologies-0515",
+    "summary": "The MIT Marble Center for Cancer Nanomedicine looks back at 10 years of turning big ideas about nanotechnology into transformative advances for cancer patients.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-Marble-Center-Anniversary-1.jpg?itok=LlbF5RlQ",
     "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
     "category": "Innovation",
-    "published": "2026-05-26T16:10:00-04:00",
-    "hash": "f1729cabdfb7"
+    "published": "2026-05-15T15:35:00-04:00",
+    "hash": "62be7fc65183"
   },
   {
-    "title": "Technology usually creates jobs for young, skilled workers. Will AI do the same?",
-    "link": "https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521",
-    "summary": "A new study of the postwar U.S. shows which kinds of workers historically filled new tech-enabled jobs.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-NewWork-01-press.jpg?itok=byMeP8Rb",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
-    "category": "Innovation",
-    "published": "2026-05-21T00:00:00-04:00",
-    "hash": "9204d1381170"
-  },
-  {
-    "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
-    "link": "https://news.mit.edu/2026/steel-developed-at-mit-formula-one-baja-1000-mit-motorsports-0520",
-    "summary": "Ferrium C61 was designed with the aid of computers in a field pioneered at the Institute.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/mit-dmse-motorsports-Formula-One.jpg?itok=8HEgTJvu",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
-    "category": "Innovation",
-    "published": "2026-05-20T14:50:00-04:00",
-    "hash": "c330fa777bac"
-  },
-  {
-    "title": "Startup making reusable emergency housing wins MIT $100K competition",
-    "link": "https://news.mit.edu/2026/startup-making-reusable-emergency-housing-wins-mit-100k-competition-0518",
-    "summary": "Uplift Microhome\u2019s modular housing units can provide their own power and water, for faster deployments.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-100K-01-press.jpg?itok=f9EmLRem",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
-    "category": "Innovation",
-    "published": "2026-05-18T00:00:00-04:00",
-    "hash": "940b4b8d77dd"
-  },
-  {
-    "title": "Designer Ray-Ban Metas, An EV to Mock Tesla, and Portable Pizzas\u2014Here\u2019s Your Gear News of the Week",
-    "link": "https://www.wired.com/story/coperni-ray-ban-metas-longbow-evs-gozney-tread-pizzas-jbl-speakers/",
-    "summary": "Plus: iRobot unveils its new robo vacs, JBL pimps its most beloved speakers, a bright future for TCL TVs, and more.",
-    "image": "https://media.wired.com/photos/67d411945c3a1959621089ca/master/pass/GEARWEEKEND.jpg",
+    "title": "OnlyFans Models Are Using AI Impersonators to Keep Up With Their DMs",
+    "link": "https://www.wired.com/story/onlyfans-models-are-using-ai-impersonators-to-keep-up-with-their-dms/",
+    "summary": "AI is replacing the humans who pretend to be OnlyFans stars in online amorous messages.",
+    "image": "https://media.wired.com/photos/6758c29edd75e1decd83efc4/master/pass/AI-Lab-OnlyFans-Bot-Flirting-Business-200325935-001.jpg",
     "source": "The Artificial Intelligence Database",
     "category": "AI",
-    "published": "2025-03-15T10:00:00+00:00",
-    "hash": "3b849049dc01"
+    "published": "2024-12-11T17:00:00+00:00",
+    "hash": "586f50608c9f"
   },
   {
-    "title": "Boston Dynamics Led a Robot Revolution. Now Its Machines Are Teaching Themselves New Tricks",
-    "link": "https://www.wired.com/story/boston-dynamics-led-a-robot-revolution-now-its-machines-are-teaching-themselves-new-tricks/",
-    "summary": "Boston Dynamics founder Marc Raibert says reinforcement learning is helping his creations gain more independence.",
-    "image": "https://media.wired.com/photos/67be17abc4bb02587ec88489/master/pass/AI-Lab-Humanoid-Robots-145083514.jpg",
+    "title": "Celsius Founder Alex Mashinsky Pleads Guilty to Fraud",
+    "link": "https://www.wired.com/story/celsius-founder-alex-mashinsky-pleads-guilty-to-fraud-crypto-celsius/",
+    "summary": "The founder of crypto lender Celsius has admitted to lying to customers about how their money would be used and manipulating markets for his personal gain.",
+    "image": "https://media.wired.com/photos/67503b7dd719009e83019d7d/master/pass/GettyImages-1704648795.jpg",
     "source": "The Artificial Intelligence Database",
     "category": "AI",
-    "published": "2025-02-26T18:42:40+00:00",
-    "hash": "eba6c1367b51"
+    "published": "2024-12-04T14:17:25+00:00",
+    "hash": "1b1daa5f0541"
   },
   {
-    "title": "Anthropic Launches the World\u2019s First \u2018Hybrid Reasoning\u2019 AI Model",
-    "link": "https://www.wired.com/story/anthropic-world-first-hybrid-reasoning-ai-model/",
-    "summary": "Claude 3.7, the latest model from Anthropic, can be instructed to engage in a specific amount of reasoning to solve hard problems.",
-    "image": "https://media.wired.com/photos/67bc84a8711abf47a10bc4b9/master/pass/Claude_3-7_illustration.png",
+    "title": "The Man Behind Amazon\u2019s Robot Army Wants Everyone to Have an AI-Powered Helper",
+    "link": "https://www.wired.com/story/robot-army-proxie-humanoid/",
+    "summary": "Brad Porter helped Amazon deploy an army of warehouse robots. His new creation\u2014Proxie\u2014could help other companies embrace more automation.",
+    "image": "https://media.wired.com/photos/673e1f8d00dda90a652f7223/master/pass/Cobot-Proxie-Glide-360-AI-Lab-Business_1-ezgif.com-video-to-gif-converter.gif",
     "source": "The Artificial Intelligence Database",
     "category": "AI",
-    "published": "2025-02-24T18:43:31+00:00",
-    "hash": "eec63d1302a4"
-  },
-  {
-    "title": "Why \u2018Beating China\u2019 in AI Brings Its Own Risks",
-    "link": "https://www.wired.com/story/why-beating-china-in-ai-brings-its-own-risks/",
-    "summary": "The US is increasingly intent on winning the AI race with China. Experts say this ignores the benefits of collaboration\u2014and the danger of unintended consequences.",
-    "image": "https://media.wired.com/photos/6786d2e9d4b9f4a16023aefb/master/pass/AI-Lab-China-US-AI-Race-Business.jpg",
-    "source": "The Artificial Intelligence Database",
-    "category": "AI",
-    "published": "2025-01-15T17:01:20+00:00",
-    "hash": "c42edb4f01fb"
-  },
-  {
-    "title": "Botto, the Millionaire AI Artist, Is Getting a Personality",
-    "link": "https://www.wired.com/story/botto-the-millionaire-ai-artist-is-getting-a-personality/",
-    "summary": "Botto is a 'decentralized AI artist' whose work has fetched millions. As AI improves, its creators may give it fewer guardrails to test its emerging personality.",
-    "image": "https://media.wired.com/photos/6750d625ebceb76cc13d2034/master/pass/AI-Lab-Botto-AI-Artist-Business.jpg",
-    "source": "The Artificial Intelligence Database",
-    "category": "AI",
-    "published": "2024-12-18T17:00:00+00:00",
-    "hash": "6528f92610ad"
+    "published": "2024-11-20T17:00:00+00:00",
+    "hash": "86f1bd8024c1"
   }
 ]
