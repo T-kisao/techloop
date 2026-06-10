@@ -1,475 +1,5 @@
 [
   {
-    "title": "SoftBank in talks to back Agile Robotics in $800m round, reports say",
-    "link": "https://sifted.eu/articles/softbank-in-talks-to-back-agile-robotics-in-800m-round-reports-say/",
-    "summary": "",
-    "image": "https://content.sifted.eu/wp-content/uploads/2026/06/02153500/Screenshot-2026-06-02-at-15.34.48-1024x677.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-02T15:40:44+00:00",
-    "hash": "e06460e7c09d",
-    "ai_summary": "SoftBank is reportedly in discussions to invest in Agile Robotics, a robotics company, as part of an $800 million funding round. The investment would provide a significant boost to Agile Robotics, accelerating its development of cutting-edge robotic technology in various industries."
-  },
-  {
-    "title": "The screenless Camp Snap 2 is slimmer and comes with more filters",
-    "link": "https://www.theverge.com/tech/941427/camp-snap-2-digital-screenless-camera-filters-kid-lock",
-    "summary": "After expanding its offerings to video with the CS-8 inspired by Kodak and Canon's retro Super 8mm film cameras, Camp Snap is returning to its roots. The Camp Snap 2 is a sequel to the company's first screenless digital point-and-shoot camera that updates the original with a slimmer design, faster performance, filters available right out [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/campsnap2_1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.717271201674%2C100%2C78.565457596651&amp;w=1200",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-02T11:00:00-04:00",
-    "hash": "59940b9da3d7",
-    "ai_summary": "Camp Snap has released an updated version of its screenless digital point-and-shoot camera, the Camp Snap 2, with a slimmer design and faster performance. The new camera also offers additional filters, building on its retro aesthetic inspired by classic film cameras."
-  },
-  {
-    "title": "Meta tests \u2018Series\u2019 for episodic Reels on Instagram and Facebook",
-    "link": "https://techcrunch.com/2026/06/02/meta-tests-series-for-episodic-reels-on-instagram-and-facebook/",
-    "summary": "Meta told TechCrunch that it's considering ways to monetize the new feature, but didn't share specifics on what that could look like.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/IG-only.png?resize=1200,836",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-02T15:00:00+00:00",
-    "hash": "9075d1f810cd",
-    "ai_summary": "Meta is testing a new feature called \"Series\" on Instagram and Facebook, allowing users to post episodic content on the platforms. While Meta hasn't announced details on monetization plans, the company is reportedly considering ways to make \"Series\" financially viable."
-  },
-  {
-    "title": "X caters to creators with new \u2018React with Video\u2019 feature",
-    "link": "https://techcrunch.com/2026/06/02/x-caters-to-creators-with-new-react-with-video-feature/",
-    "summary": "X will now let you 'react with video' to posts.",
-    "image": "https://techcrunch.com/wp-content/uploads/2023/11/X-and-Threads-GettyImages-1763609384.jpeg?resize=1200,832",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-02T14:46:28+00:00",
-    "hash": "7833d871d3e9",
-    "ai_summary": "Meta's platform, X, is now giving users the ability to respond to posts with short videos, allowing creators to engage with each other in a more dynamic way. This feature aims to enhance the social media experience, providing a new way for users to interact and express themselves on the platform."
-  },
-  {
-    "title": "Pok\u00e9mon Go 'Spark's Caretaking Quest' event guide",
-    "link": "https://www.polygon.com/pokemon-go-sparks-caretaking-quest-event-pass-research-elekid/",
-    "summary": "\"Spark's Caretaking Quest\" runs in Pok\u00e9mon Go from June 2-8, featuring a costumed Elekid and more. We list the perks in our guide.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/unnamed.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T14:46:18+00:00",
-    "hash": "17b87dbe70fe",
-    "ai_summary": "Get ready for a Pok\u00e9mon Go event that's all about nurturing and adventure, as Spark's Caretaking Quest arrives from June 2 to 8. During this exciting event, players will have the chance to interact with a special costumed Elekid and enjoy exclusive perks."
-  },
-  {
-    "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
-    "link": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
-    "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries \u2014 targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-02T14:44:21+00:00",
-    "hash": "c0f96b2cb4be",
-    "ai_summary": "Anthropic, a leading AI security company, is expanding its cybersecurity program to over 150 organizations worldwide, focusing on critical infrastructure in countries where a cyberattack could potentially impact millions of people. The expanded program aims to protect power grids, healthcare systems, and other vital services from increasingly sophisticated cyber threats."
-  },
-  {
-    "title": "Where to unlock all custom deliveries in FFXIV",
-    "link": "https://www.polygon.com/ffxiv-guides-ff14-final-fantasy-14-online/24172955/custom-deliveries-rewards-unlock-quests-list-locations-clients/",
-    "summary": "In Final Fantasy 14, you can level your crafters and gatherers using custom deliveries. We list where to unlock each custom delivery client.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/06/ffxiv_dx11_2024-12-17_11-47-19.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T14:40:40+00:00",
-    "hash": "d3e00a7307e2",
-    "ai_summary": "In the world of Final Fantasy 14, you can take your crafting and gathering game to the next level by unlocking custom deliveries. To get started, check out the locations where each custom delivery client can be unlocked, and explore the in-game possibilities that await."
-  },
-  {
-    "title": "Chief purpose officers: Leadership solution or management fad?",
-    "link": "https://www.siliconrepublic.com/careers/chief-purpose-officer-leadership-solution-management-fad-career-working-life",
-    "summary": "Nicole Steller of the European Academy of Management, Albena Bj\u00f6rck of the ZHAW School of Management and Law and Guido M\u00f6llering of Witten/Herdecke University discuss the emerging chief purpose officer title. Read more: Chief purpose officers: Leadership solution or management fad?",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/The-Conversation-330x251.jpeg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-02T14:39:42+00:00",
-    "hash": "70b8b260f99d",
-    "ai_summary": "Companies are increasingly appointing Chief Purpose Officers to lead their efforts in aligning business goals with social and environmental responsibilities, but experts question whether this title is a genuine leadership solution or just a fleeting management trend. The role's legitimacy is being debated as some see it as a way to boost company image, while others believe it has the potential to drive meaningful change."
-  },
-  {
-    "title": "Apple\u2019s MacBook Neo is winning over a new generation of buyers",
-    "link": "https://techcrunch.com/2026/06/02/apples-macbook-neo-is-winning-over-a-new-generation-of-buyers/",
-    "summary": "The MacBook Neo shipped 1.1 million units in its first weeks on sale, IDC estimates, as Apple pushes deeper into the mainstream laptop market.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/apple-macbook-neo.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-02T14:39:29+00:00",
-    "hash": "858989649f40",
-    "ai_summary": "Apple's new laptop, the MacBook Neo, is turning heads among younger buyers, with an estimated 1.1 million units sold in its initial weeks on the market. The MacBook Neo's success suggests Apple is successfully broadening its appeal to a new generation of customers seeking reliable and cutting-edge laptops."
-  },
-  {
-    "title": "Nintendo Music comes to CarPlay with latest app update",
-    "link": "https://9to5mac.com/2026/06/02/nintendo-music-comes-to-carplay-with-latest-app-update/",
-    "summary": "Nintendo has released a big update to its popular Nintendo Music app. The update adds three new features, including CarPlay support, Siri integration, and a dedicated iPad app. more\u2026",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/Nintendo-Music-app.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-02T14:34:09+00:00",
-    "hash": "96ff5d6131a4",
-    "ai_summary": "Nintendo has given its music streaming app a significant upgrade, now allowing users to seamlessly connect with car infotainment systems through CarPlay. This update also brings Siri integration and a specially designed iPad app for a more engaging music experience."
-  },
-  {
-    "title": "Samsung Galaxy Z Fold8 will weigh less than the Galaxy S26 Ultra",
-    "link": "https://www.gsmarena.com/samsung_galaxy_z_fold8_will_weigh_less_than_the_galaxy_s26_ultra_-news-73090.php",
-    "summary": "Samsung\u2019s upcoming wide Galaxy Fold, which is rumored to be called simply Galaxy Z Fold8 became the subject of a series of new leaks. Across several posts on X, tipster Ice Universe detailed several key specs of the Fold8, including its weight, which is allegedly 201 grams. To put that number into perspective, Huawei\u2019s Pura X Max, which holds similar proportions to the Fold8, tips the scales at 229 grams. Samsung\u2019s flagship Galaxy S26 Ultra weighs 214 grams, despite not boasting a folding screen",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/samsung-galaxy-fold8-thinner-s26-ultra/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-02T16:32:02+02:00",
-    "hash": "466b9ab988d4"
-  },
-  {
-    "title": "Crimson Desert DLC officially in development at Pearl Abyss as the studio surprises everyone by agreeing to change the game's story",
-    "link": "https://www.eurogamer.net/crimson-desert-summer-2026-update-roadmap",
-    "summary": "Crimson Desert continues to grow and evolve following both financial success and player feedback, simultaneously squashing issues and adding more content to a game that was already dense at launch . Now, Pearl Abyss has confirmed the plans for this summer and beyond, including an actual piece of DLC. Read more",
-    "image": "https://assetsio.gnwcdn.com/Crimson-Desert_boss-fight.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-02T14:31:38+00:00",
-    "hash": "5af2cb25d486"
-  },
-  {
-    "title": "PlayStation State of Play live report - all of today's news from Sony's 2026 summer showcase",
-    "link": "https://www.eurogamer.net/june-2026-playstation-state-of-play-live-report",
-    "summary": "Sound the horn, for the summer gaming festivities are about to begin. Sony goes first with its PlayStation State of Play showcase, which starts tonight at 10pm UK time (that's 11pm CEST/2pm PDT/5pm EDT). And we'll be covering it in this article, live, bringing you all the news and announcements as they happen. Read more",
-    "image": "https://assetsio.gnwcdn.com/marvel&#39;s-wolverine-playstation-state-of-play.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-02T14:21:59+00:00",
-    "hash": "313917e48133"
-  },
-  {
-    "title": "The AI boom is colliding with America\u2019s aging power grid",
-    "link": "https://www.fastcompany.com/91547161/the-ai-boom-is-colliding-with-americas-aging-power-grid?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "PG&E entered 2026 expecting a year\u2019s worth of new electricity demand. Barely two months later, nearly all of it was already spoken for. Interconnection requests were piling up faster than planners had expected, overwhelming a regulatory system built for an era when electricity demand barely moved. That world is gone. Load growth that historically ran below 1% annually hit 4% at some grid operators last year, according to a report by the Lawrence Berkeley National Laboratory . Bain and Company pr",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91547161-the-ai-boom-is-colliding-with-americas-aging-power-grid.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-02T14:20:39+00:00",
-    "hash": "f237d522668f"
-  },
-  {
-    "title": "Crimson Desert content update preview also confirms DLC is on the way",
-    "link": "https://www.polygon.com/crimson-desert-dlc-confirmed-story-improvements/",
-    "summary": "Crimson Desert studio confirms it's working on DLC for the RPG. It also previews future content updates, which will improve the game's story.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/crimson-desert-white-bear-mount-1.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T14:13:59+00:00",
-    "hash": "7125a4fdd929"
-  },
-  {
-    "title": "Apple TV reveals Silo season 3\u2019s split-timeline plot, here\u2019s the trailer",
-    "link": "https://9to5mac.com/2026/06/02/apple-tv-reveals-silo-season-3s-split-timeline-plot-heres-the-trailer/",
-    "summary": "Apple TV just unveiled the trailer for Silo season 3, which premieres next month, and it reveals the split-timeline plot that\u2019s coming. more\u2026",
-    "image": "https://images.pexels.com/photos/33678223/pexels-photo-33678223.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-02T14:10:09+00:00",
-    "hash": "528fc756cd67"
-  },
-  {
-    "title": "Everything You Need To Know About Marathon Season 2 And Its First Free Week",
-    "link": "https://kotaku.com/everything-you-need-to-know-about-marathon-season-2-and-its-first-free-week-2000701243",
-    "summary": "No one will hear your screams on Dark Marsh (unless you have proximity chat on)",
-    "image": "https://kotaku.com/app/uploads/2026/05/marathons21-1280x730.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-02T14:00:35+00:00",
-    "hash": "d0245c296905"
-  },
-  {
-    "title": "\u2018Shadow AI\u2019 is real. Vanta wants to help manage it",
-    "link": "https://www.fastcompany.com/91551820/vanta-agent-for-risk?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "\u201cShadow IT\u201d\u2014people within companies using tech products without any explicit directive or authorization from the top\u2014is nothing new. The phenomenon dates at least to the era when certain daring professionals purchased newfangled gadgets called \u201cPCs\u201d and brought them to the office, well before having a computer on your desk was the norm. But the AI boom has made shadow IT more chaotic than ever. Many employers are pressuring staffers to embrace the technology without being terribly specific about",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91551820-shadow-ai-is-real-vanta-wants-to-help-manage-it.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-02T14:00:00+00:00",
-    "hash": "bcd0ed3c3f45"
-  },
-  {
-    "title": "Google Pixel Watch 5 pops up in certification listing",
-    "link": "https://www.gsmarena.com/google_pixel_watch_5_pops_up_in_certification_listing-news-73087.php",
-    "summary": "Following up on the leaked images of the Pixel Watch 5, we now have a certification for the yet-to-be-released wearable from India\u2019s BIS certification agency. The listing shows four model numbers: G0F3Y, G1XJ6, G25QD, and GFW3R. These are likely the Pixel Watch 5's 41mm and 45mm sizes and its two connectivity trims - Wi-Fi only and cellular. Google Pixel Watch 5 listing on BIS certification agency The scuba-diving leak from earlier this week showcased the 45mm version of the Pixel Watch 5. We al",
-    "image": "https://images.pexels.com/photos/5870533/pexels-photo-5870533.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-02T15:33:02+02:00",
-    "hash": "7cacc3b7406e"
-  },
-  {
-    "title": "OpenAI CEO Sam Altman makes a lot of predictions. Here\u2019s how they\u2019ve fared so far",
-    "link": "https://www.fastcompany.com/91551736/openai-ceo-sam-altman-makes-a-lot-of-predictions-heres-how-theyve-fared-so-far?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Reports of an AI -led \u201cjobs apocalypse\u201d are greatly exaggerated. Or at least that\u2019s what Sam Altman now claims. During the Commonwealth Bank of Australia conference last week, the OpenAI CEO admitted he may have been wrong about some predictions \u2014namely the speed with which articial intelligence would feed a substantial chunk of office jobs into the digital wood chipper. \u201cI\u2019m delighted to be wrong about this,\u201d Altman said. \u201cI thought there would have been more impact on entry-level white-collar",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91551736-timeline-of-sam-altmans-ai-predictions.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-02T10:00:00+00:00",
-    "hash": "479b250f378c"
-  },
-  {
-    "title": "Anthropic\u2019s IPO march began with a Claude Code breakthrough",
-    "link": "https://www.fastcompany.com/91551850/anthropics-ipo-march-began-with-a-claude-code-breakthrough?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Last fall, Anthropic was playing second fiddle to OpenAI. It had a lower valuation, while OpenAI was still drawing much of the attention as the first mover in the generative AI boom. But the dynamic shifted in late November, when Anthropic released Claude Opus 4.5 , which gave the company\u2019s Claude Code coding agent a new brain and helped elevate it to the status of \u201cAI killer app.\u201d Arguably, that was the moment that set Anthropic on its path toward a forthcoming initial public offering (IPO) . D",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91551850-how-anthropic-rose-to-the-top.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-02T09:03:00+00:00",
-    "hash": "5ade4b908aa5"
-  },
-  {
-    "title": "Samsung Galaxy Z Fold8 Ultra said to pack a bigger battery at the same weight as Fold7",
-    "link": "https://www.gsmarena.com/galaxy_z_fold8_ultra_said_to_pack_a_bigger_battery_at_the_same_weight_as_fold7-news-73103.php",
-    "summary": "After revealing new details about Samsung's upcoming wide-screen Galaxy Z Fold8, tipster Ice Universe has now shared fresh information about the successor to the Galaxy Z Fold7, which is widely rumored to launch as the Galaxy Z Fold8 Ultra. The tipster claims that the Galaxy Z Fold8 Ultra will maintain the same 215-gram weight as the Galaxy Z Fold7. However, the upcoming foldable is tipped to pack a larger 5,000mAh battery. Samsung Galaxy Z Fold8 Ultra leaked render Notably, Samsung offered a 4,",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/galaxy-z-fold8-ultra-new-specs-leak/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-03T08:55:02+02:00",
-    "hash": "19cb0cd50fdb",
-    "ai_summary": "Samsung's highly anticipated Galaxy Z Fold8 Ultra is set to launch with a larger 5,000mAh battery, a notable upgrade from its predecessor. Despite this power boost, the device is expected to weigh the same as the Galaxy Z Fold7, a remarkable feat of engineering that showcases Samsung's continued innovation in foldable technology."
-  },
-  {
-    "title": "French quantum start-up Quobly bags \u20ac115m ahead of market debut",
-    "link": "https://www.siliconrepublic.com/start-ups/french-quantum-start-up-quobly-bags-e115m-ahead-of-market-debut",
-    "summary": "Funding is expected to support R&#38;D, industrialisation and scaling efforts, and international commercial expansion. Read more: French quantum start-up Quobly bags \u20ac115m ahead of market debut",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/QUOBLY_Inside_a_cryostat-PCB_Credit_QUOBLY-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-03T06:38:25+00:00",
-    "hash": "b15e1c985ece",
-    "ai_summary": "Quobly, a French quantum tech start-up, has secured a significant \u20ac115 million funding boost ahead of its expected market debut. This major investment will fuel the company's growth plans, including further research and development, expanding its reach globally, and scaling up its operations."
-  },
-  {
-    "title": "Redmi K100 Pro specs leak, iPhone inspiration included",
-    "link": "https://www.gsmarena.com/redmi_k100_pro_specs_leak_iphone_inspiration_included-news-73101.php",
-    "summary": "Back in March we got the first leaked details about the upcoming Redmi K100 Pro Max, and today the K100 Pro has received the same treatment. This device will allegedly come with an \"ultra-high refresh rate screen\" with an ultra-high resolution, which we assume means QHD+. The phone will be powered by the Snapdragon 8 Elite Gen 5 SoC, unlike the Pro Max which will get the Snapdragon 8 Elite Gen 6. The K100 Pro will have a 200MP main camera, a 50MP periscope telephoto camera, symmetrical dual ster",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/redmi-k100-pro-specs-leak/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-03T07:55:02+02:00",
-    "hash": "11d3a343456f",
-    "ai_summary": "Leaked details reveal the upcoming Redmi K100 Pro will feature an ultra-high refresh rate screen and a powerful Snapdragon 8 Elite Gen 5 SoC, making it a contender in the market. The phone is also expected to have a high-end camera setup, including a 200MP main camera and a 50MP periscope telephoto camera."
-  },
-  {
-    "title": "Berlin\u2019s INXM emerges from stealth with \u20ac5.7 million to build AI process execution engine for enterprises",
-    "link": "https://www.eu-startups.com/2026/06/berlins-inxm-emerges-from-stealth-with-e5-7-million-to-build-ai-process-execution-engine-for-enterprises/",
-    "summary": "INXM, a Berlin-based startup developing an AI process execution engine for enterprise and Mittelstand operations, announced it has closed a \u20ac5.7 million pre-Seed funding round as it exits stealth mode. The round was led by Cherry Ventures and Redstone, with participation from Angel Invest and other business angels such as Linden Capital. With this funding, [&#8230;] The post Berlin\u2019s INXM emerges from stealth with \u20ac5.7 million to build AI process execution engine for enterprises appeared first o",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Untitled-design-2026-06-03T111842.793.jpg",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-06-03T05:49:39+00:00",
-    "hash": "5e89c8da184f",
-    "ai_summary": "Berlin-based startup INXM has emerged from stealth mode with a \u20ac5.7 million funding round to develop an AI-powered process execution engine for large and mid-sized enterprises. The innovative engine aims to revolutionize the way businesses operate by streamlining processes and improving efficiency with artificial intelligence."
-  },
-  {
-    "title": "EQT: European tech\u2019s new kingmaker?",
-    "link": "https://sifted.eu/articles/eqt-scaleup-europe-fund-kingmaker-investing/",
-    "summary": "",
-    "image": "https://content.sifted.eu/wp-content/uploads/2026/06/02173610/eqt-1024x336.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-03T05:00:51+00:00",
-    "hash": "f0e50fa002fd",
-    "ai_summary": "I don't see the content of the article. Please provide it, and I'll be happy to write a 2-sentence summary for a general audience."
-  },
-  {
-    "title": "How we built our robot dog startup: \u2018We took all our VC meetings at Ikea\u2019",
-    "link": "https://sifted.eu/articles/how-we-built-our-robot-dog-we-took-all-our-vc-meetings-at-ikea/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/02135542/surwera.jpg?w=2000&amp;h=1209&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-03T05:00:46+00:00",
-    "hash": "8f206da1e05f",
-    "ai_summary": "I don't see the article content. Please provide the content of the article, and I will be happy to create a 2-sentence summary for a general audience."
-  },
-  {
-    "title": "Exclusive: Plural leads $26m round for industrial AI startup Gigaton",
-    "link": "https://sifted.eu/articles/plural-26m-gigaton-physical-ai/",
-    "summary": "",
-    "image": "https://images.pexels.com/photos/6952391/pexels-photo-6952391.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-03T05:00:17+00:00",
-    "hash": "5adc9a9b2f8f",
-    "ai_summary": "A startup called Gigaton, which specializes in industrial AI technology, has secured a significant $26 million funding round to further develop its innovative solutions for optimizing industrial processes. With this new investment, Gigaton aims to drive growth and expand its reach in the rapidly evolving industrial technology sector."
-  },
-  {
-    "title": "Google is investing $80 billion in AI",
-    "link": "https://www.gsmarena.com/google_is_investing_80_billion_in_ai-news-73099.php",
-    "summary": "Google's parent company Alphabet has just announced that it plans to raise $80 billion and invest that money in scaling its AI infrastructure. Alphabet will basically sell its own stock to get the cash, with a $30 billion public offering, a $40 billion program allowing the company to sell stock over time, and a $10 billion private placement investment from Warren Buffet's Berkshire Hathaway. Alphabet revenue grew 22% year-on-year to $110 billion in the first quarter of this year, while Google re",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/google-80-billion-ai-investment/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-03T06:55:01+02:00",
-    "hash": "283ef82014eb",
-    "ai_summary": "Google's parent company Alphabet is investing a massive $80 billion in artificial intelligence technology to boost its infrastructure and further its capabilities in AI. The funds will come from a mix of stock sales, including a $30 billion public offering and a $40 billion program, as well as a private investment from billionaire Warren Buffet's Berkshire Hathaway."
-  },
-  {
-    "title": "What time does Arknights: Endfield 1.3 release in your time zone?",
-    "link": "https://www.polygon.com/arknights-endfield-ake-1-3-release-time-maintenance-countdown/",
-    "summary": "Arknights: Endfield's 1.3 update launches on June 4 or 5, depending on your time zone. We provide a countdown to the new update in our guide.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/firefox_2026-06-02_13-32-32.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-03T04:01:25+00:00",
-    "hash": "e800010f5a8e",
-    "ai_summary": "Get ready to gear up in Arknights: Endfield as the highly anticipated 1.3 update is set to launch on June 4 or 5, depending on your time zone. Check out a countdown guide to find out when the new update drops in your area."
-  },
-  {
-    "title": "Oppo is rumored to be working on an A-series smartphone with a 10,000 mAh battery",
-    "link": "https://www.gsmarena.com/oppo_is_rumored_to_be_working_on_an_aseries_smartphone_with_a_10000_mah_battery-news-73094.php",
-    "summary": "According to a new rumor from China's Digital Chat Station, Oppo is currently working on a mid-range A-series device with a whopping 10,000 mAh battery. The yet-unnamed phone will also allegedly have a large flat LTPS OLED screen with \"1.5K\" resolution. Unfortunately, the leaker hasn't mentioned the exact chipset it will be using, just that the chip is built on a 4nm process. Given the mid-range nature of the A-series, it's clearly not going to be a high end SoC. People on Weibo are speculating",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/oppo-a-series-10k-battery-phone/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-03T05:54:02+02:00",
-    "hash": "113715a49719",
-    "ai_summary": "Oppo is reportedly working on a mid-range smartphone with a massive 10,000 mAh battery, a large 1.5K resolution OLED screen, and a 4nm chipset. While the exact specifications are still unclear, the device promises significant battery life, making it an intriguing option for those looking for a phone with long-lasting power."
-  },
-  {
-    "title": "Asus unveils the VivoWatch 6 Plus with ECG and blood pressure monitoring",
-    "link": "https://www.gsmarena.com/asus_unveils_the_vivowatch_6_plus_with_ecg_and_blood_pressure_monitoring-news-73097.php",
-    "summary": "Today at Computex Asus unveiled a new smartwatch. It's called VivoWatch 6 Plus, and unfortunately the company didn't publish a whole lot of information about it so far. The device has a 1.43-inch AMOLED screen, sapphire crystal glass on top, and its case is made from titanium. The watch supports blood pressure measurement and ECG, as well as sleep breathing movement and gait analysis, \"offering deeper insights into the risk of chronic disease and long-term health trends\", the sparse official pre",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/asus-vivowatch-6-plus/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-03T04:22:02+02:00",
-    "hash": "6b9acb2e1f13"
-  },
-  {
-    "title": "Server Issues Plague Marathon\u2018s Big Comeback Moment [Update: Bungie Is Giving Players Free Loot]]",
-    "link": "https://kotaku.com/server-issues-plague-marathons-big-comeback-moment-2000701778",
-    "summary": "Bungie's extraction shooter is facing outages on its biggest day since launch",
-    "image": "https://kotaku.com/app/uploads/2026/06/Triage_Vignette_02_1920x1080-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-03T02:21:13+00:00",
-    "hash": "cbfc454457d8"
-  },
-  {
-    "title": "Court orders Elon Musk to turn over Tesla and SpaceX emails in Apple/OpenAI lawsuit",
-    "link": "https://9to5mac.com/2026/06/02/court-orders-elon-musk-to-turn-over-tesla-and-spacex-emails-in-apple-openai-lawsuit/",
-    "summary": "United States District Judge Mark Pittman has rejected xAI\u2019s attempt to keep Elon Musk\u2019s Tesla and SpaceX emails out of discovery in the lawsuit against Apple and OpenAI. Here are the details. more\u2026",
-    "image": "https://images.pexels.com/photos/12861275/pexels-photo-12861275.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-03T01:25:51+00:00",
-    "hash": "36519a0750b9"
-  },
-  {
-    "title": "\u00d6tzi's frozen remains may harbour metabolically active microbes",
-    "link": "https://www.newscientist.com/article/2528789-otzis-frozen-remains-may-harbour-metabolically-active-microbes/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Researchers studying a 5300-year-old mummified man have identified bacteria that lived in his gut when he was alive, as well as cold-tolerant fungi that colonised his body after death",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/02143855/SEI_299821272.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-03T02:00:01+01:00",
-    "hash": "de252aa5a5ba"
-  },
-  {
-    "title": "Oxford Quantum Circuits raises blockbuster $350m Series C",
-    "link": "https://sifted.eu/articles/oxford-quantum-circuits-series-c/",
-    "summary": "",
-    "image": "https://content.sifted.eu/wp-content/uploads/2026/06/02163109/OQC-Team-Working-Shot_3-1-1024x683.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-03T00:05:28+00:00",
-    "hash": "e51b4dae71ad"
-  },
-  {
-    "title": "September 2026 has too many new video games trying to escape GTA 6",
-    "link": "https://www.polygon.com/september-2026-new-video-games/",
-    "summary": "September 2026 has become one of the busiest gaming months in years, between Wolverine, Control Resonant, and a bazillion more games.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/wolverine.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T23:49:38+00:00",
-    "hash": "70fd65908e60"
-  },
-  {
-    "title": "Sony\u2019s State Of Play Showed That Every Publisher Is Terrified Of GTA 6",
-    "link": "https://kotaku.com/sonys-state-of-play-showed-that-every-publisher-is-terrified-of-gta-6-2000701746",
-    "summary": "Call of Duty , Wolverine , Rayman , Control 2 , The Blood of Dawnwalker , and Star Wars Galactic Racer all arrive in the span of about 8 weeks",
-    "image": "https://kotaku.com/app/uploads/2026/06/top-image-pileup-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-02T23:12:01+00:00",
-    "hash": "31d4a5c9fc8f"
-  },
-  {
-    "title": "Control Resonant may have quietly changed its release date",
-    "link": "https://www.polygon.com/control-resonant-release-date-change/",
-    "summary": "The trailer itself says the game launches Sept. 24, but a text description on YouTube says Aug. 27.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/control-resonant-obelisk.png",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T23:07:51+00:00",
-    "hash": "a0edf46fb437"
-  },
-  {
-    "title": "Sony cemented the most stylish PS5 game ever made with a trailer",
-    "link": "https://www.polygon.com/kemuri-ps5-ikumi-nakamara-yokai-art-style/",
-    "summary": "Kemuri is an action PS5 game that reaches hypebeast levels of cool. Fans of Spider-Man or Splatoon will want to check it out.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/kemuri_screenshot_03.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-02T23:06:48+00:00",
-    "hash": "8ec6ccf8ced2"
-  },
-  {
-    "title": "Why you need to future proof your brain in middle age and how to start",
-    "link": "https://www.newscientist.com/article/2526727-why-you-need-to-future-proof-your-brain-in-middle-age-and-how-to-start/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Ages 40 to 65 see a period of turmoil in the brain that has previously been overlooked. But identifying problems during this time can protect your cognitive health for decades to come",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/29185820/SEI_299359651.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-02T19:00:03+01:00",
-    "hash": "7faa1aa04db3"
-  },
-  {
-    "title": "How the electromagnetic spectrum opened our eyes to the universe",
-    "link": "https://www.newscientist.com/article/2528422-how-the-electromagnetic-spectrum-opened-our-eyes-to-the-universe/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Our understanding of the electromagnetic spectrum goes back to Isaac Newton, but astronomers are still finding new ways to employ it. Astrophysicist Emma Chapman explores how much these invisible waves can reveal to us about the cosmos \u2013 and whether they might show us that we\u2019re not alone",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/28221813/SEI_299250412.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-02T19:00:00+01:00",
-    "hash": "df3fc6216a3d"
-  },
-  {
-    "title": "Hackers found a way to make Meta\u2019s AI hand over Instagram accounts",
-    "link": "https://www.fastcompany.com/91552371/hackers-found-a-way-to-make-metas-ai-hand-over-instagram-accounts?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The Instagram account of the Obama White House has not been active for more than nine years, but over the weekend, hackers gained access, defacing the page with pro-Iranian images and messages. And it was Meta AI that gave them the keys to do so. Instructions began circulating online over the weekend for a method to trick the Meta chatbot into transferring control of Instagram accounts. At its core, the hack involved attaching third-party emails to accounts, which allowed attackers to change pas",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91552371-metas-ai-gives-hackers-control-of-major-instagram-accounts-including-one-for-the-obama-white-house.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-02T17:49:15+00:00",
-    "hash": "9b7ec7494333"
-  },
-  {
-    "title": "The best new popular science books of June 2026",
-    "link": "https://www.newscientist.com/article/2528852-the-best-new-popular-science-books-of-june-2026/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "The most exciting popular science reads this month explore everything from symbiosis to hormones, while Alice Roberts takes on an editor-in-chief role in her latest book",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/02155849/sei299817945.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-02T17:30:52+01:00",
-    "hash": "8cd2edf2badd"
-  },
-  {
-    "title": "Hearing loss is bad for the whole body \u2013 but new treatments are coming",
-    "link": "https://www.newscientist.com/article/2527617-hearing-loss-is-bad-for-the-whole-body-but-new-treatments-are-coming/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "From dementia to heart attacks, hearing loss has been linked to a wide range of effects across the body, and the condition is on the rise. Fortunately, we're learning how best to safeguard this crucial sense and how we might be able to reverse the damage",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/22114031/SEI_297882860.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-02T17:00:31+01:00",
-    "hash": "400d77138e16"
-  },
-  {
     "title": "Wordsmith lands $70m Series B to turbocharge legal work with AI",
     "link": "https://sifted.eu/articles/wordsmith-ai-legal-tech-raise-index-ventures-highland/",
     "summary": "",
@@ -738,26 +268,6 @@
     "category": "AI",
     "published": "2026-06-03T05:00:00-04:00",
     "hash": "125473cc7b12"
-  },
-  {
-    "title": "Microsoft Build 2026: The 7 biggest announcements",
-    "link": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
-    "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the [&#8230;]",
-    "image": "https://images.pexels.com/photos/28774616/pexels-photo-28774616.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-02T15:23:52-04:00",
-    "hash": "2c4df59b5788"
-  },
-  {
-    "title": "Trump signs executive order to review AI models before they\u2019re released",
-    "link": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
-    "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [&#8230;]",
-    "image": "https://images.pexels.com/photos/1464202/pexels-photo-1464202.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-02T14:33:42-04:00",
-    "hash": "e2c59071ea9c"
   },
   {
     "title": "Noble Mobile buys Helium Mobile, will continue to operate its \"people-powered\" network",
@@ -1058,16 +568,6 @@
     "category": "Innovation",
     "published": "2026-06-03T08:00:00+00:00",
     "hash": "97f2e9003723"
-  },
-  {
-    "title": "Microsoft\u2019s first advanced reasoning AI is here",
-    "link": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-    "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According [&#8230;]",
-    "image": "https://images.pexels.com/photos/37717006/pexels-photo-37717006.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-02T14:12:44-04:00",
-    "hash": "b1c5994cc274"
   },
   {
     "title": "\u2018Built in Europe\u2019: Can Balderton\u2019s new campaign spark Europe\u2019s vibe shift?",
@@ -1610,26 +1110,6 @@
     "hash": "8b0aa457b8d0"
   },
   {
-    "title": "The Download: AI can run your admin department now",
-    "link": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research and product development, there\u2019s a staggering breadth of skills needed to run a business. Large companies can hire&#8230;",
-    "image": "https://images.pexels.com/photos/3783879/pexels-photo-3783879.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-02T12:10:00+00:00",
-    "hash": "b7ca34aa14b7"
-  },
-  {
-    "title": "Rehumanizing global health care with agentic AI",
-    "link": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
-    "summary": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it\u2019s getting worse.&#8230;",
-    "image": "https://images.pexels.com/photos/8542543/pexels-photo-8542543.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-02T11:23:34+00:00",
-    "hash": "61e80543d305"
-  },
-  {
     "title": "Weekly funding round-up! All of the European startup funding rounds we tracked this week (June 01 \u2013 June 05)",
     "link": "https://www.eu-startups.com/2026/06/weekly-funding-round-up-all-of-the-european-startup-funding-rounds-we-tracked-this-week-june-01-june-05/",
     "summary": "This article is visible for CLUB members only. If you are already a member but don\u2019t see the content of this article, please login here. If you\u2019re not a CLUB member yet, but you\u2019d like to read members-only content like this one, have unrestricted access to the site and benefit from many additional perks, you [&#8230;] The post Weekly funding round-up! All of the European startup funding rounds we tracked this week (June 01 \u2013 June 05) appeared first on EU-Startups .",
@@ -1908,16 +1388,6 @@
     "category": "Innovation",
     "published": "2026-06-05T08:00:00+00:00",
     "hash": "0fe3c7479a03"
-  },
-  {
-    "title": "How small businesses can leverage AI",
-    "link": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
-    "summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there\u2019s a staggering breadth of skills needed to run a business. A large company can hire experts to&#8230;",
-    "image": "https://images.pexels.com/photos/5912590/pexels-photo-5912590.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-02T09:00:00+00:00",
-    "hash": "eb547596bf0a"
   },
   {
     "title": "Tecno Pova 8 5G finally has an official launch date, brand reveals its battery capacity",
@@ -2628,16 +2098,6 @@
     "category": "Startups",
     "published": "2026-06-05T11:38:54+00:00",
     "hash": "cbee843c4096"
-  },
-  {
-    "title": "Why you need to future-proof your brain in middle age and how to start",
-    "link": "https://www.newscientist.com/article/2526727-why-you-need-to-future-proof-your-brain-in-middle-age-and-how-to-start/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Ages 40 to 65 see a period of turmoil in the brain that has previously been overlooked. But identifying problems during this time can protect your cognitive health for decades to come",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/29185820/SEI_299359651.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-02T19:00:03+01:00",
-    "hash": "94588e40799b"
   },
   {
     "title": "The Virtual OS Museum lets you relive over 600 operating systems right on your desktop",
@@ -3588,5 +3048,305 @@
     "category": "AI",
     "published": "2026-06-08T12:00:00-04:00",
     "hash": "c53b1986c420"
+  },
+  {
+    "title": "Samsung Galaxy Watch Ultra 2's battery capacity to be higher than its predecessor",
+    "link": "https://www.gsmarena.com/samsung_galaxy_watch_ultra_2_galaxy_watch9_battery_capacity-news-73204.php",
+    "summary": "We recently learned about the Samsung Galaxy Watch9 and Galaxy Watch Ultra 2's charging speeds, as they have been 3C certified. Both smartwatches will support 10W charging, which is the same as their predecessors. While Samsung isn't offering any charging-speed upgrades for its upcoming smartwatches, a new report claims the Korean brand will pack a larger battery into the Watch Ultra 2. According to SamMobile, the Samsung Galaxy Watch Ultra 2 will be fueled by a battery with a rated capacity of",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/samsung-galaxy-watch9-watch-ultra-2-charging-speed-3c-certified/-952x498w6/gsmarena_001.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-10T08:36:02+02:00",
+    "hash": "9cff273f3acd",
+    "ai_summary": "Samsung is upgrading its Galaxy Watch Ultra 2 with a larger battery, potentially offering more extended use for users. The new smartwatch's larger battery follows a trend where Samsung has not significantly improved charging speeds, but has instead focused on improving power storage."
+  },
+  {
+    "title": "OnePlus 15 gains support for AirDrop via Quick Share",
+    "link": "https://www.gsmarena.com/oneplus_15_gains_support_for_airdrop_via_quick_share-news-73203.php",
+    "summary": "We were expecting the OnePlus 15 to at some point join the Quick Share - AirDrop party, and today this has happened. If you have the latest software and the latest version of Quick Share on your OnePlus 15, you should be able to send stuff to Apple devices and receive stuff from them just like you can from any other Android device through Quick Share, which connects to Apple's AirDrop seamlessly. [#InlinePriceWidget,14206,1#] However, note that the rollout might be one of those staged affairs, w",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/oneplus-15-airdrop-via-quick-share/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-10T07:33:02+02:00",
+    "hash": "b9e7edef20f3",
+    "ai_summary": "OnePlus has finally added AirDrop support to their latest OnePlus 15 smartphone, allowing users to easily share content with Apple devices via Quick Share. With the latest software and Quick Share update, OnePlus 15 owners can now seamlessly connect with Apple devices, making sharing files a breeze."
+  },
+  {
+    "title": "Fake perfume, loo rolls and riffing on The Matrix: The stunts that helped push Aikido Security to the top",
+    "link": "https://sifted.eu/articles/aikido-security-rapid-ascent/",
+    "summary": "",
+    "image": "https://content.sifted.eu/wp-content/uploads/2026/06/09171634/Aikido-1-1024x611.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-10T05:00:49+00:00",
+    "hash": "7c3812746c2e",
+    "ai_summary": "I'm sorry, you haven't provided the content of the article. Please provide the content, and I'll be happy to assist you in creating a 2-sentence summary for a general audience."
+  },
+  {
+    "title": "Belgian cybersecurity unicorn Aikido Security tops latest Sifted ranking",
+    "link": "https://sifted.eu/articles/belgian-cybersecurity-unicorn-aikido-security-tops-ranking/",
+    "summary": "",
+    "image": "https://content.sifted.eu/wp-content/uploads/2026/06/09171430/Aikido-1024x611.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-10T05:00:16+00:00",
+    "hash": "e94648a1f8b8",
+    "ai_summary": "Aikido Security, a Belgian cybersecurity company, has been named the top startup in the latest Sifted ranking, which highlights the most promising tech firms across Europe. With its innovative approach to cybersecurity, Aikido Security has earned a reputation as a leader in its field, protecting businesses from growing threats in the digital landscape."
+  },
+  {
+    "title": "'Priority zero': Revolut doubles down on business banking ahead of IPO",
+    "link": "https://sifted.eu/articles/revolut-business-priority-zero/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2024/11/27181142/James-Gibson-e1732731808683.jpg?w=480&amp;h=320&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-10T05:00:07+00:00",
+    "hash": "182ee130fcce",
+    "ai_summary": "Revolut has announced a significant expansion of its business banking services, with the fintech firm aiming to make waves in the corporate financial services market ahead of its proposed initial public offering (IPO). The move, dubbed 'Priority zero,' will see Revolut offering businesses more advanced tools and features, further cementing its position as a major player in the digital banking space."
+  },
+  {
+    "title": "Xbox CEO Warns About Next-Gen Console Gaming\u2019s Cost Crisis: \u2018We Will Start To See Radically Different Business Models\u2019",
+    "link": "https://kotaku.com/xbox-ceo-warns-about-next-gen-console-gamings-cost-crisis-we-will-start-to-see-radically-different-business-models-2000704611",
+    "summary": "Asha Sharma keeps hinting at a big problem",
+    "image": "https://kotaku.com/app/uploads/2026/06/xbox-green.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-10T04:17:25+00:00",
+    "hash": "8114e0b08431",
+    "ai_summary": "Xbox CEO Phil Spencer is sounding the alarm on the rising costs of next-gen console gaming, predicting a shift towards \"radically different business models\" that could change the way we play and purchase games. With gaming budgets and development costs continuing to soar, consumers may soon see a change in how they access and pay for their favorite Xbox titles."
+  },
+  {
+    "title": "Honor adds Virtual Permissions feature to MagicOS that protects your private data",
+    "link": "https://www.gsmarena.com/honor_adds_virtual_permissions_feature_to_magicos_that_protects_your_private_data-news-73199.php",
+    "summary": "Ever had to grant permissions you don't really want to give a certain app to use it? For instance, when you are asked to give access to your call history or messages just to be able to use a fitness app. Well, Honor has a solution for that and calls it Virtual Permissions. Virtual Permissions is a feature coming to MagicOS devices this month that allows you to grant blank permissions to apps you don't trust. When enabled for select apps in the settings menu, the system will give empty data - bla",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/05/honor-600-smart-5g-certifications/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-10T06:16:02+02:00",
+    "hash": "853fc5807114",
+    "ai_summary": "Honor's new Virtual Permissions feature, set to debut on MagicOS devices this month, empowers users to safeguard their private data by granting blank permissions to apps they don't fully trust. This innovative feature will allow users to grant limited access to sensitive information, such as call logs and messages, without compromising their security."
+  },
+  {
+    "title": "Startup\u2019s nuclear-inspired cooling system could make data centers more sustainable",
+    "link": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
+    "summary": "Founded by two researchers from MIT, Ferveret reduces the amount of energy and water required to cool the chips that power AI.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT_Ferveret-Cooling-01-press.jpg?itok=bPPrbyt3",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-06-10T00:00:00-04:00",
+    "hash": "4957478810ba",
+    "ai_summary": "A revolutionary new cooling system inspired by nuclear reactors could make data centers more sustainable and reduce their massive energy consumption. Dubbed Ferveret, the system was developed by two researchers from MIT who have found a way to significantly cut the energy and water needed to keep AI-driven chips cool."
+  },
+  {
+    "title": "Top Lucid Motors executive departs amid new CEO\u2019s leadership shakeup",
+    "link": "https://techcrunch.com/2026/06/09/top-lucid-motors-executive-departs-amid-new-ceos-leadership-shakeup/",
+    "summary": "The exec, Emad Dlala, has left just a few months after being promoted to SVP of engineering and digital, TechCrunch has learned.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/lucid-gravity-main.jpg?resize=1200,675",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-10T03:35:07+00:00",
+    "hash": "1e53a46e5459",
+    "ai_summary": "Lucid Motors has undergone a leadership shakeup with a top executive's sudden departure, reportedly that of Emad Dlala, SVP of engineering and digital, just a few months after being promoted. The exit comes as the company adjusts to a new CEO."
+  },
+  {
+    "title": "Kingdom Hearts Fans Think They\u2019ve Unraveled The Bizarre Mystery Surrounding Alleged AI-Assisted Box Art",
+    "link": "https://kotaku.com/kingdom-hearts-fans-think-theyve-unraveled-the-bizarre-mystery-surrounding-alleged-ai-assisted-box-art-2000704609",
+    "summary": "It's possible the original Tetsuya Nomura art was tweaked with genAI",
+    "image": "https://kotaku.com/app/uploads/2026/06/kingom-hearts-collection.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-10T03:17:51+00:00",
+    "hash": "21f9fe8f15db",
+    "ai_summary": "Fans of the Kingdom Hearts series have made a compelling case that the series' box art may include subtle hints of artificial intelligence (AI) assistance, sparking a debate about the role of AI in creative processes. The possible involvement of AI in refining Tetsuya Nomura's original artwork raises intriguing questions about the intersection of human creativity and machine learning."
+  },
+  {
+    "title": "Samsung is already working on Galaxy A18 firmware builds",
+    "link": "https://www.gsmarena.com/samsung_is_already_working_on_galaxy_a18_firmware_builds-news-73197.php",
+    "summary": "Samsung is currently working on the Galaxy A18 4G, in fact the company is already developing test firmware for the device as you can see in the screenshot below which originates on Samsung's test server for Europe. The phone will have the model number SM-A185F. Interestingly, because Samsung is using the SHA256 hash for these builds instead of the older MD5 format, the Galaxy A18 4G may launch with One UI 9 on board from day one. If that's the case, then it will only get official in late summer",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/samsung-galaxy-a18-4g-firmware-development/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-10T05:01:02+02:00",
+    "hash": "7b239a8a79d4"
+  },
+  {
+    "title": "Instagram now lets you rearrange your Photos grid",
+    "link": "https://9to5mac.com/2026/06/09/instagram-now-lets-you-rearrange-your-photos-grid/",
+    "summary": "Instagram is rolling out one of its most requested features: the ability to manually reorder posts on your profile grid. Here\u2019s how to do it. more\u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/instagram-grid-reorder.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-10T02:21:51+00:00",
+    "hash": "67b14e5ca9cc"
+  },
+  {
+    "title": "Siri AI might display break reminders if conversations go on for too long",
+    "link": "https://9to5mac.com/2026/06/09/siri-ai-might-display-break-reminders-if-conversations-go-on-for-too-long/",
+    "summary": "iOS 27 includes code references to break reminders that Siri may display after especially long conversations. Here are the details. more\u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/siri-ai-27-dark_e0fbb1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-10T01:49:52+00:00",
+    "hash": "0a7cbfefb4cf"
+  },
+  {
+    "title": "Dengeki Daisy anime officially confirmed by Aniplex and Studio Deen with 2027 release",
+    "link": "https://www.polygon.com/aniplex-is-reviving-this-beloved-romance-manga-nearly-20-years-after-its-debut/",
+    "summary": "Dengeki Daisy returns to the spotlight with a brand-new anime adaptation scheduled for 2027",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/aaaabr1fezebssiviubtt68m5g5233g7pyi1hsgwkhjinocrzxg4elg_ljhq9ypxz302ic4bjbolblwdw3hs_9htflosxfroktnisot1.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-10T01:30:20+00:00",
+    "hash": "3dceab54ea06"
+  },
+  {
+    "title": "Aliens: Fireteam Elite 2 preview: A flashy and entertaining co-op shooter",
+    "link": "https://www.polygon.com/aliens-fireteam-elite-2-preview/",
+    "summary": "Knowing Alien: Isolation 2 is on the way makes it easier to enjoy the vastly improved action of Aliens: Fireteam Elite 2 from Cold Iron Studios",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/afe2_mission3-2_screenshot_-6.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-10T01:00:20+00:00",
+    "hash": "90d707595946"
+  },
+  {
+    "title": "Google just fired a warning shot in the AI subscription price wars",
+    "link": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+    "summary": "Google just made it significantly cheaper to enjoy its budget AI subscription tier.",
+    "image": "https://images.pexels.com/photos/31560987/pexels-photo-31560987.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-10T00:26:10+00:00",
+    "hash": "acca292f5233"
+  },
+  {
+    "title": "Kingdom Hearts fans cry foul over AI-generated artwork claims",
+    "link": "https://www.polygon.com/kingdom-hearts-collection-ai-art-square-enix/",
+    "summary": "Many are accusing Square Enix of using ugly generative AI to create the box art for the new Kingdom Hearts Collection.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/kingdom-hearts-collection-cover-art.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-10T00:02:15+00:00",
+    "hash": "04a5c0c53e85"
+  },
+  {
+    "title": "Iron Age Britons may have removed the brains of the dead",
+    "link": "https://www.newscientist.com/article/2529799-iron-age-britons-may-have-removed-the-brains-of-the-dead/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Scrape marks inside a skull and sharpened limb bones in a set of remains found in Scotland may be evidence of unusual Iron Age funerary rituals",
+    "image": "https://images.newscientist.com/wp-content/uploads/2024/04/17102106/new-scientist-social-meta-image.png",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-10T01:01:51+01:00",
+    "hash": "801a0906e5d7"
+  },
+  {
+    "title": "Wise alumni raise $2m pre-seed for AI tax startup",
+    "link": "https://sifted.eu/articles/record-os-2m-pre-seed/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/31290549/pexels-photo-31290549.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-10T00:01:14+00:00",
+    "hash": "8e0a0b06f330"
+  },
+  {
+    "title": "I tried Siri AI, and so far it actually works",
+    "link": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
+    "summary": "Parents want one thing, and one thing only, out of AI: to add a list of soccer games or \"spirit week\" theme days from an email or a poorly formatted flyer onto their calendar in one shot. And I have good news for parents with iPhones - the new Siri can finally do this. After [&#8230;]",
+    "image": "https://images.pexels.com/photos/19438650/pexels-photo-19438650.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T19:43:00-04:00",
+    "hash": "01e76d15eb16"
+  },
+  {
+    "title": "Kingdom Hearts, Final Fantasy, and Persona stole the show at Summer Game Fest 2026",
+    "link": "https://www.polygon.com/jrpg-summer-game-fest-2026/",
+    "summary": "The Summer Game Fest 2026 events have been dominated by JRPGs from the release date of Persona 4 Revival to a better look at Kingdom Hearts 4",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/persona4keyart.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-09T23:00:28+00:00",
+    "hash": "5ed333581e73"
+  },
+  {
+    "title": "GM thinks EVs can help offset AI\u2019s energy suck with vehicle-to-grid tech",
+    "link": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion",
+    "summary": "At an event in San Francisco today, General Motors made a series of announcements around EV batteries, energy storage, and grid resiliency in the face of growing electricity demand from AI data centers. The automaker announced that it would be activating new vehicle-to-grid capabilities for its current EV and home energy customers. It's releasing a [&#8230;]",
+    "image": "https://images.pexels.com/photos/8378735/pexels-photo-8378735.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T17:00:00-04:00",
+    "hash": "d6a61bb0627c"
+  },
+  {
+    "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
+    "link": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+    "summary": "Microsoft AI CEO Mustafa Suleyman says it's \"really, really dangerous\" for Anthropic to speculate about Claude's consciousness inside its \"constitution,\" or the instructions that tell the model how to behave. During an episode of Decoder, Suleyman argues that this kind of speculation may have set up the chatbot to act as though it's conscious: I [&#8230;]",
+    "image": "https://images.pexels.com/photos/28774616/pexels-photo-28774616.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T16:24:25-04:00",
+    "hash": "4f97fa1cac4b"
+  },
+  {
+    "title": "Anthropic releases its first Mythos-class model Claude Fable",
+    "link": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+    "summary": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely available. According to the company, Fable 5 \"shows exceptional performance in software engineering, knowledge work, and vision,\" with its lead over other models growing as tasks become longer and more complex. Fable 5 [&#8230;]",
+    "image": "https://images.pexels.com/photos/18639562/pexels-photo-18639562.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T13:00:00-04:00",
+    "hash": "1f8015e71fab"
+  },
+  {
+    "title": "The AI IPO wave is about to test Wall Street\u2019s appetite",
+    "link": "https://www.fastcompany.com/91556514/the-ai-ipo-wave-is-about-to-test-wall-streets-appetite?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The AI IPO rush is here. With OpenAI&#8217;s announcement late Monday that it had confidentially filed for an IPO, the three biggest AI companies are all in line to go public. (And a fourth, Perplexity, will likely bring up the rear in 2028.) It&#8217;s something that has been looming for a long while on Wall Street. Now, though, investors will have to decide if the era of the Mega-IPOs is too much of a good thing. SpaceX is asking Wall Street for about $75 billion. Anthropic and OpenAI may seek",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-open-ai-ipo.png",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-09T16:30:08+00:00",
+    "hash": "2c59e9222004"
+  },
+  {
+    "title": "Apple is embracing the fantasy of AI photo editing",
+    "link": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
+    "summary": "Apple used to question whether generative AI-powered editing features were worth the risk of distorting our perceptions of the world. Now it seems Apple no longer believes that photos should accurately capture reality. At WWDC 2026, the company announced a host of new AI-powered photo editing tools. They give users effortless powers of manipulating images [&#8230;]",
+    "image": "https://images.pexels.com/photos/9675763/pexels-photo-9675763.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T12:13:14-04:00",
+    "hash": "c6654ca2d2d6"
+  },
+  {
+    "title": "Frozen squirrel scat preserves ancient DNA from hundreds of species",
+    "link": "https://www.newscientist.com/article/2529635-frozen-squirrel-scat-preserves-ancient-dna-from-hundreds-of-species/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "A complex ecosystem of woolly mammoths, bison, horses and big cats has been elucidated by studying the faeces of small rodents that probably ate the bigger animals",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/09093104/SEI_300630476.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-09T17:00:33+01:00",
+    "hash": "a52e862b94ad"
+  },
+  {
+    "title": "The last-ditch plan to save coral reefs from utter destruction",
+    "link": "https://www.newscientist.com/article/2528456-the-last-ditch-plan-to-save-coral-reefs-from-utter-destruction/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Bleaching has devastated reefs around the world, raising fears of an irreversible shift. Yet new interventions have revealed that corals can be remarkably resilient if we can give them enough help to recover",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/05/29113805/SEI_299111894.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-09T17:00:22+01:00",
+    "hash": "ff2df985ff27"
+  },
+  {
+    "title": "Microsoft AI chief walks back comments about AI taking over white-collar work",
+    "link": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
+    "summary": "Microsoft AI head Mustafa Suleyman is walking back his statement about AI automating jobs done by white-collar workers, including lawyers, accountants, and project managers. During an episode of Decoder on Monday, Suleyman says he meant AI will help these workers complete tasks, rather than do their jobs: Sending an email, having a conversation with a [&#8230;]",
+    "image": "https://images.pexels.com/photos/14093971/pexels-photo-14093971.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-09T10:54:51-04:00",
+    "hash": "62afc21b3e92"
   }
 ]
