@@ -52,6 +52,10 @@ _INACCESSIBLE_PHRASES = [
     "i would be happy to summarize if you",
     "please provide the article",
     "i don't have access",
+    "i'm sorry",
+    "you haven't provided",
+    "please provide the content",
+    "haven't provided the article",
 ]
 
 def _strip_html(text: str) -> str:
