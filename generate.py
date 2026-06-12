@@ -479,9 +479,12 @@ def featured_top_html(articles):
   </div>\n'''
     for a in articles[1:3]:
         title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        img = a.get("image", "")
+        img_html = (f'<div class="card__img-wrap"><img src="{img}" alt="{title_esc}" class="card__image" loading="lazy"></div>'
+                    if img else _img_tag("", title_esc))
         html += f'''  <div class="card card--side fade-in">
     <a class="card__overlay" href="{a["link"]}" target="_blank" rel="noopener" aria-label="{title_esc}"></a>
-    {_img_tag(a.get("image",""), title_esc)}
+    {img_html}
     <div class="card__body">
       {_cat_badge(a["category"])}
       <div class="card__title">{a["title"]}</div>
