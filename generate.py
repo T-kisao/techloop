@@ -805,10 +805,9 @@ def main():
                 continue
 
     new_article_cats = {a["category"] for a in all_articles}
-    all_articles_including_seen = list(all_articles)
     for cat, article in seen_fallback_by_cat.items():
         if cat not in new_article_cats:
-            all_articles_including_seen.append(article)
+            all_articles.append(article)
             print(f"  Added seen fallback for {cat}: {article['title'][:50]}...")
 
     all_articles.sort(
@@ -879,7 +878,7 @@ def main():
     print(f"  Archive has {len(archive)} articles across all categories.")
 
     print("\nRebuilding index.html...")
-    rebuild_html(all_articles, all_articles_including_seen, digest_text, archive)
+    rebuild_html(all_articles, all_articles, digest_text, archive)
 
     print("\nRebuilding category pages from 7-day archive...")
     archive_by_cat = {}
