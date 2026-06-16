@@ -573,7 +573,7 @@ def digest_items_html(articles, digest_text):
             thumb_html = f'<img src="{a["image"]}" alt="{title_esc}" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">'
         else:
             thumb_html = f'<div style="width:120px;align-self:stretch;border-radius:8px;flex-shrink:0;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:28px;">{CAT_ICONS.get(a["category"],"📰")}</div>'
-        html += f'''  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+        html += f'''  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">{num}</div>
     {thumb_html}
     <div class="digest__content">
