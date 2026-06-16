@@ -1,16 +1,5 @@
 [
   {
-    "title": "Air Street Capital backs French defence tech Alta Ares in \u20ac50m round",
-    "link": "https://sifted.eu/articles/alta-ares-defence-tech-50m-round/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/08155228/Duo-Founders-1-scaled.jpg?w=2048&amp;h=1442&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-09T07:30:41+00:00",
-    "hash": "7b131d70cef2",
-    "ai_summary": "I'm ready to help. Please provide the content of the article."
-  },
-  {
     "title": "Samsung Galaxy Watch Ultra 2's battery capacity to be higher than its predecessor",
     "link": "https://www.gsmarena.com/samsung_galaxy_watch_ultra_2_galaxy_watch9_battery_capacity-news-73204.php",
     "summary": "We recently learned about the Samsung Galaxy Watch9 and Galaxy Watch Ultra 2's charging speeds, as they have been 3C certified. Both smartwatches will support 10W charging, which is the same as their predecessors. While Samsung isn't offering any charging-speed upgrades for its upcoming smartwatches, a new report claims the Korean brand will pack a larger battery into the Watch Ultra 2. According to SamMobile, the Samsung Galaxy Watch Ultra 2 will be fueled by a battery with a rated capacity of",
@@ -301,16 +290,6 @@
     "hash": "ff2df985ff27"
   },
   {
-    "title": "Microsoft AI chief walks back comments about AI taking over white-collar work",
-    "link": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
-    "summary": "Microsoft AI head Mustafa Suleyman is walking back his statement about AI automating jobs done by white-collar workers, including lawyers, accountants, and project managers. During an episode of Decoder on Monday, Suleyman says he meant AI will help these workers complete tasks, rather than do their jobs: Sending an email, having a conversation with a [&#8230;]",
-    "image": "https://images.pexels.com/photos/14093971/pexels-photo-14093971.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-09T10:54:51-04:00",
-    "hash": "62afc21b3e92"
-  },
-  {
     "title": "Saw: Genesis switches up Dead by Daylight's formula with escape room thrills",
     "link": "https://www.polygon.com/saw-genesis-preview/",
     "summary": "We learned tons of new details about Saw: Genesis, a bloody new asymmetrical horror game based on the Saw movie series.",
@@ -569,56 +548,6 @@
     "category": "Innovation",
     "published": "2026-06-09T17:00:00+00:00",
     "hash": "94d302b3f84b"
-  },
-  {
-    "title": "Apple\u2019s AI promises are finally, almost, sort of here",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/946780/apples-ai-promises-are-finally-almost-sort-of-here",
-    "summary": "Apple kicked off its annual developer conference with bold promises about AI. The company, CEO Tim Cook said, would be \"introducing new technologies and innovations that push the limits on what's possible.\" But its slew of announcements - centered on a brand-new \"Siri AI\" - had more to do with catching up. After almost entirely [&#8230;]",
-    "image": "https://images.pexels.com/photos/11144317/pexels-photo-11144317.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-09T10:18:18-04:00",
-    "hash": "fb1f76397f03"
-  },
-  {
-    "title": "Apple\u2019s best AI idea looks a lot like vibe coding",
-    "link": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
-    "summary": "Most of Apple's current AI ideas are roughly the same as everyone else's AI ideas. A chatbot you can ask questions; quick ways to create or summarize text; bizarre, borderline creepy image-generation tools. The company spent most of its WWDC keynote playing catch-up with the state of the AI art, announcing Siri features you can [&#8230;]",
-    "image": "https://images.pexels.com/photos/29043501/pexels-photo-29043501.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-09T09:34:48-04:00",
-    "hash": "397abe9ad318"
-  },
-  {
-    "title": "Apple\u2019s AI pitch will live or die by its privacy promise",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/946705/apple-private-cloud-compute-ai-siri-intelligence-wwdc",
-    "summary": "As expected, yesterday's WWDC keynote was mostly about AI. And also as expected, Apple tried to turn its late arrival into its sales pitch: It didn't rush into AI because it was taking its time to do things right. In this case, \"right\" means \"with more privacy than anyone else.\" It's a good pitch - [&#8230;]",
-    "image": "https://images.pexels.com/photos/5146492/pexels-photo-5146492.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-09T08:55:33-04:00",
-    "hash": "d73c8924711b"
-  },
-  {
-    "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
-    "link": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition The outspoken longevity scientist David Sinclair has predicted that, one day, you\u2019ll go to the doctor and get a&#8230;",
-    "image": "https://images.pexels.com/photos/6629553/pexels-photo-6629553.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-09T12:10:00+00:00",
-    "hash": "fdb440725716"
-  },
-  {
-    "title": "Learning to lead in a hybrid human-AI enterprise",
-    "link": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-    "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years,\u00a0leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and environments across&#8230;",
-    "image": "https://images.pexels.com/photos/37758327/pexels-photo-37758327.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-09T10:20:06+00:00",
-    "hash": "534abd47f805"
   },
   {
     "title": "The new Tecno Pova 8 boasts an 8,000mAh battery, Alive Matrix Display on its back",
@@ -1489,16 +1418,6 @@
     "category": "AI",
     "published": "2026-06-11T10:00:00+00:00",
     "hash": "c2e4dbd6cb10"
-  },
-  {
-    "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
-    "link": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
-    "summary": "The outspoken longevity scientist David Sinclair has been predicting that one day, you\u2019ll go to the doctor and get a prescription that will make you 10 years younger. Now MIT Technology Review has learned that he has plans to launch human tests of an oral &#8220;reprogramming&#8221; drug as part of a $101 million competition organized&#8230;",
-    "image": "https://images.pexels.com/photos/5623266/pexels-photo-5623266.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-09T10:00:00+00:00",
-    "hash": "0852e80b0e21"
   },
   {
     "title": "Stuntman: Hollywood is a brilliant idea, with an uneven execution",
@@ -3499,5 +3418,275 @@
     "category": "Innovation",
     "published": "2026-06-15T16:59:29+01:00",
     "hash": "286f68351ec7"
+  },
+  {
+    "title": "Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?",
+    "link": "https://www.polygon.com/anya-taylor-joy-lotr-character-seren-hunt-for-gollum/",
+    "summary": "Anya Taylor-Joy will play an original character in Andy Serkis's 2027 Lord of the Rings movie, but it's still rooted in Tolkien lore.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/anya-taylor-joy-as-magick-with-lord-of-the-rings-elves-in-the-background.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-16T14:52:27+00:00",
+    "hash": "a3a38af10129",
+    "ai_summary": "Anya Taylor-Joy is set to star in Andy Serkis's upcoming Lord of the Rings film, playing a unique character still deeply connected to J.R.R. Tolkien's original story. The 2027 movie, titled The Hunt for Gollum, marks a new entry in the beloved Lord of the Rings franchise."
+  },
+  {
+    "title": "Robinhood\u2019s note on 10% layoffs shows blaming AI isn\u2019t cutting it",
+    "link": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+    "summary": "Unlike many of his tech industry peers who have cut thousands of jobs citing the need to restructure to make the most of AI, Robinhood's CEO Vlad Tenev conspicuously made no mention of AI in his note about layoffs.",
+    "image": "https://techcrunch.com/wp-content/uploads/2021/01/robinhood-volatility.jpg?resize=1200,675",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-16T14:50:09+00:00",
+    "hash": "5fe7c52c4d80",
+    "ai_summary": "Robinhood's CEO Vlad Tenev recently announced a 10% layoff, breaking from the trend set by other tech companies who have used AI as a reason for mass job cuts. Notably, Tenev refrained from mentioning AI as a factor in the decision, opting for a more direct approach to the layoffs."
+  },
+  {
+    "title": "The Adventures of Elliot: The Millennium Tales release time in your time zone",
+    "link": "https://www.polygon.com/the-adventures-of-elliot-release-time-edt-pdt/",
+    "summary": "Here's when The Adventures of Elliot releases in your time zone and the preorder bonuses you receive from the new Square Enix action 2D-HD RPG.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/elliot_servicepost_header.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-16T14:44:50+00:00",
+    "hash": "550e5abd048f",
+    "ai_summary": "The Adventures of Elliot is an upcoming 2D-HD action RPG from Square Enix, where players will go on exciting adventures with the titular hero. Fans can pre-order the game to receive exclusive bonuses, while the release time will vary depending on their time zone."
+  },
+  {
+    "title": "Hellraiser: Revival gets release date, joins clogged games lineup",
+    "link": "https://www.polygon.com/hellraiser-revival-release-date-announced-october/",
+    "summary": "The upcoming survival horror game Hellraiser: Revival is coming out in October, presumably to steer clear of GTA 6.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hellraiser-revival.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-16T14:44:05+00:00",
+    "hash": "1bb177fd7d72",
+    "ai_summary": "The survival horror game Hellraiser: Revival has received a release date of October, setting it for a crowded fall gaming lineup. By launching in October, the developers may be trying to avoid a possible overlap with the heavily anticipated release of Grand Theft Auto 6."
+  },
+  {
+    "title": "Here\u2019s everything new for Apple Photos in iOS 27",
+    "link": "https://9to5mac.com/2026/06/16/heres-everything-new-for-apple-photos-in-ios-27/",
+    "summary": "iOS 27\u2019s biggest highlight is Siri AI , but the update also packs new features for apps like Messages , Notes , Wallet , and more . Here\u2019s everything new for Apple\u2019s Photos app in iOS 27.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-photos-app-icon-ios-27.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-16T14:36:05+00:00",
+    "hash": "ee0047aaf44d",
+    "ai_summary": "Apple has released a range of updates with iOS 27, but one often-overlooked feature is the refreshed Photos app. With this new update, users can expect improved functionalities in Apple's Photos app, although details about the specific features are not yet provided."
+  },
+  {
+    "title": "Barcelona-based Gate2Brain secures \u20ac7 million to advance brain tumour candidate",
+    "link": "https://www.eu-startups.com/2026/06/barcelona-based-gate2brain-secures-e7-million-to-advance-brain-tumour-candidate/",
+    "summary": "Gate2Brain, a Spanish BioTech company developing a therapeutic candidate for aggressive paediatric and adult brain tumours, has announced a \u20ac7 million investment &#8211; the largest investment raised by the company to date. The investment represent a 30.4% equity stake and strategic partnership with\u00a0Shilpa Biocare Pvt Ltd, a wholly owned subsidiary of Shilpa Medicare Limited. \u201cGate2Brain [&#8230;] The post Barcelona-based Gate2Brain secures \u20ac7 million to advance brain tumour candidate appeared f",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Gate2Brain.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-06-16T14:31:47+00:00",
+    "hash": "93fa25c2e5aa",
+    "ai_summary": "Gate2Brain, a Barcelona-based biotech company, has secured a \u20ac7 million investment to advance its promising treatment for brain tumors in both children and adults. The funding, a strategic partnership with Indian company Shilpa Biocare, will help Gate2Brain bring its therapeutic candidate closer to market, potentially offering new hope for patients battling these aggressive tumors."
+  },
+  {
+    "title": "Xbox shouldn't close Ninja Theory, Compulsion, and Double Fine and should never have bought them",
+    "link": "https://www.polygon.com/xbox-microsoft-ninja-theory-compulsion-double-fine-closures/",
+    "summary": "Another tale in a long history of Microsoft mismanagement of game studios like Rare, Bungie, and Lionhead",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hellblade.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-16T14:30:21+00:00",
+    "hash": "028fe7f50da4",
+    "ai_summary": "Microsoft's decision to acquire and potentially close several renowned game development studios, including Ninja Theory, Compulsion, and Double Fine, raises concerns about the company's approach to managing acquired talent and creative freedom. The move recalls a pattern of mismanagement seen in the past with studios like Rare, Bungie, and Lionhead, sparking worries about the future of these beloved gaming communities."
+  },
+  {
+    "title": "Forza Horizon 6 Devs Delete Stolen Cash After Players Discover Easy Exploit For Earning 20 Million Credits In Minutes",
+    "link": "https://kotaku.com/forza-horizon-6-devs-delete-stolen-cash-after-players-discover-easy-exploit-for-earning-20-million-credits-in-minutes-2000707080",
+    "summary": "But hey, at least we all get a new free car, right?",
+    "image": "https://kotaku.com/app/uploads/2026/01/ss_17b0e8d6a90e174e45f4c7438167d-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-16T14:22:19+00:00",
+    "hash": "bf996ea4955e",
+    "ai_summary": "The developers behind Forza Horizon 6 stepped in to address a discovered exploit that allowed players to quickly earn an excessive amount of virtual credits. As a result, the excess cash has been removed, and players will be given a complementary reward to compensate for the change, including a free car."
+  },
+  {
+    "title": "Assassin's Creed Shadows final update connects to Black Flag Resynced",
+    "link": "https://www.polygon.com/assassins-creed-shadows-dlc-black-tides-final-update-black-flag/",
+    "summary": "Black Tides will bring Naoe and Yasuke's journey in Assassin's Creed Shadows to a conclusion, tying into the story of Black Flag Resynced.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/06/ACS.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-16T14:17:45+00:00",
+    "hash": "9cc209f90970",
+    "ai_summary": "A new update, Black Tides, is coming soon to Assassin's Creed Shadows, finalizing the story of Naoe and Yasuke. The update will also connect their journey to the narrative of Black Flag Resynced, a reimagining of the classic Assassin's Creed: Black Flag."
+  },
+  {
+    "title": "Nax Bioscience and Imragen top Irish Genomics Business Plan competition",
+    "link": "https://www.siliconrepublic.com/start-ups/nax-bioscience-imragen-win-genomics-business-plan-competition-life-sciences",
+    "summary": "Illumina Ventures announced the two winners of the inaugural competition designed to recognise high-potential start-ups. Read more: Nax Bioscience and Imragen top Irish Genomics Business Plan competition",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Winner-Life-Sciences-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-16T14:17:12+00:00",
+    "hash": "c2313aee739f",
+    "ai_summary": "Two innovative Irish biotech companies, Nax Bioscience and Imragen, have emerged as top winners in the inaugural Genomics Business Plan competition. Backed by Illumina Ventures, this recognition highlights the potential of these start-ups to revolutionize the field of genomics and drive future breakthroughs."
+  },
+  {
+    "title": "More details about the OnePlus 16's screen leak",
+    "link": "https://www.gsmarena.com/more_details_about_the_oneplus_16s_screen_leak-news-73292.php",
+    "summary": "According to a new rumor from Digital Chat Station on Weibo, the OnePlus 16's screen will have a 185Hz refresh rate. The company was previously rumored to be testing going up to 240Hz, but it allegedly cancelled those plans as such a high refresh rate \"could affect the display\" and \"may not be feasible for widespread adoption\" (both phrases machine translated from Chinese, so there might be some accuracy issues). The display panel itself has already been ordered from China's BOE, and it will be",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/oneplus-16-new-display-details/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-16T16:06:02+02:00",
+    "hash": "02a4de62bb14"
+  },
+  {
+    "title": "Sharepower is a magnetic power bank that snaps in half so you can share a charge",
+    "link": "https://9to5mac.com/2026/06/16/sharepower-is-a-magnetic-power-bank-that-snaps-in-half-so-you-can-share-a-charge/",
+    "summary": "Nimble, the maker of many interesting iPhone accessories, is launching a new product called Sharepower, which it bills as the world\u2019s first sharable battery. Nimble says Sharepower will be available in Apple retail stores.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/nimble-sharepower.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-16T13:59:15+00:00",
+    "hash": "271a3ea65a4d"
+  },
+  {
+    "title": "Base model iPhone 18 very likely to support all Siri AI features",
+    "link": "https://9to5mac.com/2026/06/16/base-model-iphone-18-very-likely-to-support-all-siri-ai-features/",
+    "summary": "Only three existing iPhone models get access to all of the new on-device Siri AI features: the iPhone 17 Pro, Pro Max, and iPhone Air. While the base model iPhone 17 is excluded, it\u2019s very likely that the non-Pro version of the iPhone 18 will get access to all of the new features \u2026",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/11/iphone-18-mockup-blue.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-16T13:57:19+00:00",
+    "hash": "af367b38b144"
+  },
+  {
+    "title": "ChapsVision to replace Palantir in major contract with French intelligence agency",
+    "link": "https://sifted.eu/articles/chapsvision-to-replace-palantir-in-major-contract-with-french-intelligence-agency/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2024/11/19172423/REA10425249-scaled.jpg?w=2048&amp;h=1351&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-16T13:52:30+00:00",
+    "hash": "c3137fa64341"
+  },
+  {
+    "title": "SpaceX passes Amazon as valuation balloons to $2.7T",
+    "link": "https://techcrunch.com/2026/06/16/spacex-passes-amazon-as-valuation-balloons-to-2-7t/",
+    "summary": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
+    "image": "https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-1244294229.jpg?resize=1200,675",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-16T13:48:37+00:00",
+    "hash": "9904c6b83886"
+  },
+  {
+    "title": "What the Anthropic shutdown means for Europe",
+    "link": "https://sifted.eu/articles/what-the-anthropic-shutdown-means-for-europe/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/10569254/pexels-photo-10569254.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-16T13:33:57+00:00",
+    "hash": "c996fc85ab19"
+  },
+  {
+    "title": "The new PopSockets grip is so thin you&#8217;ll forget it&#8217;s even there",
+    "link": "https://www.theverge.com/tech/949305/popsockets-magnetic-magsafe-low-pro-grip-hands-on",
+    "summary": "If you had asked me a week ago to recommend a thinner alternative to PopSockets\u2019 magnetic phone grips, I would have told you to buy the OhSnap Snap Grip 5. Ask me now and I\u2019ll redirect you right back to the company that accidentally invented the phone grip in 2012 when trying to come up [&#8230;]",
+    "image": "https://images.pexels.com/photos/8973488/pexels-photo-8973488.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-16T09:30:00-04:00",
+    "hash": "2e1066adffb2"
+  },
+  {
+    "title": "Father\u2019s Day gift guide: The best Beats headphones, Apple Watch, more",
+    "link": "https://9to5mac.com/2026/06/16/fathers-day-gift-guide-the-best-beats-headphones-apple-watch-more/",
+    "summary": "Father\u2019s Day is just around the corner, and we\u2019ve got a whole bunch of tech-focused recommendations for gift ideas for the dad in your life. Whether you\u2019re looking to take advantage of some killer deals on Apple\u2019s versatile lineup of Beats headphones , add an Apple Watch to his arsenal, or upgrade his tech everyday carry, we have some ideas for you.",
+    "image": "https://images.pexels.com/photos/8341917/pexels-photo-8341917.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-16T13:28:26+00:00",
+    "hash": "7790eeb487cd"
+  },
+  {
+    "title": "Walking shark found in Papua New Guinea is new to science",
+    "link": "https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Hemiscyllium dudgeonae is the tenth recorded species of walking shark, which use their pectoral fins to move across reef flats, and its limited range means it may be at high risk of extinction",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/16113031/SEI_301624717.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-16T14:00:41+01:00",
+    "hash": "8066dcda6eb8"
+  },
+  {
+    "title": "The Download: the first brain implant power user and South Korea\u2019s AI obsession",
+    "link": "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This man with ALS is the first \u201cpower user\u201d of a brain implant that lets him speak Casey Harrell has had a set of electrodes embedded in his brain for almost&#8230;",
+    "image": "https://images.pexels.com/photos/6629364/pexels-photo-6629364.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-06-16T12:10:00+00:00",
+    "hash": "12aae0ec10bf"
+  },
+  {
+    "title": "Autism may have two distinct subtypes that vary by brain activity",
+    "link": "https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Evidence is mounting that there are distinct subtypes of autism, and now, scientists have found that the condition can vary according to the strength of people's brain connections",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/16101225/SEI_301530524.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-16T13:00:42+01:00",
+    "hash": "cc93b480c79a"
+  },
+  {
+    "title": "This new tool might just solve the restaurant reservation chaos",
+    "link": "https://www.fastcompany.com/91559681/sevenrooms-free-reservation-tool?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "There\u2019s a seemingly ever-expanding number of tools to find restaurants and reserve a table. It\u2019s convenient for consumers and potentially good for restaurants, which have more ways than ever to reach customers. But behind the scenes, managing multiple reservation platforms can be a headache for restaurant staff. That\u2019s because competing reservation platforms typically don\u2019t interoperate. Unlike the airline and hotel industries, where competing online travel agencies connect to central systems th",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91559681-sevenrooms-free-reservation-tool.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-16T12:00:00+00:00",
+    "hash": "7a522df07b40"
+  },
+  {
+    "title": "Arctic Ocean reaches tipping point that could be dire for marine life",
+    "link": "https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Disappearing sea ice is letting more sunlight in the Arctic Ocean and boosting phytoplankton growth, but this has depleted a crucial nutrient, which could severely affect animals higher up the food chain",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/15164400/SEI_301542089.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-16T12:06:16+01:00",
+    "hash": "ad360872ad3a"
+  },
+  {
+    "title": "Meet 6 academic projects showing promise to make real impact",
+    "link": "https://www.fastcompany.com/91546670/academic-excellence-world-changing-ideas-2026?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Colleges and universities are at the forefront of innovative design. Collaborations linking students, professors, and groundbreaking technology bring seemingly impossible ideas to life. These schools are not only making rapid advances in sustainability, design, and healthcare but are pioneering spaces where students can experiment and design with hands-on, ideas-oriented approaches\u2014driving the next generation of changemakers. Winners Grove , Savannah College of Art and Design Grove, a project fr",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91546670-academic-excellence.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-16T11:00:00+00:00",
+    "hash": "7a038be3c190"
+  },
+  {
+    "title": "These companies are finding new ways to use AI and tech for security, health, and more",
+    "link": "https://www.fastcompany.com/91547084/ai-technology-solutions-world-changing-ideas-2026?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Even as the AI revolution moves toward agentic tools, there are still hosts of uses for more classical machine-learning and computing\u2014particularly in healthcare. That&#8217;s where many of the AI and technology honorees of this year&#8217;s World Changing Ideas are operating\u2014like MEandMine and Expert Radiology\u2014but not all of them. Others tackle the need to identify AI-created content (Copyleaks), explore the future of in-home robots (Humanoid), and focus on the future of clean energy (Fuze Energ",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91547084-AI.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-16T11:00:00+00:00",
+    "hash": "0aab663d444c"
+  },
+  {
+    "title": "Want to get a data center online quickly? Give it some flex.",
+    "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
+    "summary": "At the end of a tense and scoreless first half of a soccer match between the English men\u2019s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different&#8230;",
+    "image": "https://images.pexels.com/photos/5408008/pexels-photo-5408008.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-06-16T09:00:00+00:00",
+    "hash": "ac2f1d6ebfc2"
   }
 ]
