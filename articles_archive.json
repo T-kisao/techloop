@@ -1,245 +1,5 @@
 [
   {
-    "title": "Saw: Genesis switches up Dead by Daylight's formula with escape room thrills",
-    "link": "https://www.polygon.com/saw-genesis-preview/",
-    "summary": "We learned tons of new details about Saw: Genesis, a bloody new asymmetrical horror game based on the Saw movie series.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/saw-genesis-face-trap.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:21+00:00",
-    "hash": "08e2b1c1c755",
-    "ai_summary": "Get ready for a thrilling twist on the Dead by Daylight formula as Saw: Genesis combines survival horror with the intensity of an escape room, promising a unique gaming experience. Inspired by the iconic Saw movie series, this asymmetrical game challenges players to escape a deadly trap-filled environment."
-  },
-  {
-    "title": "Halo: Campaign Evolved will include 42 skulls \u2014 see the full list here",
-    "link": "https://www.polygon.com/halo-campaign-evolved-skulls-interview-list-all/",
-    "summary": "Xbox's Halo remake will feature more skulls than the series ever has in history. Polygon interview Halo Studios devs about all skulls in the game.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hce_skull_find.png",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:21+00:00",
-    "hash": "d71bb9e86450",
-    "ai_summary": "Halo: Campaign Evolved is stepping up the intensity with a record-breaking 42 skulls, giving players a wealth of options to test their skills. The game's developers have confirmed the impressive skull count, which promises to bring a new level of challenge and variety to the beloved Xbox series."
-  },
-  {
-    "title": "Resident Evil Veronica won't be a Resident Evil 3 remake situation",
-    "link": "https://www.polygon.com/resident-evil-veronica-remake-preview-sgf-2026/",
-    "summary": "Capcom reveals new details about Resident Evil Veronica, including the fate of Claire, Steve Burnside, and first-person camera view.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/resident_evil_veronica_-_screenshot_10.png",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:21+00:00",
-    "hash": "4993e238e6e2",
-    "ai_summary": "Capcom has shared insight into its upcoming horror game, Resident Evil Veronica, which appears to be a standalone continuation of the Resident Evil series rather than a remake. Players can expect a mix of third-person and first-person perspectives, as well as the return of some familiar characters, including Claire Redfield."
-  },
-  {
-    "title": "Halo Campaign Evolved preview: Xbox\u2019s remake feels brand-new after 2 hours",
-    "link": "https://www.polygon.com/halo-campaign-evolved-preview-hands-on/",
-    "summary": "Halo: Campaign Evolved, Xbox's big Halo 1 remake, changes just enough to feel like a brand-new game. Read Polygon's Halo preview for more.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/ss_3696511ddbe8cc4d80706d435f6dbe77620ef64d-1920x1080.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:21+00:00",
-    "hash": "2f0853930888",
-    "ai_summary": "The highly anticipated remake of Halo: The Combat Evolved, dubbed Halo Campaign Evolved, is giving long-time fans and newcomers a fresh gaming experience. After just two hours of play, the updated game already feels like a bold new title, showcasing the power of Xbox's reimagining of a classic."
-  },
-  {
-    "title": "Despite reports and a video takedown, Gears of War: E-Day developers insist it was never in development for PS5",
-    "link": "https://www.eurogamer.net/gears-of-war-e-day-ps5-snub-smaller-audience-interview",
-    "summary": "Gears of War: E-Day showed off incredibly well during last Sunday's Xbox Games Showcase . The show opened with a meaty first look at gameplay, before we were later treated to a much deeper dive into the upcoming prequel in a dedicated Direct. Read more",
-    "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-june-2026-screen-4.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:19+00:00",
-    "hash": "d4ff6c61ab5d",
-    "ai_summary": "The developers of Gears of War: E-Day have denied rumors that the game was being developed for the PS5, despite some conflicting reports and a video takedown. The game was instead showcased to great effect during last Sunday's Xbox Games Showcase, offering a deeper look at its gameplay and a sneak peek into the upcoming prequel."
-  },
-  {
-    "title": "Gears of War: E-Day is making big changes to one of the series' most iconic mechanics",
-    "link": "https://www.eurogamer.net/gears-of-war-e-day-active-reload-big-change",
-    "summary": "You can really tell that Gears of War: E-Day developer, The Coalition, wants the upcoming third-person shooter to be enjoyed by more than just Gears diehards. In last Sunday's developer Direct, the studio recalled the decision to start development from an empty hard drive. Read more",
-    "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-june-2026-screen-5.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-10T15:00:15+00:00",
-    "hash": "c5d27da09b03",
-    "ai_summary": "The upcoming Gears of War game, developed by The Coalition, marks a significant shift in one of the series' most iconic mechanics, aiming to appeal to a broader audience beyond dedicated Gears fans. By starting development from a blank slate, the studio is rebooting the game to bring fresh excitement to the beloved franchise."
-  },
-  {
-    "title": "Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in",
-    "link": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
-    "summary": "AI coding agent startup Niteshift has raised a $7 million seed round from a who's who of angels. It's betting companies will want power over, not lock-in, with model makers.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/sajid_conor_photo_niteshift_launch.jpg?resize=1200,970",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-10T15:00:00+00:00",
-    "hash": "c60db8d407d8",
-    "ai_summary": "Niteshift, a new startup founded by former Datadog employees, is shaking up the AI coding world with innovative technology that could give companies more autonomy over their AI models. The startup has just secured $7 million in funding from notable investors, a significant step towards disrupting the growing trend of AI lock-in, where companies become reliant on big tech giants."
-  },
-  {
-    "title": "HomePod gets better in two new ways with iOS 27",
-    "link": "https://9to5mac.com/2026/06/10/homepod-gets-better-in-two-new-ways-with-ios-27/",
-    "summary": "Apple\u2019s HomePod products were largely absent from the company\u2019s WWDC announcements this week, but there are two improvements coming in iOS 27\u2014with more set to be unveiled this fall. more\u2026",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/homepod-ios-27-fi.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-10T14:59:17+00:00",
-    "hash": "9bd6e8d76813",
-    "ai_summary": "Apple is enhancing its HomePod smart speakers with two key updates coming in iOS 27, offering a better user experience. Although the improvements were overshadowed by larger WWDC announcements, they indicate Apple's continued commitment to improving its smart home offerings."
-  },
-  {
-    "title": "The three hard-tech moonshots fueling SpaceX\u2019s unbelievable IPO",
-    "link": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
-    "summary": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-10T14:48:01+00:00",
-    "hash": "d616cbe3be10",
-    "ai_summary": "SpaceX is fueling its rapid growth with three high-tech moonshots: building the world's most advanced space-based satellite internet, developing reusable rockets, and creating a massive space data center. These ambitious projects have contributed significantly to the company's valuation and are expected to play a major role in its future success."
-  },
-  {
-    "title": "OpenAI backs automation start-up Poetic in $50m round",
-    "link": "https://www.siliconrepublic.com/start-ups/openai-backs-automation-start-up-poetic-in-50m-round",
-    "summary": "Poetic is an automation start-up servicing companies including Sofi and Chime. Read more: OpenAI backs automation start-up Poetic in $50m round",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2025/09/Investment-330x251.jpeg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-10T14:40:26+00:00",
-    "hash": "5d92bb3199ac",
-    "ai_summary": "OpenAI has invested $50 million in Poetic, a startup that helps companies like Sofi and Chime streamline their operations through automation. This significant funding boost will likely enable Poetic to expand its innovative solutions and support more businesses in their digital transformation."
-  },
-  {
-    "title": "Irish Government invests \u20ac460m in new \u2018Rinn\u2019 research centres",
-    "link": "https://www.siliconrepublic.com/innovation/research-ireland-funding-rinn-centres-researchers-government",
-    "summary": "The new Rinn centres will support 577 research positions, develop more than 800 PhDs and collaborate with 17 'research-performing organisations'. Read more: Irish Government invests \u20ac460m in new &#8216;Rinn&#8217; research centres",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/02/Diarmuid-OBrien-Research-Ireland-2026-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-10T14:37:36+00:00",
-    "hash": "78c1e0d47311"
-  },
-  {
-    "title": "Wear OS 7 rollout may be around the corner, hints Verizon Pixel Watch support page",
-    "link": "https://www.gsmarena.com/wear_os_7_rollout_may_be_around_the_corner_hints_verizon_pixel_watch_support_page-news-73211.php",
-    "summary": "Google's Wear OS 7 update for Pixel smartwatches could be just around the corner, if recent changes to official Verizon Pixel Watch support pages are any indication. The folks over at Droid-Life spotted the updated support pages for the Pixel Watch 2, Pixel Watch 3, and Pixel Watch 4 on Verizon's website, which confirm the Wear OS 7 update for these smartwatches could be arriving soon. Pixel Watch 4 According to the changelog listed on the support pages, the update will include the June 2026 sec",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/wear-os-7-rollout-pixel-watch-soon/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-10T16:36:02+02:00",
-    "hash": "4a9bab081fb4"
-  },
-  {
-    "title": "Pinterest bets on creators with Amazon Storefront integration",
-    "link": "https://techcrunch.com/2026/06/10/pinterest-bets-on-creators-with-amazon-storefront-integration/",
-    "summary": "Pinterest is adding support for Amazon Storefronts, allowing creators to earn affiliate commissions more easily while showcasing their product recommendations in one place.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/01/pinterest-header.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-10T14:34:45+00:00",
-    "hash": "f5ebb4cd9c8a"
-  },
-  {
-    "title": "Warner Music acquires AI attribution startup Sureel AI",
-    "link": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
-    "summary": "Through the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/warner-music.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-10T14:31:30+00:00",
-    "hash": "d36186bda08f"
-  },
-  {
-    "title": "Here\u2019s everything new for Messages in iOS 27",
-    "link": "https://9to5mac.com/2026/06/10/heres-everything-new-for-messages-in-ios-27/",
-    "summary": "iOS 27 adds new features across many system apps, like Wallet , Calendar , Music , and Maps . Here\u2019s what\u2019s new for the Messages app in iOS 27. more\u2026",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/messages-app-icon-ios-27.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-10T14:15:49+00:00",
-    "hash": "8fabb197a0e3"
-  },
-  {
-    "title": "A dedicated Apple Watch communication app is missing in watchOS 27",
-    "link": "https://9to5mac.com/2026/06/10/a-dedicated-apple-watch-communication-app-is-missing-in-watchos-27/",
-    "summary": "While the Apple Watch is gaining a handful of helpful features with watchOS 27, it\u2019s also losing one that some users might miss. more\u2026",
-    "image": "https://images.pexels.com/photos/5081923/pexels-photo-5081923.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-10T14:13:04+00:00",
-    "hash": "23555633cbcc"
-  },
-  {
-    "title": "Valve is phasing out physical Steam gift cards due to scammers",
-    "link": "https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers",
-    "summary": "After over a decade, Steam will no longer sell physical gift cards in stores. In a support page spotted earlier by Windows Central, Valve says it will no longer restock its gift cards once they run out, citing scammers who \"continue to have an impact on Steam customers and other unsuspecting individuals.\" In its post, [&#8230;]",
-    "image": "https://images.pexels.com/photos/16679542/pexels-photo-16679542.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-10T10:10:38-04:00",
-    "hash": "b9bf53b5ce80"
-  },
-  {
-    "title": "The Social Reckoning trailer gives us our first look at Jeremy Strong as Zuck",
-    "link": "https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook",
-    "summary": "Over 15 years after David Fincher and Aaron Sorkin's The Social Network premiered in theaters, Sony has released the first trailer for The Social Reckoning ahead of its theatrical release on October 9th. The follow-up takes place 17 years after the events portrayed in the original film and follows a young Facebook engineer who enlists [&#8230;]",
-    "image": "https://images.pexels.com/photos/18326161/pexels-photo-18326161.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-10T10:02:44-04:00",
-    "hash": "20adefd5d590"
-  },
-  {
-    "title": "SpaceX stock will be available to regular investors. Here\u2019s what to know before clicking on \u2018buy\u2019",
-    "link": "https://www.fastcompany.com/91557103/spacex-stock-available-regular-investors-heres-what-know-before-clicking-buy?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "When SpaceX makes its debut on the U.S. stock market , it wants smaller-pocketed, mom-and-pop investors to play a big role in what may be the biggest IPO ever . Elon Musk&#8217;s rocket company , formally known as Space Exploration Technologies Corp., is steering some of its initial public offering of stock directly to what are called &#8220;retail&#8221; investors. These are people who buy stocks in a brokerage account on their phone, not pension funds or other big &#8220;institutional&#8221; i",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26154448082248.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-10T12:59:58+00:00",
-    "hash": "27e4cac57a74"
-  },
-  {
-    "title": "The Download: the \u201csteroid olympics\u201d and a safer Mythos",
-    "link": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The \u201csteroid olympics\u201d were a circus\u2014and a window into our culture \u2014Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parking lot in Las&#8230;",
-    "image": "https://images.pexels.com/photos/31025388/pexels-photo-31025388.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-10T12:10:00+00:00",
-    "hash": "b208c6dee1fd"
-  },
-  {
-    "title": "SpaceX\u2019s rockets are creating a new air traffic headache for the FAA",
-    "link": "https://www.fastcompany.com/91552379/spacexs-rockets-are-creating-a-new-air-traffic-headache-for-the-faa?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The new space race has given the Federal Aviation Administration a next-generation job: clearing planes out of the way for rocket launches. But as launches become more ambitious and more frequent, protecting aircraft traveling through affected airspace has become an international matter. While American companies like SpaceX and Blue Origin receive launch licenses from the FAA, their vehicles sometimes travel through, or risk shedding debris over, airspace monitored by foreign governments. As a r",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-191552379-how-the-faa-and-other-countries-prepare-for-a-starship-launch.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-10T11:00:00+00:00",
-    "hash": "c6551a765d0d"
-  },
-  {
-    "title": "A Waymo nearly hit me, but I'm still optimistic about driverless cars",
-    "link": "https://www.newscientist.com/article/2529338-a-waymo-nearly-hit-me-but-im-still-optimistic-about-driverless-cars/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "A near miss with a Waymo while cycling through London hasn't changed my optimistic stance on driverless cars, but we can't ever let our guard down, says Matthew Sparkes",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/09170226/SEI_300741524.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-10T11:37:43+01:00",
-    "hash": "40995ee56def"
-  },
-  {
-    "title": "The AI bill is coming due. Businesses are learning tokens aren\u2019t free",
-    "link": "https://www.fastcompany.com/91556417/ai-bill-is-coming-due?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "FOMO is strong around AI , with companies adopting the technology willy-nilly. Many have encouraged employees to tokenmaxx to their hearts\u2019 content. Now they\u2019re starting to realize that freedom comes with a price. Just one in four companies say they have a comprehensive view of what artificial intelligence is costing them, according to an as-yet-unreleased KPMG survey reported by The Wall Street Journal . Only about half have even some visibility into the cost of their AI use. One in five have n",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91556417-ai-bill-is-coming-due.png",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-10T10:00:00+00:00",
-    "hash": "8a82b02e141a"
-  },
-  {
     "title": "The new Tecno Pova 8 boasts an 8,000mAh battery, Alive Matrix Display on its back",
     "link": "https://www.gsmarena.com/the_new_tecno_pova_8_boasts_an_8000mah_battery_alive_matrix_display_on_its_back-news-73218.php",
     "summary": "With the Pova 7, Tecno took a page out of Nothing\u2019s book with the Delta Light Interface, a triangular strip of light with 104 LEDs. Now the company is going to the next level with the Alive Matrix Display. This is a small dot-matrix display in the third \u201clens\u201d of the camera island (there\u2019s only one actual camera on there, despite appearances). The new Tecno Pova 8 is an upgrade over the Pova 7 in some respects, but a downgrade in others. It has a larger 8,000mAh battery (up from 6,000mAh). T\u00dcV S",
@@ -528,16 +288,6 @@
     "category": "Innovation",
     "published": "2026-06-10T17:00:31+01:00",
     "hash": "e29a5c97b906"
-  },
-  {
-    "title": "A nuclear war between India and Pakistan could destroy the ozone layer",
-    "link": "https://www.newscientist.com/article/2529589-a-nuclear-war-between-india-and-pakistan-could-destroy-the-ozone-layer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Climate models suggest a small nuclear war in the tropics would do even more damage to the ozone layer than a larger nuclear war in more northerly latitudes, increasing exposure to dangerous ultraviolet radiation all over the world",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/09104110/SEI_300642957.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-10T15:28:35+01:00",
-    "hash": "13135dede558"
   },
   {
     "title": "Samsung backs industrial robotics startup Theker in \u20ac85m round",
@@ -838,16 +588,6 @@
     "category": "AI",
     "published": "2026-06-11T04:00:00-04:00",
     "hash": "8621da7d797c"
-  },
-  {
-    "title": "The \u201csteroid olympics\u201d were a circus\u2014and a window into our culture",
-    "link": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
-    "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy\u00a0of steroids, metabolic modulators, and synthetic hormones coursing through the blood of a few dozen swimmers, sprinters, and weightlifters. And millions of dollars up for grabs for athletes&#8230;",
-    "image": "https://images.pexels.com/photos/3763702/pexels-photo-3763702.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-10T09:00:00+00:00",
-    "hash": "6f0b4c92e8d8"
   },
   {
     "title": "Gothenburg\u2019s Arkeon closes \u20ac594.2k Seed round to boost precision in quantum chip production",
@@ -3658,5 +3398,305 @@
     "category": "AI",
     "published": "2026-06-15T15:12:28+00:00",
     "hash": "3b36ea86dd1a"
+  },
+  {
+    "title": "\u2018Companies will have to go the extra mile\u2019: How Europe can future-proofing its hiring strategy",
+    "link": "https://sifted.eu/articles/europe-future-proofing-hiring-brnd/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/17133150/Felix-Steffens.png?w=520&amp;h=492&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-06-17T15:02:55+00:00",
+    "hash": "d209d12ef1e3",
+    "ai_summary": "I'd be happy to assist you, but you didn't provide the full article title and content. If you provide it, I'll be able to write a 2-sentence summary of the tech article for a general audience."
+  },
+  {
+    "title": "How Warframe is building upon its most heartbreaking quest in a continuation \"no one saw coming\"",
+    "link": "https://www.eurogamer.net/warframe-jade-shadow-constellations-interview",
+    "summary": "Roughly two years ago, Warframe received a delightful dose of heartbreak in the form of Jade Shadows. Digital Extremes' free-to-play sci-fi shooter has a history of 'intermission' quests - smaller stories that helped fill the space between larger narrative beats; smaller portions of intrigue, and fresh gameplay loops to indulge in. Read more",
+    "image": "https://images.pexels.com/photos/14143739/pexels-photo-14143739.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-06-17T15:00:46+00:00",
+    "hash": "448b242790a0",
+    "ai_summary": "Warframe's popular sci-fi shooter recently dropped a surprise twist with the continuation of its \"Jade Shadows\" quest, a heart-wrenching tale that resonated with fans. The continuation adds a new layer to the game's narrative, showing Digital Extremes' commitment to crafting engaging and immersive stories for its dedicated player base."
+  },
+  {
+    "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it",
+    "link": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+    "summary": "If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/DSC_2479.jpg?resize=1200,800",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-17T15:00:00+00:00",
+    "hash": "270b9120bc3c",
+    "ai_summary": "As artificial intelligence (AI) researchers strive to create robots that can match the capabilities of language models, they're faced with a critical challenge: collecting and labeling the vast amounts of data needed to train AI systems. To tackle this issue, some AI labs are turning to companies like XDOF to do the often-overlooked but essential work of gathering and preparing robot training data."
+  },
+  {
+    "title": "Apple One is getting better in iOS 27, here\u2019s what\u2019s new",
+    "link": "https://9to5mac.com/2026/06/17/apple-one-is-getting-better-in-ios-27-heres-whats-new/",
+    "summary": "Apple One is getting better in iOS 27, with subscribers set to benefit from new features coming to bundled Apple services like iCloud+ and Apple Music. Here\u2019s what\u2019s new.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/Apple-One-ios-27-fi.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-06-17T14:59:23+00:00",
+    "hash": "a52edd14c150",
+    "ai_summary": "Apple One subscribers are in for a treat as iOS 27 brings exciting enhancements to the bundled services, including iCloud+ and Apple Music. These updates are set to improve the overall experience, making the popular subscription package an even more attractive option for those invested in the Apple ecosystem."
+  },
+  {
+    "title": "Why aren't the X-Men or Guardians of the Galaxy in Magic's Marvel Super Heroes set?",
+    "link": "https://www.polygon.com/mtg-marvel-super-heroes-cards-crossover-future-sets/",
+    "summary": "Magic: The Gathering's Marvel Super Heroes set has been fully revealed, and that tells us a lot more than you'd think about future collaborations.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/thanos-art-mtg-copy-final.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-17T14:56:04+00:00",
+    "hash": "d84ee735c46b",
+    "ai_summary": "Magic: The Gathering has released a Marvel-themed set called Marvel Super Heroes, featuring beloved characters from the Marvel universe. However, the absence of some notable characters, like the X-Men and Guardians of the Galaxy, hints at potential licensing agreements and future collaborations that aren't yet available."
+  },
+  {
+    "title": "Xreal Aura glasses unveiled with Android XR and the new Snapdragon Reality Elite",
+    "link": "https://www.gsmarena.com/xreal_aura_glasses_unveiled_with_android_xr_and_the_new_snapdragon_reality_elite-news-73315.php",
+    "summary": "Xreal unveiled its new Aura glasses \u2013 these are spatial computing glasses that run Android XR, giving them support for a wide range of applications out of the gate. The glasses feature an Optical See-Through (OST) display that covers 70\u00b0 field of view. This virtual display is created by two Sony Micro-OLED displays with 1,920 x 1,200px resolution and 120Hz refresh rate. The displays are transparent, so you can see your surroundings clearly and people around you can see your eyes. However, there",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/xreal-aura-glasses/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-17T16:54:02+02:00",
+    "hash": "72e053602810",
+    "ai_summary": "Xreal has unveiled the Aura glasses, a revolutionary pair of spatial computing glasses that run on Android XR, offering a wide range of applications. The Aura glasses feature a remarkable Optical See-Through (OST) display, allowing users to see their surroundings clearly while also providing a 70\u00b0 field of view and a high-resolution virtual display."
+  },
+  {
+    "title": "Some People Still Can\u2019t Play Xbox 360 Games On Their Xbox Series Console, Nearly Two Months After Xbox Said The Issue Was Fixed",
+    "link": "https://kotaku.com/xbox-360-games-xbox-series-console-broken-months-later-2000707563",
+    "summary": "Issues have been reported as far back as November 2025",
+    "image": "https://kotaku.com/app/uploads/2026/04/Xbox360-grid1-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-17T14:48:11+00:00",
+    "hash": "4028419612ed",
+    "ai_summary": "Several Xbox users are still unable to play Xbox 360 games on their Xbox Series consoles, despite Microsoft claiming a fix for the issue nearly two months ago. The problem dates back to November 2025, and its ongoing resolution has left these gamers frustrated and awaiting a solution."
+  },
+  {
+    "title": "As G7 wraps, OpenAI and Anthropic meet with world leaders to discuss the future of AI",
+    "link": "https://www.fastcompany.com/91561045/g7-wraps-openai-anthropic-meet-world-leaders-discuss-future-ai?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The Group of Seven wraps up three days of talks in the French Alps on Wednesday with discussions on the contentious future of artificial intelligence and U.S. dominance of the industry . Executives of leading AI companies including OpenAI CEO Sam Altman , Google DeepMind CEO Demis Hassabis and Anthropic CEO Dario Amodei are attending discussions as U.S. President Donald Trump and other leaders close formal talks of the leading industrial nations in the lakeside resort of Evian-les-Bains with a s",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26167793471446.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T14:47:23+00:00",
+    "hash": "e137543055c5",
+    "ai_summary": "World leaders gathered at the G7 summit in the French Alps to discuss the rapidly evolving field of artificial intelligence, with top executives from companies like OpenAI and Anthropic playing key roles in the conversations. The meeting comes at a critical juncture for AI development, with concerns over the US's dominance of the industry and the technology's potential future implications."
+  },
+  {
+    "title": "No, Pok\u00e9mon Didn\u2019t Just Announce Generative AI For The Trading Card Game",
+    "link": "https://kotaku.com/pokemon-ai-challenges-trading-card-game-tcg-art-kaggle-2000707573",
+    "summary": "The term \u2018AI\u2019 is raising red flags, but it\u2019s not what you think",
+    "image": "https://kotaku.com/app/uploads/2025/07/d3e9a03068db8ed5a660c4f516385d5b.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-17T14:35:12+00:00",
+    "hash": "53fa0c763321",
+    "ai_summary": "Pok\u00e9mon has not officially announced the use of generative artificial intelligence (AI) for its Trading Card Game. Instead, the company is using a technique called \"AI-powered\" that combines natural language processing and machine learning to create unique card descriptions."
+  },
+  {
+    "title": "In a big year for horror, Widow\u2019s Bay still stands apart",
+    "link": "https://www.theverge.com/entertainment/951391/widows-bay-season-1-finale-apple-tv-horror",
+    "summary": "Horror is having a moment. In 2026, the genre is especially well-represented: new blood is dominating the box office through films like Backrooms and Obsession, established names like Sam Raimi and Damian McCarthy are at the top of their game, and long-running franchises like 28 Years Later and Resident Evil continue to stay relevant. But [&#8230;]",
+    "image": "https://images.pexels.com/photos/7317898/pexels-photo-7317898.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-17T10:30:00-04:00",
+    "hash": "4cc39236348a",
+    "ai_summary": "Horror movies are having a huge year, with new films like \"Backrooms\" and \"Obsession\" making waves at the box office. Despite the crowded field, the film \"Widow's Bay\" stands out, bringing a unique twist to the genre that's set it apart from the rest."
+  },
+  {
+    "title": "Karb AI named Digital Start-up of the Year for Northern Ireland",
+    "link": "https://www.siliconrepublic.com/start-ups/karb-ai-digital-start-up-of-the-year-northern-ireland-award-recognition",
+    "summary": "The platform performed well at the 2026 UK start-up Awards and was recognised for its work in ecommerce advertising for Meta and Google promotions. Read more: Karb AI named Digital Start-up of the Year for Northern Ireland",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/kaRB-AI--330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-17T14:29:42+00:00",
+    "hash": "173afe81e454"
+  },
+  {
+    "title": "Unicef backs Irish NGO Camera Education with \u20ac2.5m",
+    "link": "https://www.siliconrepublic.com/business/unicef-backs-camera-education-with-e2-5m-in-ethiopian-learning-push",
+    "summary": "Camera Education Ethiopia will support the rollout of 115 AI-powered digital learning hubs across Ethiopia. Read more: Unicef backs Irish NGO Camera Education with \u20ac2.5m",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Unicef_Ethiopia-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-06-17T14:21:55+00:00",
+    "hash": "6516456789a3"
+  },
+  {
+    "title": "SanDisk's officially-licensed PlayStation 5 SSDs cost more than the console itself - even a PS5 Pro",
+    "link": "https://www.eurogamer.net/sandisk-ps5-nvme-ssd-optimus-gx-pro-prices",
+    "summary": "SanDisk has today unveiled Optimus GX PRO 850P, a series of officially-licensed NVMe SSDs for PlayStation 5 and PlayStation 5 Pro . The SSDs, which users can insert into their console to expand its storage , also work with PCs. Read more",
+    "image": "https://assetsio.gnwcdn.com/optimus-gx-pro-850p-promo-shot-1.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-06-17T14:19:24+00:00",
+    "hash": "018c04e1e321"
+  },
+  {
+    "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+    "link": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+    "summary": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation \u2014 where errors can be costly and reliability is at a premium.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-17-at-9.53.46-AM.jpg?resize=1200,560",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-17T14:15:22+00:00",
+    "hash": "83cd142bf24b"
+  },
+  {
+    "title": "Pok\u00e9mon Champions arrives on Android and iOS today",
+    "link": "https://www.polygon.com/pokemon-champions-mobile-release-android-iphone/",
+    "summary": "Pok\u00e9mon Champions is the newest, battle-focused Pok\u00e9mon game. After being out on Nintendo Switch and Switch 2, it arrives on phones.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/pokemon-champions-dragonite.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-17T14:03:29+00:00",
+    "hash": "186ee39a25d6"
+  },
+  {
+    "title": "How to find the best deals during Amazon\u2019s Prime Day sale",
+    "link": "https://www.theverge.com/21502865/amazon-prime-day-best-deals-how-to-find",
+    "summary": "Amazon\u2019s Prime Day is one of the biggest shopping events of the year, and the four-day sale for 2026 begins June 23rd at 3:01AM ET and ends at the same time on June 27th. It will grant Prime members access to some of the best prices of the year on Amazon devices, as well as [&#8230;]",
+    "image": "https://images.pexels.com/photos/20232007/pexels-photo-20232007.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-17T10:00:00-04:00",
+    "hash": "a37a8d440c7f"
+  },
+  {
+    "title": "In Toy Story 5, the problem really is these damn phones (and tablets)",
+    "link": "https://www.theverge.com/entertainment/950739/toy-story-5-review",
+    "summary": "The Toy Story franchise began with a story about a vintage doll feeling threatened by the arrival of an electronic action figure. Woody and Buzz's rivalry embodied a shift that was happening in the '90s as children's toys were becoming more technologically sophisticated, and while toys have gotten even more tech-focused in the years since, [&#8230;]",
+    "image": "https://images.pexels.com/photos/6325967/pexels-photo-6325967.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-17T10:00:00-04:00",
+    "hash": "0a0f68ec1ff9"
+  },
+  {
+    "title": "Xiaomi Mix Fold 5's launch timeline hinted at by new certification",
+    "link": "https://www.gsmarena.com/xiaomi_mix_fold_5s_launch_timeline_hinted_at_by_new_certification-news-73312.php",
+    "summary": "Xiaomi's upcoming Mix Fold 5 may have just been certified for sale in China with the model number 2608BPX34C. This is interesting because the Mix Fold 5 has reached this step before any of the Xiaomi 18 family members. That could imply that the Mix Fold 5 won't launch alongside those devices in September, but will perhaps be introduced earlier. There's usually something happening in mid-August, and that sounds like a pretty good bet. Xiaomi Mix Fold 4 Unlike the Xiaomi 18 family, the Mix Fold 5",
+    "image": "https://images.pexels.com/photos/33041301/pexels-photo-33041301.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-06-17T15:51:02+02:00",
+    "hash": "00dfff07ce84"
+  },
+  {
+    "title": "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants",
+    "link": "https://techcrunch.com/2026/06/17/spacex-alum-nabs-22m-to-turn-rocket-engines-into-geothermal-power-plants/",
+    "summary": "Critical Energy is turning rocket engines into geothermal power plants, and it wants to build 300 GW per year by 2045.",
+    "image": "https://images.pexels.com/photos/586040/pexels-photo-586040.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-06-17T13:30:00+00:00",
+    "hash": "01018b8101df"
+  },
+  {
+    "title": "Google\u2019s first smart speaker in six years arrives next week",
+    "link": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
+    "summary": "Google's first new smart speaker in six years starts shipping on June 29th, narrowly missing its promised spring launch window. Preorders for the Google Home Speaker open today, June 17th. Nothing has changed hardware-wise in the nine months since the $99 speaker was announced. It has the same slightly squished round design, with touch-capacitive buttons [&#8230;]",
+    "image": "https://images.pexels.com/photos/20323501/pexels-photo-20323501.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-17T09:00:00-04:00",
+    "hash": "61646ece44b6"
+  },
+  {
+    "title": "The Download: a reality check for geoengineering and the science of interoception",
+    "link": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could deliberately intervene in the climate system to counteract global warming, is moving beyond computer simulations&#8230;",
+    "image": "https://images.pexels.com/photos/151597/pexels-photo-151597.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-06-17T12:10:00+00:00",
+    "hash": "521ba0572eb4"
+  },
+  {
+    "title": "This hidden Gemini feature uses AI to teach you to be a tech savant",
+    "link": "https://www.fastcompany.com/91559633/this-hidden-google-gemini-feature-can-make-you-a-better-computer-user?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "A few weeks ago, Google Gemini taught me some new graphic design skills. I was editing a screenshot in Photopea , a free online Photoshop alternative, and wanted to place the image over a colorful border with a drop shadow behind it. Instead of digging through documentation or looking for YouTube tutorials, I just shared a live view of my web browser with Gemini and asked for guidance. Google&#8217;s AI assistant proceeded to walk me through Photopea&#8217;s complex menus step by step. This is t",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91559633-this-hidden-google-gemini-feature-can-make-you-a-better-computer-user.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T12:00:00+00:00",
+    "hash": "e0d2206f9ee2"
+  },
+  {
+    "title": "Silicon Valley is building medical answers. Medicine needs judgment",
+    "link": "https://www.fastcompany.com/91557076/silicon-valley-is-building-medical-answers-medicine-needs-judgment-medicine-ai?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Billions of venture dollars are flowing into a single bet: If you can generate a medically sophisticated answer fast enough, you have solved something meaningful in healthcare. The pitch is seductive. Doctors are under extreme time pressure, patients wait months, and large language models (LLMs) can now produce answers that are polished, empathetic, and clinically credible in seconds, at a fraction of the cost. The problem is that the bet is built on a category error, and medicine may spend the",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91557076-Tech-Silicon-Valley-is-building-medical-answers.-Medicine-needs-judgment.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T11:16:38+00:00",
+    "hash": "3a5b82f16652"
+  },
+  {
+    "title": "Quantum computing is growing\u2014in Chicago!\u2014and PsiQuantum keeps racking up wins",
+    "link": "https://www.fastcompany.com/91538551/jb-pritzker-psiquantum-chicago-quantum-computing?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "In a city not known for bureaucratic efficiency, the Illinois Quantum and Microelectronics Park (IQMP), a 128-acre parcel being developed on the former site of the U.S. Steel plant on the South Side of Chicago, is a remarkable exception. Plans for the sprawling innovation campus\u2014backed by $500 million in state funding\u2014were announced in July 2024. Builders broke ground just over a year later, last September. Today, construction crews are busy digging and building\u2014and one massive silver building i",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91538551-psiquantum-in-chicago.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T11:00:00+00:00",
+    "hash": "843e59c6355a"
+  },
+  {
+    "title": "These new satellites are designed to spot wildfires before they spread",
+    "link": "https://www.fastcompany.com/91560487/these-new-satellites-are-designed-to-spot-wildfires-before-they-spread?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "When a grass fire started by the side of an Oregon road last summer, it covered just half an acre\u2014too small to show up on typical satellites. But it was spotted by a new prototype from FireSat, a satellite program designed specifically to detect wildfires. Fire agencies weren\u2019t using the system at the time, but once fully operational, it could send alerts before fires spiral out of control. Now, with a $26 million grant from the Bezos Earth Fund that builds on earlier support from Google.org and",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91560487-bezos-firesat.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T11:00:00+00:00",
+    "hash": "e09087b216b6"
+  },
+  {
+    "title": "The next humanoid robot might not look human at all",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+    "summary": "The next humanoid robot might not have a head. It might not have legs. It might even sit on a wheeled base and fold down like a deck chair. But, as Genesis AI puts it, \"humanoid robots don't need to look human.\" That explains the look of Eno, the new robot from the French startup [&#8230;]",
+    "image": "https://images.pexels.com/photos/8294625/pexels-photo-8294625.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-17T05:46:56-04:00",
+    "hash": "7f4bc980bc77"
+  },
+  {
+    "title": "Entrepreneurs in Nairobi make the case for going solar",
+    "link": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
+    "summary": "Most of Kenya\u2019s power grid runs on renewables. But with 25% of communities lacking centralized electricity, the nation is looking to off-grid solar to hit its goal of delivering universal electricity access by 2030 without driving up emissions. The ever-\u00adimproving economics of solar technology have helped. A couple of years ago, a panel cost about&#8230;",
+    "image": "https://images.pexels.com/photos/6000136/pexels-photo-6000136.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-06-17T09:00:00+00:00",
+    "hash": "ae2f8855f565"
+  },
+  {
+    "title": "How we learned to stop worrying* and love the autonomous future",
+    "link": "https://www.fastcompany.com/91549035/how-we-learned-to-stop-worrying-and-love-the-autonomous-future-agentic-ai-world-labs-fei-fei-li-uber-robotaxi-drone-defense?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "If one thing\u2019s true about this moment in tech history, it\u2019s that as soon as you think you\u2019re keeping pace with the leading edge of AI \u2014poof!\u2014the edge moves. This is a perennial anxiety, but I\u2019ve never heard tech insiders so vocal about it. It came up constantly as we spoke to CEOs, founders, investors, and analysts while assembling this special issue on the new age of autonomy. \u201cEvery couple of months, we see such massive changes that it\u2019s impossible to predict what\u2019s going to happen on what tim",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-2-91549035-how-we-learned-to-stop-worrying-and-love-the-autonomous-future-agentic-ai-world-labs-fei-fei-li-uber-robotaxi-drone-defense.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-17T09:00:00+00:00",
+    "hash": "08eb47d3dc44"
+  },
+  {
+    "title": "SpaceX is officially buying Cursor for $60 billion",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
+    "summary": "Days after its massive IPO, SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI. The takeover was not entirely unexpected: SpaceX announced [&#8230;]",
+    "image": "https://images.pexels.com/photos/60133/pexels-photo-60133.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-16T07:41:31-04:00",
+    "hash": "91f98af9d52a"
   }
 ]
