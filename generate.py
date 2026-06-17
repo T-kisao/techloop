@@ -479,6 +479,7 @@ def featured_top_html(articles):
   </div>\n'''
     for a in articles[1:3]:
         title_esc = a["title"].replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        summary = (a.get("ai_summary") or a["summary"][:160] + "…").replace("<", "&lt;").replace(">", "&gt;")
         img = a.get("image", "")
         img_html = (f'<div class="card__img-wrap"><img src="{img}" alt="{title_esc}" class="card__image" loading="lazy"></div>'
                     if img else _img_tag("", title_esc))
@@ -488,6 +489,7 @@ def featured_top_html(articles):
     <div class="card__body">
       {_cat_badge(a["category"])}
       <div class="card__title">{a["title"]}</div>
+      <div class="card__summary">{summary}</div>
       {_card_meta(a)}
     </div>
   </div>\n'''
