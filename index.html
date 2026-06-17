@@ -711,12 +711,16 @@
       min-width: 20px;
       padding-top: 2px;
     }
-    .digest__content { flex: 1; }
+    .digest__content { flex: 1; align-self: flex-start; }
     .digest__item-title {
       font-weight: 600;
       font-size: 14px;
       line-height: 1.4;
       margin-bottom: 5px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     .digest__item-title a { transition: color .2s; }
     .digest__item-title a:hover { color: var(--cyan); }
@@ -724,6 +728,10 @@
       font-size: 13px;
       color: var(--text-secondary);
       line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     .digest__item-cat { margin-top: 6px; display: inline-block; }
 
@@ -1086,34 +1094,34 @@
     <div class="ticker__label">Breaking</div>
     <div class="ticker__track">
       <div class="ticker__inner" id="ticker-inner">
-        <span class="ticker__item"><a href="https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> The Download: the first brain implant power user and South Korea’s AI obsession</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/06/16/heres-everything-new-for-apple-photos-in-ios-27/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Here’s everything new for Apple Photos in iOS 27</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Walking shark found in Papua New Guinea is new to science</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/anya-taylor-joy-lotr-character-seren-hunt-for-gollum/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/the-adventures-of-elliot-release-time-edt-pdt/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Adventures of Elliot: The Millennium Tales release time in your time zone</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/hellraiser-revival-release-date-announced-october/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Hellraiser: Revival gets release date, joins clogged games lineup</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.eu-startups.com/2026/06/barcelona-based-gate2brain-secures-e7-million-to-advance-brain-tumour-candidate/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Barcelona-based Gate2Brain secures €7 million to advance brain tumour candidate</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/xbox-microsoft-ninja-theory-compulsion-double-fine-closures/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Xbox shouldn't close Ninja Theory, Compulsion, and Double Fine and should never have bought them</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://kotaku.com/forza-horizon-6-devs-delete-stolen-cash-after-players-discover-easy-exploit-for-earning-20-million-credits-in-minutes-2000707080" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Forza Horizon 6 Devs Delete Stolen Cash After Players Discover Easy Exploit For Earning 20 Million Credits In Minutes</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/assassins-creed-shadows-dlc-black-tides-final-update-black-flag/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Assassin's Creed Shadows final update connects to Black Flag Resynced</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Autism may have two distinct subtypes that vary by brain activity</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.fastcompany.com/91559681/sevenrooms-free-reservation-tool?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> This new tool might just solve the restaurant reservation chaos</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Arctic Ocean reaches tipping point that could be dire for marine life</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> The Download: the first brain implant power user and South Korea’s AI obsession</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://9to5mac.com/2026/06/16/heres-everything-new-for-apple-photos-in-ios-27/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Here’s everything new for Apple Photos in iOS 27</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Walking shark found in Papua New Guinea is new to science</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/anya-taylor-joy-lotr-character-seren-hunt-for-gollum/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/the-adventures-of-elliot-release-time-edt-pdt/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> The Adventures of Elliot: The Millennium Tales release time in your time zone</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/hellraiser-revival-release-date-announced-october/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Hellraiser: Revival gets release date, joins clogged games lineup</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.eu-startups.com/2026/06/barcelona-based-gate2brain-secures-e7-million-to-advance-brain-tumour-candidate/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Barcelona-based Gate2Brain secures €7 million to advance brain tumour candidate</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/xbox-microsoft-ninja-theory-compulsion-double-fine-closures/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Xbox shouldn't close Ninja Theory, Compulsion, and Double Fine and should never have bought them</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://kotaku.com/forza-horizon-6-devs-delete-stolen-cash-after-players-discover-easy-exploit-for-earning-20-million-credits-in-minutes-2000707080" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Forza Horizon 6 Devs Delete Stolen Cash After Players Discover Easy Exploit For Earning 20 Million Credits In Minutes</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.polygon.com/assassins-creed-shadows-dlc-black-tides-final-update-black-flag/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Assassin's Creed Shadows final update connects to Black Flag Resynced</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Autism may have two distinct subtypes that vary by brain activity</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.fastcompany.com/91559681/sevenrooms-free-reservation-tool?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> This new tool might just solve the restaurant reservation chaos</a></span><span class="ticker__sep">◆</span>
-<span class="ticker__item"><a href="https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Arctic Ocean reaches tipping point that could be dire for marine life</a></span><span class="ticker__sep">◆</span>
+        <span class="ticker__item"><a href="https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Exclusive eBook: How AI is becoming the next military advisor</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/qualcomm_snapdragon_reality_elite_official-news-73307.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Qualcomm announces Snapdragon Reality Elite as its next-gen XR platform</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> MIT’s Initiative for New Manufacturing builds momentum</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.eu-startups.com/2026/06/stockholm-based-tonada-lands-e2-6-million-to-help-brands-design-how-their-spaces-sound/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Stockholm-based Tonada lands €2.6 million to help brands design how their spaces sound</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/widows-bay-season-1-ending-explained-season-2-director-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Widow's Bay season 1 ending explained by director, plus a season 2 teaser</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/microsoft_launches_snapdragon_x2_powered_surface_pro_and_surface_laptop-news-73305.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Microsoft launches Snapdragon X2-powered Surface Pro and Surface Laptop</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://sifted.eu/articles/four-mistakes-not-to-make-as-a-first-time-founder/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Four mistakes not to make as a first-time founder</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/oneplus_nord_buds_4_launch_date_and_specs_revealed-news-73303.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> OnePlus Nord Buds 4 launch date and specs revealed</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/iphone_18_ram_upgrade_confirmed_again_along_with_good_news_about_its_price-news-73302.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> iPhone 18 RAM upgrade confirmed again along with good news about its price</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/commodore_announces_callback_8020_the_mobile_phone_between_dumb_and_smart-news-73304.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Commodore announces Callback 8020, a phone "between dumb and smart"</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/no_the_foldable_iphone_ultra_has_not_been_delayed_claims_leakster-news-73300.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> No, the foldable iPhone Ultra has not been delayed, claims leakster</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Qualcomm’s latest chip hints that more powerful smart glasses could be on the way</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.fastcompany.com/91559773/snap-specs-2026-ar-glasses-evan-spiegel?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Evan Spiegel says Snap can’t fulfill its mission without its new AR glasses</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Exclusive eBook: How AI is becoming the next military advisor</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/qualcomm_snapdragon_reality_elite_official-news-73307.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Qualcomm announces Snapdragon Reality Elite as its next-gen XR platform</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> MIT’s Initiative for New Manufacturing builds momentum</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.eu-startups.com/2026/06/stockholm-based-tonada-lands-e2-6-million-to-help-brands-design-how-their-spaces-sound/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Stockholm-based Tonada lands €2.6 million to help brands design how their spaces sound</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.polygon.com/widows-bay-season-1-ending-explained-season-2-director-interview/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gaming">Gaming</span> Widow's Bay season 1 ending explained by director, plus a season 2 teaser</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/microsoft_launches_snapdragon_x2_powered_surface_pro_and_surface_laptop-news-73305.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Microsoft launches Snapdragon X2-powered Surface Pro and Surface Laptop</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://sifted.eu/articles/four-mistakes-not-to-make-as-a-first-time-founder/" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--startups">Startups</span> Four mistakes not to make as a first-time founder</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/oneplus_nord_buds_4_launch_date_and_specs_revealed-news-73303.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> OnePlus Nord Buds 4 launch date and specs revealed</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/iphone_18_ram_upgrade_confirmed_again_along_with_good_news_about_its_price-news-73302.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> iPhone 18 RAM upgrade confirmed again along with good news about its price</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/commodore_announces_callback_8020_the_mobile_phone_between_dumb_and_smart-news-73304.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> Commodore announces Callback 8020, a phone "between dumb and smart"</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.gsmarena.com/no_the_foldable_iphone_ultra_has_not_been_delayed_claims_leakster-news-73300.php" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--gadgets">Gadgets</span> No, the foldable iPhone Ultra has not been delayed, claims leakster</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--ai">AI</span> Qualcomm’s latest chip hints that more powerful smart glasses could be on the way</a></span><span class="ticker__sep">◆</span>
+<span class="ticker__item"><a href="https://www.fastcompany.com/91559773/snap-specs-2026-ar-glasses-evan-spiegel?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener"><span class="ticker__cat ticker__cat--innovation">Innovation</span> Evan Spiegel says Snap can’t fulfill its mission without its new AR glasses</a></span><span class="ticker__sep">◆</span>
 
         <span class="ticker__item">
           <span class="ticker__cat ticker__cat--ai">AI</span>
@@ -1143,7 +1151,7 @@
         </div>
         <div class="hero__meta">
           <div class="hero__date">
-            16 Jun 2026 · 15:01 UTC
+            17 Jun 2026 · 07:01 UTC
           </div>
           <div class="hero__updated">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
@@ -1171,42 +1179,42 @@
       </div>
       <div class="featured-top">
   <div class="card card--main fade-in">
-    <a class="card__overlay" href="https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/" target="_blank" rel="noopener" aria-label="The Download: the first brain implant power user and South Korea’s AI obsession"></a>
-    <img src="https://images.pexels.com/photos/6629364/pexels-photo-6629364.jpeg?auto=compress&cs=tinysrgb&h=350" alt="The Download: the first brain implant power user and South Korea’s AI obsession" class="card__image" style="" loading="lazy">
+    <a class="card__overlay" href="https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/" target="_blank" rel="noopener" aria-label="Exclusive eBook: How AI is becoming the next military advisor"></a>
+    <img src="https://images.pexels.com/photos/1475272/pexels-photo-1475272.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Exclusive eBook: How AI is becoming the next military advisor" class="card__image" style="" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--ai">AI</span>
-      <div class="card__title">The Download: the first brain implant power user and South Korea’s AI obsession</div>
-      <div class="card__summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This man with ALS is the first “power user” of a brain implant that le…</div>
+      <div class="card__title">Exclusive eBook: How AI is becoming the next military advisor</div>
+      <div class="card__summary">A collection of stories about how militaries are using AI models to make decisions. This subscriber-only eBook is a package of six stories that were originally published in MIT Technology Review between April 11, 2025, a…</div>
       <div class="card__meta">
         <span class="card__source">MIT Technology Review</span>
         <span>·</span>
-        <span>2h ago</span>
+        <span>10h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--side fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/06/16/heres-everything-new-for-apple-photos-in-ios-27/" target="_blank" rel="noopener" aria-label="Here’s everything new for Apple Photos in iOS 27"></a>
-    <div class="card__img-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-photos-app-icon-ios-27.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Here’s everything new for Apple Photos in iOS 27" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://www.gsmarena.com/qualcomm_snapdragon_reality_elite_official-news-73307.php" target="_blank" rel="noopener" aria-label="Qualcomm announces Snapdragon Reality Elite as its next-gen XR platform"></a>
+    <div class="card__img-wrap"><img src="https://fdn.gsmarena.com/imgroot/news/26/06/qualcomm-snapdragon-reality-elite-official/-952x498w6/gsmarena_001.jpg" alt="Qualcomm announces Snapdragon Reality Elite as its next-gen XR platform" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Here’s everything new for Apple Photos in iOS 27</div>
+      <div class="card__title">Qualcomm announces Snapdragon Reality Elite as its next-gen XR platform</div>
       <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
+        <span class="card__source">GSMArena.com - Latest articles</span>
         <span>·</span>
-        <span>25m ago</span>
+        <span>16m ago</span>
       </div>
     </div>
   </div>
   <div class="card card--side fade-in">
-    <a class="card__overlay" href="https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home" target="_blank" rel="noopener" aria-label="Walking shark found in Papua New Guinea is new to science"></a>
-    <div class="card__img-wrap"><img src="https://images.newscientist.com/wp-content/uploads/2026/06/16113031/SEI_301624717.jpg" alt="Walking shark found in Papua New Guinea is new to science" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616" target="_blank" rel="noopener" aria-label="MIT’s Initiative for New Manufacturing builds momentum"></a>
+    <div class="card__img-wrap"><img src="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/mit-inm-manufacturing.jpg?itok=Ffoqz9lZ" alt="MIT’s Initiative for New Manufacturing builds momentum" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--innovation">Innovation</span>
-      <div class="card__title">Walking shark found in Papua New Guinea is new to science</div>
+      <div class="card__title">MIT’s Initiative for New Manufacturing builds momentum</div>
       <div class="card__meta">
-        <span class="card__source">New Scientist - Home</span>
+        <span class="card__source">MIT News - Innovation and Entrepreneurship (I&amp;E)</span>
         <span>·</span>
-        <span>2h ago</span>
+        <span>10h ago</span>
       </div>
     </div>
   </div>
@@ -1214,30 +1222,30 @@
 
       <div class="featured-bottom">
   <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/" target="_blank" rel="noopener" aria-label="Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it"></a>
-    <img src="https://techcrunch.com/wp-content/uploads/2021/01/robinhood-volatility.jpg?resize=1200,675" alt="Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <a class="card__overlay" href="https://www.eu-startups.com/2026/06/stockholm-based-tonada-lands-e2-6-million-to-help-brands-design-how-their-spaces-sound/" target="_blank" rel="noopener" aria-label="Stockholm-based Tonada lands €2.6 million to help brands design how their spaces sound"></a>
+    <img src="https://www.eu-startups.com/wp-content/uploads/2026/06/Untitled-design-2026-06-17T112042.611.jpg" alt="Stockholm-based Tonada lands €2.6 million to help brands design how their spaces sound" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it</div>
-      <div class="card__summary">Robinhood's CEO Vlad Tenev recently announced a 10% layoff, breaking from the trend set by other tech companies who have used AI as a reason for mass job cuts. Notably, Tenev refrained from mentioning AI as a factor in the decision, opting for a more direct approach to the layoffs.</div>
+      <div class="card__title">Stockholm-based Tonada lands €2.6 million to help brands design how their spaces sound</div>
+      <div class="card__summary">A Swedish tech startup called Tonada has gained €2.6 million in funding to help businesses design and improve the sounds within their physical spaces, making high-quality audio more accessible. Led by investment firm Antler, this funding round will enable Tonada to bring its AI-generated sound platform to more brands in the retail and hospitality industries.</div>
       <div class="card__meta">
-        <span class="card__source">TechCrunch</span>
+        <span class="card__source">EU-Startups</span>
         <span>·</span>
-        <span>11m ago</span>
+        <span>1h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--bottom fade-in">
-    <a class="card__overlay" href="https://www.polygon.com/anya-taylor-joy-lotr-character-seren-hunt-for-gollum/" target="_blank" rel="noopener" aria-label="Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?"></a>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/anya-taylor-joy-as-magick-with-lord-of-the-rings-elves-in-the-background.jpg" alt="Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
+    <a class="card__overlay" href="https://www.polygon.com/widows-bay-season-1-ending-explained-season-2-director-interview/" target="_blank" rel="noopener" aria-label="Widow's Bay season 1 ending explained by director, plus a season 2 teaser"></a>
+    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/widows_bay_photo_010901.jpg" alt="Widow's Bay season 1 ending explained by director, plus a season 2 teaser" class="card__image" style="width:140px;flex-shrink:0;object-fit:cover;" loading="lazy">
     <div class="card__body">
       <span class="card__cat card__cat--gaming">Gaming</span>
-      <div class="card__title">Who is Seren, Anya Taylor-Joy's character in The Hunt for Gollum?</div>
-      <div class="card__summary">Anya Taylor-Joy is set to star in Andy Serkis's upcoming Lord of the Rings film, playing a unique character still deeply connected to J.R.R. Tolkien's original story. The 2027 movie, titled The Hunt for Gollum, marks a new entry in the beloved Lord of the Rings franchise.</div>
+      <div class="card__title">Widow's Bay season 1 ending explained by director, plus a season 2 teaser</div>
+      <div class="card__summary">In the mind-bending finale of the first season of "Widow's Bay," director Hiro Murai sheds light on the dramatic events that left fans questioning everything. With the curtain set to raise on season 2, Murai has now dropped a tantalizing teaser, hinting at even more twists and turns to come.</div>
       <div class="card__meta">
         <span class="card__source">Polygon.com</span>
         <span>·</span>
-        <span>9m ago</span>
+        <span>5h ago</span>
       </div>
     </div>
   </div>
@@ -1256,7 +1264,7 @@
   <a href="/category/ai.html" class="cat-pill cat-pill--ai">
     <div class="cat-pill__icon">🤖</div>
     <div class="cat-pill__name">AI</div>
-    <div class="cat-pill__count">47 articles</div>
+    <div class="cat-pill__count">46 articles</div>
   </a>
   <a href="/category/gadgets.html" class="cat-pill cat-pill--gadgets">
     <div class="cat-pill__icon">📱</div>
@@ -1266,12 +1274,12 @@
   <a href="/category/innovation.html" class="cat-pill cat-pill--innovation">
     <div class="cat-pill__icon">💡</div>
     <div class="cat-pill__name">Innovation</div>
-    <div class="cat-pill__count">66 articles</div>
+    <div class="cat-pill__count">65 articles</div>
   </a>
   <a href="/category/startups.html" class="cat-pill cat-pill--startups">
     <div class="cat-pill__icon">🚀</div>
     <div class="cat-pill__name">Startups</div>
-    <div class="cat-pill__count">78 articles</div>
+    <div class="cat-pill__count">77 articles</div>
   </a>
   <a href="/category/gaming.html" class="cat-pill cat-pill--gaming">
     <div class="cat-pill__icon">🎮</div>
@@ -1299,63 +1307,65 @@
               </svg>
               Today's Top Stories
             </div>
-            <div class="digest__date" id="digest-date-label">16 Jun 2026 · 15:01 UTC</div>
+            <div class="digest__date" id="digest-date-label">17 Jun 2026 · 07:01 UTC</div>
           </div>
           <div class="digest__body">
-            <p class="digest__intro">In the world of tech, it's clear that the gaming industry is dominating the headlines today. Anya Taylor-Joy's character Seren, in the Lord of the Rings prequel The Hunt for Gollum, is generating buzz, while game developers are facing criticism over recent controversies - for example, the ease with which players can earn 20 million credits in Forza Horizon 6 through a discovered exploit. In a more concerning turn of events, Xbox has been called out for considering the closure of several high-profile studios, including Ninja Theory, Compulsion, and Double Fine. Meanwhile, the startup world is seeing a boost with Barcelona-based Gate2Brain securing €7 million to advance its brain tumour treatment candidate. Additionally, Apple Photos fans can breathe a sigh of relief as iOS 27 brings a range of exciting new features.</p>
+            <p class="digest__intro">Today's tech landscape is dominated by major announcements from the likes of Qualcomm and Microsoft. The chipmaker has revealed its next-gen XR platform, Snapdragon Reality Elite, which promises to revolutionize virtual and mixed reality experiences. Meanwhile, Microsoft has taken the wraps off its latest Surface devices, powered by the Snapdragon X2 processor, marking a significant escalation in the company's push into the mobile market. Elsewhere, tech startups are also making waves, with Tonada securing a substantial €2.6 million investment to take its audio design platform to the next level. And in the realm of mobile accessories, OnePlus has confirmed the imminent arrival of its Nord Buds 4, with specs and a launch date now confirmed.</p>
 <div class="digest__items">
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">01</div>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/elliot_servicepost_header.jpg" alt="The Adventures of Elliot: The Millennium Tales release time in your time zone" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <img src="https://fdn.gsmarena.com/imgroot/news/26/06/microsoft-surface-pro-surface-laptop/-952x498w6/gsmarena_000.jpg" alt="Microsoft launches Snapdragon X2-powered Surface Pro and Surface Laptop" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/the-adventures-of-elliot-release-time-edt-pdt/" target="_blank" rel="noopener">The Adventures of Elliot: The Millennium Tales release time in your time zone</a></div>
-      <div class="digest__item-sum">The Adventures of Elliot is an upcoming 2D-HD action RPG from Square Enix, where players will go on exciting adventures with the titular hero. Fans can pre-order the game to receive exclusive bonuses, while the release time will vary depending on their time zone.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.gsmarena.com/microsoft_launches_snapdragon_x2_powered_surface_pro_and_surface_laptop-news-73305.php" target="_blank" rel="noopener">Microsoft launches Snapdragon X2-powered Surface Pro and Surface Laptop</a></div>
+      <div class="digest__item-sum">Microsoft has unveiled two new Surface devices, the Surface Pro and Surface Laptop, which are powered by fast and energy-efficient Snapdragon X2 chips. The Surface Pro and Surface Laptop offer sleek designs, high-end features, and flexible usage options, starting at $1,499 for the base model.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">02</div>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hellraiser-revival.jpg" alt="Hellraiser: Revival gets release date, joins clogged games lineup" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <img src="https://images.sifted.eu/wp-content/uploads/2026/06/16140724/Shah-headshot.jpg?w=1600&amp;h=1200&amp;q=75&amp;fit=crop&amp;auto=compress,format" alt="Four mistakes not to make as a first-time founder" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/hellraiser-revival-release-date-announced-october/" target="_blank" rel="noopener">Hellraiser: Revival gets release date, joins clogged games lineup</a></div>
-      <div class="digest__item-sum">The survival horror game Hellraiser: Revival has received a release date of October, setting it for a crowded fall gaming lineup. By launching in October, the developers may be trying to avoid a possible overlap with the heavily anticipated release of Grand Theft Auto 6.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
-    </div>
-  </div>
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
-    <div class="digest__num">03</div>
-    <img src="https://www.eu-startups.com/wp-content/uploads/2026/06/Gate2Brain.png" alt="Barcelona-based Gate2Brain secures €7 million to advance brain tumour candidate" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
-    <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.eu-startups.com/2026/06/barcelona-based-gate2brain-secures-e7-million-to-advance-brain-tumour-candidate/" target="_blank" rel="noopener">Barcelona-based Gate2Brain secures €7 million to advance brain tumour candidate</a></div>
-      <div class="digest__item-sum">Gate2Brain, a Barcelona-based biotech company, has secured a €7 million investment to advance its promising treatment for brain tumors in both children and adults. The funding, a strategic partnership with Indian company Shilpa Biocare, will help Gate2Brain bring its therapeutic candidate closer to market, potentially offering new hope for patients battling these aggressive tumors.</div>
+      <div class="digest__item-title"><a href="https://sifted.eu/articles/four-mistakes-not-to-make-as-a-first-time-founder/" target="_blank" rel="noopener">Four mistakes not to make as a first-time founder</a></div>
+      <div class="digest__item-sum">However, you didn't provide the article content. Please provide the text for me to create a 2-sentence summary.
+
+I'll write the summary once I receive the content.</div>
       <span class="card__cat card__cat--startups digest__item-cat">Startups</span>
     </div>
   </div>
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
+    <div class="digest__num">03</div>
+    <img src="https://fdn.gsmarena.com/imgroot/news/26/06/oneplus-nord-buds-4-launch-specs/-952x498w6/gsmarena_00.jpg" alt="OnePlus Nord Buds 4 launch date and specs revealed" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <div class="digest__content">
+      <div class="digest__item-title"><a href="https://www.gsmarena.com/oneplus_nord_buds_4_launch_date_and_specs_revealed-news-73303.php" target="_blank" rel="noopener">OnePlus Nord Buds 4 launch date and specs revealed</a></div>
+      <div class="digest__item-sum">OnePlus is set to launch its latest earbuds, the Nord Buds 4, in India on June 25. The upcoming TWS earbuds will feature 12mm titanium-coated dynamic drivers and promise a premium audio experience.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
+    </div>
+  </div>
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">04</div>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hellblade.jpg" alt="Xbox shouldn't close Ninja Theory, Compulsion, and Double Fine and should never have bought them" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <img src="https://fdn.gsmarena.com/imgroot/news/26/06/iphone-18-ram-price/-952x498w6/gsmarena_000.jpg" alt="iPhone 18 RAM upgrade confirmed again along with good news about its price" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/xbox-microsoft-ninja-theory-compulsion-double-fine-closures/" target="_blank" rel="noopener">Xbox shouldn't close Ninja Theory, Compulsion, and Double Fine and should never have bought them</a></div>
-      <div class="digest__item-sum">Microsoft's decision to acquire and potentially close several renowned game development studios, including Ninja Theory, Compulsion, and Double Fine, raises concerns about the company's approach to managing acquired talent and creative freedom. The move recalls a pattern of mismanagement seen in the past with studios like Rare, Bungie, and Lionhead, sparking worries about the future of these beloved gaming communities.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.gsmarena.com/iphone_18_ram_upgrade_confirmed_again_along_with_good_news_about_its_price-news-73302.php" target="_blank" rel="noopener">iPhone 18 RAM upgrade confirmed again along with good news about its price</a></div>
+      <div class="digest__item-sum">The upcoming iPhone 18 is confirmed to get a significant RAM upgrade to 12GB, a crucial component for its advanced Siri AI features, which will offer more expressive voices and improved dictation capabilities. This boost in memory will give iPhone 18 users an edge over iPhone 17 owners, who are expected to miss out on these exciting new features.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">05</div>
-    <img src="https://kotaku.com/app/uploads/2026/01/ss_17b0e8d6a90e174e45f4c7438167d-1280x720.jpg" alt="Forza Horizon 6 Devs Delete Stolen Cash After Players Discover Easy Exploit For Earning 20 Million Credits In Minutes" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <img src="https://fdn.gsmarena.com/imgroot/news/26/06/commodore-callback-8020-official/-952x498w6/gsmarena_000.jpg" alt="Commodore announces Callback 8020, a phone "between dumb and smart"" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://kotaku.com/forza-horizon-6-devs-delete-stolen-cash-after-players-discover-easy-exploit-for-earning-20-million-credits-in-minutes-2000707080" target="_blank" rel="noopener">Forza Horizon 6 Devs Delete Stolen Cash After Players Discover Easy Exploit For Earning 20 Million Credits In Minutes</a></div>
-      <div class="digest__item-sum">The developers behind Forza Horizon 6 stepped in to address a discovered exploit that allowed players to quickly earn an excessive amount of virtual credits. As a result, the excess cash has been removed, and players will be given a complementary reward to compensate for the change, including a free car.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.gsmarena.com/commodore_announces_callback_8020_the_mobile_phone_between_dumb_and_smart-news-73304.php" target="_blank" rel="noopener">Commodore announces Callback 8020, a phone "between dumb and smart"</a></div>
+      <div class="digest__item-sum">Commodore, a brand revived by tech enthusiast Christian Simpson, is launching a unique phone dubbed the Callback 8020 - a device that combines the simplicity of a dumbphone with the connectivity of a smartphone. This "middle ground" phone aims to cater to those seeking a more straightforward mobile experience, without sacrificing essential features, in a nod to nostalgia for the original Commodore brand.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
-  <div class="digest__item" style="align-items:flex-start;gap:14px;">
+  <div class="digest__item" style="align-items:stretch;gap:14px;">
     <div class="digest__num">06</div>
-    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/06/ACS.jpg" alt="Assassin's Creed Shadows final update connects to Black Flag Resynced" style="width:120px;height:auto;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
+    <img src="https://fdn.gsmarena.com/imgroot/news/26/06/iphone-ultra-not-delayed-fixed-focus-digital/-952x498w6/gsmarena_000.jpg" alt="No, the foldable iPhone Ultra has not been delayed, claims leakster" style="width:120px;height:110px;object-fit:cover;align-self:stretch;border-radius:8px;flex-shrink:0;" loading="lazy">
     <div class="digest__content">
-      <div class="digest__item-title"><a href="https://www.polygon.com/assassins-creed-shadows-dlc-black-tides-final-update-black-flag/" target="_blank" rel="noopener">Assassin's Creed Shadows final update connects to Black Flag Resynced</a></div>
-      <div class="digest__item-sum">A new update, Black Tides, is coming soon to Assassin's Creed Shadows, finalizing the story of Naoe and Yasuke. The update will also connect their journey to the narrative of Black Flag Resynced, a reimagining of the classic Assassin's Creed: Black Flag.</div>
-      <span class="card__cat card__cat--gaming digest__item-cat">Gaming</span>
+      <div class="digest__item-title"><a href="https://www.gsmarena.com/no_the_foldable_iphone_ultra_has_not_been_delayed_claims_leakster-news-73300.php" target="_blank" rel="noopener">No, the foldable iPhone Ultra has not been delayed, claims leakster</a></div>
+      <div class="digest__item-sum">Reports of a delay for the foldable iPhone Ultra may be unfounded, as a reputable leakster claims it will still be unveiled alongside the iPhone 18 Pro models in September as planned. However, the actual release of the foldable device could be pushed back by a month due to limited production capacity.</div>
+      <span class="card__cat card__cat--gadgets digest__item-cat">Gadgets</span>
     </div>
   </div>
 </div>
@@ -1403,128 +1413,128 @@
       </div>
       <div class="latest__grid">
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.siliconrepublic.com/start-ups/nax-bioscience-imragen-win-genomics-business-plan-competition-life-sciences" target="_blank" rel="noopener" aria-label="Nax Bioscience and Imragen top Irish Genomics Business Plan competition"></a>
-    <div class="card__image-wrap"><img src="https://www.siliconrepublic.com/wp-content/uploads/2026/06/Winner-Life-Sciences-330x251.jpeg" alt="Nax Bioscience and Imragen top Irish Genomics Business Plan competition" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/" target="_blank" rel="noopener" aria-label="Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests"></a>
+    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024" alt="Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">Nax Bioscience and Imragen top Irish Genomics Business Plan competition</div>
-      <div class="card__summary">Two innovative Irish biotech companies, Nax Bioscience and Imragen, have emerged as top winners in the inaugural Genomics Business Plan competition. Backed by Illumina Ventures, this recognition highlights the potential of these start-ups to revolutionize the field of genomics and drive future breakthroughs.</div>
+      <div class="card__title">Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests</div>
+      <div class="card__summary">A new feud between AI company Anthropic and the Trump administration might initially raise concerns, but surprisingly, sales data reveals that it's actually propelling the company's popularity among business users. With growing demand for Anthropic's technology, the controversy may ultimately prove a catalyst for its success, rather than a setback.</div>
       <div class="card__meta">
-        <span class="card__source">Silicon Republic</span>
+        <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>44m ago</span>
+        <span>8h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.gsmarena.com/more_details_about_the_oneplus_16s_screen_leak-news-73292.php" target="_blank" rel="noopener" aria-label="More details about the OnePlus 16's screen leak"></a>
-    <div class="card__image-wrap"><img src="https://fdn.gsmarena.com/imgroot/news/26/06/oneplus-16-new-display-details/-952x498w6/gsmarena_000.jpg" alt="More details about the OnePlus 16's screen leak" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">More details about the OnePlus 16's screen leak</div>
-      <div class="card__summary">According to a new rumor from Digital Chat Station on Weibo, the OnePlus 16's screen will have a 185Hz refresh rate. The company was previously rumored to be te…</div>
-      <div class="card__meta">
-        <span class="card__source">GSMArena.com - Latest articles</span>
-        <span>·</span>
-        <span>55m ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/06/16/sharepower-is-a-magnetic-power-bank-that-snaps-in-half-so-you-can-share-a-charge/" target="_blank" rel="noopener" aria-label="Sharepower is a magnetic power bank that snaps in half so you can share a charge"></a>
-    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/nimble-sharepower.webp?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Sharepower is a magnetic power bank that snaps in half so you can share a charge" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Sharepower is a magnetic power bank that snaps in half so you can share a charge</div>
-      <div class="card__summary">Nimble, the maker of many interesting iPhone accessories, is launching a new product called Sharepower, which it bills as the world’s first sharable battery. Ni…</div>
-      <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
-        <span>·</span>
-        <span>1h ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/06/16/base-model-iphone-18-very-likely-to-support-all-siri-ai-features/" target="_blank" rel="noopener" aria-label="Base model iPhone 18 very likely to support all Siri AI features"></a>
-    <div class="card__image-wrap"><img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/11/iphone-18-mockup-blue.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="Base model iPhone 18 very likely to support all Siri AI features" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Base model iPhone 18 very likely to support all Siri AI features</div>
-      <div class="card__summary">Only three existing iPhone models get access to all of the new on-device Siri AI features: the iPhone 17 Pro, Pro Max, and iPhone Air. While the base model iPho…</div>
-      <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
-        <span>·</span>
-        <span>1h ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://sifted.eu/articles/chapsvision-to-replace-palantir-in-major-contract-with-french-intelligence-agency/" target="_blank" rel="noopener" aria-label="ChapsVision to replace Palantir in major contract with French intelligence agency"></a>
-    <div class="card__image-wrap"><img src="https://images.sifted.eu/wp-content/uploads/2024/11/19172423/REA10425249-scaled.jpg?w=2048&amp;h=1351&amp;q=75&amp;fit=crop&amp;auto=compress,format" alt="ChapsVision to replace Palantir in major contract with French intelligence agency" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://techcrunch.com/2026/06/16/apple-plans-to-change-its-hide-my-email-privacy-feature-that-could-make-it-less-effective/" target="_blank" rel="noopener" aria-label="Apple plans to change its Hide My Email privacy feature that could make it less effective"></a>
+    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-477672484.jpg?resize=1200,800" alt="Apple plans to change its Hide My Email privacy feature that could make it less effective" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">ChapsVision to replace Palantir in major contract with French intelligence agency</div>
-      <div class="card__summary">…</div>
+      <div class="card__title">Apple plans to change its Hide My Email privacy feature that could make it less effective</div>
+      <div class="card__summary">In the coming weeks, Apple will move anonymously generated emails addresses to a different domain.…</div>
       <div class="card__meta">
-        <span class="card__source">Sifted</span>
+        <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>1h ago</span>
+        <span>8h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://techcrunch.com/2026/06/16/spacex-passes-amazon-as-valuation-balloons-to-2-7t/" target="_blank" rel="noopener" aria-label="SpaceX passes Amazon as valuation balloons to $2.7T"></a>
-    <div class="card__image-wrap"><img src="https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-1244294229.jpg?resize=1200,675" alt="SpaceX passes Amazon as valuation balloons to $2.7T" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://kotaku.com/xbox-promises-gears-of-war-e-day-exclusivity-is-not-a-limited-time-fake-out-2000707199" target="_blank" rel="noopener" aria-label="Xbox Promises Gears Of War: E-Day Exclusivity Is Not A Limited-Time Fake Out"></a>
+    <div class="card__image-wrap"><img src="https://kotaku.com/app/uploads/2026/06/05_GoW_EDAY_PlaysLikeNew_Final-7ef1be5a3c94e92a7462-1900x1080-1-1280x728.jpg" alt="Xbox Promises Gears Of War: E-Day Exclusivity Is Not A Limited-Time Fake Out" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">Xbox Promises Gears Of War: E-Day Exclusivity Is Not A Limited-Time Fake Out</div>
+      <div class="card__summary">Despite the rumor mill, it's not coming to PS5 at a later date…</div>
+      <div class="card__meta">
+        <span class="card__source">Kotaku</span>
+        <span>·</span>
+        <span>9h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/tom-holland-reveals-his-spider-man-replacement-pick/" target="_blank" rel="noopener" aria-label="Spider-Man actor Tom Holland reveals his Spider-Man replacement pick"></a>
+    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/mcdspma_sp025.jpg" alt="Spider-Man actor Tom Holland reveals his Spider-Man replacement pick" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">Spider-Man actor Tom Holland reveals his Spider-Man replacement pick</div>
+      <div class="card__summary">Spider-Man Brand New Day star Tom Holland once again sounds like he's ready to swing off into the sunset and say goodbye to Peter Parker.…</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>10h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://kotaku.com/sandisk-ps5-ssd-8tb-heatsink-optimus-gx-pro-2000707175" target="_blank" rel="noopener" aria-label="SanDisk’s New, ‘Officially Licensed’ $3,800 PS5 SSD Is A Surefire Sign We Are Completely Screwed"></a>
+    <div class="card__image-wrap"><img src="https://kotaku.com/app/uploads/2026/06/SANDISK-Optimus-GX-PRO-850X-NVMe-SSD-official-image-from-trailer-1280x720.jpg" alt="SanDisk’s New, ‘Officially Licensed’ $3,800 PS5 SSD Is A Surefire Sign We Are Completely Screwed" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">SanDisk’s New, ‘Officially Licensed’ $3,800 PS5 SSD Is A Surefire Sign We Are Completely Screwed</div>
+      <div class="card__summary">The end isn't nigh, it's already here…</div>
+      <div class="card__meta">
+        <span class="card__source">Kotaku</span>
+        <span>·</span>
+        <span>10h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/20-years-ago-vin-diesels-contract-loophole-changed-american-cinema/" target="_blank" rel="noopener" aria-label="The most important scene in Fast & Furious lasts less than a minute and Vin Diesel didn't get paid to film it"></a>
+    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/dominic-torretto-fast-and-furious.jpg" alt="The most important scene in Fast & Furious lasts less than a minute and Vin Diesel didn't get paid to film it" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">The most important scene in Fast & Furious lasts less than a minute and Vin Diesel didn't get paid to film it</div>
+      <div class="card__summary">A simple contract negotiation transformed a discarded Fast & Furious sequel into the foundation of a billion-dollar franchise.…</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>10h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://www.polygon.com/hellraiser-revival-preview-release-date-summer-game-fest/" target="_blank" rel="noopener" aria-label="Clive Barker's Hellraiser: Revival hands-on: The first good Hellraiser game?"></a>
+    <div class="card__image-wrap"><img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/screenshot-7.jpeg" alt="Clive Barker's Hellraiser: Revival hands-on: The first good Hellraiser game?" class="card__image" loading="lazy"></div>
+    <div class="card__body">
+      <span class="card__cat card__cat--gaming">Gaming</span>
+      <div class="card__title">Clive Barker's Hellraiser: Revival hands-on: The first good Hellraiser game?</div>
+      <div class="card__summary">Saber Interactive's new Hellraiser game feels like a mix of BioShock and Clive Barker's sadomasochistic horror film franchise.…</div>
+      <div class="card__meta">
+        <span class="card__source">Polygon.com</span>
+        <span>·</span>
+        <span>10h ago</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card--small fade-in">
+    <a class="card__overlay" href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/" target="_blank" rel="noopener" aria-label="SpaceX valuation balloons to $2.6T, briefly passes Amazon"></a>
+    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/586079/pexels-photo-586079.jpeg?auto=compress&cs=tinysrgb&h=350" alt="SpaceX valuation balloons to $2.6T, briefly passes Amazon" class="card__image" loading="lazy"></div>
     <div class="card__body">
       <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">SpaceX passes Amazon as valuation balloons to $2.7T</div>
+      <div class="card__title">SpaceX valuation balloons to $2.6T, briefly passes Amazon</div>
       <div class="card__summary">SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.…</div>
       <div class="card__meta">
         <span class="card__source">TechCrunch</span>
         <span>·</span>
-        <span>1h ago</span>
+        <span>10h ago</span>
       </div>
     </div>
   </div>
   <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://sifted.eu/articles/what-the-anthropic-shutdown-means-for-europe/" target="_blank" rel="noopener" aria-label="What the Anthropic shutdown means for Europe"></a>
-    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/10569254/pexels-photo-10569254.jpeg?auto=compress&cs=tinysrgb&h=350" alt="What the Anthropic shutdown means for Europe" class="card__image" loading="lazy"></div>
+    <a class="card__overlay" href="https://www.fastcompany.com/91560594/spacex-cursor-acquisition-vibe-coding?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss" target="_blank" rel="noopener" aria-label="SpaceX buys AI coding startup Cursor for $60 billion"></a>
+    <div class="card__image-wrap"><img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26161664772635.jpg" alt="SpaceX buys AI coding startup Cursor for $60 billion" class="card__image" loading="lazy"></div>
     <div class="card__body">
-      <span class="card__cat card__cat--startups">Startups</span>
-      <div class="card__title">What the Anthropic shutdown means for Europe</div>
-      <div class="card__summary">…</div>
+      <span class="card__cat card__cat--innovation">Innovation</span>
+      <div class="card__title">SpaceX buys AI coding startup Cursor for $60 billion</div>
+      <div class="card__summary">SpaceX will move forward with its $60 billion acquisition of artificial intelligence startup Cursor as Elon Musk &#8216;s space exploration and AI company seeks…</div>
       <div class="card__meta">
-        <span class="card__source">Sifted</span>
+        <span class="card__source">Fast Company - technology</span>
         <span>·</span>
-        <span>1h ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://www.theverge.com/tech/949305/popsockets-magnetic-magsafe-low-pro-grip-hands-on" target="_blank" rel="noopener" aria-label="The new PopSockets grip is so thin you&#8217;ll forget it&#8217;s even there"></a>
-    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/8973488/pexels-photo-8973488.jpeg?auto=compress&cs=tinysrgb&h=350" alt="The new PopSockets grip is so thin you&#8217;ll forget it&#8217;s even there" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">The new PopSockets grip is so thin you&#8217;ll forget it&#8217;s even there</div>
-      <div class="card__summary">If you had asked me a week ago to recommend a thinner alternative to PopSockets’ magnetic phone grips, I would have told you to buy the OhSnap Snap Grip 5. Ask …</div>
-      <div class="card__meta">
-        <span class="card__source">Tech | The Verge</span>
-        <span>·</span>
-        <span>1h ago</span>
-      </div>
-    </div>
-  </div>
-  <div class="card card--small fade-in">
-    <a class="card__overlay" href="https://9to5mac.com/2026/06/16/fathers-day-gift-guide-the-best-beats-headphones-apple-watch-more/" target="_blank" rel="noopener" aria-label="Father’s Day gift guide: The best Beats headphones, Apple Watch, more"></a>
-    <div class="card__image-wrap"><img src="https://images.pexels.com/photos/8341917/pexels-photo-8341917.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Father’s Day gift guide: The best Beats headphones, Apple Watch, more" class="card__image" loading="lazy"></div>
-    <div class="card__body">
-      <span class="card__cat card__cat--gadgets">Gadgets</span>
-      <div class="card__title">Father’s Day gift guide: The best Beats headphones, Apple Watch, more</div>
-      <div class="card__summary">Father’s Day is just around the corner, and we’ve got a whole bunch of tech-focused recommendations for gift ideas for the dad in your life. Whether you’re look…</div>
-      <div class="card__meta">
-        <span class="card__source">9to5Mac</span>
-        <span>·</span>
-        <span>1h ago</span>
+        <span>13h ago</span>
       </div>
     </div>
   </div>
