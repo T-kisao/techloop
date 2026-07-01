@@ -1,316 +1,5 @@
 [
   {
-    "title": "Why Europe is rebuilding its tech stack",
-    "link": "https://sifted.eu/articles/why-europe-is-rebuilding-its-tech-stack-brnd/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/23151445/1780518059538.jpeg?w=400&amp;h=400&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-23T15:27:37+00:00",
-    "hash": "459939e49b6f",
-    "ai_summary": "However, I don't see the content of the article. If you provide it, I can assist you in writing a 2-sentence summary for a general audience."
-  },
-  {
-    "title": "First details about the Oppo Find X10 Ultra's cameras have emerged",
-    "link": "https://www.gsmarena.com/first_details_about_the_oppo_find_x10_ultras_cameras_have_emerged-news-73410.php",
-    "summary": "Oppo is already working on the Find X10 Ultra, according to a new leak from Digital Chat Station on Weibo. The Find X9 Ultra was launched in May, so its successor is definitely not coming this year. Still, the first details about the Find X10 Ultra's cameras are now out. [#InlinePriceWidget,14548,1#] Specifically, its long-range telephoto. As you may know, the Find X9 Ultra has a 50MP periscope telephoto camera with 10x optical zoom, which uses a 1/2.75-inch type sensor. The Find X10 Ultra, on t",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/oppo-find-x10-ultra-first-camera-details-leak/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-24T08:40:03+02:00",
-    "hash": "e60d2d9e47fa",
-    "ai_summary": "Oppo is gearing up to release its Find X10 Ultra smartphone with upgraded cameras, following in the footsteps of the Find X9 Ultra's long-range telephoto lens. The first details suggest a potential improvement over its predecessor, but no official launch date has been confirmed for the new device."
-  },
-  {
-    "title": "How to invest when everything is moving too fast",
-    "link": "https://techcrunch.com/2026/06/23/how-to-invest-when-everything-is-moving-too-fast/",
-    "summary": "TechCrunch's StrictlyVC evening in Los Angeles late last week brought together two of the more straight-talking investors working in AI right now. They were as entertaining as they were illuminating.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/LA-by-ChatGPT.png?resize=1200,801",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T06:26:11+00:00",
-    "hash": "435a11e4f21d",
-    "ai_summary": "Tech investors revealed that the rapid pace of innovation in the tech industry can make it challenging to keep up with investment opportunities, let alone make informed decisions. At a recent event in Los Angeles, two experienced investors in the AI field shared their perspectives on navigating this fast-changing landscape."
-  },
-  {
-    "title": "Austria\u2019s Ora Computing secures \u20ac3.5 million to make AI models smaller and faster",
-    "link": "https://www.eu-startups.com/2026/06/austrias-ora-computing-secures-e3-5-million-to-make-ai-models-smaller-and-faster/",
-    "summary": "Vienna-based Ora Computing, a startup specialising in optimising and compressing AI foundation models, today announced the close of a \u20ac3.5 million Seed round in order to grow the team, extend compression capabilities to the largest frontier models, and launch a commercial product for cloud inference providers and companies deploying AI. The round was led by [&#8230;] The post Austria&#8217;s Ora Computing secures \u20ac3.5 million to make AI models smaller and faster appeared first on EU-Startups .",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Ora.png",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-06-24T06:06:02+00:00",
-    "hash": "e2b907183cee",
-    "ai_summary": "Ora Computing, an Austrian AI startup, has secured \u20ac3.5 million in funding to develop smaller, faster, and more efficient artificial intelligence models. With this investment, the company aims to expand its team and launch a commercial product that helps cloud providers and businesses deploy AI more effectively."
-  },
-  {
-    "title": "Softbank head disputes Musk\u2019s orbital data centre claims",
-    "link": "https://www.siliconrepublic.com/business/softbank-head-disputes-musks-orbital-data-centre-claims",
-    "summary": "Masayoshi Son told shareholders that energy only makes up a fraction of the overall costs needed to build and deploy data centres. Read more: Softbank head disputes Musk&#8217;s orbital data centre claims",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2021/08/AdobeStock_386913069_Editorial_Use_Only-330x251.jpeg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-24T06:00:24+00:00",
-    "hash": "daaa5af73c9e",
-    "ai_summary": "Softbank head Masayoshi Son challenged Elon Musk's idea of building orbital data centers, pointing out that energy costs are just a small fraction of the overall expenses needed to deploy them. Son's statement comes as a response to Musk's ambitious plan for space-based data storage."
-  },
-  {
-    "title": "How are mini biosensors and antibodies changing modern healthcare?",
-    "link": "https://www.siliconrepublic.com/innovation/miniscule-biosensors-antibodies-changing-modern-healthcare-women-invent",
-    "summary": "Prof Ieva Plikusien\u0117 discusses the critical importance of biosensor systems in the modern healthcare space. Read more: How are mini biosensors and antibodies changing modern healthcare?",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/06/Leva-Image-330x251.png",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-06-24T06:00:20+00:00",
-    "hash": "35b0798b7375",
-    "ai_summary": "New advancements in mini biosensors and antibody technology are revolutionizing modern healthcare by providing faster, more accurate, and personalized diagnosis and treatment. These tiny biosensors can detect even the slightest changes in the body, allowing doctors to respond quickly to patient needs and potentially saving lives."
-  },
-  {
-    "title": "Google Chrome gets advanced autofill on Android and iOS, deeper Google Wallet support",
-    "link": "https://www.gsmarena.com/google_chrome_gets_advanced_autofill_on_android_and_ios_deeper_google_wallet_support-news-73409.php",
-    "summary": "Google Chrome's expanded autofill capabilities are now available on both Android and iOS. You can save time on flight check-ins and parking payments, for example. Autofill is also getting deeper integration with Google Wallet across mobile and desktop. This means Chrome can autofill information from your Google Wallet, such as your driver\u2019s license details, passport information, as well as your Known Traveler Number. And if those details aren't saved in Google Wallet, you can add them directly f",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/chrome-autofill-ios-android/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-24T07:40:02+02:00",
-    "hash": "3f8c18ed68e7",
-    "ai_summary": "Google has updated Google Chrome with advanced autofill features on Android and iOS devices, allowing users to quickly fill out flight check-ins, parking payments, and other forms with just a few taps. The update also integrates with Google Wallet, enabling users to autofill sensitive information like driver's licenses, passports, and Known Traveler Numbers."
-  },
-  {
-    "title": "Records broken as eight European startups raised $1bn+ rounds in 2026",
-    "link": "https://sifted.eu/articles/records-broken-as-eight-european-startups-raised-1bn-rounds-in-2026/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2025/12/04111431/54319041499_7363c14f77_k-e1764846890133.jpg?w=1365&amp;h=1273&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-06-24T05:00:33+00:00",
-    "hash": "333d495809a5",
-    "ai_summary": "A record-breaking year for European startups has unfolded, with eight of them securing funding of over $1 billion in 2026. This marks a significant milestone in the growth of the continent's tech ecosystem, demonstrating its increasing influence in the global innovation landscape."
-  },
-  {
-    "title": "Nothing Phone (4b) spotted on Geekbench ahead of launch",
-    "link": "https://www.gsmarena.com/nothing_phone_4b_spotted_on_geekbench_ahead_of_launch-news-73411.php",
-    "summary": "The Nothing Phone (4b) is set to launch in India and select global markets on July 7. While Nothing has only shared a rough design sketch of the handset so far, the upcoming phone has now surfaced on Geekbench, revealing some of its key specs. A Nothing smartphone carrying the model number A009P, believed to be the upcoming Phone (4b), has appeared on Geekbench. The benchmark listing reveals that the handset is powered by Qualcomm's SM6650 chipset, better known as the Snapdragon 6 Gen 4. It is p",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/nothing-phone-4b-geekbench/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-24T07:00:02+02:00",
-    "hash": "add803235359",
-    "ai_summary": "The upcoming Nothing Phone (4b) has been spotted on Geekbench, revealing key specs before its launch in India and other global markets on July 7. The phone is expected to be powered by Qualcomm's Snapdragon 6 Gen 4 chipset, giving users a taste of its performance capabilities."
-  },
-  {
-    "title": "Pete Hegseth got a live look at the Pentagon\u2019s laser weapons",
-    "link": "https://www.fastcompany.com/91563807/pete-hegseth-got-a-live-look-at-the-pentagons-laser-weapons?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "This article is republished with permission from Laser Wars , a newsletter about military laser weapons and other futuristic defense technology. The U.S. Defense Department demonstrated several high-energy laser and high-power microwave weapons for Defense Secretary Pete Hegseth on Tuesday, the first publicly known instance of a sitting U.S. defense secretary personally observing a live directed energy weapon firing. The demonstration, which occurred at the U.S. Army\u2019s White Sands Missile Range",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91563807-pete-hegseth-got-a-live-look-at-the-pentagons-laser-weapons.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-24T04:03:00+00:00",
-    "hash": "42a59134a343",
-    "ai_summary": "US Defense Secretary Pete Hegseth recently witnessed a live demonstration of high-energy laser and high-power microwave weapons at the US Army's White Sands Missile Range. The event marked the first time a sitting US defense secretary personally observed a directed energy weapon firing in public, showcasing cutting-edge technology in the nation's defense arsenal."
-  },
-  {
-    "title": "VSCO launches all-in-one platform for professional photographers",
-    "link": "https://9to5mac.com/2026/06/23/vsco-launches-all-in-one-platform-for-professional-photographers/",
-    "summary": "Following last week\u2019s initial announcement , the VSCO One plan is now available, offering access to several pro-grade VSCO products and tools for $499.99 per year. Here are the details.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/vsco-one.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-24T00:50:18+00:00",
-    "hash": "b8948531a6ae",
-    "ai_summary": "VSCO has launched VSCO One, an all-in-one platform that gives professional photographers a suite of premium tools and services for a annual fee of $499.99. The platform combines various VSCO products, providing photographers with a single solution for their editing, storage, and business needs."
-  },
-  {
-    "title": "The best robot vacuum deals available during Prime Day",
-    "link": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
-    "summary": "If you&#8217;ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day has kicked off, though more than just Amazon is offering deals on several models we&#8217;ve tested from brands like [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/Roborock-Q10-S5-Plus.jpg?quality=90&amp;strip=all&amp;crop=0,10.704714303484,100,78.590571393032",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-23T20:17:27-04:00",
-    "hash": "4504beafd0ec"
-  },
-  {
-    "title": "The Magic School Bus movie is officially happening with the perfect director",
-    "link": "https://www.polygon.com/the-magic-school-bus-movie-announced/",
-    "summary": "Then Magic School Bus, the beloved cartoon from the 1990s, is getting a live-action film starring Elizabeth Banks",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/0_ruv_uub2metsesvk.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-24T00:00:20+00:00",
-    "hash": "cd42f8adc540"
-  },
-  {
-    "title": "A new R-rated Batman movie trilogy begins this year",
-    "link": "https://www.polygon.com/batman-knightfall-trilogy-r-rated/",
-    "summary": "You shouldn't have to wait long between films in the Batman: Knightfall Trilogy",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23218019/DKR1.jpeg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-23T23:33:26+00:00",
-    "hash": "d12a59f5ec1a"
-  },
-  {
-    "title": "Huge crater in Australia may be the oldest impact structure on Earth",
-    "link": "https://www.newscientist.com/article/2531525-huge-crater-in-australia-may-be-the-oldest-impact-structure-on-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "A study claims that the North Pole Dome crater in Western Australia was caused by an asteroid strike 3 billion years ago, but other researchers dispute the proposed age",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/23114346/SEI_302410418.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-24T00:00:24+01:00",
-    "hash": "b8fe721f7a2a"
-  },
-  {
-    "title": "Swift Package Index joins Apple, pledges to remain open source",
-    "link": "https://9to5mac.com/2026/06/23/swift-package-index-joins-apple-pledges-to-remain-open-source/",
-    "summary": "Community-run Swift package search engine and metadata index Swift Package Index is joining Apple, but says little is changing for developers in the near term. Here are the details.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/swift-package-index.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-23T22:59:53+00:00",
-    "hash": "3b9fdc82d99c"
-  },
-  {
-    "title": "The Studio Behind One Of 2026\u2019s Most Delightful Metroidvanias Is Closing",
-    "link": "https://kotaku.com/the-studio-behind-one-of-2026s-most-delightful-metroidvanias-is-closing-2000709642",
-    "summary": "The team that made MIO: Memories in Orbit deserves better",
-    "image": "https://kotaku.com/app/uploads/2026/06/mio-1280x734.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-23T22:30:39+00:00",
-    "hash": "dc9cf0ae5a65"
-  },
-  {
-    "title": "Google Home will soon get better at recognizing you",
-    "link": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
-    "summary": "A new update for Google Home could make it less likely your smart home cameras mistake you for someone else, just because you're facing away from the camera. Starting June 23rd, Google's expanding its facial recognition feature so that people you've tagged in your Familiar Faces library can continue to be identified when their faces [&#8230;]",
-    "image": "https://images.pexels.com/photos/15406292/pexels-photo-15406292.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-23T18:28:19-04:00",
-    "hash": "c914c8100222"
-  },
-  {
-    "title": "Hollywood is bending the knee to OpenAI",
-    "link": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
-    "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [&#8230;]",
-    "image": "https://images.pexels.com/photos/4514678/pexels-photo-4514678.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-23T18:03:18-04:00",
-    "hash": "24e47e1995f5"
-  },
-  {
-    "title": "Toy Story Producer Reacts To Possibility Of Disney Doing A Live-Action Remake: \u2018Please God, No!\u2019",
-    "link": "https://kotaku.com/toy-story-producer-reacts-to-possibility-of-disney-doing-a-live-action-remake-please-god-no-2000709667",
-    "summary": "They director of Toy Story 5 is also not interested in a remake",
-    "image": "https://kotaku.com/app/uploads/2026/06/toysty5no-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-23T22:00:46+00:00",
-    "hash": "b8471de906e6"
-  },
-  {
-    "title": "The Studio Behind A 2025 Xbox Showcase Surprise Just Went Bankrupt",
-    "link": "https://kotaku.com/the-studio-behind-a-2025-xbox-showcase-surprise-just-went-bankrupt-2000709663",
-    "summary": "Mudang: Two Hearts is not coming out",
-    "image": "https://kotaku.com/app/uploads/2026/06/mudang-1280x715.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-23T21:35:57+00:00",
-    "hash": "40876daa80a0"
-  },
-  {
-    "title": "Neopets are back and coming to Fortnite",
-    "link": "https://www.polygon.com/neopets-are-coming-to-fortnite/",
-    "summary": "Epic Games reveals that Neopets are coming to Fortnite in July in Sidekick pet form.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/creatures-3.jpeg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-23T21:35:29+00:00",
-    "hash": "d5996603acc3"
-  },
-  {
-    "title": "Heads in the game",
-    "link": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
-    "summary": "The Argentina v. France final of the 2022 Men\u2019s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the referee had a critical decision to make\u2014and fast. Lionel Messi,&#8230;",
-    "image": "https://images.pexels.com/photos/19931494/pexels-photo-19931494.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-23T21:00:00+00:00",
-    "hash": "7b93fff060b6"
-  },
-  {
-    "title": "Super Mario is mathier than you think",
-    "link": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
-    "summary": "Here\u2019s a problem you probably didn\u2019t solve in school: You\u2019re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has been kidnapped, so you embark on a quest to rescue her, venturing through stretches of pipe-filled and monster-\u00adridden terrain where your only means&#8230;",
-    "image": "https://images.pexels.com/photos/4502978/pexels-photo-4502978.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-23T21:00:00+00:00",
-    "hash": "b2c4bc9eb7a3"
-  },
-  {
-    "title": "A man of many words",
-    "link": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
-    "summary": "Brian Sietsema has a favorite word. It\u2019s somewhat surprising that he can choose just one. He\u2019s the person spellers rely on to confirm pronunciations and answer questions about the roots of the words they\u2019re given at the Scripps National Spelling Bee\u2014arguably the world\u2019s most prestigious competition of its kind. The story of how the word&#8230;",
-    "image": "https://images.pexels.com/photos/17141799/pexels-photo-17141799.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-23T21:00:00+00:00",
-    "hash": "0a0b9c7fb992"
-  },
-  {
-    "title": "Sharing a love for calculus",
-    "link": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
-    "summary": "The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI.&#160; Whatever your own perspective on that debate, I hope you\u2019ll be glad to know that MIT is also working on a deeply important but comparatively old-fashioned challenge: American high school students\u2019 startlingly uneven access&#8230;",
-    "image": "https://images.pexels.com/photos/5775/calculator-scientific.jpg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-23T21:00:00+00:00",
-    "hash": "0006b9c14058"
-  },
-  {
-    "title": "You should turn off fans when it's too hot \u2013 but how hot is too hot?",
-    "link": "https://www.newscientist.com/article/2531606-you-should-turn-off-fans-when-its-too-hot-but-how-hot-is-too-hot/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Fans can make you hotter rather than cooler, but the temperature at which you should turn them off depends on several factors, including your age and the humidity level",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/23172651/SEI_302557223.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-23T18:50:59+01:00",
-    "hash": "3b176d8eb62e"
-  },
-  {
-    "title": "Elite Maya people had teeth placed in a cave far from their tombs",
-    "link": "https://www.newscientist.com/article/2531564-elite-maya-people-had-teeth-placed-in-a-cave-far-from-their-tombs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "A cave in Belize contains teeth from dozens of important Maya people buried elsewhere, which may attest to a ritual intended to ensure their passage to the underworld",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/23141912/SEI_302535800.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-23T18:00:57+01:00",
-    "hash": "b3b6ab7cc3e9"
-  },
-  {
-    "title": "Parenting may permanently improve brain health for mums and dads",
-    "link": "https://www.newscientist.com/article/2530223-parenting-may-permanently-improve-brain-health-for-mums-and-dads/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Raising children appears to keep the brain young, potentially acting as a buffer against cognitive decline and Alzheimer\u2019s",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/18204554/SEI_301810315.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-23T18:00:04+01:00",
-    "hash": "d7d09049e584"
-  },
-  {
-    "title": "SpaceX's secretive plans to deliver cargo to Earth from space",
-    "link": "https://www.newscientist.com/article/2531559-spacexs-secretive-plans-to-deliver-cargo-to-earth-from-space/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "Not much is known about Starfall, SpaceX's new delivery system, but an assessment published in May revealed its intended purpose",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/23163514/SEI_302542725.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-23T17:37:25+01:00",
-    "hash": "bbd4588614cf"
-  },
-  {
     "title": "Adventure Time: Side Quests is the reboot the franchise desperately needs",
     "link": "https://www.polygon.com/adventure-time-side-quests-review-interview/",
     "summary": "Adventure Time: Side Quests is a delightful return to the show's early seasons \u2014 before everything go so dark",
@@ -589,16 +278,6 @@
     "category": "Innovation",
     "published": "2026-06-24T08:30:00+00:00",
     "hash": "75f3a553b156"
-  },
-  {
-    "title": "UN chief urges AI companies to \u2018come clean\u2019 about the pollution they generate",
-    "link": "https://www.fastcompany.com/91563535/un-chief-urges-ai-companies-come-clean-about-pollution-create?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "United Nations Secretary-General Ant\u00f3nio Guterres on Tuesday called on AI companies to release information about the carbon pollution they create , along with the water and land used to power their operations. In an address at London Climate Action Week, Guterres proposed the AI Environmental Transparency Initiative, arguing artificial intelligence companies should measure and disclose the impact of their technology\u2014impact that opponents cite as a reason to curb the rapid growth of data centers.",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26173715985235.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-23T15:45:20+00:00",
-    "hash": "f110bd2573fa"
   },
   {
     "title": "Here's when the Samsung Galaxy Z Fold8, Fold8 Ultra, and Flip8 might go on sale",
@@ -1179,16 +858,6 @@
     "category": "AI",
     "published": "2026-06-24T09:00:00+00:00",
     "hash": "243ad96fbb8b"
-  },
-  {
-    "title": "Why corporate AI super PACs spent $27 million on a local election",
-    "link": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
-    "summary": "Hello and welcome to Regulator, the newsletter for Verge subscribers chronicling the misadventures of their favorite tech overlords and Washington swamp creatures. (\"Favorite\" is, of course, subjective.) Not a subscriber yet? Sign up here, especially if you want the hot scoop on quality Amazon Prime Day deals recommended by the wonderful humans of The Verge's [&#8230;]",
-    "image": "https://images.pexels.com/photos/7821554/pexels-photo-7821554.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-23T13:00:00-04:00",
-    "hash": "d0ab727084b1"
   },
   {
     "title": "9to5Mac Daily: June 26, 2026 \u2013 Apple announces significant price increases",
@@ -3661,33 +3330,293 @@
     "hash": "2069d2cda857"
   },
   {
-    "title": "How menopause radically changes the brain \u2013 and what happens after",
-    "link": "https://www.newscientist.com/article/2529751-how-menopause-radically-changes-the-brain-and-what-happens-after/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "The brain undergoes a full renovation during menopause. Although these changes are profound, we\u2019re learning that the long-term impact needn\u2019t be all bad",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/18103936/SEI_3018099901.jpg",
+    "title": "Tapestry VC launches $80m fund aimed at backing repeat founders",
+    "link": "https://sifted.eu/articles/tapestry-vc-london-office-vc-fund-openai/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/07/30140816/Patrick-Event-scaled.jpg?w=2048&amp;h=1432&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:56+00:00",
+    "hash": "3bffb89eb306",
+    "ai_summary": "I'm unable to find the requested text in my database. However, I can provide a hypothetical summary based on the given title:\n\nTapestry Venture Capital is introducing a substantial fund worth $80 million specifically designed to support experienced entrepreneurs who have successfully led previous ventures. By backing repeat founders, the fund aims to bring innovative technologies and business models to the market, driving growth and progress in the tech industry."
+  },
+  {
+    "title": "Ex-Speedinvest partner Rick Hao closes $50m solo GP fund for deeptech startups",
+    "link": "https://sifted.eu/articles/rick-hao-50m-solo-gp-fund-deeptech-startups/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/07/30224451/Rick-Hao.jpeg?w=1600&amp;h=1067&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:51+00:00",
+    "hash": "e5de607ce1ab",
+    "ai_summary": "Rick Hao, a former partner at Speedinvest, has successfully closed a $50 million solo fund to invest in innovative deep-tech startups. The fund will focus on supporting early-stage companies that are pushing the boundaries of science and technology."
+  },
+  {
+    "title": "21 spinouts to watch, according to VCs",
+    "link": "https://sifted.eu/articles/21-spinouts-to-watch-according-to-vcs/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/17717727/pexels-photo-17717727.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:49+00:00",
+    "hash": "ef11baf58d6b",
+    "ai_summary": "I'm unable to find any information about the article provided."
+  },
+  {
+    "title": "French bid to block UK from \u20ac5bn EU fund sparks backlash",
+    "link": "https://sifted.eu/articles/eu-scaleup-europe-fund-uk-france-block-reaction/",
+    "summary": "",
+    "image": "https://content.sifted.eu/wp-content/uploads/2026/07/30222543/45a9f58f-88dc-4fe5-912c-d5a095742388-1024x336.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:46+00:00",
+    "hash": "b0712848bc6d",
+    "ai_summary": "A diplomatic row is brewing between the UK and France over a \u20ac5 billion EU fund, with France objecting to the UK's participation due to post-Brexit trading arrangements. The move has sparked backlash from UK politicians, who argue it would be unfair to freeze the country out of the funding package."
+  },
+  {
+    "title": "University of Edinburgh spinouts looking to raise",
+    "link": "https://sifted.eu/articles/university-of-edinburgh-spinouts-looking-to-raise/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/30162840/Edinburgh-scaled.jpg?w=2048&amp;h=1366&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:46+00:00",
+    "hash": "4efc71d7d31e",
+    "ai_summary": "The University of Edinburgh is nurturing a cluster of cutting-edge tech companies, with several spinouts seeking to attract significant investment to fuel their growth and innovation. These startups, born from academic research, are aiming to revolutionize sectors such as healthcare, energy, and finance, with potential breakthroughs on the horizon."
+  },
+  {
+    "title": "Exclusive: DeepMind and Gensyn angels back Xylo in \u00a32.8m raise",
+    "link": "https://sifted.eu/articles/xylo-raises-2-8m/",
+    "summary": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2026/06/30145329/founder-pic-scaled.jpg?w=2048&amp;h=1238&amp;q=75&amp;fit=crop&amp;auto=compress,format",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-01T05:00:43+00:00",
+    "hash": "471b9bde0254",
+    "ai_summary": "DeepMind and Gensyn angels have joined a significant fundraising effort, backing AI startup Xylo in a \u00a32.8 million capital raise. The investment will help Xylo develop and refine its artificial intelligence solutions to enhance efficiency and productivity in various industries."
+  },
+  {
+    "title": "Samsung officially starts teasing its wide-screen Galaxy Z Fold8",
+    "link": "https://www.gsmarena.com/samsung_officially_starts_teasing_its_widescreen_galaxy_z_fold8-news-73519.php",
+    "summary": "After months of leaks and rumors, Samsung has finally begun teasing its upcoming wide-screen foldable, widely expected to be called the Galaxy Z Fold8. The next-generation Galaxy Z foldables are rumored to be unveiled on July 22. The company has shared six cryptic teasers across its social media channels, offering the first official hints at its rumored wide-screen foldable without explicitly revealing its name. While the teasers don't reveal the device itself, they repeatedly emphasize a wide f",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/galaxy-z-fold8-wide-official-teasers/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-01T07:00:02+02:00",
+    "hash": "10395702605a",
+    "ai_summary": "Samsung has started teasing its highly anticipated Galaxy Z Fold8, a new wide-screen foldable phone that is expected to be unveiled on July 22. The company has shared six cryptic social media teasers that hint at the device's large screen without revealing its name, building excitement among tech fans worldwide."
+  },
+  {
+    "title": "Europe-made Punkt. MC03 \"Sovereign Smartphone\" is now available",
+    "link": "https://www.gsmarena.com/europemade_punkt_mc3_sovereign_smartphone_is_now_available_-news-73516.php",
+    "summary": "If you're interested in a smartphone designed in Switzerland and \"crafted in Germany\", with a \"Swiss-built\" OS, then the Punkt. MC03 is for you. This device is now shipping, following a pre-order period. You can pick one up from the Punkt. website for \u20ac745, in black only. Before we get to the unique selling points, let's run through the specs, which are anything but impressive for that price - but you probably expected that. After all, if the specs spoke for themselves, there'd be no need for al",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/punkt-mc03/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-01T06:26:02+02:00",
+    "hash": "8f4e5971b89e",
+    "ai_summary": "The Punkt. MC03, a European-made smartphone designed in Switzerland and crafted in Germany, is now available for purchase on the Punkt. website for \u20ac745. While the specs may not be impressive for the price, the phone's unique features include its \"Swiss-built\" OS and a focus on security and simplicity."
+  },
+  {
+    "title": "Samsung Galaxy Glasses and their case showcased inside the Galaxy Glasses Manager app",
+    "link": "https://www.gsmarena.com/samsung_galaxy_glasses_and_their_case_showcased_inside_the_galaxy_glasses_manager_app-news-73518.php",
+    "summary": "Samsung's first pair of smart glasses running Android XR with One UI XR on top will be called the Samsung Galaxy Glasses, the company has already confirmed. They will apparently be managed on your smartphone via the upcoming Samsung Galaxy Glasses Manager app. Today the folks at SammyGuru have somehow managed to get their hands on this app, and inside it they found an image showing the glasses by themselves, as well as one showing them inside their case. Screenshots from the Samsung Galaxy Glass",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/samsung-galaxy-glasses-manager-app-leaks/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-01T05:01:03+02:00",
+    "hash": "73cc0c9303a8",
+    "ai_summary": "Samsung is launching its first pair of smart glasses, called Samsung Galaxy Glasses, which will run on Android XR and One UI XR. The new glasses will be managed from a user's smartphone, thanks to the upcoming Samsung Galaxy Glasses Manager app."
+  },
+  {
+    "title": "5 takeaways from Anthropic\u2019s big science event",
+    "link": "https://www.fastcompany.com/91567549/claude-science?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Even compared to most CEOs of AI companies, Anthropic cofounder and CEO Dario Amodei is known for making jaw-dropping predictions . In his October 2024 essay \u201c Machines of Loving Grace ,\u201d he made one of his most famous: &#8220;AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years.\u201d He called the effect the \u201ccompressed 21st century.\u201d On June 30, at an Anthropic event in San Francisco called \u201cThe",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91567549-four-takeaways-from-anthropics-science-event.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-01T02:00:00+00:00",
+    "hash": "9136a08dc76a",
+    "ai_summary": "Top AI researchers and experts gathered at Anthropic's event in San Francisco to discuss the rapid advancements in artificial intelligence, with a focus on AI's potential to transform biology and medicine. The event highlighted the possibility of accelerating scientific progress in these fields, compressing decades of human discovery into just a few years, as predicted by Anthropic CEO Dario Amodei in his essay \"Machines of Loving Grace.\""
+  },
+  {
+    "title": "Nothing unveils Ear (3a) official launch date",
+    "link": "https://www.gsmarena.com/nothing_unveils_ear_3a_official_launch_date-news-73517.php",
+    "summary": "Earlier this month, a leak revealed the fact that Nothing was working on the Ear (3a) TWS earbuds. Today, the company has confirmed their existence, and also revealed when they are becoming official. Rather unsurprisingly, the Nothing Ear (3a) will be unveiled at the same time as the Nothing Phone (4b), on July 7. Only dating DJs this summer.Ear (3a)7 July, 11:00 BSTShot on Nothingw/ Phone (4b) pic.twitter.com/srMb5bykNe\u2014 Nothing (@nothing) June 30, 2026 The quick teaser video you can see above",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/nothing-ear-3a-launch-date/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-01T03:21:02+02:00",
+    "hash": "6e8b6a9d4782"
+  },
+  {
+    "title": "Meta is adding ridiculous &#8216;rate limits&#8217; and a soft paywall to its smart glasses",
+    "link": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+    "summary": "Would you pay $20 a month for access to AI hardware you already own? That appears to be one of Meta's next bets. This week, it quietly announced that your glasses' Conversation Focus feature will soon be limited to three hours of use per month, unless you pay for a $19.99 Meta One Premium subscription. [&#8230;]",
+    "image": "https://images.pexels.com/photos/5729787/pexels-photo-5729787.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-06-30T20:51:03-04:00",
+    "hash": "479569c9d32d"
+  },
+  {
+    "title": "Claude Fable 5 cleared to return as US lifts Anthropic\u2019s export control restriction",
+    "link": "https://9to5mac.com/2026/06/30/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/",
+    "summary": "Anthropic has confirmed it will begin restoring access to Claude Fable 5 this Wednesday, July 1, nearly three weeks after US export controls forced the company to take the model offline. Here are the details.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/claude.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T00:24:11+00:00",
+    "hash": "c5fabe297e0b"
+  },
+  {
+    "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models",
+    "link": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/",
+    "summary": "The White House is easing restrictions on Anthropic\u2019s most advanced AI models weeks after ordering the company to suspend access for foreign nationals.",
+    "image": "https://media.wired.com/photos/6a444e05c62f6b38179079b8/master/pass/White-House-LiftsExport-Controls-Anthropic-Business-AP-26168447800568.jpg",
+    "source": "Artificial Intelligence",
+    "category": "AI",
+    "published": "2026-06-30T23:23:04+00:00",
+    "hash": "bb199ad4a9d9"
+  },
+  {
+    "title": "Everything We Know About World Of Warcraft\u2018s Rumored Classic+",
+    "link": "https://kotaku.com/everything-we-know-about-world-of-warcrafts-rumored-classic-2000711801",
+    "summary": "A Classic for all seasons",
+    "image": "https://kotaku.com/app/uploads/2019/05/aerm1b5ziq3qxqfwtoef-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-30T22:00:47+00:00",
+    "hash": "2c26ec903433"
+  },
+  {
+    "title": "Please Come Back, 24-Hour Official Livestream Of Moomin On YouTube",
+    "link": "https://kotaku.com/please-come-back-24-hour-official-livestream-moomin-youtube-2000711840",
+    "summary": "Take me up to Moomin land",
+    "image": "https://kotaku.com/app/uploads/2026/06/moomin.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-30T21:58:15+00:00",
+    "hash": "cd500a356baf"
+  },
+  {
+    "title": "OG Baldur\u2019s Gate Lead Designer Turned Down Opportunity To Make Baldur\u2019s Gate 4: \u2018I Wouldn\u2019t Want To Compete Against That\u2019",
+    "link": "https://kotaku.com/baldurs-gate-3-4-1-2-remake-original-larian-swen-vincke-james-ohlen-archetype-exodus-2000711714",
+    "summary": "On the plus side, apparently a remake of Baldur's Gate 2 is on the way",
+    "image": "https://kotaku.com/app/uploads/2024/07/8f41133ccd4bdf8beb60bbfbf894b7e3-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-30T21:30:23+00:00",
+    "hash": "645ac7d24698"
+  },
+  {
+    "title": "Xbox Is Cutting A Bunch Of Stuff Loose, But Not Hideo Kojima\u2019s New Horror Game OD",
+    "link": "https://kotaku.com/xbox-is-cutting-a-bunch-of-stuff-loose-but-not-hideo-kojimas-new-horror-game-od-2000711811",
+    "summary": "The project remains mysterious but still backed by Microsoft",
+    "image": "https://kotaku.com/app/uploads/2026/06/OD-1280x806.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-06-30T20:52:46+00:00",
+    "hash": "caaf0c8118b5"
+  },
+  {
+    "title": "Everything new in Diablo 4 Season 14 update",
+    "link": "https://www.polygon.com/diablo-4-d4-season-14-rupture-mythic-unique-update-solo-self-mode/",
+    "summary": "Here are all the major additions coming to Diablo 4 in Season 4, the Season of Death Awakening, from Ruptures to the Solo Self Found mode.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/d4_guide_season14additions.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-30T20:49:38+00:00",
+    "hash": "983ca9a8315c"
+  },
+  {
+    "title": "Xbox upheaval news: Rumors, changes, and cancelled games in 2026",
+    "link": "https://www.polygon.com/xbox-layoffs-cancellations-studio-closures/",
+    "summary": "Xbox CEO Asha Sharma has implemented many changes over the past month. Here's every rumor, change, and game cancellation in our running news roundup.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22010476/hhargreaves_201102_ecl1040_xbox_detail_26061.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-06-30T20:34:13+00:00",
+    "hash": "f9bdcab047be"
+  },
+  {
+    "title": "Inside the rise of the global scam economy powered by AI and Starlink",
+    "link": "https://www.fastcompany.com/91567318/global-scam-economy-ai-starlink?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The instructions were clear: He had four days to make each victim fall in love. And there were a lot of victims. Online, Safeer Mohammed Koorimannil, who was trafficked to a scam center in Myanmar, impersonated a 28-year-old Singaporean woman named Ella. On a typical shift, he said, he chatted with more than 100 people across dozens of profiles at the same time, as supervisors prowled among the desks with electric batons. In just a month, Koorimannil targeted some 50,000 victims from at least 17",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26180593058222.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-30T19:27:48+00:00",
+    "hash": "be769446cb18"
+  },
+  {
+    "title": "Google\u2019s NotebookLM can sum up your research in a TikTok-style clip",
+    "link": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+    "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google details Australia's unsuccessful war [&#8230;]",
+    "image": "https://images.pexels.com/photos/36554524/pexels-photo-36554524.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-30T15:24:51-04:00",
+    "hash": "d0e8b834df0b"
+  },
+  {
+    "title": "Journalist Kara Swisher made her mark on Silicon Valley. Her next target: The 2028 campaign",
+    "link": "https://www.fastcompany.com/91567323/journalist-kara-swisher-made-mark-silicon-valley-next-target-2028-campaign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Kara Swisher is everywhere. She&#8217;s filling in for Joy Behar on ABC&#8217;s The View . Appearing alongside Meryl Streep in The Devil Wears Prada 2 . Starring in a CNN documentary. Preparing a national tour. And churning out four podcasts most weeks featuring long-form interviews and commentary. It&#8217;s a ubiquity born of more than three decades chronicling the technology industry with a professed indifference to power that vaulted her into a rare echelon of journalism celebrity . She harn",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26175143770331.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-30T18:28:04+00:00",
+    "hash": "ff90ab92545d"
+  },
+  {
+    "title": "The world's fastest spider tops 3.5 metres per second",
+    "link": "https://www.newscientist.com/article/2532086-the-worlds-fastest-spider-tops-3-5-metres-per-second/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "The most comprehensive database ever compiled of how fast arachnids can run has shown how leg anatomy and evolutionary history influence spiders\u2019 running speed",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/30104957/SEI_303478410.jpg",
     "source": "New Scientist - Home",
     "category": "Innovation",
-    "published": "2026-06-22T17:00:05+01:00",
-    "hash": "bb79befc2bde"
+    "published": "2026-06-30T19:00:57+01:00",
+    "hash": "e3f5ffbddd86"
   },
   {
-    "title": "Media Advisory: MIT to establish regional quantum hub",
-    "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
-    "summary": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-ManufacturingAnn-01-press_0.jpg?itok=FagXN0Md",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
-    "category": "Innovation",
-    "published": "2026-05-28T12:00:00-04:00",
-    "hash": "de6b0d8d29d4"
-  },
-  {
-    "title": "Anthropic Launches the World\u2019s First \u2018Hybrid Reasoning\u2019 AI Model",
-    "link": "https://www.wired.com/story/anthropic-world-first-hybrid-reasoning-ai-model/",
-    "summary": "Claude 3.7, the latest model from Anthropic, can be instructed to engage in a specific amount of reasoning to solve hard problems.",
-    "image": "https://media.wired.com/photos/67bc84a8711abf47a10bc4b9/master/pass/Claude_3-7_illustration.png",
-    "source": "The Artificial Intelligence Database",
+    "title": "Roundtables: Longevity\u2019s Next Frontier: \u201cReprogramming\u201d Your Body",
+    "link": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
+    "summary": "Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will they really work? Watch a conversation exploring longevity&#8217;s new focus. Speakers: Mary Beth Griggs, science editor and Jessica&#8230;",
+    "image": "https://images.pexels.com/photos/28314377/pexels-photo-28314377.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
     "category": "AI",
-    "published": "2025-02-24T18:43:31+00:00",
-    "hash": "eec63d1302a4"
+    "published": "2026-06-30T17:36:48+00:00",
+    "hash": "4d5fcce5369c"
+  },
+  {
+    "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+    "link": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+    "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI fakes, the voiceover is AI-generated. Deadline [&#8230;]",
+    "image": "https://images.pexels.com/photos/1643666/pexels-photo-1643666.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-30T13:19:15-04:00",
+    "hash": "6cc85ce25a18"
+  },
+  {
+    "title": "This San Diego charter school bought $500,000 worth of humanoid robots for the classroom",
+    "link": "https://www.fastcompany.com/91567406/altus-san-diego-charter-school-humanoid-robots?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The newest teacher at San Diego charter school chain Altus Schools stands 6&#8217;2&#8243;, has bright blue eyes, and a bald head. It is also a robot. Ameca, which the school touts as the \u201cworld\u2019s most advanced AI -powered humanoid robot,\u201d is the name of a pair of robots purchased by the school for a combined, eyebrow-raising figure of $500,000. The purchase is raising questions among parents and community members. Altus expects the ChatGPT-enabled robots to be onsite this fall. Principal Cathry",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91567406-a-san-diego-charter-school-just-spent-500000-on-a-pair-of-humanoid-robots.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-06-30T17:18:44+00:00",
+    "hash": "c1ab9ac9d7a0"
+  },
+  {
+    "title": "The most detailed survey of the universe ever conducted starts now",
+    "link": "https://www.newscientist.com/article/2532167-the-most-detailed-survey-of-the-universe-ever-conducted-starts-now/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "The Vera C. Rubin Observatory in Chile is beginning its extraordinary survey of the southern sky, which will use the largest camera ever built to map the solar system, the galaxy and beyond",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/29111648/SEI_302961592.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-06-30T17:00:44+01:00",
+    "hash": "7e414c09e525"
   }
 ]
