@@ -1,285 +1,5 @@
 [
   {
-    "title": "Adventure Time: Side Quests is the reboot the franchise desperately needs",
-    "link": "https://www.polygon.com/adventure-time-side-quests-review-interview/",
-    "summary": "Adventure Time: Side Quests is a delightful return to the show's early seasons \u2014 before everything go so dark",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/atsq_377_still_01.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-24T15:00:19+00:00",
-    "hash": "1cea49cb513e",
-    "ai_summary": "The highly anticipated video game \"Adventure Time: Side Quests\" has arrived, bringing a fresh and exciting spin to the beloved franchise by drawing inspiration from its early, lighter seasons. By embracing a more optimistic tone, the game provides a thrilling reboot that fans of the show have been craving."
-  },
-  {
-    "title": "This new tracking label could help solve cargo theft",
-    "link": "https://techcrunch.com/2026/06/24/this-new-tracking-label-could-help-solve-cargo-theft/",
-    "summary": "The Samsara Tracking Label hides a BLE system that can offering real-time location in a disposable package.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/samsara-tracking-label.jpg?resize=1200,900",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T15:00:00+00:00",
-    "hash": "1d562a0184b9",
-    "ai_summary": "A new innovative tracking label, called the Samsara Tracking Label, has been designed to help prevent cargo theft by providing real-time location tracking in a convenient, disposable package. This compact label hides a Bluetooth Low Energy (BLE) system that can track shipments and potentially reduce the risk of valuable cargo going missing or being stolen."
-  },
-  {
-    "title": "OpenAI unveils its first custom chip, built by Broadcom",
-    "link": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-    "summary": "Named Jalape\u00f1o, the new processor was designed specifically for the unique needs of OpenAI's inference systems.",
-    "image": "https://techcrunch.com/wp-content/uploads/2018/02/tc-backlight-e1689786273147.png?w=1200",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T14:54:46+00:00",
-    "hash": "81b0c390996d",
-    "ai_summary": "OpenAI has released its first custom chip, called Jalape\u00f1o, specifically designed for its artificial intelligence inference systems. Developed in partnership with industry leader Broadcom, Jalape\u00f1o is engineered to optimize performance for OpenAI's complex AI applications."
-  },
-  {
-    "title": "Star Fox Reviews Say The Remake Of An N64 Classic Sticks The Landing, But Just Barely",
-    "link": "https://kotaku.com/star-fox-reviews-say-the-remake-of-an-n64-classic-sticks-the-landing-but-just-barely-2000709962",
-    "summary": "The Switch 2 overhaul apparently doesn't redefine an all-time great",
-    "image": "https://kotaku.com/app/uploads/2026/06/fox.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-24T14:52:32+00:00",
-    "hash": "9e41d5ddee2e",
-    "ai_summary": "The remade Star Fox game for the Switch has received positive reviews, with players and critics agreeing it's a solid recreation of the classic N64 game, but its innovations feel relatively minor. While it doesn't necessarily redefine the iconic title, the updated graphics, controls, and multiplayer features make it a worthwhile revisit for fans of the original."
-  },
-  {
-    "title": "Pokemon TCG Pocket's new expansion Everyday Wonders announced",
-    "link": "https://www.polygon.com/pokemon-tcg-pocket-everyday-wonders-expansion-release-date/",
-    "summary": "The mobile TCG's next expansion is themed around particularly adorable Pokemon.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/poke-mon-tcg-pocket_-everyday-wonders-_-official-trailer-1-3-screenshot.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-24T14:50:28+00:00",
-    "hash": "6678587c7226",
-    "ai_summary": "Pok\u00e9mon TCG Pocket's new expansion, titled \"Everyday Wonders,\" is a sweet addition to the popular mobile game, featuring endearing characters from the Pok\u00e9mon universe. Fans can look forward to discovering adorable Pok\u00e9mon and new gameplay elements that will make the digital trading card experience even more enchanting."
-  },
-  {
-    "title": "iPhone 18 Pro might cost less than expected, per report",
-    "link": "https://9to5mac.com/2026/06/24/iphone-18-pro-might-cost-less-than-expected-per-report/",
-    "summary": "Apple CEO Tim Cook recently said that \u201cprice increases are unavoidable,\u201d but a new analyst report offers good news for prospective iPhone 18 Pro buyers.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/iphone-17-pro-silver-silent-action-button.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-24T14:37:21+00:00",
-    "hash": "54213b785e95",
-    "ai_summary": "A recent analyst report suggests that the highly-anticipated iPhone 18 Pro may have a lower price point than expected, despite Apple's CEO warning of unavoidable cost increases. This news could be a relief for tech enthusiasts eyeing the device, although final pricing details have yet to be officially confirmed."
-  },
-  {
-    "title": "The Mighty Nein season 2 first look shows off Fjord's dark pact",
-    "link": "https://www.polygon.com/mighty-nein-season-2-first-look-annecy/",
-    "summary": "The party shows off all their capabilities in a battle against goblins",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/10/mnei_s1_fg_102_00285501_still540.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-24T14:35:56+00:00",
-    "hash": "4415a29a2ccd",
-    "ai_summary": "The highly anticipated season 2 of The Mighty Nein is upon us, and the latest trailer gives us a sneak peek into the group's intense battle against a swarm of goblins. With Fjord's mysterious powers taking center stage, it's looking like the party will have to work together in order to emerge victorious from this grueling fight."
-  },
-  {
-    "title": "This year\u2019s Prime Day deals on Apple products are the best I\u2019ve seen",
-    "link": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
-    "summary": "Amazon&#8217;s Prime Day is now in its second day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there\u2019s a good chance you\u2019ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Tim [&#8230;]",
-    "image": "https://images.pexels.com/photos/39578/imac-ipad-computer-tablet-39578.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-24T10:33:05-04:00",
-    "hash": "6fda82753420",
-    "ai_summary": "Amazon's second day of Prime Day is offering some outstanding deals on Apple products, with discounts on popular items like the AirPods Pro 3, now available for $179. Additionally, the Apple Watch Series 11 has seen a significant price drop, making it an exciting time for those looking to upgrade their tech."
-  },
-  {
-    "title": "Will GTA 6 have GTA Online? Here's everything we know so far",
-    "link": "https://www.polygon.com/gta-online-gta-6-release-new/",
-    "summary": "Thanks to a recent leak, we have a clearer picture about what Rockstar Games may have planned for the online future of GTA Online",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/vintage_vice_city_pack_02.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-24T14:30:59+00:00",
-    "hash": "b9c53c8958f8",
-    "ai_summary": "A recent leak has shed new light on the possibility of a revamped GTA Online mode for the highly anticipated Grand Theft Auto 6 game. Details suggest that Rockstar Games may be overhauling the multiplayer experience with innovative features and a more immersive online environment."
-  },
-  {
-    "title": "Honor said to be developing a phone with a massive 14,000mAh battery",
-    "link": "https://www.gsmarena.com/honor_said_to_be_developing_a_phone_with_a_massive_14000mah_battery-news-73415.php",
-    "summary": "Honor recently unveiled the X80 Pro Max in China with an 11,000mAh battery, the largest ever in one of its smartphones. However, a new leak suggests the company is already working on another handset that could pack an even bigger battery. According to well-known tipster Digital Chat Station, Honor is testing a new device with a massive 14,000mAh battery. While the tipster didn't mention the brand by name, the emoji used in the post is commonly associated with Honor. The device is reportedly in t",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/honor-phone-14000mah-battery-leak/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-24T16:30:04+02:00",
-    "hash": "3f48d1d11253",
-    "ai_summary": "Honor is rumored to be developing a new smartphone that boasts a record-breaking 14,000mAh battery, which would be even larger than the 11,000mAh battery of its recently unveiled X80 Pro Max model. The phone is currently in testing, but no official release date or specifications have been announced by the company."
-  },
-  {
-    "title": "What to do if your iPhone is stolen \u2013 more detailed advice from Apple",
-    "link": "https://9to5mac.com/2026/06/24/what-to-do-if-your-iphone-is-stolen-more-detailed-advice-from-apple/",
-    "summary": "Apple has a support page explaining what to do if your iPhone is stolen, and it has now updated this page with more detailed advice. This includes a new section warning of potential scams and advising against entering contact details to display on the stolen device \u2026",
-    "image": "https://images.pexels.com/photos/5741912/pexels-photo-5741912.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-24T14:23:45+00:00",
-    "hash": "ba54e5180374"
-  },
-  {
-    "title": "Forget The Heists, I Can\u2019t Wait To Spend Hours Dressing Up GTA 6\u2032s Protagonists",
-    "link": "https://kotaku.com/gta-6-dress-up-simulator-2000710085",
-    "summary": "This is just Infinity Nikki with extra steps",
-    "image": "https://kotaku.com/app/uploads/2026/06/ULTIMATE_EDITION_VICE_CITY_STYLE_03-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-24T14:08:40+00:00",
-    "hash": "50c3928bab3e"
-  },
-  {
-    "title": "Here\u2019s everything new for Apple Calendar in iOS 27",
-    "link": "https://9to5mac.com/2026/06/24/heres-everything-new-for-apple-calendar-in-ios-27/",
-    "summary": "iOS 27 is packed with new features for Apple Wallet , Messages , Notes , and other system apps\u2014including Calendar. Here\u2019s everything new for Apple\u2019s Calendar app in iOS 27.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-calendar-app-icon-ios-27.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-24T14:06:43+00:00",
-    "hash": "ed80bd03cab8"
-  },
-  {
-    "title": "Philips Hue\u2019s smart lights are getting a connectivity upgrade",
-    "link": "https://www.theverge.com/tech/955767/philips-hue-thread-matter-zigbee-update-silicon-labs",
-    "summary": "Philips Hue has announced a connectivity upgrade for its Matter-over-Thread-enabled smart bulbs that will allow them to run both Thread and Zigbee at the same time. The change means you can connect compatible Hue bulbs and fixtures directly to a Matter ecosystem - Apple Home, Amazon Alexa, or Google Home - while keeping them linked [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/8A0A4076.jpeg?quality=90&amp;strip=all&amp;crop=0%2C10.725720694284%2C100%2C78.548558611432&amp;w=1200",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-24T10:06:10-04:00",
-    "hash": "c6aec27dba0a"
-  },
-  {
-    "title": "If you want to cut your screen time, just get a Brick",
-    "link": "https://techcrunch.com/2026/06/24/if-you-want-to-cut-your-screen-time-just-get-a-brick/",
-    "summary": "After years of struggling to curb my screen time, apparently all I needed was a $59 hunk of plastic.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/IMG_8271.jpg?resize=1200,900",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T14:01:35+00:00",
-    "hash": "229adfe5a096"
-  },
-  {
-    "title": "3 days left to save up to $190 on your TechCrunch Founder Summit 2026 pass",
-    "link": "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
-    "summary": "You have just 3 days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 before Early Bird rates end on June 26 at 11:59 p.m. PT. Register here.",
-    "image": "https://images.pexels.com/photos/11899615/pexels-photo-11899615.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T14:00:00+00:00",
-    "hash": "e43033399812"
-  },
-  {
-    "title": "Valor Equity Partners looks to raise a $2.5B Fund VII, per Bloomberg",
-    "link": "https://techcrunch.com/2026/06/24/valor-equity-partners-looks-to-raise-a-2-5b-fund-vii-per-bloomberg/",
-    "summary": "New details have emerged about Valor's latest fund, which last year announced it was raising an unspecified amount of capital.",
-    "image": "https://images.pexels.com/photos/5833775/pexels-photo-5833775.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T13:58:14+00:00",
-    "hash": "154c7d980450"
-  },
-  {
-    "title": "The Google Home Speaker sounds good and looks great \u2014 but it\u2019s finicky",
-    "link": "https://www.theverge.com/gadgets/955537/google-home-smart-speaker-hands-on",
-    "summary": "Right out of the box, the new Google Home Speaker passed a couple of important tests. Even with the volume at 100 percent and music blaring out of the speaker, it quickly ducked the audio and listened every time I said \"Hey, Google.\" In fact, in two days of testing, the speaker's three microphones haven't [&#8230;]",
-    "image": "https://images.pexels.com/photos/36326800/pexels-photo-36326800.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-24T09:00:00-04:00",
-    "hash": "66eb05f80b7a"
-  },
-  {
-    "title": "This startup is using AI to close gaps in women\u2019s healthcare",
-    "link": "https://www.fastcompany.com/91562136/xella-health-using-ai-to-close-gaps-in-womens-health-care?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "When Kelly Lacob was 14 years old, her mother was diagnosed with ovarian cancer. After 14 years in remission, the cancer returned during Lacob\u2019s first year at Stanford Graduate School of Business. She graduated and moved home to care for her mother full time, becoming her primary caregiver. The experience gave her a close view of the gaps in women\u2019s health care. \u201cEven when we have access to great quality healthcare, we still have so many questions of what should we be asking the doctor,\u201d says La",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91562136-Tech-New-health-platform-to-help-womens-medical-mistreatment.-Introducing-Xella-Health.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-24T13:00:00+00:00",
-    "hash": "ccdff97d65b6"
-  },
-  {
-    "title": "Most businesses are measuring AI wrong, and it\u2019s costing them",
-    "link": "https://www.fastcompany.com/91555955/most-businesses-are-measuring-ai-wrong-and-its-costing-them-ai-tokens-strategy?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Amazon just shut down its AI leaderboard tracking internal token usage. The gamification was driving more AI-powered tasks but fewer useful results. \u201cPlease don&#8217;t use AI just for the sake of using AI,&#8221; the Amazon SVP instructed his staff. Amazon is not alone. Uber blew past its 2026 artificial intelligence coding budget in just four months. Google&#8217;s CEO, Sundar Pichai, revealed that the company\u2019s token usage has grown sevenfold in a year. Many companies including Meta, Microsof",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91555955-Tech-Most-businesses-are-measuring-AI-wrong-and-its-costing-them.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-24T12:40:00+00:00",
-    "hash": "7c635b95eaa6"
-  },
-  {
-    "title": "Slate Auto\u2019s radically simple electric truck starts at $24,950",
-    "link": "https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
-    "summary": "The Jeff Bezos-backed startup finally revealed more pricing details for its debut EV, including a $29,950 starting price for the SUV variant, and boosted the base range to 205 miles.",
-    "image": "https://images.pexels.com/photos/5126829/pexels-photo-5126829.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-24T12:33:34+00:00",
-    "hash": "a99b0415b6cf"
-  },
-  {
-    "title": "The Download: introducing the Engineering issue",
-    "link": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Engineering issue We can\u2019t fix everything, but we can be ambitious. We can take on the challenge of making the world better through human ingenuity. That\u2019s what the new&#8230;",
-    "image": "https://images.pexels.com/photos/8961146/pexels-photo-8961146.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T12:10:00+00:00",
-    "hash": "03a5471de308"
-  },
-  {
-    "title": "Stripe, Anthropic and OpenAI are backing an effort to stop respiratory infections",
-    "link": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
-    "summary": "The common cold comes for us all\u2014often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now, the payment company Stripe, founded by brothers Patrick and John Collison, says it will fund a new&#8230;",
-    "image": "https://images.pexels.com/photos/16689017/pexels-photo-16689017.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T12:00:00+00:00",
-    "hash": "1485708e7cee"
-  },
-  {
-    "title": "The emergence of the web data infrastructure layer for AI",
-    "link": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-    "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology\u2019s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundation of the web itself. The web was not designed&#8230;",
-    "image": "https://images.pexels.com/photos/30547569/pexels-photo-30547569.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T11:59:54+00:00",
-    "hash": "3ae1b77295ad"
-  },
-  {
-    "title": "Hidden black hole could explain mystery at the heart of our galaxy",
-    "link": "https://www.newscientist.com/article/2531455-hidden-black-hole-could-explain-mystery-at-the-heart-of-our-galaxy/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-    "summary": "The area surrounding our galaxy\u2019s central supermassive black hole contains three strangely different populations of stars \u2013 but one hidden black hole could explain all of them",
-    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/24101320/SEI_302520049.jpg",
-    "source": "New Scientist - Home",
-    "category": "Innovation",
-    "published": "2026-06-24T12:00:33+01:00",
-    "hash": "8ef5f83b526e"
-  },
-  {
-    "title": "This flying solar-powered platform could deliver better internet from the air",
-    "link": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
-    "summary": "As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan.&#160; Once there, the roughly 200-foot-long craft, built by the New Mexico\u2013based company Sceye, will park some 18 kilometers above the ocean\u2019s surface, in a wispy-thin&#8230;",
-    "image": "https://images.pexels.com/photos/9799709/pexels-photo-9799709.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T09:00:00+00:00",
-    "hash": "b078c8f379a6"
-  },
-  {
-    "title": "Can we trust scientific images in the era of AI?",
-    "link": "https://www.fastcompany.com/91563036/can-we-trust-scientific-images-ai-era?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "A photograph of Earth glowing in deep space, the moon\u2019s cratered horizon stretching across its foreground, caught many people\u2019s eyes in April 2026. Astronauts captured the image while aboard NASA\u2019s Artemis II mission, and like the famous Apollo 8 \u201cEarthrise\u201d image , the picture felt instantly real and inspiring for many. But when almost anyone can fabricate a visually similar image in seconds from a text prompt using artificial intelligence , how do people decide which image is real? The prolife",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91563036-fake-ai-scientific-images-are-hurting-health-care-trust.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-06-24T08:30:00+00:00",
-    "hash": "75f3a553b156"
-  },
-  {
     "title": "Here's when the Samsung Galaxy Z Fold8, Fold8 Ultra, and Flip8 might go on sale",
     "link": "https://www.gsmarena.com/samsung_galaxy_z_fold8_fold8_ultra_flip8_europe_sale_date-news-73430.php",
     "summary": "The Samsung Galaxy Z Fold8 (Wide), Galaxy Z Fold8 Ultra, and Galaxy Z Flip8 are rumored to be unveiled on July 22 at an event in London. If Samsung indeed unveils these foldables on that day, their sales could begin in early August. There's no word from Samsung yet on the unveiling or sale date for these phones, but if Latvian e-commerce platform PriceBee is to be believed, the Galaxy Z Fold8 will be available starting August 5. At least in Europe. Samsung Galaxy Z Fold8's listing on PriceBee Al",
@@ -548,26 +268,6 @@
     "category": "AI",
     "published": "2026-06-24T15:25:28+00:00",
     "hash": "4e6c2e54916a"
-  },
-  {
-    "title": "OpenAI reveals its first AI processor: Jalape\u00f1o",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-    "summary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI [&#8230;]",
-    "image": "https://images.pexels.com/photos/15863044/pexels-photo-15863044.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-24T10:36:47-04:00",
-    "hash": "f02c0ff80062"
-  },
-  {
-    "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
-    "link": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
-    "summary": "The common cold comes for us all\u2014often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now the payment company Stripe, founded by brothers Patrick and John Collison, says it will fund a new&#8230;",
-    "image": "https://images.pexels.com/photos/6292/blue-pattern-texture-macro.jpg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T12:00:00+00:00",
-    "hash": "1ebf966e862f"
   },
   {
     "title": "How to use the lighthouse beam to reveal rare chests in Fortnite",
@@ -848,16 +548,6 @@
     "category": "Innovation",
     "published": "2026-06-25T08:30:00+00:00",
     "hash": "c728144ef98c"
-  },
-  {
-    "title": "All challenges big and small",
-    "link": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
-    "summary": "When I was 18, I skipped my high school graduation and headed to Kuwait. It was 1991, the first Gulf War had just ended, and the country was in complete chaos. There was little to no electricity, aside from generator power. Rubble and unexploded ordnance were everywhere. Massive oil fires lit up the desert and&#8230;",
-    "image": "https://images.pexels.com/photos/32417527/pexels-photo-32417527.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-06-24T09:00:00+00:00",
-    "hash": "243ad96fbb8b"
   },
   {
     "title": "9to5Mac Daily: June 26, 2026 \u2013 Apple announces significant price increases",
@@ -3618,5 +3308,305 @@
     "category": "Innovation",
     "published": "2026-06-30T17:00:44+01:00",
     "hash": "7e414c09e525"
+  },
+  {
+    "title": "Why delivering on infrastructure projects requires a broad approach",
+    "link": "https://www.siliconrepublic.com/people/delivering-infrastructure-projects-modern-traditional-approach-accenture",
+    "summary": "Accenture\u2019s Paraic Rattigan explores his role as an infrastructure and capital projects manager in a space that looks vastly different to when he first started out. Read more: Why delivering on infrastructure projects requires a broad approach",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/07/Paraic-Rattigan-Image-330x251.png",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-07-01T15:00:24+00:00",
+    "hash": "b0d54897a174",
+    "ai_summary": "Infrastructure projects, once straightforward affairs, have become increasingly complex, requiring a holistic approach that brings together multiple stakeholders and technologies. As Accenture's Paraic Rattigan highlights, a broad perspective is essential for delivering these projects successfully in today's dynamic environment."
+  },
+  {
+    "title": "Pok\u00e9mon TCG Pocket's Everyday Wonders pack is the most boring booster in months",
+    "link": "https://www.polygon.com/pokmon-tcg-pocket-everyday-wonders-opinion/",
+    "summary": "After a strong few months of updates, Pok\u00e9mon TCG Pocket's new Everyday Wonders pack is unusually dull.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/pokemon-tcg-pocket-quagsire.JPG",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-01T15:00:19+00:00",
+    "hash": "638ace1a7609",
+    "ai_summary": "Pok\u00e9mon fans eagerly await new booster packs, but the Everyday Wonders pack has let down enthusiasts with its lack of excitement. Despite recent strong updates, this latest release has fallen flat, leaving many feeling underwhelmed with the cards it offers."
+  },
+  {
+    "title": "Mario Kart World gets two new Knockout Tour routes and a new Photo Mode feature in latest update",
+    "link": "https://www.eurogamer.net/mario-kart-world-new-knockout-tour-routes-ver-1-7-0",
+    "summary": "Nintendo just released a new update for Mario Kart World on Switch 2 that added some fresh races alongside other features. The update, version 1.7.0, chiefly expands the number of available Knockout Tour routes with the addition of Drill Rally and Boomerang Rally. Read more",
+    "image": "https://images.pexels.com/photos/34430785/pexels-photo-34430785.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-07-01T14:57:56+00:00",
+    "hash": "bcec32729496",
+    "ai_summary": "Nintendo has released an update for Mario Kart World on Switch 2, adding two exciting new routes to the game's Knockout Tour: Drill Rally and Boomerang Rally. This update also brings a new Photo Mode, allowing players to capture and customize their racing memories."
+  },
+  {
+    "title": "Anthropic launches Claude Science app for researchers and scientists",
+    "link": "https://www.siliconrepublic.com/machines/anthropic-launches-claude-science-app-for-researchers-and-scientists-ai",
+    "summary": "The company said it wanted to remove the tedious procedural aspects inherent to scientific research by uniting fragmented tools, resources, file formats and databases. Read more: Anthropic launches Claude Science app for researchers and scientists",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/07/AnthropicClaudeLaptop-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-07-01T14:57:49+00:00",
+    "hash": "3b736f30ca33",
+    "ai_summary": "Anthropic has introduced the Claude Science app, a tool designed to streamline scientific research by integrating fragmented tools, resources, and databases. The app aims to simplify the process of scientific research, allowing researchers and scientists to focus on their work without getting bogged down in tedious procedural tasks."
+  },
+  {
+    "title": "Dutch cybersecurity startup Dawnguard lands \u20ac2.8 million for AI-native security architecture automation",
+    "link": "https://www.eu-startups.com/2026/07/dutch-cybersecurity-startup-dawnguard-lands-e2-8-million-for-ai-native-security-architecture-automation/",
+    "summary": "Amsterdam-based cybersecurity startup Dawnguard has announced the public launch of its security architecture automation platform, alongside an additional \u20ac2.8 million ($3.3 million) in pre-Seed funding. The round came from existing investor BNVT Capital in the UK, with new participation from Curiosity VC in the Netherlands and eCAPITAL in Germany. According to the company, the fresh [&#8230;] The post Dutch cybersecurity startup Dawnguard lands \u20ac2.8 million for AI-native security architecture au",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/07/Dawnguard1.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-07-01T14:44:45+00:00",
+    "hash": "9a8ba8758ae6",
+    "ai_summary": "Dutch cybersecurity startup Dawnguard has launched its security architecture automation platform, designed to utilize AI technology for enhanced protection. Backed by a \u20ac2.8 million investment from top European venture capitalists, Dawnguard aims to revolutionize the cybersecurity industry with its innovative approach to security architecture automation."
+  },
+  {
+    "title": "Good timing? Tomb Raider: Definitive Edition is getting a physical Switch 2 release from Limited Run Games",
+    "link": "https://www.eurogamer.net/tomb-raider-definitive-edition-physical-switch-2-version",
+    "summary": "Last year's Tomb Raider (2013) Nintendo Switch 1/2 port didn't get off to a smooth start, with some long-time fans declaring it a subpar refresh of the modern action-adventure classic. Over time, however, Aspyr has whipped it into shape . Now, a true physical release for Switch 2 is coming from Limited Run Games , though it's a pricey one. Read more",
+    "image": "https://assetsio.gnwcdn.com/TRDE-Screenshot-5.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-07-01T14:39:44+00:00",
+    "hash": "c44886c7395c",
+    "ai_summary": "After some initial issues, a physical release of the classic 2013 Tomb Raider game is finally coming to the Nintendo Switch, but with some caveats - it's exclusive to the Switch 2 model and comes with a higher price tag. The updated version, courtesy of Limited Run Games, promises an enhanced experience for fans of the beloved action-adventure game."
+  },
+  {
+    "title": "iPhone 17 Pro just got an exclusive new pro-focused camera feature",
+    "link": "https://9to5mac.com/2026/07/01/iphone-17-pro-just-got-an-exclusive-new-pro-focused-camera-feature/",
+    "summary": "Yesterday Apple updated its \u2018pro\u2019 camera app, Final Cut Camera, with a new feature that\u2019s exclusive to iPhone 17 Pro. Here are the details.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-17-pro-cosmic-orange-cameras-angle.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T14:37:49+00:00",
+    "hash": "ebafab5a8365",
+    "ai_summary": "Apple has released a new update for its Final Cut Camera app, which now offers a pro-focused camera feature exclusively for iPhone 17 Pro users. This updated feature is designed to enhance the camera capabilities of the iPhone 17 Pro, giving users more creative control and flexibility."
+  },
+  {
+    "title": "LLMs are stuck in a groupthink rut. This startup is trying to get them out.",
+    "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+    "summary": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to get 7. Almost always. Now type \u201cAnother\u201d and you\u2019ll get 3 or 4. Type \u201cAnother\u201d again and you\u2019ll get 8 or 9. That won\u2019t work every time\u2014but if it&#8230;",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260626_LLMhallucinations.jpg?resize=1200,600",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-07-01T14:35:16+00:00",
+    "hash": "6e581cd829f4",
+    "ai_summary": "Researchers have found that many large language models (LLMs) like chatbots often provide similar answers when asked the same question repeatedly, due to a phenomenon known as \"groupthink.\" A startup is working to break this pattern and create more diverse and original responses by challenging the way LLMs process and generate information."
+  },
+  {
+    "title": "The Big Subnautica 2 Legal Drama Has Finally Been Settled And The CEO Who Was Originally Fired Is Now Leaving Voluntarily",
+    "link": "https://kotaku.com/the-big-subnautica-2-legal-drama-has-finally-been-settled-and-the-ceo-who-was-originally-fired-is-now-leaving-voluntarily-2000711969",
+    "summary": "Krafton and Unknown Worlds have finally settled the dispute over the underwater survival sim",
+    "image": "https://kotaku.com/app/uploads/2025/07/c6fe2ac031e2e4dc16c414acdd1c7662-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-01T14:34:15+00:00",
+    "hash": "4d2eaf49fc06",
+    "ai_summary": "After a lengthy and public dispute, the game development companies Krafton and Unknown Worlds have reached a settlement over the rights to the popular survival game, Subnautica. As a result of the settlement, Unknown Worlds' CEO, Charlie Cleveland, has announced his decision to leave the company, putting an end to a saga that captivated gamers and industry insiders alike."
+  },
+  {
+    "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+    "link": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+    "summary": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/gpt-steady-v3.png?w=768",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-01T14:25:23+00:00",
+    "hash": "bdaf2043ed7a",
+    "ai_summary": "Venice AI, a pioneering AI platform that prioritizes user privacy, has achieved unicorn status with a massive $65 million funding round, solidifying its position in the tech industry. Already ahead of the curve, Venice AI boasts an impressive annualized run-rate revenue of over $70 million, indicating a thriving business model."
+  },
+  {
+    "title": "PlayStation 6, Project Helix Will Almost Certainly Be Digital-Only, Launch in 2028, Analysts Say",
+    "link": "https://kotaku.com/playstation-6-project-helix-digital-only-analysts-2000711964",
+    "summary": "Sony's discontinuation of physical discs in 2028 means there's no point anymore in a console that can read them",
+    "image": "https://kotaku.com/app/uploads/2026/07/image-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-01T14:22:33+00:00",
+    "hash": "e63996c5ffc8"
+  },
+  {
+    "title": "Gemini Spark, Google\u2019s agentic assistant, is now available on Mac",
+    "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+    "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-01-at-10.00.27-AM.jpg?resize=1200,611",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-01T14:20:19+00:00",
+    "hash": "d2aea1e52b45"
+  },
+  {
+    "title": "Sony to end physical PlayStation game disc production in 2028",
+    "link": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/",
+    "summary": "Sony will stop producing physical discs for all new PlayStation games beginning in 2028, as the company embraces an all-digital future.",
+    "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1240552670.jpg?resize=1200,798",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-01T14:16:32+00:00",
+    "hash": "be68cd8d439d"
+  },
+  {
+    "title": "iOS 26.6 release date: Here\u2019s when the new iPhone update is coming",
+    "link": "https://9to5mac.com/2026/07/01/ios-26-6-release-date-heres-when-the-new-iphone-update-is-coming/",
+    "summary": "iOS 26.5.2 released this week , but another iPhone software update will be here soon. Here\u2019s when to expect iOS 26.6 to launch to all users.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/iOS-26.6-when.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T14:02:00+00:00",
+    "hash": "378147ebda84"
+  },
+  {
+    "title": "Star Ocean changed the game for RPGs, 30 years ago this month",
+    "link": "https://www.polygon.com/star-ocean-30th-anniversary/",
+    "summary": "We shouldn't forget how the genre was changed by one really great idea at the right time.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24162687/star_ocean_divine_force_review.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-01T14:00:19+00:00",
+    "hash": "5cb641ca41e5"
+  },
+  {
+    "title": "Autodesk CMO Dara Treseder says the best marketers will know when not to use AI",
+    "link": "https://www.fastcompany.com/91567691/autodesk-cmo-dara-treseder-says-the-best-marketers-will-know-when-not-to-use-ai?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Every year at Cannes Lions, the advertising world takes stock of itself\u2014what&#8217;s working, what&#8217;s not, and what it&#8217;s pretending not to notice. Autodesk CMO Dara Treseder breaks down the industry&#8217;s complicated relationship with AI ; weighs in on the hottest and most overrated campaigns of the year, including sharp takes on Nike, Adidas, and Starbucks; and explains why the path from CMO to CEO is suddenly the most interesting career move in business. This is an abridged transc",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91567691-autodesk-cmo-dara-treseder-says-the-best-marketers-will-know-when-not-to-use-ai.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-01T14:00:00+00:00",
+    "hash": "38f35af40399"
+  },
+  {
+    "title": "Samsung Galaxy A27 in for review",
+    "link": "https://www.gsmarena.com/samsung_galaxy_a27_in_for_review-news-73527.php",
+    "summary": "Samsung recently began selling the new Galaxy A27 in the US, Europe and India, and here's the roundup of what changed compared to its predecessor. The display now has a punch hole notch, instead of a teardrop; while the SoC is the 4nm Snapdragon 6 Gen 3 (replacing the 5nm Exynos 1380), and you've got 6 or 8 gigs of RAM (no more 4GB option). However, the ultrawide is worse on paper with its 5MP sensor (vs 8MP), and the phone has downgraded the Galaxy A26's IP67 to splash only IP64. The battery ca",
+    "image": "https://images.pexels.com/photos/4554696/pexels-photo-4554696.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-01T15:47:02+02:00",
+    "hash": "1db468269c51"
+  },
+  {
+    "title": "iPhone 18 Pro to offer only these three colors, per leaker",
+    "link": "https://9to5mac.com/2026/07/01/iphone-18-pro-to-offer-only-these-three-colors-per-leaker/",
+    "summary": "iPhone 18 Pro is just a couple months away from launching, and more details on the new product keep leaking\u2014including colors. Here are the three new iPhone 18 Pro colors according to leaker Instant Digital.",
+    "image": "https://images.pexels.com/photos/7068406/pexels-photo-7068406.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T13:40:09+00:00",
+    "hash": "2275f4489fac"
+  },
+  {
+    "title": "Apple Hide My Email bug seemingly allows 100% of real email addresses to be discovered",
+    "link": "https://9to5mac.com/2026/07/01/apple-hide-my-email-bug-seemingly-allows-100-of-real-email-addresses-to-be-discovered/",
+    "summary": "A privacy flaw in Apple\u2019s Hide My Email feature means that your real email address can be discovered. A security researcher said that tests found 100% of generated addresses allowed an attacker to reveal the real email associated with the Apple account . Tyler Murphy said that he discovered and reported the issue to Apple more than a year ago, but it still hasn\u2019t been fixed, and he has now made the decision to go public \u2026",
+    "image": "https://images.pexels.com/photos/5426403/pexels-photo-5426403.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T13:24:15+00:00",
+    "hash": "171c03579199"
+  },
+  {
+    "title": "Jamf launches Beacon premium threat hunting service for enterprise Mac fleets",
+    "link": "https://9to5mac.com/2026/07/01/jamf-launches-beacon-premium-threat-hunting-service-for-enterprise-mac-fleets/",
+    "summary": "While Apple provides a strong security foundation in macOS, some enterprise security teams lack the tools needed to monitor and investigate advanced threats engineered specifically for Apple environments. Aiming to address that need, Jamf announced the general availability of Beacon by Jamf Threat Labs , a new premium threat hunting and analysis service.",
+    "image": "https://images.pexels.com/photos/10519954/pexels-photo-10519954.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-01T13:00:00+00:00",
+    "hash": "1d39bf121445"
+  },
+  {
+    "title": "Google built a great smart speaker, but Gemini isn\u2019t ready for it",
+    "link": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+    "summary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's finally Google's turn. [&#8230;]",
+    "image": "https://images.pexels.com/photos/13628541/pexels-photo-13628541.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-07-01T08:00:00-04:00",
+    "hash": "f0c733b9c0b7"
+  },
+  {
+    "title": "Nvidia says it can cut data center water use. The AI boom has a bigger problem",
+    "link": "https://www.fastcompany.com/91563944/nvidia-says-it-can-cut-data-center-water-use-the-ai-boom-has-a-bigger-problem?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Data centers, in case you haven\u2019t heard, have a water problem . As AI companies race to build the massive computing facilities needed to train and run powerful models, the water required to cool those facilities has become a flashpoint for communities, utilities, and environmental critics. According to reporting by the Environmental and Energy Study Institute (EESI), a large data center can use up to 5 million gallons of water per day, roughly as much as a town with tens of thousands of resident",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91563944-nvidias-new-data-center-doesnt-really-solve-the-ai-water-crisis.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-01T12:00:00+00:00",
+    "hash": "fbe1da1b2590"
+  },
+  {
+    "title": "Inside the $9 billion Texas startup building a drone armada for the U.S. Navy",
+    "link": "https://www.fastcompany.com/91549054/saronic-navy-drone-boat-unmanned-surface-vessels?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "It was September 2022, and Dino Mavrookas was trying to build the future of U.S. naval power atop an $800 dinghy. A former Navy SEAL turned tech investor, Mavrookas had recently launched the startup Saronic Technologies with a vision for shoring up America\u2019s defenses: cheap, fast autonomous boats that could be commanded in swarms, armed with sensors and weapons, and manufactured at factory scale. But first, he and his team, veterans of SpaceX and Anduril , needed a prototype. So they bought a ra",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-2-91549054-autonomy-saronic-drones.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-01T11:00:00+00:00",
+    "hash": "97152c613dd5"
+  },
+  {
+    "title": "The best new science-fiction novels published in July 2026",
+    "link": "https://www.newscientist.com/article/2532492-the-best-new-science-fiction-novels-published-in-july-2026/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Sci-fi fans can enjoy a new Red Dwarf novel \u2013 the first for 30 years \u2013 this month, as well as sci-fi horror from Paul Tremblay and a journey to Planet Happy with Riley August",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/07/01093626/sei303474943.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-07-01T11:00:48+01:00",
+    "hash": "43ad74750b1a"
+  },
+  {
+    "title": "How to avoid AI in as many places as possible",
+    "link": "https://www.fastcompany.com/91566861/how-to-avoid-ai-in-as-many-places-as-possible?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "It&#8217;s not easy wanting nothing to do with AI these days. As a tech advice journalist, I&#8217;ve heard from plenty of folks who were perfectly happy with how their apps and operating systems worked before the artificial intelligence boom. They&#8217;re not interested in AI-generated search answers, summarization buttons, and offers to help them write, yet it&#8217;s not always clear how to turn these features off. But if you&#8217;re willing to jump through some hoops\u2014or, perhaps, to adopt",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91566861-how-to-avoid-AI-as-much-as-possible.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-01T10:00:00+00:00",
+    "hash": "6cfe54eefcf9"
+  },
+  {
+    "title": "Slowdown of AMOC ocean current may be gradual and reversible",
+    "link": "https://www.newscientist.com/article/2532392-slowdown-of-amoc-ocean-current-may-be-gradual-and-reversible/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "summary": "Scientists worry that a surge of meltwater from Greenland could irreversibly collapse the Atlantic Meridional Overturning Circulation, but new modelling suggests the weakening of the current could be reversed if CO2 levels come back down",
+    "image": "https://images.newscientist.com/wp-content/uploads/2026/06/30165644/SEI_303508387.jpg",
+    "source": "New Scientist - Home",
+    "category": "Innovation",
+    "published": "2026-07-01T10:27:01+01:00",
+    "hash": "c34a96b53d19"
+  },
+  {
+    "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+    "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [&#8230;]",
+    "image": "https://images.pexels.com/photos/36291894/pexels-photo-36291894.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-30T20:03:55-04:00",
+    "hash": "41ee8474f6af"
+  },
+  {
+    "title": "Libby will filter out AI content, kind of",
+    "link": "https://www.theverge.com/column/959433/libby-ai-filter",
+    "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive last week. OverDrive is best known for the ebook lending app [&#8230;]",
+    "image": "https://images.pexels.com/photos/13334822/pexels-photo-13334822.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-06-30T11:30:00-04:00",
+    "hash": "40b3246d3323"
+  },
+  {
+    "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern",
+    "link": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
+    "summary": "Flexion Robotics, a startup founded by ex-Nvidia engineers, has a clever way of training robots to do useful work.",
+    "image": "https://media.wired.com/photos/6a3ead9ae6c7ac5cabfbcc91/master/pass/WILLgif2-ezgif.com-optimize.gif",
+    "source": "Artificial Intelligence",
+    "category": "AI",
+    "published": "2026-06-29T08:00:00+00:00",
+    "hash": "0835d38c37fb"
   }
 ]
