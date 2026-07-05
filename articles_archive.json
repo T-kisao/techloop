@@ -1,185 +1,5 @@
 [
   {
-    "title": "TMD\u2019s keyless bike lock is a $280 solution to a $60 problem",
-    "link": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
-    "summary": "I've seen lots of so-called \"smart\" bike locks over the years, but none so far could justify the added cost. A newcomer that got its start securing ATMs for banks is trying to change that. There's nothing wholly unique about the TMD Chain Lock, but the combination of materials, performance, and insurance-friendly ART-2 certification makes [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/IMG_1827.jpeg?quality=90&amp;strip=all&amp;crop=0%2C15.095986038394%2C100%2C69.808027923211&amp;w=1200",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-06-28T03:00:00-04:00",
-    "hash": "8f25ce9426bc",
-    "ai_summary": "A new bike lock on the market, the TMD Chain Lock, is making a case for its $280 price tag with its durable materials, impressive performance, and unique insurance-friendly certification. While it may seem pricey, the TMD Chain Lock is designed to provide peace of mind for bike owners looking to prevent theft, making it a premium solution to a seemingly $60 problem."
-  },
-  {
-    "title": "Galaxy M47 key specs, Tecno Camon Slim official, Week 26 in review",
-    "link": "https://www.gsmarena.com/galaxy_m47_key_specs_tecno_camon_slim_official_week_26_in_review-news-73472.php",
-    "summary": "Samsung has confirmed the Galaxy M47 5G will launch in India on June 29. The phone packs a 6.7-inch 120Hz AMOLED display, a Snapdragon chipset, a 6,000mAh battery with 45W charging, and a 50MP main camera with OIS. Samsung is promising six Android updates and six years of security patches, making software support one of its biggest highlights. Tecno unveiled the Camon Slim to join the Spark and Pova Slim phones. This one is a tad thicker at 6.39mm, but it packs a large 6,000mAh battery, and is I",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/week-26-in-review/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-28T07:07:02+02:00",
-    "hash": "d01cf40d723a",
-    "ai_summary": "Samsung is gearing up to launch the Galaxy M47 5G in India on June 29, featuring a large 6.7-inch display, fast charging, and a high-resolution camera. The phone also boasts long-term software support with six Android updates and six years of security patches, making it a noteworthy contender in the market."
-  },
-  {
-    "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
-    "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
-    "summary": "Dilip Asbe said that newer UPI apps could be more competitive with a viable commercial model",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/MTW_2026-NPCI-Dilip.jpg?resize=1200,675",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-28T05:00:00+00:00",
-    "hash": "b30b053ae419",
-    "ai_summary": "India's top payments official, Dilip Asbe, forecasts that artificial intelligence will play a significant role in the next phase of digital payment growth, enabling faster and more secure transactions. With a viable commercial model, new Unified Payments Interface (UPI) apps may soon outcompete existing ones, further advancing the country's digital payments landscape."
-  },
-  {
-    "title": "MagSafe battery banks: Best picks for your iPhone 17, iPhone Air, and more",
-    "link": "https://9to5mac.com/2026/06/27/favorite-magsafe-iphone-battery-banks-right-now/",
-    "summary": "With iPhone Air, Apple reintroduced the MagSafe battery pack. It\u2019s $99, and optimized specifically for iPhone Air. It\u2019s rather slim, though it\u2019s rather weak in capacity \u2013 making Qi2 alternatives all the more interesting. We\u2019ll be delving into the top options on the market, just in case you want a higher capacity MagSafe battery for your iPhone, or aren\u2019t buying the iPhone Air.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/MagSafe.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-06-28T03:22:16+00:00",
-    "hash": "4445aded9257",
-    "ai_summary": "Apple's reintroduced MagSafe battery packs, like the one for iPhone Air, offer a slim but limited capacity charging solution. If you need more power, there are alternative MagSafe battery banks available that offer higher capacity options for your iPhone."
-  },
-  {
-    "title": "Samsung starts working on One UI 9 for the Galaxy A24 4G after releasing stable One UI 8.5 update",
-    "link": "https://www.gsmarena.com/samsung_galaxy_a24_4g_one_ui_9_development-news-73480.php",
-    "summary": "Samsung released the Android 16-based One UI 8.5 stable update for the Galaxy A24 4G a few days ago, and now we learn it has started testing the Android 17-based One UI 9 for this smartphone. The One UI 9 build for the Galaxy A24 4G spotted on Samsung's server has firmware version A245FXXUCGZF4, but we don't know when Samsung will release the One UI 9 beta or stable update for the smartphone. In fact, the only smartphones that have received the One UI 9 beta so far are the Galaxy S26 series smar",
-    "image": "https://fdn.gsmarena.com/imgroot/news/23/05/samsung-galaxy-a24-ifr/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-28T04:31:02+02:00",
-    "hash": "233166ada076",
-    "ai_summary": "Samsung has recently rolled out the stable One UI 8.5 update for the Galaxy A24 4G, based on Android 16. Now, the company is moving forward with testing its upcoming One UI 9, which is expected to be based on Android 17, for the same device."
-  },
-  {
-    "title": "Google Wallet can now track your packages",
-    "link": "https://www.gsmarena.com/google_wallet_can_now_track_your_packages-news-73476.php",
-    "summary": "While probably not the most obvious or sensible integration out there, it does sound like a pretty nifty one. Also, we are pretty certain that this is not the first time Google has experimented with package tracking. If memory serves right, the now-retired Google Now (or rather transformed into Google Discover feed) used to offer the very same thing. Anyway, the idea is simple \u2013 Google scans your Gmail inbox and automatically recognizes digital receipts and tracking numbers, then simply uses tho",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/package-tracking-inside-google-wallet/-952x498w6/gsmarena_001.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-28T02:03:02+02:00",
-    "hash": "04c2a0d4d9ba",
-    "ai_summary": "Google has integrated package tracking into its Google Wallet service, allowing users to easily monitor the status of their delivered items. This feature uses Gmail to automatically recognize digital receipts and tracking numbers, providing a convenient way to stay on top of package arrivals."
-  },
-  {
-    "title": "Orphan Black is waiting to be rediscovered on Netflix",
-    "link": "https://www.polygon.com/orphan-black-waiting-to-be-rediscovered-on-netflix/",
-    "summary": "Orphan Black is one of the best biopunk TV shows, exploring the lives of clones and a corporation's pursuit of them",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/orphan-black_ep110_d5_007-lighten.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-27T23:00:19+00:00",
-    "hash": "92a59beedfcd",
-    "ai_summary": "The sci-fi thriller \"Orphan Black\" has been a hidden gem on Netflix, offering a gripping story of clones and corporate espionage that's perfect for fans of conspiracy theories and futuristic thrills. With its complex female characters and thought-provoking themes, this biopunk series is a must-watch, even years after its initial release."
-  },
-  {
-    "title": "Star Wars Eclipse \"literally cannot be finished\" without more staff, insist striking Quantic Dream developers",
-    "link": "https://www.eurogamer.net/star-wars-eclipse-studio-quantic-dream-layoffs",
-    "summary": "Striking staff at Quantic Dream have warned that if the studio proceeds with its plans to lay off 115 developers, its upcoming Star Wars Eclipse game \"literally cannot be finished\". Read more",
-    "image": "https://assetsio.gnwcdn.com/Star-Wars-Eclipse-trailer-screens-1.jpeg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-27T21:47:41+00:00",
-    "hash": "5f805bd7b04e",
-    "ai_summary": "Developers at Quantic Dream, the studio behind the upcoming Star Wars Eclipse game, have gone on strike to protest planned layoffs that could hinder the game's completion. The striking staff claim that the project \"literally cannot be finished\" without the additional staff, threatening the game's successful launch."
-  },
-  {
-    "title": "Instagram is testing more ways to customize \u2018Your Algorithm\u2019",
-    "link": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
-    "summary": "Instagram users could soon see more ways to tune their content.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/05/instagram-header.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-27T21:27:37+00:00",
-    "hash": "f2cd213a060d",
-    "ai_summary": "Instagram is expanding its options for users to personalize their feed, giving them more control over what they see. A new testing phase aims to introduce additional features allowing users to customize their 'Your Algorithm' settings and preferences."
-  },
-  {
-    "title": "Foldable gaming mode is coming with Android 17",
-    "link": "https://www.gsmarena.com/foldable_gaming_mode_is_coming_with_android_17-news-73482.php",
-    "summary": "Frankly, we don\u2019t see gaming-specific features come to the Android core all too often. Recently, ex-journalist and now Google employee Mishaal Rahman offered up a surprisingly detailed preview of a great new feature coming to Android 17. It is called Foldable gaming mode, and what it does is basically spawn a highly customizable virtual controller on the bottom half of your unfolded foldable device, with the actual game playing on the top half. For now, it\u2019s just a 50/50 split, which you can\u2019t a",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/foldable-gaming-mode-coming-to-android-17/-952x498w6/gsmarena_001.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-06-27T23:23:02+02:00",
-    "hash": "d6f549eda8c2",
-    "ai_summary": "A new feature in Android 17, called Foldable Gaming Mode, is set to revolutionize the gaming experience on foldable devices. It will allow users to play games on the top half of their device, while a highly customizable virtual controller takes up the bottom half, providing a unique and immersive gaming experience."
-  },
-  {
-    "title": "SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype",
-    "link": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
-    "summary": "Not everyone is buying Elon Musk\u2019s vision for orbital data centers.",
-    "image": "https://techcrunch.com/wp-content/uploads/2021/02/GettyImages-1160112941.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-27T20:42:36+00:00",
-    "hash": "6dbbacb6d49f"
-  },
-  {
-    "title": "Viral hide-and-seek indie hit Meccha Chameleon sells 10m copies in just 16 days",
-    "link": "https://www.eurogamer.net/meccha-chameleon-10-million-sales",
-    "summary": "Just five days ago, we reported that indie hide-and-seek game Meccha Chameleon had sold seven million copies since its release on 10th June, and now it's topped another staggering milestone: 10 million copies sold. Read more",
-    "image": "https://assetsio.gnwcdn.com/meccha-chameleon.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-27T20:40:49+00:00",
-    "hash": "b3c0b2b9ed85"
-  },
-  {
-    "title": "The Hot New Nintendo Collectibles Are 35mm Film Slides",
-    "link": "https://kotaku.com/the-hot-new-nintendo-collectibles-are-35mm-film-slides-super-mario-64-2000711209",
-    "summary": "Reemerging from the pre-digital media era, these promotional stills contain high fidelity stills of low polygon games",
-    "image": "https://kotaku.com/app/uploads/2026/06/snap.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-06-27T20:12:23+00:00",
-    "hash": "0b326fd58185"
-  },
-  {
-    "title": "Mario Kart 64 transformed the series from an oddity into an institution",
-    "link": "https://www.polygon.com/nintendo-64-30th-anniversary-mario-kart/",
-    "summary": "The Nintendo 64 sequel proved one series had what it took to delight millions of players.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/1405026/N64-Console-Set.0.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-06-27T20:00:20+00:00",
-    "hash": "3f359a93087f"
-  },
-  {
-    "title": "PlayStation is pulling \"previously purchased\" digital movies from users' libraries",
-    "link": "https://www.eurogamer.net/playstation-to-remove-studio-canal-movies-from-libraries",
-    "summary": "Sony has written to PlayStation customers to advise that hundreds of \"previously purchased\" digital movies previously available via its online store will \"be removed\" from video libraries later this year. Read more",
-    "image": "https://assetsio.gnwcdn.com/terminator-2d-t-1000.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-06-27T19:57:02+00:00",
-    "hash": "3ffc3f1aba46"
-  },
-  {
-    "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-    "summary": "Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. According to Deadline's recap, Atwood said she'd used an AI [&#8230;]",
-    "image": "https://images.pexels.com/photos/34428207/pexels-photo-34428207.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-06-27T14:39:32-04:00",
-    "hash": "754f210ac57b"
-  },
-  {
-    "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-    "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-    "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI\u2019s hardware team.",
-    "image": "https://images.pexels.com/photos/1345011/pexels-photo-1345011.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-06-27T16:45:09+00:00",
-    "hash": "e3bdbfb37e2d"
-  },
-  {
     "title": "Clair Obscur: Expedition 33 actor reveals the lousy advice he got from Ben Starr",
     "link": "https://www.polygon.com/clair-obscur-expedition-33-monoco-rich-keeble-success-interview-ben-starr/",
     "summary": "Clair Obscur Expedition 33's Rich Keeble chats with Polygon about the success of the game, his nerves in the booth, and more.",
@@ -3490,13 +3310,203 @@
     "hash": "aaa88f0a9435"
   },
   {
-    "title": "MIT in the media: Exploring how curiosity-driven science is an essential ingredient in America\u2019s success",
-    "link": "https://news.mit.edu/2026/mit-media-exploring-how-curiosity-driven-science-essential-ingredient-americas-success",
-    "summary": "\u201cScientific American\u201d showcases the history and future of America\u2019s scientific engine, highlighting promising young scientists and icons at MIT and beyond.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/53364521624_d2f74c83b9_b%20%281%29.jpg?itok=6P6fc7Zs",
+    "title": "Halo: Campaign Evolved really, really wants you to know you can get a physical disc even if you buy it on PS5",
+    "link": "https://www.eurogamer.net/halo-campaign-evolved-physical-disc-ps5",
+    "summary": "Microsoft is using Sony's decision to end production of discs from 2028 as a selling point for Halo: Campaign Evolved. Read more",
+    "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-reveal-screen-3.jpeg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-07-05T07:00:00+00:00",
+    "hash": "1907c740cfd1",
+    "ai_summary": "In a unique marketing move, Microsoft is emphasizing that buying Halo: Campaign Evolved on PS5 still gets you a physical disc, a fact that will be relevant for at least a decade given Sony's announcement to stop producing discs by 2028. This approach appears to be a subtle jab at Sony's decision to phase out physical copies of games."
+  },
+  {
+    "title": "WhatsApp starts testing green dot online contact indicator on iOS",
+    "link": "https://www.gsmarena.com/whatsapp_green_dot_online_contact_indicator_ios_beta-news-73576.php",
+    "summary": "Last month we learned that WhatsApp started testing a green dot on Android to indicate that a contact is online. The Meta-owned company has now started testing this feature on iOS as well. This revelation comes from the folks at WABetaInfo, who discovered the development on beta version 26.26.10.72 of WhatsApp for iOS. If you are a WhatsApp beta user on iOS with the latest version of the app installed, you'll see a small green circle at the bottom-right of a contact's photo in the \"Contact info\"",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/whatsapp-green-dot-online-contact-indicator-ios-beta/-952x498w6/gsmarena_001.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-05T06:20:02+02:00",
+    "hash": "105df45778ae",
+    "ai_summary": "WhatsApp is expanding its online status indicator to iOS, allowing users to see when their contacts are available in real-time. The green dot, first tested on Android last month, will now appear next to a contact's name on the iPhone version of the app for beta users."
+  },
+  {
+    "title": "iPhone 17 Pro Max buried in America\u2019s 250th anniversary time capsule: to be opened in 2276",
+    "link": "https://9to5mac.com/2026/07/04/iphone-17-pro-max-included-in-america-250-time-capsule/",
+    "summary": "In celebration of America\u2019s 250th anniversary, a gigantic time capsule has been buried with numerous items from every state to commemorate our current era \u2013 one of them being an iPhone 17 Pro Max in Cosmic Orange. The time capsule is set to be unsealed in 2276 for America\u2019s 500th anniversary.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/iphone-17-pro-cosmic-orange-fernando.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-05T03:07:08+00:00",
+    "hash": "1e0c62ca4e89",
+    "ai_summary": "A massive time capsule celebrating America's 250th anniversary has been buried with a glimpse of modern life, featuring a cutting-edge iPhone 17 Pro Max in the vibrant Cosmic Orange color. This futuristic artifact is destined to be unearthed in 2276, when America marks its 500th birthday and the world's technology landscape is sure to have undergone a profound transformation."
+  },
+  {
+    "title": "Samsung Galaxy S26 Ultra gets a limited-time discount in India",
+    "link": "https://www.gsmarena.com/samsung_galaxy_s26_ultra_india_price_discount-news-73579.php",
+    "summary": "The Samsung Galaxy S26 Ultra, launched in India with a base price of INR139,999, is available at a discount on Samsung's official website. Samsung launched the Galaxy S26 Ultra in India with three memory options - 12GB/256GB, 12GB/512GB, and 16GB/1TB, priced at INR139,999, INR159,999, and INR189,999, respectively. Now, the Galaxy S26 Ultra's 12GB/256GB model is available at a discounted price of INR124,999, while the 12GB/512GB and 16GB/1TB models are available at INR144,999 and INR174,999, resp",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/samsung-galaxy-s26-ultra-india-price-discount/-952x498w6/gsmarena_001.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-05T03:16:02+02:00",
+    "hash": "dbbbe4460bb5",
+    "ai_summary": "Samsung has launched a limited-time discount on the Galaxy S26 Ultra in India, with price cuts ranging from \u20b924,999 to \u20b915,000 across different storage models. Now, customers can purchase the device at reduced prices of \u20b9124,999 for 12GB/256GB, \u20b9144,999 for 12GB/512GB, and \u20b9174,999 for 16GB/1TB."
+  },
+  {
+    "title": "The Ghost in the Shell is a true love letter to cyberpunk anime fans",
+    "link": "https://www.polygon.com/ghost-in-the-shell-new-anime-vision-anime-expo/",
+    "summary": "The franchise\u2019s latest reboot debuted its first episode at Anime Expo, offering a fresh take on one of anime\u2019s most influential cyberpunk worlds.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/img_0081.webp",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-05T00:45:25+00:00",
+    "hash": "b32900dc82c2",
+    "ai_summary": "The latest reboot of the classic \"Ghost in the Shell\" franchise debuted its first episode at Anime Expo, bringing a fresh take to one of anime's most iconic and influential cyberpunk worlds. Fans are eagerly anticipating the new series, which promises to stay true to the spirit of the original while introducing exciting new elements."
+  },
+  {
+    "title": "How and when did Helaena Targaryen die in House of the Dragon?",
+    "link": "https://www.polygon.com/how-does-helaena-die-in-house-of-the-dragon-fire-and-blood/",
+    "summary": "Phia Saban has won hearts with her portrayal of Helaena Targaryen, but with House of the Dragon being a Fire & Blood adaptation, danger lies ahead.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/helaena-targaryen-phia-saban.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-04T23:00:19+00:00",
+    "hash": "4db2985e14b0",
+    "ai_summary": "In the TV series House of the Dragon, Helaena Targaryen, portrayed by Phia Saban, faces a tragic fate. If you're curious about her death, it's rooted in the Fire & Blood book by George R. R. Martin, which serves as the show's inspiration."
+  },
+  {
+    "title": "Seven Games To Download From PlayStation 3\u2019s Storefront Before It Closes",
+    "link": "https://kotaku.com/seven-games-to-download-from-playstation-3s-storefront-before-it-closes-2000712600",
+    "summary": "Do not allow yourself to miss some of the most essential games from one of PlayStation's most uncanny eras",
+    "image": "https://kotaku.com/app/uploads/2026/07/5929022-tokyo-jungle-screenshot.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-04T22:16:09+00:00",
+    "hash": "87dc565a686e",
+    "ai_summary": "As the PlayStation Store for the PlayStation 3 prepares to close its online storefront, gamers have a final chance to download some of the console's most iconic and memorable titles. From cult classics to genre-defining experiences, the following seven games are a must-download from the PlayStation 3's library before it's too late."
+  },
+  {
+    "title": "Black Clover anime's return sets the stage for its most ambitious arc yet",
+    "link": "https://www.polygon.com/black-clover-season-2-preview-anime-expo/",
+    "summary": "Black Clover season 2 reunites Asta and the Black Bulls for a dangerous new era that anime fans won\u2019t want to miss.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/black-clover-season-5-visual.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-04T21:41:49+00:00",
+    "hash": "089463691f36",
+    "ai_summary": "The highly-anticipated Black Clover anime returns with its second season, bringing together fan-favorite characters Asta and the Black Bulls for an epic new adventure. This new era promises to be the most ambitious yet, setting the stage for thrilling action and emotional storylines."
+  },
+  {
+    "title": "iOS 27 source code reveals a new Apple wearable supporting Visual Intelligence",
+    "link": "https://www.gsmarena.com/ios_27_source_code_reveals_a_new_apple_wearable_supporting_visual_intelligence-news-73578.php",
+    "summary": "An X user @samhenrigold unearthed a reference inside the iOS 27 source code that mentions a new Apple wearable device with model number B790. The reference itself isn't very revealing, but it confirms that the device supports features related to Visual Intelligence. Visual Intelligence is a new feature that allows users to ask Siri about an object using the default Camera app on iOS 27-running iPhones. The feature is available on iPhone 15 Pro and newer. Unfortunately, we have no clue which devi",
+    "image": "https://fdn.gsmarena.com/imgroot/news/25/06/kuo-apple-glasses-vision-roadmap/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-04T23:08:02+02:00",
+    "hash": "fca562a4ae6c",
+    "ai_summary": "Apple's iOS 27 source code has hinted at the existence of a new wearable device with model number B790, which appears to support Visual Intelligence features. This technology would allow users with newer iPhones to use Siri to identify and learn more about objects through the default Camera app."
+  },
+  {
+    "title": "Sam Raimi's Evil Dead trilogy remains the ultimate horror binge 45 years later",
+    "link": "https://www.polygon.com/evil-dead-trilogy-streaming-hbo-max-july-2026/",
+    "summary": "The Evil Dead, Evil Dead II, and Army of Darkness remain horror classics. Here's why Sam Raimi's trilogy deserves a one-night marathon.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/img_6733.JPG",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-04T21:00:19+00:00",
+    "hash": "947137595ab4",
+    "ai_summary": "Sam Raimi's iconic Evil Dead trilogy, consisting of The Evil Dead, Evil Dead II, and Army of Darkness, has stood the test of time and remains a horror fan's must-see collection 45 years after its inception. A one-night marathon viewing of these classics promises a blood-soaked, laughter-filled, and unforgettable experience that will leave viewers screaming for more."
+  },
+  {
+    "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+    "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+    "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/google-declaration-of-independence.jpg?w=1200",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-04T20:55:25+00:00",
+    "hash": "5ae6f6ce3936"
+  },
+  {
+    "title": "Indie App Spotlight: \u2018PulseKit\u2019 makes it easy to monitor all of your key analytics on iPhone",
+    "link": "https://9to5mac.com/2026/07/04/indie-app-spotlight-pulsekit-makes-it-easy-to-monitor-all-of-your-key-analytics-on-iphone/",
+    "summary": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you\u2019re a developer and would like your app featured, get in contact . PulseKit is an all-in-one app for iPhone that makes it easy to track all of the key analytics that matter to you \u2013 without needing to code anything on your own. Everything is visible right from your home screen and lock screen with widgets.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/07/PulseKit-app.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-04T19:30:00+00:00",
+    "hash": "63d44d9ae66b"
+  },
+  {
+    "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+    "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+    "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1387623215.jpg?resize=1200,900",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-04T18:00:05+00:00",
+    "hash": "6b9e4b21f92f"
+  },
+  {
+    "title": "Deals: Galaxy A57 and A37 on sale, Galaxy Z Flip7 FE and Moto Razr 2026 get discounts too",
+    "link": "https://www.gsmarena.com/deals_galaxy_a57_and_a37_on_sale_galaxy_z_flip7_fe_and_moto_razr_2026_get_discounts_too-news-73562.php",
+    "summary": "Happy birthday, USA! With the 4th of July celebrations and the World Cup in full swing, attention probably isn\u2019t on shopping for new phones, but we still managed to fish out a few good deals. The Samsung Galaxy A57 is $100 off for both its 128GB and 256GB variants. The 128GB model costs the same as last week, but now the 256GB model is available with the same discount too \u2013 and it\u2019s recommended to go with more storage, since it\u2019s no longer expandable. Samsung Galaxy A57 $100 off Read our review",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/weekly-deals-3/-952x498w6/gsmarena_us.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-04T19:41:03+02:00",
+    "hash": "66ebc3cbf851"
+  },
+  {
+    "title": "Alibaba reportedly bans employees from using Claude Code",
+    "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+    "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-04T16:32:08+00:00",
+    "hash": "4d3671c83bf6"
+  },
+  {
+    "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+    "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+    "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to \u201cput frontier AI in the hands of everyone.\u201d",
+    "image": "https://images.pexels.com/photos/30869083/pexels-photo-30869083.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-04T15:51:32+00:00",
+    "hash": "bfce489026e0"
+  },
+  {
+    "title": "Finnish quantum company IQM makes history with Nasdaq debut",
+    "link": "https://www.siliconrepublic.com/machines/finnish-quantum-company-iqm-makes-history-with-nasdaq-debut",
+    "summary": "IQM claims to have sold 23 quantum computers worldwide, more than any other quantum manufacturer. Read more: Finnish quantum company IQM makes history with Nasdaq debut",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/03/IQM-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-07-03T07:08:32+00:00",
+    "hash": "22c46fb407b5"
+  },
+  {
+    "title": "One unicorn a week: Europe's new model for billion-dollar startups",
+    "link": "https://sifted.eu/articles/becoming-unicorns-in-2026-be-ai-native-and-build-models/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/8385008/pexels-photo-8385008.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-03T05:00:38+00:00",
+    "hash": "5fd3fc63af23"
+  },
+  {
+    "title": "Flexible cryogenic cables solve a challenge in quantum system development",
+    "link": "https://news.mit.edu/2026/flexible-cryogenic-cables-solve-challenge-in-quantum-system-development-0617",
+    "summary": "A prototype wiring system for dilution refrigerators could advance the realization of practical quantum computers.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/mit-lincoln-Quantum-cables.jpg?itok=gJBFYjt1",
     "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
     "category": "Innovation",
-    "published": "2026-06-25T12:00:00-04:00",
-    "hash": "65ec8e9b8836"
+    "published": "2026-06-17T14:35:00-04:00",
+    "hash": "fcfe9fe19b6f"
   }
 ]
