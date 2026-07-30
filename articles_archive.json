@@ -1,225 +1,5 @@
 [
   {
-    "title": "Android 17's new iOS migration tool now available on Samsung's latest foldables",
-    "link": "https://www.gsmarena.com/android_17s_new_ios_migration_tool_now_available_on_samsungs_latest_foldables-news-73838.php",
-    "summary": "Google announced an upgraded Android Switch iOS migration tool for Android 17 during the Android Show I/O Edition 2026. The company has now offered new details about the feature and its availability. The enhanced Android Switch tool is now available on the newly launched Samsung Galaxy Z Fold8, Galaxy Z Fold8 Ultra, and Galaxy Z Flip8. It is also rolling out to the Pixel 8, Pixel 9, and Pixel 10 series running Android 17. However, Pixel 6 and Pixel 7 series users will not receive the upgraded iO",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/android-switch-galaxy-z-fold8-ultra-flip8/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-23T08:55:02+02:00",
-    "hash": "198ebf5e0c83",
-    "ai_summary": "Google has released a revamped Android Switch tool, allowing users to seamlessly migrate from iOS to Android on compatible devices. The updated tool is now available on Samsung's latest foldables, including the Galaxy Z Fold8 and Galaxy Z Flip8, as well as select Google Pixel series running Android 17."
-  },
-  {
-    "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-    "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-    "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/03/ServiceNow-Getty.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-07-23T06:09:13+00:00",
-    "hash": "94e500a01bd1",
-    "ai_summary": "ServiceNow has made a $40 million investment in Indian banking software specialist BusinessNext, aiming to expand its presence in the financial services industry. With this partnership, BusinessNext can leverage ServiceNow's global resources to bring its AI-powered banking software to markets worldwide."
-  },
-  {
-    "title": "YC-backed telli raises \u20ac13.1 million to build AI for B2C customer operations",
-    "link": "https://www.eu-startups.com/2026/07/yc-backed-telli-raises-e13-1-million-to-build-ai-for-b2c-customer-operations/",
-    "summary": "telli, a Berlin-based startup building AI that runs customer-facing operations for B2C companies, today announced a \u20ac13.1 million ($15 million) Seed round, bringing its total funding to more than \u20ac16.1 million ($18.5 million). The round was led by redalpine, with participation from strategic investors, Mutschler and key angels, alongside existing backers Cherry Ventures and Y [&#8230;] The post YC-backed telli raises \u20ac13.1 million to build AI for B2C customer operations appeared first on EU-Star",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/07/Untitled-design-2026-07-23T113201.830.jpg",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-07-23T06:05:02+00:00",
-    "hash": "4cd45fc360e0",
-    "ai_summary": "Berlin-based startup telli has secured \u20ac13.1 million in funding to develop AI technology for customer-facing operations in businesses that sell directly to consumers. With this latest round, telli's total funding now exceeds \u20ac16.1 million, supporting its mission to revolutionize B2C customer experiences."
-  },
-  {
-    "title": "Google Pixel Watch 5's key specs revealed via Google Play Console listing",
-    "link": "https://www.gsmarena.com/google_pixel_watch_5_key_specs_play_console_listing-news-73837.php",
-    "summary": "The Google Pixel Watch 5 is expected to go official on August 12 alongside the Pixel 11 series smartphones. Recently leaked renders revealed the Pixel Watch 5 will look identical to the Pixel Watch 4. Now a Google Play Console listing reveals the Pixel Watch 5's CPU and GPU will also be the same as its predecessor. The Google Pixel Watch 5, codenamed \"godric,\" is listed on the Google Play Console with Qualcomm's SW5100 SoC, the same base chip used by Pixel Watch 2, 3, and 4. The Pixel Watch 5 al",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/google-pixel-watch-5-key-specs-play-console-listing/-952x498w6/gsmarena_001.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-23T07:54:02+02:00",
-    "hash": "f35de17a6e77",
-    "ai_summary": "Google's upcoming Pixel Watch 5 is expected to launch on August 12, featuring the same design as its predecessor, the Pixel Watch 4. A recent listing on the Google Play Console reveals that the Pixel Watch 5 will also retain the same processor as the Pixel Watch 4, a Qualcomm SW5100 SoC."
-  },
-  {
-    "title": "Mistral wanted to beat Anthropic. Now it\u2019s becoming Palantir",
-    "link": "https://sifted.eu/articles/mistral-palantir-data/",
-    "summary": "",
-    "image": "https://content.sifted.eu/wp-content/uploads/2026/05/28111139/mistral-infra-1024x336.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-07-23T05:00:56+00:00",
-    "hash": "1458df87834f",
-    "ai_summary": "Researchers at AI firm Mistral have been experimenting with combining their own AI models with the technology of another company, as they attempt to surpass the capabilities of rival AI company Anthropic. By partnering with data firm Palantir, Mistral is poised to tap into a vast wealth of private data, potentially accelerating the development of their AI technology."
-  },
-  {
-    "title": "Meet the team helping Yann LeCun build AI startup AMI Labs",
-    "link": "https://sifted.eu/articles/meet-the-team-ami-labs/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2025/12/04111431/54319041499_7363c14f77_k-e1764846890133.jpg?w=1365&amp;h=1273&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-07-23T05:00:34+00:00",
-    "hash": "627ad3bbf886",
-    "ai_summary": "However, you didn't provide the article content. Once you provide the article content, I'll be happy to assist you in creating a 2-sentence summary for a general audience."
-  },
-  {
-    "title": "Sifted acquires Onstage to expand founder events business",
-    "link": "https://sifted.eu/articles/sifted-onstage-acquisition-demo-day/",
-    "summary": "",
-    "image": "https://images.sifted.eu/wp-content/uploads/2026/07/22162940/onstage-group-shot.png?w=3200&amp;h=1050&amp;q=75&amp;fit=crop&amp;auto=compress,format",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-07-23T05:00:13+00:00",
-    "hash": "213f25a04541",
-    "ai_summary": "I'm not able to access the article's content. Could you please provide more information about the article 'Sifted acquires Onstage to expand founder events business' so I can provide a summary?"
-  },
-  {
-    "title": "How to play with friends in Splatoon Raiders",
-    "link": "https://www.polygon.com/splatoon-raiders-multiplayer-how-to-play-with-friends/",
-    "summary": "You can play with friends in Splatoon Raiders' multiplayer, even though it's a single-player game. Here's how to play with friends in Splatoon Raiders",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/splatoon-raiders-multiplayer-play-with-friends.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-23T04:01:12+00:00",
-    "hash": "bd618748d403",
-    "ai_summary": "In a surprising twist, the single-player game Splatoon Raiders allows for multiplayer co-op gameplay with friends. Players can team up and take on missions together, making the experience more enjoyable and challenging."
-  },
-  {
-    "title": "Indian Redmi Note 17 runs Geekbench, reveals its chipset and RAM amount",
-    "link": "https://www.gsmarena.com/indian_redmi_note_17_runs_geekbench_reveals_its_chipset_and_ram_amount-news-73834.php",
-    "summary": "Redmi unveiled the Note 17 and Note 17 Pro in China earlier this month, and now it looks like the Note 17 headed to India has just run Geekbench. As usual, this means there's a listing for it in the Geekbench online database, and that it reveals the chipset at the helm. It's the Snapdragon 4 Gen 4 SoC, same as in the Chinese Note 17. This is aided by 8GB of RAM in the specific unit that ran the benchmark. The phone runs Android 16. As you can see in the screenshot below, it managed a 950 single-",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/indian-redmi-note-17-geekbench/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-23T05:11:02+02:00",
-    "hash": "ab6bd7bc6437",
-    "ai_summary": "The upcoming Indian Redmi Note 17 smartphone has been listed on the Geekbench database, revealing its chipset as the Snapdragon 4 Gen 4 SoC and RAM capacity as 8GB. The phone is set to run on Android 16, providing a glimpse into its capabilities ahead of its release."
-  },
-  {
-    "title": "Oppo Find X10 family is being tested against the iPhone 17 Pro, live shots prove",
-    "link": "https://www.gsmarena.com/oppo_find_x10_family_is_being_tested_agains_the_iphone_17_pro_live_shots_prove-news-73832.php",
-    "summary": "According to new information from a tipster on X, Oppo is currently testing the upcoming Find X10, Find X10 Pro, and Find X10 Pro Max alongside the iPhone 17 Pro, presumably to compare their camera prowess against Apple\u2019s latest flagship. The images below seem to show all three devices in a rig with the iPhone 17 Pro, and even though the Oppos are inside a case that's meant to obscure their designs, we can make out the fact that they all appear to have an iPhone-like two-part rear panel design.",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/oppo-find-x10-series-testing-alongside-iphone-17-pro/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-23T03:23:02+02:00",
-    "hash": "c96ce55004d9",
-    "ai_summary": "Oppo is conducting internal tests to compare the camera capabilities of its upcoming Find X10 family, including the Find X10, Find X10 Pro, and Find X10 Pro Max, against Apple's iPhone 17 Pro. Images from the testing reveal the Oppo devices share a design similarity with the iPhone, featuring a two-part rear panel, although they are currently covered in cases."
-  },
-  {
-    "title": "MacBook Neo 2: Here\u2019s everything we know so far",
-    "link": "https://9to5mac.com/2026/07/22/macbook-neo-2-features-release-date/",
-    "summary": "Apple released the all-new MacBook Neo earlier this year, and it\u2019s been a resounding success by all indications. Here\u2019s everything we know so far about what\u2019s next for Apple\u2019s most affordable laptop \u2026",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/macbook-neo-hello-citrus.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-07-23T00:55:26+00:00",
-    "hash": "427d5c359075"
-  },
-  {
-    "title": "Sony launches FX5 cinema camera with open gate recording",
-    "link": "https://www.gsmarena.com/sony_launches_fx5_cinema_camera_with_open_gate_recording-news-73836.php",
-    "summary": "Sony has launched the newest member of its compact cinema camera series in the form of the FX5. In another timeline, the FX5 may have just been an update to the Sony FX3 that launched in 2021, but in the current market it will be launching at a higher price, while the FX3 continues to be on sale. The FX5 launches with enough new toys to make the current and potential FX3 buyers jump ship. It has a new 16.6MP full-frame fully-stacked Exmor RS CMOS sensor along with a BIONZ XR2 processor with buil",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/sony-fx5/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-23T01:43:02+02:00",
-    "hash": "c33f1403f54d"
-  },
-  {
-    "title": "Zelda: Tears Of The Kingdom Gets Very Cool And Surprisingly Affordable Action Figures",
-    "link": "https://kotaku.com/zelda-tears-of-the-kingdom-gets-very-cool-and-surprisingly-affordable-action-figures-2000718523",
-    "summary": "Hasbro is bringing Hyrule to life for cheap",
-    "image": "https://kotaku.com/app/uploads/2026/07/zeldafigure-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-07-22T23:00:34+00:00",
-    "hash": "a1a2ed8f1dad"
-  },
-  {
-    "title": "The Odyssey\u2019s most important visual was inspired by a 58-year-old twist from a classic sci-fi movie",
-    "link": "https://www.polygon.com/the-odyssey-trojan-horse-drew-inspiration-from-planet-of-the-apes/",
-    "summary": "Christopher Nolan has been thinking about how to film the Trojan Horse for decades",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/the-odyssey-boat-news-header.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-22T23:00:12+00:00",
-    "hash": "d089f59dfce5"
-  },
-  {
-    "title": "Unlikely Pok\u00e9mon Winds & Waves monster hides 20 years of history",
-    "link": "https://www.polygon.com/pokemon-winds-waves-leak-diamond-pearl-doc-monster-design-pokopia/",
-    "summary": "A small detail in Pok\u00e9mon Pokopia might've been planned for Diamond & Pearl. And we may not see the full version until the Switch 2 Pok\u00e9mon games",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22884343/BDSP_screen_27.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-22T22:30:38+00:00",
-    "hash": "efecc3c8fd40"
-  },
-  {
-    "title": "World Of Warcraft Players Think They\u2019ve Uncovered An Insider Raiding Scandal",
-    "link": "https://kotaku.com/world-of-warcraft-insider-raiding-scandal-2000718464",
-    "summary": "That's...not a real ability",
-    "image": "https://kotaku.com/app/uploads/2026/07/1262218-nexus-point-xenas-eclipse-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-07-22T22:30:16+00:00",
-    "hash": "e913b8068562"
-  },
-  {
-    "title": "Ex-Assassin\u2019s Creed Hexe Director Explains Why Trying To Get Things Done With 1,000-Person Teams Felt Like \u2018Pissing Upstream\u2019",
-    "link": "https://kotaku.com/ex-assassins-creed-hexe-director-explains-why-trying-to-get-things-done-with-1000-person-teams-felt-like-pissing-upstream-2000718473",
-    "summary": "Clint Hocking, the first Assassin's Creed Hexe director to exit the project this year, recounted the 'disconnected' process of developing Ubisoft's Watch Dogs: Legion",
-    "image": "https://kotaku.com/app/uploads/2026/04/Assassins-Creed-Hexe-1280x758.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-07-22T22:00:09+00:00",
-    "hash": "b5beb8289e9f"
-  },
-  {
-    "title": "China\u2019s Open AI Models Are Challenging Silicon Valley\u2019s Playbook",
-    "link": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
-    "summary": "As access to Anthropic\u2019s and OpenAI\u2019s frontier models becomes more restricted, Chinese labs are pitching their open-source alternatives as stable, accessible, and increasingly capable.",
-    "image": "https://media.wired.com/photos/6a61111f07c746392b7d05d4/master/pass/China-Open-AI-Models-Challenging-Silicon-Valley-Playbook-Business-1191165992.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-07-22T19:01:38+00:00",
-    "hash": "5adca72a3fb7"
-  },
-  {
-    "title": "Power outage? Automakers want you to use your EV as a backup source",
-    "link": "https://www.fastcompany.com/91578082/climate-automakers-home-energy-power-outage?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Winter Storm Uri, the multiday freeze that slammed Texas in February 2021 and pummeled the state&#8217;s power grid, has been on Kenneth Kovar&#8217;s mind ever since. Though the resident of New Braunfels, northeast of San Antonio, didn&#8217;t lose power at the time, he wasn&#8217;t able to run his septic tank\u2014it is independent from local systems. He had to fill his toilets with water from his backyard pool. So when Kovar, 64, bought a Ford F-150 last fall, his hope was to be better prepared fo",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26202648658770.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-22T17:34:47+00:00",
-    "hash": "6146c74ee050"
-  },
-  {
-    "title": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
-    "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
-    "summary": "Samsung has given us our first chance to check out its upcoming smart glasses in person, revealing two new designs and the first specs in the process, including an impressive 9-hour battery life. The glasses, developed in collaboration with Google and the eyewear brands Gentle Monster and Warby Parker, are due to launch this fall. [&#8230;]",
-    "image": "https://images.pexels.com/photos/13988869/pexels-photo-13988869.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-07-22T12:35:34-04:00",
-    "hash": "deb41b258e4e"
-  },
-  {
-    "title": "Kimi K3 is exposing cracks in Trump\u2019s AI coalition",
-    "link": "https://www.fastcompany.com/91577355/kimi-k3-china-ai-trump?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The release of Kimi K3 , the latest model from Moonshot Labs, a Chinese AI firm founded by a former Carnegie Mellon computer science graduate, has shaken both the AI and political worlds. In an instant, the seemingly comfortable lead held by U.S. frontier AI labs over their Chinese competitors appeared to narrow sharply. K3\u2019s release has rattled the chattering classes in Washington and Silicon Valley. In response, they have begun fighting among themselves. Samuel Hammond, director of AI policy a",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91577355-dean-ball-and-david-sachs-arguing-about-open-weight-ai-models.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-22T16:19:05+00:00",
-    "hash": "86741595cb84"
-  },
-  {
     "title": "Halo Campaign Evolved review: one of the best remakes of all time",
     "link": "https://www.polygon.com/halo-campaign-evolved-review/",
     "summary": "Halo: Campaign Evolved has set a new benchmark for video game remakes, as Master Chief's original outing is now in its ultimate form.",
@@ -3420,13 +3200,283 @@
     "hash": "a34e225b23ce"
   },
   {
-    "title": "This Former Intel CEO Wants to Jumpstart Moore\u2019s Law With Light",
-    "link": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
-    "summary": "Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light.",
-    "image": "https://media.wired.com/photos/6a56bc3736e98c56882c9897/master/pass/Pat-Gelsinger-Q&A-Business-2280683501.jpg",
+    "title": "Oppo A7 Pro Max launch date, color options revealed",
+    "link": "https://www.gsmarena.com/oppo_a7_pro_max_launch_date_color_options_revealed-news-73932.php",
+    "summary": "After recently confirming the arrival of the Oppo A7 Pro Max with a massive 10,000mAh battery, the company has now revealed the smartphone's launch date along with a few additional details. The Oppo A7 Pro Max will be unveiled in China on August 4 and is already available for pre-order through the company's official online store. Oppo has also confirmed that the phone will come with a dual-rear camera setup with a 50MP primary rear camera. And for selfies, the phone will feature a 50MP camera. M",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/oppo-a7-pro-max-launch-date-pre-order/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-30T08:00:02+02:00",
+    "hash": "9078a0a48c48",
+    "ai_summary": "The Oppo A7 Pro Max, a highly anticipated smartphone, is set to launch in China on August 4, offering a massive 10,000mAh battery and a dual-camera setup. The phone features two 50MP cameras, one for the primary rear camera and one for high-quality selfies, and is already available for pre-order on Oppo's official online store."
+  },
+  {
+    "title": "Swiss preventive HealthTech Ahead Health bags \u20ac8.7 million and launches in Germany and the Netherlands",
+    "link": "https://www.eu-startups.com/2026/07/swiss-preventive-healthtech-startup-ahead-health-secures-e8-7-million-and-launches-in-germany-and-the-netherlands/",
+    "summary": "Ahead Health, a Zurich-based preventive healthcare company, has secured a \u20ac8.7 million ($10 million) investment led by venture capital firms 3VC and RTP Global. It is also launching in Germany and the Netherlands, its first markets beyond Switzerland. In January 2026, the Swiss startup raised \u20ac5.1 million ($6 million) in funding led by RTP Global. [&#8230;] The post Swiss preventive HealthTech Ahead Health bags \u20ac8.7 million and launches in Germany and the Netherlands appeared first on EU-Startup",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/07/Untitled-design-2026-07-30T110522.779.jpg",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-07-30T05:37:25+00:00",
+    "hash": "48d8e8acd96b",
+    "ai_summary": "Ahead Health, a Zurich-based preventive healthcare company, has secured a significant \u20ac8.7 million investment to expand its services to Germany and the Netherlands. This marks a major milestone for the Swiss startup, which has previously raised funding and is now launching its services in its first international markets."
+  },
+  {
+    "title": "Adyen is coming for agentic payments. Can startups keep up?",
+    "link": "https://sifted.eu/articles/adyen-agentic-payments/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=800,quality=75,fit=cover,format=auto/wp-content/uploads/2026/07/29161316/1762940967573.jpeg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-30T05:00:38+00:00",
+    "hash": "9c3ed26e3afa",
+    "ai_summary": "However, I don't see the content of the article. Please provide it, and I'll be happy to write a 2-sentence summary for a general audience."
+  },
+  {
+    "title": "AI startup Corgi to open 24/7 cafe in London",
+    "link": "https://sifted.eu/articles/corgi-cafe-london-24-7/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=518,quality=75,fit=cover,format=auto/wp-content/uploads/2026/07/29171804/Screenshot-2026-07-29-at-17.15.09.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-30T05:00:20+00:00",
+    "hash": "8e9f22613423",
+    "ai_summary": "I'd be happy to write a summary, but the article title is incomplete and missing its contents. Please provide the rest of the article for a proper summary."
+  },
+  {
+    "title": "Why European VCs are quietly cheering the chip rout",
+    "link": "https://sifted.eu/articles/european-vcs-chip-rout/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=704,quality=75,fit=cover,format=auto/wp-content/uploads/2021/03/30215720/Silicon-chip-being-made.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-30T05:00:15+00:00",
+    "hash": "bb80dd247c28",
+    "ai_summary": "European venture capitalists are breathing a sigh of relief as the global semiconductor industry's slowdown provides them with a rare opportunity to invest in underpriced tech startups without increasing valuations. By seizing on this moment, European VCs may gain a competitive edge and create more homegrown tech successes that can rival established giants in the US."
+  },
+  {
+    "title": "Go big and go abroad: Europe\u2019s startups are expanding internationally as early as seed",
+    "link": "https://sifted.eu/articles/international-expansion/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=2044,quality=75,fit=cover,format=auto/wp-content/uploads/2023/10/24130210/Startups-moving-to-the-US-1-1.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-07-30T05:00:04+00:00",
+    "hash": "0118808455ec",
+    "ai_summary": "European startups are breaking the trend of slow international expansion, with a growing number reaching into new markets as early as their seed funding stage. This shift is driven by increased access to global markets, improved digital infrastructure, and the need to compete in a highly competitive startup ecosystem."
+  },
+  {
+    "title": "Google's new Pixel 11 Pro teaser offers a better look at the Pixel Glow feature",
+    "link": "https://www.gsmarena.com/googles_new_pixel_11_pro_teaser_offers_a_better_look_at_the_pixel_glow_feature-news-73931.php",
+    "summary": "Ahead of its Made by Google event on August 12, Google has released a new teaser for the upcoming Pixel 11 series, and this one offers a closer look at the new Pixel Glow feature. The new teaser highlights how people already rely on several Google services, including Gmail, Google Maps, Search, and Docs, suggesting that switching to a Google-made Pixel phone would be a logical choice. More importantly, the video offers a clearer look at the Pixel Glow RGB LED circle positioned on the rear camera",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/google-pixel-11-pro-new-teaser/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-30T07:00:02+02:00",
+    "hash": "e54f85486dcf",
+    "ai_summary": "Google has released a new teaser video just weeks ahead of its upcoming Made by Google event, giving us a sneak peek at the Pixel Glow feature on its highly anticipated Pixel 11 Pro. This innovative new feature is a vibrant RGB LED circle positioned on the rear camera, adding a stylish touch to the phone's design."
+  },
+  {
+    "title": "Honor X6e arrives with a 7,500 mAh battery",
+    "link": "https://www.gsmarena.com/honor_x6e_arrives_with_a_7500_mah_battery-news-73927.php",
+    "summary": "Honor has just added a new device to the increasingly crowded X6 lineup, which already includes the X6 itself, the X6a, X6b, X6b 4G, X6c, X6d. Let's now meet the Honor X6e, which has been officially launched in Malaysia. It comes with a 6.61-inch LCD screen with 720x1604 resolution, 120Hz refresh rate, and 1,010-nit peak brightness, the MediaTek Helio G81 Ultra SoC at the helm, 4GB of RAM, 128GB of storage, a 50MP main camera with f/1.8 aperture, a 5MP selfie camera with f/2.2 aperture, and a 7,",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/honor-x6e-official/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-30T05:11:02+02:00",
+    "hash": "e43bced0548a",
+    "ai_summary": "Honor has introduced the X6e, a new smartphone that boasts a large 7,500 mAh battery, 6.61-inch LCD screen, and fast 120Hz refresh rate. With a powerful MediaTek processor, 50MP main camera, and 4GB of RAM, the Honor X6e is designed to offer enhanced performance and durability for users on-the-go."
+  },
+  {
+    "title": "PSA: App Store, iTunes Store and other Apple services are currently down for some users [U: Fixed]",
+    "link": "https://9to5mac.com/2026/07/29/psa-app-store-itunes-store-and-other-apple-services-are-currently-down-for-some-users/",
+    "summary": "Update, 11:00 p.m ET : Apple\u2019s System Status pages say all the issues have now been resolved. The original story follows below. For the second time in a week , Apple is facing a widespread outage affecting services for end users and developers. Here are the details.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/06/apple-hacked.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-30T02:29:50+00:00",
+    "hash": "c738fbe3856b",
+    "ai_summary": "Apple's services, including the App Store and iTunes Store, experienced a widespread outage that affected users and developers, forcing them to wait for solutions. Fortunately, Apple's technical team was able to resolve the issue and all services have since been restored."
+  },
+  {
+    "title": "Apple pledges support for communities affected by southern Europe wildfires",
+    "link": "https://9to5mac.com/2026/07/29/apple-pledges-support-for-communities-affected-by-southern-europe-wildfires/",
+    "summary": "Tim Cook took to X tonight to announce that Apple will donate to relief efforts supporting those affected by the wildfires affecting southern Europe. Here are the details.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/apple-park-dusk.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-07-30T02:14:39+00:00",
+    "hash": "474e44cff962",
+    "ai_summary": "Apple's CEO Tim Cook has pledged the company's support to communities ravaged by widespread wildfires in southern Europe, announcing a donation to relief efforts. The tech giant's contribution aims to help alleviate the impact of the devastating blazes on local residents and ecosystems."
+  },
+  {
+    "title": "This is what the Samsung Galaxy Buds On look like",
+    "link": "https://www.gsmarena.com/this_is_what_the_samsung_galaxy_buds_on_look_like-news-73930.php",
+    "summary": "Samsung is rumored to be working on a pair of Galaxy Buds with a new clip-on form factor (new for Samsung, that is - this has been done a lot by most of its competitors recently). We once heard they'd be called Galaxy Buds Able, but in the meantime the name Galaxy Buds On has also been circulated, with \"Able\" alleged to be their codename. We're going to call them Galaxy Buds On for now, and today a new leak shows us what they look like, thanks to some illustrations that are said to originate fro",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/samsung-galaxy-buds-on-images/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-07-30T03:09:02+02:00",
+    "hash": "a14622e3715f"
+  },
+  {
+    "title": "Studio Ghibli's worst movie returns to theaters for its 20th anniversary next month",
+    "link": "https://www.polygon.com/studio-ghibli-tales-from-earthsea-returns-to-theaters/",
+    "summary": "Tales of Earthsea might not be Ghibli's most prized feature films, but it's still an ambitious project helmed by the son of Hayao Miyazaki.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/tales-from-earthsea-4.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-30T01:00:12+00:00",
+    "hash": "e8d5d0fdc6f4"
+  },
+  {
+    "title": "Stylish action RPG Stupid Never Dies gets release date, new trailer",
+    "link": "https://www.polygon.com/stupid-never-dies-game-release-date-hiroyuki-kobayashi/",
+    "summary": "Former Capcom developer Hiroyuki Kobayashi's studio GPTRACK50 announces release date for wildly stylish action-RPG Stupid Never Dies.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/snd_teaser_001a_2k-1.png",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-30T00:30:12+00:00",
+    "hash": "7329db4cb6f6"
+  },
+  {
+    "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+    "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1930518491.jpg?resize=1200,800",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-07-30T00:21:06+00:00",
+    "hash": "d21089dfec2d"
+  },
+  {
+    "title": "The action epic fantasy that Paramount tried it kill is a officially a global streaming smash hit",
+    "link": "https://www.polygon.com/avatar-aang-the-last-airbender-paramount-plus-number-1-streaming-movie/",
+    "summary": "Mere days after its release, the new Avatar: The Last Airbender movie is a huge hit on Paramount Plus.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/avatar-aang-southern-air-temple.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-07-30T00:00:12+00:00",
+    "hash": "b881332804fe"
+  },
+  {
+    "title": "Here\u2019s How Microsoft\u2019s CEO Spoke About Xbox A Year Ago Vs. Now",
+    "link": "https://kotaku.com/microsoft-ceo-says-xbox-will-return-to-growth-this-fiscal-year-2000720333",
+    "summary": "He did not specify what that means",
+    "image": "https://kotaku.com/app/uploads/2025/09/xbox-logo2-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-29T22:47:22+00:00",
+    "hash": "66e966ed9796"
+  },
+  {
+    "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year",
+    "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+    "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [&#8230;]",
+    "image": "https://images.pexels.com/photos/2868223/pexels-photo-2868223.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-07-29T18:17:38-04:00",
+    "hash": "d31cc8e654c9"
+  },
+  {
+    "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+    "link": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+    "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [&#8230;]",
+    "image": "https://images.pexels.com/photos/9052549/pexels-photo-9052549.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-07-29T17:48:07-04:00",
+    "hash": "083944e37c87"
+  },
+  {
+    "title": "Here\u2019s Why GTA 6 Fans Are Convinced That After Waiting Over A Year, Trailer 3 Is Coming Soon",
+    "link": "https://kotaku.com/heres-why-gta-6-fans-are-convinced-that-after-waiting-over-a-year-trailer-3-is-coming-soon-2000720315",
+    "summary": "Trust me, bro, I can feel something in the air, okay?",
+    "image": "https://kotaku.com/app/uploads/2025/05/adbafffe54439bcfbfc6e78ceeff473d-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-29T21:30:06+00:00",
+    "hash": "0f396fa8b90c"
+  },
+  {
+    "title": "xAI\u2019s last-minute scramble to stop Minnesota\u2019s anti-nudification app law",
+    "link": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+    "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, the company argues, violates the First Amendment. Back in January, [&#8230;]",
+    "image": "https://images.pexels.com/photos/31633392/pexels-photo-31633392.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-07-29T17:06:52-04:00",
+    "hash": "ca2d0aedf225"
+  },
+  {
+    "title": "Xbox Revenue Dropped $1.7 Billion Last Year",
+    "link": "https://kotaku.com/xbox-revenue-dropped-1-7-billion-last-year-2000720316",
+    "summary": "Microsoft's gaming division had a very bad quarter",
+    "image": "https://kotaku.com/app/uploads/2026/06/xbox-green.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-07-29T21:01:34+00:00",
+    "hash": "52a78ad61f04"
+  },
+  {
+    "title": "AI hackers are getting faster. The government may not be ready",
+    "link": "https://www.fastcompany.com/91581090/ai-hackers-are-getting-faster-the-government-may-not-be-ready?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Agentic AI systems threaten cybersecurity as we know it. A new generation of cyber-capable models, including Anthropic\u2019s Mythos and OpenAI\u2019s GPT-5.6, can find and exploit vulnerabilities in computer systems far faster than human hackers. The technology is so powerful that it has spooked the U.S. government, which has moved to limit, or completely pause, the public release of these models. How well prepared is the Trump administration to secure the government\u2019s computing resources? The rise of ag",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91581090-ai-is-weakening-our-cyber-defenses-is-the-government-ready.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-29T18:51:07+00:00",
+    "hash": "5c5087381b37"
+  },
+  {
+    "title": "It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models",
+    "link": "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai/",
+    "summary": "I watched a new tool try to get around the model safeguards of four major frontier companies. You might be surprised by how they performed.",
+    "image": "https://media.wired.com/photos/6a68e96a01173a5bff236fa1/master/pass/AI-Lab-Still-Frighteningly-Easy-to-Jailbreak-Frontier-AI-Models-Business.jpg",
     "source": "Artificial Intelligence",
     "category": "AI",
-    "published": "2026-07-21T19:05:00+00:00",
-    "hash": "fb65b37a53f0"
+    "published": "2026-07-29T18:30:00+00:00",
+    "hash": "ba7381f8305d"
+  },
+  {
+    "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+    "summary": "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models. However, Brockman didn't confirm reports that one of those devices is a smart speaker OpenAI's rumored to be launching in 2027, or earlier [&#8230;]",
+    "image": "https://images.pexels.com/photos/16701076/pexels-photo-16701076.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-07-29T14:15:02-04:00",
+    "hash": "c323b18da2b8"
+  },
+  {
+    "title": "How an overlooked geothermal plant got a second chance",
+    "link": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
+    "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again, thanks to a new&#8230;",
+    "image": "https://images.pexels.com/photos/1734/snow-mountains-clouds-cloudy.jpg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-07-29T17:58:44+00:00",
+    "hash": "728815bc7914"
+  },
+  {
+    "title": "Telegram\u2019s founder, Pavel Durov, is now on an international wanted list",
+    "link": "https://www.fastcompany.com/91581630/telegrams-founder-pavel-durov-is-now-on-an-international-wanted-list?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Russia charged Pavel Durov , the founder, owner and CEO of the messaging app Telegram , with aiding terrorism and put him on an international wanted list, the country&#8217;s main domestic security agency said Wednesday. The charges against Durov, who was born and began his career in Russia but later moved abroad, came as Russian authorities restrict Telegram, one of the most popular messaging apps in the country. It is part of a long-term effort to bring the internet under the Kremlin&#8217;s c",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26210325398122.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-07-29T15:40:50+00:00",
+    "hash": "cfd7011a0abd"
+  },
+  {
+    "title": "MIT in the media: For the future of tech, \"Massachusetts can absolutely lead\"",
+    "link": "https://news.mit.edu/2026/mit-media-future-tech-massachusetts-can-absolutely-lead",
+    "summary": "Leaders, faculty across MIT discuss fostering innovation and talent in Greater Boston in special series of articles published alongside the outlet's annual list of 'Tech Power Players'",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/52094290589_762e9efbed_b%20%281%29.jpg?itok=zLilegey",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-06-18T00:00:00-04:00",
+    "hash": "de7fb2ee3029"
   }
 ]
