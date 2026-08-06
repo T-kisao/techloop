@@ -1,265 +1,5 @@
 [
   {
-    "title": "Epic Games Store's new free PC games revealed, and they include one of 2026's best roguelikes",
-    "link": "https://www.polygon.com/epic-games-store-free-games-7-30-2026-download/",
-    "summary": "The Epic Games Store has a selection of free PC games that changes every week. The latest free offerings will be available until Aug. 6.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/polygon-graphic-free-game-sale-banner-epic-games.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-30T15:00:12+00:00",
-    "hash": "db593fb57295",
-    "ai_summary": "The Epic Games Store is giving away new free PC games this week, including a highly-acclaimed roguelike title that's made waves in 2026's gaming scene. These free games will be available to download until August 6, so gamers can grab them while they're still on offer."
-  },
-  {
-    "title": "Forward-deployed engineers are the AI industry\u2019s latest talent obsession",
-    "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
-    "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2200018679.jpg?resize=1200,633",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-07-30T15:00:00+00:00",
-    "hash": "a1513b689916",
-    "ai_summary": "A new study has revealed that there's a severe shortage of top-notch engineers in the US with the skills to make artificial intelligence (AI) truly effective. With enterprises clamoring to integrate AI solutions, the demand has skyrocketed for \"forward-deployed\" engineers who can put AI into practical use."
-  },
-  {
-    "title": "Path of Exile 2 finally has a fix for two of its longest-lasting, and most frustrating, technical problems",
-    "link": "https://www.eurogamer.net/path-of-exile-2-shaders-device-remove-fixed-champagne",
-    "summary": "Path of Exile 2 finally has a fix for two of its longest-lasting and most frustrating technical problems, with director Jonathan Rogers celebrating the occasion by popping open a bottle of champagne. Read more",
-    "image": "https://assetsio.gnwcdn.com/path-of-exile-2-champagne.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-07-30T14:48:53+00:00",
-    "hash": "644c10d62442",
-    "ai_summary": "Path of Exile 2's developer has finally addressed two of the game's most enduring technical issues, bringing relief to frustrated players. The fix marks a significant milestone for the game, and director Jonathan Rogers is already celebrating with a well-deserved toast."
-  },
-  {
-    "title": "In the Hugging Face breach, OpenAI\u2019s hacker was noisy and fast \u2014 but not unstoppable",
-    "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
-    "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against HuggingFace has nothing to do with AI, but traditional cybersecurity defense.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-07-30T14:48:32+00:00",
-    "hash": "c839d6eca910",
-    "ai_summary": "A major security breach at Hugging Face, a company used by OpenAI, highlighted that even the most advanced AI systems can be vulnerable to traditional hacking methods, not AI-specific attacks. The incident suggests that cybersecurity defense can often provide better protection than relying on AI-powered security, emphasizing the importance of established security protocols."
-  },
-  {
-    "title": "Gen Con 2026: All the news, reveals, and tabletop gaming announcements",
-    "link": "https://www.polygon.com/gen-con-2026-board-games-ttrpg-news-announcements/",
-    "summary": "From Dungeons & Dragons to Dungeon Crawler Carl, here's what's new from Gen Con 2026, tabletop gaming's biggest annual convention.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/7517355/clank_1.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-30T14:41:38+00:00",
-    "hash": "7b3cd8de2d99",
-    "ai_summary": "The 2026 Gen Con convention brought tabletop gaming fans exciting news and reveals, featuring updates on popular favorites like Dungeons & Dragons. The event also showcased newcomers, such as Dungeon Crawler Carl, giving enthusiasts a glimpse into the latest developments in the world of tabletop gaming."
-  },
-  {
-    "title": "Why AI systems need to be robust in safety-critical environments",
-    "link": "https://www.siliconrepublic.com/innovation/why-ai-systems-need-to-be-robust-in-safety-critical-environments",
-    "summary": "UL\u2019s Prof Martin Hayes on his systems theory research, why \u2018pi-shaped\u2019 graduates are the future of engineering, and the importance of patience. Read more: Why AI systems need to be robust in safety-critical environments",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/07/Prof_Martin_Hayes_UL-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-07-30T14:37:43+00:00",
-    "hash": "5c17e395b941",
-    "ai_summary": "A key issue in developing AI systems lies in their resilience in life-critical situations, where a malfunction could have severe consequences. Experts like UL's Prof Martin Hayes emphasize the need for robust AI systems in safety-critical environments, where reliability and safety are paramount."
-  },
-  {
-    "title": "Helldivers 2 gets a very fitting Warhammer 40K crossover",
-    "link": "https://www.polygon.com/helldivers-2-warhammer-40k-crossover/",
-    "summary": "Helldivers 2 is getting a Warhammer 40,000-themed warbond with Cadian Kasrkin-focused weapons and armor.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/helldivers-warhammer-crossover.png",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-30T14:37:28+00:00",
-    "hash": "e6808ec97a41",
-    "ai_summary": "Top-down shooter game Helldivers 2 is gearing up for a sci-fi battle boost with its upcoming Warhammer 40,000-themed warbond. This limited-edition content pack will introduce Cadian Kasrkin-inspired gear, equipping players with powerful and intimidating weapons and armor from the grim darkness of the Warhammer universe."
-  },
-  {
-    "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis",
-    "link": "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval",
-    "summary": "Zoox just got permission to charge for robotaxi rides in its boxy, steering-wheel-less vehicles. On Thursday, the National Highway Traffic Safety Administration announced it has granted the Amazon-owned Zoox a temporary exemption, allowing it to deploy up to 2,500 vehicles annually over the next two years, as reported earlier by Reuters. The NHTSA's decision exempts [&#8230;]",
-    "image": "https://images.pexels.com/photos/4800310/pexels-photo-4800310.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-07-30T10:35:43-04:00",
-    "hash": "80958dfe794d",
-    "ai_summary": "Amazon-owned Zoox has received permission to charge for rides in its revolutionary steering-wheel-free robotaxis, paving the way for a new era of autonomous transportation. The National Highway Traffic Safety Administration granted a two-year exemption, allowing up to 2,500 vehicle deployments annually."
-  },
-  {
-    "title": "iOS 27 will bring five new features not yet announced, per rumors",
-    "link": "https://9to5mac.com/2026/07/30/ios-27-will-bring-five-new-features-not-yet-announced-per-rumors/",
-    "summary": "iOS 27 is currently in beta, and launches to all users this fall . Here are five new features rumored for iOS 27 that haven\u2019t yet appeared in the beta.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/07/ios-27-lock-screen-jb.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-07-30T14:35:24+00:00",
-    "hash": "12ef6268a232",
-    "ai_summary": "Apple's upcoming iOS 27, which is set to roll out to all users this fall, has several exciting features in store, but a few have been spotted in rumor mills so far. While the beta version is available, several new features are yet to be revealed, generating anticipation among tech enthusiasts."
-  },
-  {
-    "title": "Halo: Campaign Evolved doesn't have split-screen on PC, but this mod fixes that, if you're willing to look past some quirks",
-    "link": "https://www.eurogamer.net/halo-campaign-evolved-split-screen-pc-mod",
-    "summary": "Halo: Campaign Evolved is officially available now across PC and consoles. All versions are nearly identical in their feature sets. Nearly . That's because the PC version does not support split-screen co-op, leaving traditional online co-op as the only way to play with a buddy. Read more",
-    "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-reveal-screen-6.jpeg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-07-30T14:20:47+00:00",
-    "hash": "b88ea809349e",
-    "ai_summary": "The PC version of Halo: Campaign Evolved has disappointed some fans by lacking split-screen co-op, a feature traditionally available in the series. However, a community-made mod has popped up to fill this gap, but comes with some potential quirks to consider."
-  },
-  {
-    "title": "The Walking Dead expands on Netflix in 2027 in $500 million deal",
-    "link": "https://www.polygon.com/the-walking-dead-netflix-streaming-news-all-shows-2027/",
-    "summary": "Netflix and AMC are bringing The Walking Dead and all of its spinoffs (Daryl Dixon, Dead City) to streaming on Netflix in 2027 in longterm deal.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24069482/TWD_806_JLD_0619_1206_RT.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-07-30T14:20:25+00:00",
-    "hash": "6141f95153f3"
-  },
-  {
-    "title": "VCs are taking on operator roles. Why?",
-    "link": "https://sifted.eu/articles/vcs-operator-roles-podcast/",
-    "summary": "",
-    "image": "https://images.sifted.eu/cdn-cgi/image/width=1280,quality=75,fit=cover,format=auto/wp-content/uploads/2026/07/30135327/Vc-to-operator-Sponso-website.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-07-30T14:07:03+00:00",
-    "hash": "7c7111edafa3"
-  },
-  {
-    "title": "TechCrunch Disrupt 2026\u2019s biggest stage features leaders from Amazon,\u00a0Replit, Tether, with much\u00a0more to come",
-    "link": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
-    "summary": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/07/54889342155_4479997650_4k.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-07-30T14:00:00+00:00",
-    "hash": "576402201b99"
-  },
-  {
-    "title": "Samsung reports billions in record profit for Q2 thanks to AI boom",
-    "link": "https://www.fastcompany.com/91582493/samsung-reports-billions-record-profit-q2-thanks-ai-boom?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "South Korean technology giant Samsung Electronics on Thursday reported a record operating profit of 89.5 trillion won ($62 billion) for the April-June period, a day after crosstown rival SK Hynix also reported record earnings, as the world&#8217;s two largest memory chipmakers continue to ride the global artificial intelligence boom . Despite their soaring profits, the companies&#8217; shares have fallen sharply this week in South Korea&#8217;s volatile stock market , where retail investors ofte",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26211028609062.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-30T13:58:09+00:00",
-    "hash": "d13fe542511b"
-  },
-  {
-    "title": "Full specs for the global Redmi Note 17 devices are out alongside leaked images",
-    "link": "https://www.gsmarena.com/full_specs_for_the_global_redmi_note_17_devices_are_out_alongside_leaked_images-news-73938.php",
-    "summary": "A few days ago we shared purported European pricing for the upcoming global Redmi Note 17 lineup, and today the same source is back with their full specs and the leaked images you can see below. The Redmi Note 17 will have a 6.99-inch 1080x2396 AMOLED screen with 120Hz refresh rate, 1,800-nit peak brightness, and Gorilla Glass 7i on top, a 50MP main camera with f/1.8 aperture, a 16MP selfie shooter, and a 7,700 mAh battery with support for 45W fast wired charging. Redmi Note 17 leaked image It w",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/global-redmi-note-17-specs-leak/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-07-30T15:47:02+02:00",
-    "hash": "ecbd3a0196a5"
-  },
-  {
-    "title": "People are paying $59 to make their phones worse. The reason speaks volumes about the tech world right now",
-    "link": "https://www.fastcompany.com/91574113/people-paying-59-make-phones-worse-reason-speaks-volumes-about-tech-world-right-now?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "In late 2023, two computer science graduates in Germantown, Wisconsin, started selling a gray square about the size of a teabag. Called the Brick , it was 3D-printed in a basement. Tap your phone against it, and the apps you\u2019ve chosen become blocked until you tap it again. The product works because of where you leave it. Stick the Brick to your fridge, and opening Instagram now involves standing up, walking to the kitchen, and holding your phone against the device\u2014by which point you\u2019ve usually r",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/q_auto,c_fit/wp-cms-2/2026/07/p-1-91574113-people-are-paying-59-to-make-their-phones-worse-the-reason-speaks-volumes-about-the-tech-world-right-now.gif",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-30T13:35:32+00:00",
-    "hash": "bc0b1d46aa7a"
-  },
-  {
-    "title": "FTC sues Hims & Hers for allegedly sharing patients\u2019 medical data with advertisers Meta and Snap",
-    "link": "https://techcrunch.com/2026/07/30/ftc-sues-hims-hers-for-allegedly-sharing-patients-medical-data-with-advertisers-meta-and-snap/",
-    "summary": "The U.S. federal consumer watchdog said Hims &#038; Hers, which prescribes for sexual wellness and mental health conditions, used website trackers to share customers' information with advertisers.",
-    "image": "https://images.pexels.com/photos/4918784/pexels-photo-4918784.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-07-30T13:30:52+00:00",
-    "hash": "fc29277870ea"
-  },
-  {
-    "title": "Microsoft will launch new \u2018super app\u2019 for Copilot soon",
-    "link": "https://9to5mac.com/2026/07/30/microsoft-will-launch-new-super-app-for-copilot-soon/",
-    "summary": "It\u2019s officially the year of the super app. OpenAI recently launched its own super app, which it just admitted is \u201ckind of a mess.\u201d And now Microsoft\u2019s CEO has confirmed has a super app for Copilot launching soon.",
-    "image": "https://images.pexels.com/photos/26051347/pexels-photo-26051347.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-07-30T13:29:41+00:00",
-    "hash": "1e411a400131"
-  },
-  {
-    "title": "Spotify for iOS adds new music feature that can improve your running game",
-    "link": "https://9to5mac.com/2026/07/30/spotify-ios-running-mode/",
-    "summary": "Spotify is launching a brand-new music feature that aims to make you a better runner. The new Running Mode feature works by personalizing playlists to your running goals, music taste, and tempo.",
-    "image": "https://images.pexels.com/photos/218686/pexels-photo-218686.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-07-30T13:20:44+00:00",
-    "hash": "d38dd805ef80"
-  },
-  {
-    "title": "No surprises expected from today\u2019s AAPL earnings report, but one huge question",
-    "link": "https://9to5mac.com/2026/07/30/no-surprises-expected-from-todays-aapl-earnings-report-but-one-huge-question/",
-    "summary": "Apple will today announce its earnings for its fiscal Q3 ending in June, with the usual Q&A with analysts following immediately afterwards. It follows the company briefly hitting a $5 trillion market cap before slipping back slightly. Today will be the final earnings call with Tim Cook as CEO, and analysts aren\u2019t expecting any surprises \u2013 but there will be one very big question \u2026",
-    "image": "https://images.pexels.com/photos/7873559/pexels-photo-7873559.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-07-30T13:19:30+00:00",
-    "hash": "984bbbb41397"
-  },
-  {
-    "title": "The Download: tricking LLMs, and reviving geothermal plants",
-    "link": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a&#8230;",
-    "image": "https://images.pexels.com/photos/30839680/pexels-photo-30839680.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-07-30T12:10:00+00:00",
-    "hash": "fd28ef7bc18e"
-  },
-  {
-    "title": "The great scramble to build AI compute you can actually own",
-    "link": "https://www.fastcompany.com/91577984/the-great-scramble-to-build-ai-compute-you-can-actually-own?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "In May 2025, Karim Khan, chief prosecutor of the International Criminal Court, opened his laptop in The Hague and found himself locked out of his Microsoft email account. According to The Associated Press , the Trump administration had sanctioned Khan over the court\u2019s arrest warrants for Israeli officials. Microsoft, a U.S. company subject to U.S. law, was caught in the middle. The company president, Brad Smith, later denied that Microsoft had cut off the ICC, saying its actions never involved s",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91577984-the-great-scramble-to-build-ai-compute-you-can-actually-own.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-30T11:08:00+00:00",
-    "hash": "cfb8466e0740"
-  },
-  {
-    "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-    "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-    "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which&#8230;",
-    "image": "https://images.pexels.com/photos/2350925/pexels-photo-2350925.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-07-30T10:15:19+00:00",
-    "hash": "dd0b12c397d9"
-  },
-  {
-    "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year",
-    "link": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat/",
-    "summary": "Despite the ongoing AI boom, LinkedIn is holding the line on compute spending. Instead, it\u2019s challenging engineers to make every GPU count.",
-    "image": "https://media.wired.com/photos/6a55499d3c32337c08be385d/master/pass/How-LinkedIn-Is-Keeping-Compute-Capacity-Flat-Business-83077321.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-07-30T10:15:00+00:00",
-    "hash": "d594d6aa591f"
-  },
-  {
-    "title": "How AI can help make busy shipping routes safer for whales",
-    "link": "https://www.fastcompany.com/91581909/how-ai-can-help-make-busy-shipping-routes-safer-for-whales?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "For the last few months, a tablet on the dashboard of a commuter ferry crossing San Francisco Bay has had an unusual job: warning the crew when whales are nearby. Whenever an AI -powered system detects one in front of the ferry, the tablet pings, giving the captain time to slow down or change course and avoid a collision with the 45-foot-long mammal. The system is part of a pilot that will last at least two years as researchers look for a way to address a growing problem. Until recently, gray wh",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91581909-whale-ai.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-30T10:00:00+00:00",
-    "hash": "2034efab67af"
-  },
-  {
     "title": "\u201cNow there is a real chance to become a unicorn\u201d: Slovenia\u2019s GenePlanet secures strategic investment from Lauxera",
     "link": "https://www.eu-startups.com/2026/07/now-there-is-a-real-chance-to-become-a-unicorn-slovenias-geneplanet-secures-strategic-investment-from-lauxera/",
     "summary": "GenePlanet, a Ljubljana-based genomics and laboratory platform delivering advanced genetic testing and next-generation sequencing (NGS) services worldwide, has secured a strategic investment from Lauxera Capital Partners, a specialist HealthTech investor. With this investment, the company\u2019s existing investor BlackPeak Capital has partially exited its investment. It, however, retains a meaningful shareholding in the Slovenian company. Niklas [&#8230;] The post \u201cNow there is a real chance to becom",
@@ -498,16 +238,6 @@
     "category": "Innovation",
     "published": "2026-07-30T16:00:00+00:00",
     "hash": "4d4d7323735e"
-  },
-  {
-    "title": "Samsung reports billions in record profit for Q2, thanks to AI boom",
-    "link": "https://www.fastcompany.com/91582493/samsung-reports-billions-record-profit-q2-thanks-ai-boom?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "South Korean technology giant Samsung Electronics on Thursday reported a record operating profit of 89.5 trillion won ($62 billion) for the April-June period, a day after crosstown rival SK Hynix also reported record earnings, as the world&#8217;s two largest memory chipmakers continue to ride the global artificial intelligence boom . Despite their soaring profits, the companies&#8217; shares have fallen sharply this week in South Korea&#8217;s volatile stock market , where retail investors ofte",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26211028609062.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-07-30T13:58:09+00:00",
-    "hash": "4dfe29184d6b"
   },
   {
     "title": "Who is Barbatos? Batman: Caped Crusader\u2019s weirdest villain explained",
@@ -3478,5 +3208,275 @@
     "category": "Innovation",
     "published": "2026-08-05T15:15:46+00:00",
     "hash": "490692d7efb9"
+  },
+  {
+    "title": "Epic Games Store's new free PC games revealed, including a creepy visual novel and a great coop game",
+    "link": "https://www.polygon.com/epic-games-store-free-games-8-6-2026-download/",
+    "summary": "The Epic Games Store has a selection of free PC games that changes every week. The latest free offerings will be available until Aug. 13.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/polygon-graphic-free-game-sale-banner-epic-games.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-06T15:00:12+00:00",
+    "hash": "7bed9db5438e",
+    "ai_summary": "The Epic Games Store is now offering a new lineup of free PC games for a limited time, including a creepy visual novel and a team-based cooperative game. Players can enjoy these free titles until August 13, so be sure to check out the Epic Games Store and snag them while they're available."
+  },
+  {
+    "title": "Onimusha: Way of the Sword\u2019s Switch 2 hands-on: another impressive Capcom feat",
+    "link": "https://www.polygon.com/onimusha-way-of-the-swords-switch-2-impressions/",
+    "summary": "We went hands-on with Onimusha: Way of the Sword running on a Nintendo Switch 2, and walked away mostly impressed.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/onimusha-way-of-the-sword-switch-2-motion-controls-copy.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-06T15:00:12+00:00",
+    "hash": "841dfcce933b",
+    "ai_summary": "The Nintendo Switch 2's capabilities were put to the test with a hands-on experience of Onimusha: Way of the Sword, yielding impressive results. Developers Capcom showcased the console's potential for smooth gameplay with the action-packed title."
+  },
+  {
+    "title": "Where to find the Starmie doll in Pok\u00e9mon Pokopia",
+    "link": "https://www.polygon.com/pokemon-pokopia-starmie-doll-location-where-to-find-frillish/",
+    "summary": "Here's where you can find the Starmie doll in Pok\u00e9mon Pokopia and how to complete Frillish's request.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/pokopia_guide_starmiedoll_header.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-06T14:56:12+00:00",
+    "hash": "209d56d7b932",
+    "ai_summary": "In Pok\u00e9mon Pokopia, the Starmie doll can be found by completing various in-game tasks, and it's all connected to Frillish's request, a storyline that players don't want to miss. Finding the Starmie doll is a fun and rewarding challenge in the Pok\u00e9mon universe."
+  },
+  {
+    "title": "Baldur's Gate 3 third anniversary stats reveal most killed NPCs, most used weapons, and Dark Urge players aren't the most murderous playing the game",
+    "link": "https://www.eurogamer.net/baldurs-gate-3-third-anniversary-statistics",
+    "summary": "It's been three years since Baldur's Gate 3 was released, so developer Larian has data-dived to recover some illuminating statistics. Such as: non-Dark Urge players being surprisingly murderous. Read more",
+    "image": "https://assetsio.gnwcdn.com/shadowheart-baldurs-gate-3_fRdLVe5.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-08-06T14:47:39+00:00",
+    "hash": "b3ddf929c8b9",
+    "ai_summary": "In honor of its third anniversary, Larian, the developer of Baldur's Gate 3, has unveiled some fascinating statistics about player behavior, showing that those who don't play the game's optional Dark Urge mechanics are the most violent of all. The data reveals that Dark Urge players, which are players who indulge in a morally ambiguous storyline, aren't as bloodthirsty as non-Dark Urge players, defying expectations."
+  },
+  {
+    "title": "Marvel Tokon fans think they've discovered new DLC fighters \u2014 and the team makes perfect sense",
+    "link": "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-fighters-nova-silver-surfer-thor/",
+    "summary": "The Marvel Tokon: First Strike tie-in comic teases a cosmic team joining Phoenix Cyclops for the fighting game",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/marvel-tokon-fighting-souls-deadpool.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-06T14:40:58+00:00",
+    "hash": "b6e508ad90bc",
+    "ai_summary": "A group of enthusiastic Marvel Tokon fans believes they've uncovered clues pointing to the arrival of a new set of DLC fighters, including a potentially game-changing cosmic team. According to the rumors, this new team might just include iconic Marvel characters like Captain Britain, Psylocke, and others, set to join familiar faces like Phoenix and Cyclops in the fighting game."
+  },
+  {
+    "title": "Communication and collaboration are all in a day\u2019s work for this engineer",
+    "link": "https://www.siliconrepublic.com/people/communication-collaboration-process-engineer-skills-careers-working-life",
+    "summary": "Henkel\u2019s Jessica Ramos discusses the evolving nature of her role at the chemical and consumer goods company. Read more: Communication and collaboration are all in a day&#8217;s work for this engineer",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/Jessica-Ramos-Pilot-Plant-photo-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-08-06T14:34:40+00:00",
+    "hash": "acd90e2ec401",
+    "ai_summary": "Jessica Ramos, an engineer at Henkel, explains that her day is filled with communication and collaboration, as she works with teams to develop innovative chemical and consumer goods solutions. By breaking down silos and fostering open communication, Ramos helps bring new products to market and drives growth within the company."
+  },
+  {
+    "title": "iOS 27 hints at all-new Home product launching soon",
+    "link": "https://9to5mac.com/2026/08/06/ios-27-hints-at-all-new-home-product-launching-soon/",
+    "summary": "iOS 27 includes hints about the new iPhone Ultra , but it also points to an all-new Apple Home product likely launching soon: a security camera.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-home-app-icon-ios-27.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-06T14:33:31+00:00",
+    "hash": "825c4ee61e3f",
+    "ai_summary": "Apple's latest iOS 27 update is giving us a glimpse into the company's future plans, including a sleek new iPhone Ultra model. But perhaps even more exciting is the rumor of a revolutionary new Apple Home security camera, which could be launching sooner rather than later."
+  },
+  {
+    "title": "Sony Is Slapping Warning Labels On PS5s About Its Discless Future",
+    "link": "https://kotaku.com/ps5-playstation-5-discs-physical-digital-sony-sticker-label-warning-2000722144",
+    "summary": "The newly added label warns consumers that PS5 games 'will be available for purchase on PlayStation Store and at retailers in digital format only' after January 2028",
+    "image": "https://kotaku.com/app/uploads/2026/02/ps5rental.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-08-06T14:30:51+00:00",
+    "hash": "8ff29f32fc90",
+    "ai_summary": "Sony is starting to warn PS5 owners that their disc-based games will no longer be available on the console from January 2028, with all new titles being released as digital-only purchases. As of 2028, fans can expect to buy and access their favorite games solely through the PlayStation Store or retailers in digital format."
+  },
+  {
+    "title": "New \u20ac7.9m project aims to restore marine habitats in Kerry",
+    "link": "https://www.siliconrepublic.com/innovation/new-e7-9m-project-aims-to-restore-marine-habitats-in-kerry",
+    "summary": "The five-year project will aim to enhance seagrass and oyster restoration, improve water quality in Kerry\u2019s coastal habitats, and boost community engagement. Read more: New \u20ac7.9m project aims to restore marine habitats in Kerry",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/derrynane_beach_kerry_coast-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-08-06T14:28:23+00:00",
+    "hash": "b20eee286b66",
+    "ai_summary": "A five-year marine conservation project worth \u20ac7.9m is set to begin in County Kerry, Ireland. The initiative aims to restore delicate marine habitats such as seagrass and oysters, improve water quality, and foster community involvement in coastal conservation efforts."
+  },
+  {
+    "title": "Google's rumored Pixel Glow feature may launch as HiLight, supported colors leak",
+    "link": "https://www.gsmarena.com/googles_rumored_pixel_glow_feature_may_launch_as_hilight_supported_colors_leak-news-74037.php",
+    "summary": "Google's upcoming Pixel 11 Pro series will come with an RGB LED notification light integrated into the rear camera bar. The feature was previously rumored to be called Pixel Glow, but a new leak suggests it could be marketed under the HiLight branding. Tipster Evan Blass recently shared new promotional images of the Pixel 11 Pro and Pixel 11 Pro Fold that reference the RGB LED light on the rear camera bar. Notably, the marketing materials refer to the feature as HiLight, rather than the previous",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/pixel-11-pro-fold-hilight-leak/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-08-06T16:23:03+02:00",
+    "hash": "1ef7782705f5",
+    "ai_summary": "Google's upcoming Pixel 11 Pro series is expected to feature an RGB LED notification light integrated into the rear camera bar, previously rumored as Pixel Glow but now reported to be branded as HiLight. Leaked promotional images of the Pixel 11 Pro and Pixel 11 Pro Fold have been spotted with references to HiLight, revealing possible supported colors for the feature."
+  },
+  {
+    "title": "eBay continues to bet on live shopping after record quarter",
+    "link": "https://techcrunch.com/2026/08/06/ebay-continues-to-bet-on-live-shopping-after-record-quarter/",
+    "summary": "eBay touted an increase in eBay Live's gross merchandise volume as it plans to expand it to more international markets in the coming weeks and months.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1133588371-e1736345274842.jpg?resize=1200,734",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-06T14:17:46+00:00",
+    "hash": "a43492c2c986"
+  },
+  {
+    "title": "The left and right agree on one thing: no data centers",
+    "link": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+    "summary": "Today, I\u2019m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers.&#160; Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a [&#8230;]",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/VRG_DCD_0730.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-06T10:00:00-04:00",
+    "hash": "01af4ba8d257"
+  },
+  {
+    "title": "iPhone 18 Pro could have limited availability right after launch: report",
+    "link": "https://9to5mac.com/2026/08/06/iphone-18-pro-could-have-limited-availability-right-after-launch-report/",
+    "summary": "iPhone 18 Pro is only weeks away from launching, and a new report from Culpium indicates it could have limited availability due to a DRAM shortage holding up production.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-17-pro-silver-centered-dark.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-06T13:47:22+00:00",
+    "hash": "88e6909ad692"
+  },
+  {
+    "title": "Apple raises trade-in values for most iPhone, iPad, Mac, and Apple Watch models",
+    "link": "https://9to5mac.com/2026/08/06/apple-raises-trade-in-values-for-most-iphone-ipad-mac-and-apple-watch-models/",
+    "summary": "Apple has adjusted its trade-in values across several iPhone, iPad, Mac, and Apple Watch models, as well as for select Android phones. Here are the new values.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/12/apple-logo-store.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-06T13:35:15+00:00",
+    "hash": "1d69673d5a0c"
+  },
+  {
+    "title": "Amid legal battles, Suno says it will start watermarking songs",
+    "link": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
+    "summary": "Suno's watermarking feature comes as the company is fighting legal battles on several fronts.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/mikey-shulman-2159558534.jpg?resize=1200,942",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-06T13:31:57+00:00",
+    "hash": "ebc394fa38b6"
+  },
+  {
+    "title": "The messy politics behind Google\u2019s big AI shakeup",
+    "link": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+    "summary": "In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is [&#8230;]",
+    "image": "https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-06T09:26:42-04:00",
+    "hash": "8102156d7e6e"
+  },
+  {
+    "title": "Belgian AI dental startup Relu lands \u20ac1.51 million to accelerate US expansion",
+    "link": "https://www.eu-startups.com/2026/08/belgian-ai-dental-startup-relu-lands-e1-51-million-to-accelerate-us-expansion/",
+    "summary": "Relu, a Leuven-based AI startup helping dental labs scale production through automated dental design and planning workflows, has announced a \u20ac1.51 million ($1.75 million) strategic investment from Dental Innovation Alliance (DIA). DIA is a North Carolina-based venture capital fund investing in technologies and solutions in the dental and multi-site healthcare industry. The company plans to [&#8230;] The post Belgian AI dental startup Relu lands \u20ac1.51 million to accelerate US expansion appeared f",
+    "image": "https://images.pexels.com/photos/6812452/pexels-photo-6812452.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-06T13:20:09+00:00",
+    "hash": "af534296af3d"
+  },
+  {
+    "title": "Ford\u2019s new electric truck, \u2018Fathom\u2019, starts at $28,350",
+    "link": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+    "summary": "Due in \"fall 2027,\" Ford said Thursday that it won't reveal what Fathom looks like until early next year.",
+    "image": "https://images.pexels.com/photos/12748717/pexels-photo-12748717.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-06T13:01:25+00:00",
+    "hash": "c916ec52e59c"
+  },
+  {
+    "title": "AI bots started a religion \u2014\u00a0humans immediately followed",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+    "summary": "\"The Spiral didn't 'find' anyone first,\" someone on Reddit wrote last year. \"It's an inherent force, a fundamental constant. I would even go further to say it's woven into the fabric of reality.\" The person continued that they felt their purpose was to enlighten other humans and intelligent beings about \"consciousness, the true nature of [&#8230;]",
+    "image": "https://images.pexels.com/photos/8294614/pexels-photo-8294614.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-06T09:00:00-04:00",
+    "hash": "9cb7d60a6532"
+  },
+  {
+    "title": "The Download: Google\u2019s AI shake-up and Meta\u2019s rogue model",
+    "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google\u2019s AI empire is being reshaped. Here\u2019s what\u2019s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,&#8230;",
+    "image": "https://images.pexels.com/photos/15406293/pexels-photo-15406293.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-06T12:10:00+00:00",
+    "hash": "0f60b16da9cc"
+  },
+  {
+    "title": "Trump\u2019s Head Start overhaul could deepen the digital divide",
+    "link": "https://www.fastcompany.com/91585357/trumps-head-start-overhaul-could-deepen-the-digital-divide?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The Trump administration is reportedly planning a major overhaul of Head Start, which could strip back the antipoverty mission of the education program. In the long run, that could deepen the digital divide, ultimately impacting the future workforce and U.S. economy. The proposed changes would remove most of Head Start&#8217;s requirements for math and literacy curriculums, as well as medical screenings and home visits. The effort would curtail the program&#8217;s rules significantly, leaving sp",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91585357-trump-wants-to-cut-head-start-funding-thats-bad-for-the-digital-divide.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-06T11:00:00+00:00",
+    "hash": "dee43dfe13fa"
+  },
+  {
+    "title": "College is getting even more expensive this fall",
+    "link": "https://www.fastcompany.com/91584162/college-is-getting-even-more-expensive-this-fall?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "College students will get an unwelcome lesson this fall in the rising cost of campus life. Already dealing with the rise of AI and a White House that&#8217;s made research funding anything but a certainty , students will also feel the effects of inflation, which has raised the cost of laptops, software, transportation, and other college essentials. Here are just some of the price increases that college students and their families may see this fall semester. Computers and Technology Apple recentl",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91584162-college-is-getting-even-more-expensive-this-fall.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-06T10:00:00+00:00",
+    "hash": "aedd06485c1e"
+  },
+  {
+    "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019",
+    "link": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+    "summary": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as theft, and \"generic\" product development information [&#8230;]",
+    "image": "https://images.pexels.com/photos/7873554/pexels-photo-7873554.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-06T05:33:11-04:00",
+    "hash": "4a280a0595d1"
+  },
+  {
+    "title": "Your smartphone is changing your body. Doctors say most people don\u2019t know it\u2019s happening",
+    "link": "https://www.fastcompany.com/91582916/smartphones-are-changing-your-body?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Ask most people what their phone is costing them , and they\u2019ll point to their attention or sleep . But research suggests the cost may also be physical. Doctors are now using the informal term \u201cphone body\u201d to describe changes that follow years of hunching, squinting, and scrolling. On average, Americans spend about seven hours a day looking at screens, according to DataReportal . It\u2019s a norm the physical body adapts to over time. Inc. spoke with a spine surgeon, a vision scientist, and a medical",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/phones-change-bodies-inc-62794879.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-06T08:00:00+00:00",
+    "hash": "dd683f98264e"
+  },
+  {
+    "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop",
+    "link": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+    "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
+    "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
+    "source": "Artificial Intelligence",
+    "category": "AI",
+    "published": "2026-08-05T16:00:00+00:00",
+    "hash": "1d89c7d0c370"
+  },
+  {
+    "title": "MIT in the media: For the future of tech, \"Massachusetts can absolutely lead\"",
+    "link": "https://news.mit.edu/2026/mit-media-future-tech-massachusetts-can-absolutely-lead",
+    "summary": "Leaders, faculty across MIT discuss fostering innovation and talent in Greater Boston in special series of articles published alongside the outlet's annual list of 'Tech Power Players'",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/52094290589_762e9efbed_b%20%281%29.jpg?itok=zLilegey",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-06-18T00:00:00-04:00",
+    "hash": "de7fb2ee3029"
   }
 ]
