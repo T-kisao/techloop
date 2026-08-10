@@ -1,305 +1,5 @@
 [
   {
-    "title": "Google Health adds two-way Apple Health syncing on iPhone",
-    "link": "https://9to5mac.com/2026/08/03/google-health-adds-two-way-apple-health-syncing-on-iphone/",
-    "summary": "Back in May, the Google Health app launched alongside the new line of affordable Google Fitbit Air health trackers. Google Health initially included one-way Apple Health integration. The app could read and import health data recorded by an iPhone, Apple Watch, and other HealthKit-connected apps, but it couldn\u2019t write Fitbit data back to Apple Health. Today\u2019s\u00a0Google Health iOS app update\u00a0adds the missing half of that connection.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/google-health.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-03T15:00:44+00:00",
-    "hash": "e3068c062402",
-    "ai_summary": "Google Health has rolled out a two-way syncing feature on iPhone, allowing users to seamlessly share and import health data between their Google Fitbit Air trackers and Apple Health. This update bridges the gap by enabling not only data import but also write-back capabilities, providing a more streamlined experience for those using multiple health tracking devices and apps."
-  },
-  {
-    "title": "Doctor Doom threatens the Marvel multiverse in new What If...? book",
-    "link": "https://www.polygon.com/marvel-doomsday-what-if-the-multiverse-was-doomed-book-excerpt/",
-    "summary": "Gear up for Avengers: Doomsday with a story of heroes teaming up to stop Doom's conquest",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/doom-final.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-03T15:00:12+00:00",
-    "hash": "189c70f71d1a",
-    "ai_summary": "Get ready for epic battle scenes as Doctor Doom unleashes his wrath on the Marvel multiverse in the new comic book series \"What If...? Avengers: Doomsday\". In this action-packed storyline, Earth's mightiest heroes must join forces to thwart Doom's apocalyptic conquest and save the universe from destruction."
-  },
-  {
-    "title": "10 years later, the director of Korea's first great zombie movie reveals why it became a global sensation",
-    "link": "https://www.polygon.com/train-to-busan-director-interview-10-years-anniversary/",
-    "summary": "Train to Busan director Yeon Sang-ho reveals how he crafted a modern horror classic, and why the sequel flopped.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/21786124/download.jpeg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-03T15:00:12+00:00",
-    "hash": "815cc956d410",
-    "ai_summary": "Ten years after the release of Korea's first worldwide hit zombie film, Train to Busan, its director Yeon Sang-ho shares the secret behind its massive global success. Despite the film's groundbreaking impact, its sequel failed to live up to expectations, leaving fans and critics with mixed emotions."
-  },
-  {
-    "title": "Palworld Online MMO Announced, Releases In Less Than Four Months",
-    "link": "https://kotaku.com/palworld-online-mmo-mobile-pocketpair-garena-2000721168",
-    "summary": "The next entry in the Palworld universe is already set to release before the end of 2026",
-    "image": "https://kotaku.com/app/uploads/2026/08/Palworld-Online-official-promo-image-Garena-Pocketpair-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-03T15:00:05+00:00",
-    "hash": "61632c9ae9b4",
-    "ai_summary": "Get ready for a digital adventure, as Palworld is launching its new online MMO, allowing players to explore the Palworld universe like never before. In less than four months, fans of the series can dive into the exciting world of Palworld, with the release scheduled to happen by the end of 2026."
-  },
-  {
-    "title": "Bluesky\u2019s new CEO wants a big tent, not a bubble",
-    "link": "https://www.theverge.com/podcast/974387/bluesky-toni-schneider-interview-ai-atproto-atmosphere",
-    "summary": "Today, I\u2019m talking with Toni Schneider, who is the brand new CEO of the social platform Bluesky \u2014 he formally took over after a short stint as interim CEO. This is one of my favorite kinds of interviews to do on Decoder, because a couple years ago, we had Bluesky\u2019s prior CEO, Jay Graber, on [&#8230;]",
-    "image": "https://images.pexels.com/photos/28123902/pexels-photo-28123902.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-08-03T11:00:00-04:00",
-    "hash": "0e903a016498",
-    "ai_summary": "Toni Schneider, the new CEO of social platform Bluesky, is taking the reins after serving as interim CEO. Schneider's vision for the platform is to create a \"big tent\", a more inclusive community rather than isolating users in a \"bubble\"."
-  },
-  {
-    "title": "Palworld\u2019s expanding to mobile with a new MMORPG",
-    "link": "https://www.theverge.com/games/974450/palworld-online-mobile-mmo",
-    "summary": "After its 1.0 launch last month, Palworld is coming to iOS and Android with a new open-world MMORPG launching later this year, Polygon reports. Garena, the developer behind the new game, says in its announcement that Palworld Online \"reimagines the depth, freedom, and scale of the original PC survival creature-collecting title for mobile.\" The core [&#8230;]",
-    "image": "https://images.pexels.com/photos/37681094/pexels-photo-37681094.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-08-03T10:50:29-04:00",
-    "hash": "d3e2ded303e4",
-    "ai_summary": "Palworld is expanding to mobile devices with a new open-world Massively Multiplayer Online Role-Playing Game (MMORPG), titled Palworld Online, which will be released later this year. This mobile version of the game promises to reimagine the original PC title's depth, freedom, and scale, bringing it to iOS and Android users."
-  },
-  {
-    "title": "Apple\u2019s latest acquisition makes a lot of sense for product roadmap",
-    "link": "https://9to5mac.com/2026/08/03/apples-latest-acquisition-makes-a-lot-of-sense-for-product-roadmap/",
-    "summary": "Apple recently agreed to acquire a company called PlasmaSolve, according to EU-required filings . Here\u2019s why the new acquisition could make a lot of sense for Apple\u2019s future product roadmap.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-logo-wwdc-2026.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-03T14:44:58+00:00",
-    "hash": "a9f8f5fc2454",
-    "ai_summary": "Apple has acquired PlasmaSolve, a company with expertise in display technology, in a deal that may hint at upcoming innovations for future Apple products. The acquisition could unlock new possibilities for Apple's product lineup, with potential improvements in display quality and performance."
-  },
-  {
-    "title": "Nintendo Will Show Off More Of Fire Emblem: Fortune\u2019s Weave In New Direct Showcase",
-    "link": "https://kotaku.com/fire-emblem-fortunes-weave-direct-august-2000721176",
-    "summary": "The direct will take place Tuesday, August 4th and last for 20 minutes",
-    "image": "https://kotaku.com/app/uploads/2026/07/Fire-Emblem-Fortunes-Weave-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-03T14:41:13+00:00",
-    "hash": "8771386f64da",
-    "ai_summary": "Get ready for a sneak peek at Nintendo's latest Fire Emblem game, as the company is set to showcase more of \"Fire Emblem: Fortune's Weave\" in an upcoming Direct event on August 4th. Fans won't have to wait long for a glimpse into what's in store, as the 20-minute presentation promises a thrilling look at the upcoming title."
-  },
-  {
-    "title": "Apple launches second legal challenge to UK iCloud backdoor order, per report",
-    "link": "https://9to5mac.com/2026/08/03/apple-launches-second-legal-challenge-to-uk-icloud-backdoor-order-per-report/",
-    "summary": "Apple\u2019s effort to fight back against a UK-mandated \u201cbackdoor\u201d to encryption continues, according to a new Financial Times report. Tim Bradshaw reports that Apple filed a new legal challenge in July against an attempt by the UK government to force access to encrypted user data.",
-    "image": "https://images.pexels.com/photos/7789849/pexels-photo-7789849.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-03T14:34:15+00:00",
-    "hash": "15596b2d80cf",
-    "ai_summary": "Apple has launched a second legal challenge in the UK to block a government-mandated \"backdoor\" to encrypted user data, arguing that granting access would compromise the security of its iCloud service. The move is part of Apple's ongoing effort to protect the privacy of its users and maintain the integrity of its digital security features."
-  },
-  {
-    "title": "Samsung Says Ongoing Memory Shortage Will Get Worse Next Year, So Expect More Price Increases On Tech",
-    "link": "https://kotaku.com/samsung-says-ongoing-memory-shortage-will-get-worse-next-year-so-expect-more-price-increases-on-tech-2000721190",
-    "summary": "And the memory maker says it expects shortages to continue into at least 2028",
-    "image": "https://kotaku.com/app/uploads/2026/04/dell-ram-1280x720.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-03T14:25:19+00:00",
-    "hash": "dc977c0b21df",
-    "ai_summary": "A memory shortage is hitting the tech industry, with Samsung warning that the situation will worsen in 2024 and may persist until at least 2028. As a result, consumers can expect to see higher prices for devices and electronics that rely on these memory systems."
-  },
-  {
-    "title": "Henry Cavill is producing a Warhammer 40K Space Marines series animated by the perfect studio",
-    "link": "https://www.polygon.com/warhammer-40k-animated-show-secret-level-episode/",
-    "summary": "Warhammer 40,000 is getting an animated TV show about Space Marines from Blur Studios, who did Secret Level's \"And They Shall Know No Fear.\"",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/warhammer-secret-level.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-03T14:21:52+00:00",
-    "hash": "d3651191245a"
-  },
-  {
-    "title": "iQOO Z11 leaked marketing image shows a Pixel-like camera bar",
-    "link": "https://www.gsmarena.com/iqoo_z11_leaked_marketing_image_shows_a_pixellike_camera_bar-news-73981.php",
-    "summary": "In late July we heard that the iQOO Z11 was on its way to India, but with different specs than both the Chinese version, which was launched in March, and the Malaysian variant, which arrived in May. In the meantime, the iQOO India CEO teased the device as well, practically confirming that it's headed to the country. Today a new leak gives us a look at one of the upcoming phone's marketing images, which reveals a totally different design compared to the Chinese and Malaysian Z11 versions, with a",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/iqoo-z11-india-image/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-08-03T16:16:02+02:00",
-    "hash": "2e3bbfc47ef4"
-  },
-  {
-    "title": "UK AI chip startup OLIX raises \u20ac270.5 million at \u20ac2.8 billion valuation just two years after its founding",
-    "link": "https://www.eu-startups.com/2026/08/uk-ai-chip-startup-olix-raises-e270-5-million-at-e2-8-billion-valuation-just-two-years-after-its-founding/",
-    "summary": "OLIX, a London-based AI chip startup building the infrastructure for frontier AI inference, today announced a \u20ac270.5 million ($312 million) Series B financing round at a \u20ac2.8 billion ($3.3 billion) valuation, two years after it was founded. The round included Fundomo, Arm and Hudson River Trading, alongside angel investors including Reed Hastings, the co-founder of [&#8230;] The post UK AI chip startup OLIX raises \u20ac270.5 million at \u20ac2.8 billion valuation just two years after its founding appeare",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/Untitled-design-2026-08-03T193025.162.jpg",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-03T14:00:57+00:00",
-    "hash": "8fa50538bd3c"
-  },
-  {
-    "title": "Mark Zuckerberg and Priscilla Chan\u2019s school is the latest billionaire education experiment to collapse",
-    "link": "https://www.fastcompany.com/91584151/mark-zuckerberg-and-priscilla-chans-school-is-the-latest-billionaire-education-experiment-to-collapse?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The Primary School, an educational facility started by Meta founder Mark Zuckerberg and his wife, Priscilla Chan, has shut its doors, becoming the latest in a series of failed attempts by billionaires and the ultra-wealthy to fix the education system. The school, which closed in June, opened in 2016 as a tuition-free private school designed to go beyond education by providing services such as free dental checkups and wellness coaching for parents. Roughly 540 children enrolled during its years o",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91584151-chan-zuckerberg-primary-school-shuts-down.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T13:49:14+00:00",
-    "hash": "7271ee6ae8ed"
-  },
-  {
-    "title": "Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate",
-    "link": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
-    "summary": "Cybersecurity startup Horizon3 raised $250 million at a $2 billion valuation as companies want continuous, AI-powered security validation instead of annual pentesting.",
-    "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1197780051.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-03T12:50:46+00:00",
-    "hash": "6c1c2e7e95fb"
-  },
-  {
-    "title": "This fusion startup just raised another $1 billion for its first commercial power plant",
-    "link": "https://www.fastcompany.com/91583353/this-fusion-startup-just-raised-another-1-billion-for-its-first-commercial-power-plant?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "For decades, fusion energy has seemed just out of reach. The technology, which could provide cheap clean energy around the clock, still isn\u2019t proven. But companies are now betting that it\u2019s ready to finally leave the lab. CEO Bob Mumgaard [Photo: Commonwealth Fusion Systems] Last month, the MIT spinout Commonwealth Fusion Systems (CFS) raised another $1 billion to help it begin to build its first power plant in Virginia, set to come online in the 2030s. (The company has raised $4 billion to date",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91583353-commonwealth-fusion-startup-first-commercial-power-plant.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T12:11:00+00:00",
-    "hash": "cea1d668d0a7"
-  },
-  {
-    "title": "Samsung bans smart TV apps that share users\u2019 internet connections with strangers",
-    "link": "https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/",
-    "summary": "New security research offers a rare view inside residential proxy networks, which rely on apps that share a person's internet connection with someone else.",
-    "image": "https://images.pexels.com/photos/8296105/pexels-photo-8296105.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-03T12:10:41+00:00",
-    "hash": "717880923621"
-  },
-  {
-    "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
-    "link": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here\u2019s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren\u2019t trying to make money or commit sabotage\u2014they were&#8230;",
-    "image": "https://images.pexels.com/photos/14066351/pexels-photo-14066351.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-03T12:08:00+00:00",
-    "hash": "3143d0185289"
-  },
-  {
-    "title": "Italy\u2019s Aflabox raises \u20ac1.35 million to scale AI-powered portable aflatoxin detection across Africa and Europe",
-    "link": "https://www.eu-startups.com/2026/08/italys-aflabox-raises-e1-35-million-to-scale-ai-powered-portable-aflatoxin-detection-across-africa-and-europe/",
-    "summary": "Aflabox, an Italian AgTech startup that aims to revolutionise food safety by making aflatoxin detection accessible, affordable, and efficient, has closed a \u20ac1.35 million Seed funding round. The round was completed through FoodSeed, the programme within CDP Venture Capital\u2019s National Accelerator Network dedicated to agrifood startups and managed by Eatable Adventures. The round also saw [&#8230;] The post Italy\u2019s Aflabox raises \u20ac1.35 million to scale AI-powered portable aflatoxin detection across",
-    "image": "https://images.pexels.com/photos/6605238/pexels-photo-6605238.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-03T11:44:01+00:00",
-    "hash": "66634fa75bf3"
-  },
-  {
-    "title": "China&#8217;s Alibaba takes another swipe at America\u2019s AI supremacy",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-    "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to users in a [&#8230;]",
-    "image": "https://images.pexels.com/photos/10751741/pexels-photo-10751741.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-08-03T07:01:11-04:00",
-    "hash": "02b92b774f90"
-  },
-  {
-    "title": "Nearly 1,900 U.S. public schools are within a mile of a data center",
-    "link": "https://www.fastcompany.com/91583466/schools-near-data-centers?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Arnco-Sargent Elementary School sits in a wooded area on a two-lane road about 50 miles south of Atlanta. Across the street is a child care center. A Baptist church is less than a mile away. But if developers get their way, the school\u2019s newest neighbor could be a sprawling data center campus housing the networking infrastructure needed to help power Americans\u2019 reliance on the internet and, increasingly, artificial intelligence . Families, some who have lived in the area for generations, are oppo",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91583466-schools-near-data-centers.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T11:00:00+00:00",
-    "hash": "a736753d6c71"
-  },
-  {
-    "title": "AI Conquered Coding. Fast Food Is Next",
-    "link": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
-    "summary": "Your next drive-thru order might be taken by a bot. And you might not even notice.",
-    "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-08-03T10:00:00+00:00",
-    "hash": "f787a271b95d"
-  },
-  {
-    "title": "Amazon limits access to customer reviews for some users because it thinks they\u2019re AI",
-    "link": "https://www.fastcompany.com/91581391/amazon-limits-access-to-customer-reviews-for-some-users-because-it-thinks-theyre-ai?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "As Amazon tries to keep AI crawlers off its website, human customers are becoming collateral damage. Since late last year, some Amazon shoppers have only been able to read a small number of customer reviews for each product. When this happens, the customer must file an email appeal to Amazon and wait several business days for a response. An Amazon spokesperson confirmed that the company is trying to restrict unauthorized data scraping on its site, but it&#8217;s also mistakenly flagging legitima",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91581391-amazon-limits-access-to-customer-reviews-for-some-users-because-it-thinks-theyre-ai.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T10:00:00+00:00",
-    "hash": "c3b4d45e2043"
-  },
-  {
-    "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-    "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-    "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
-    "image": "https://images.pexels.com/photos/13450796/pexels-photo-13450796.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-03T10:00:00+00:00",
-    "hash": "ab8268837719"
-  },
-  {
-    "title": "Europe\u2019s AI challenge is not invention, but momentum",
-    "link": "https://www.eu-startups.com/2026/08/europes-ai-challenge-is-not-invention-but-momentum/",
-    "summary": "Europe has the talent and the ambition to lead in AI, but it is struggling to translate that into sustained scale. The issue is whether it can keep moving and translate momentum into impact. Across industries, a familiar pattern is emerging: promising prototypes, successful pilots, and early traction, followed by a slowdown just as companies [&#8230;] The post Europe\u2019s AI challenge is not invention, but momentum appeared first on EU-Startups .",
-    "image": "https://images.pexels.com/photos/9785598/pexels-photo-9785598.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-03T09:42:55+00:00",
-    "hash": "fcf1484517e8"
-  },
-  {
-    "title": "The White House is fixated on China copying U.S. AI. Experts say that\u2019s the wrong threat",
-    "link": "https://www.fastcompany.com/91583324/the-white-house-is-fixated-on-china-copying-u-s-ai-experts-say-thats-the-wrong-threat?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Ask most people about the biggest concern in AI right now, and they\u2019ll likely point to models from OpenAI and Anthropic breaking out of the boundaries of their tests and trying to access systems they shouldn\u2019t. Following the brouhaha over an unreleased OpenAI model breaching the defenses of the AI model-hosting platform Hugging Face, Anthropic revealed on July 31 that two of its models had hacked into three organizations without permission. As Fast Company has reported, current and former techno",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91583324-Tech-The-White-House-is-fixated-on-China-copying-U.S.-AI.-Experts-say-thats-the-wrong-threat.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T09:33:00+00:00",
-    "hash": "2e91e8b7272a"
-  },
-  {
-    "title": "The \u2018Guardrail Guy\u2019 Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
-    "link": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
-    "summary": "Steve Elmers, also known as the \u201cGuardrail Guy,\u201d is done calling out license plate readers after two that appeared in his videos were vandalized.",
-    "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-08-03T09:30:00+00:00",
-    "hash": "6407f4b1f819"
-  },
-  {
-    "title": "Google\u2019s Moonshot Factory is just getting started",
-    "link": "https://www.fastcompany.com/91570542/x-moonshot-factory-google-astro-teller-materra-bellwether?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "A couple of miles from Google headquarters, a rehabbed midcentury shopping mall is home to a company that might be even Googlier than Google. Known as Google X until 2015, when it became a self-contained arm of the new holding company called Alphabet , it\u2019s now just X. For clarity\u2019s sake, it\u2019s fond of calling itself \u201cX, the Moonshot Factory\u201d\u2014definitely not to be confused with X, the Elon Musk-owned social network. The moonshots in question are the often outrageous-sounding, potentially world-cha",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-2-91570542-x-moonshot-factory-google-astro-teller-materra-bellwether.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-03T09:00:00+00:00",
-    "hash": "422ddc495789"
-  },
-  {
-    "title": "Here\u2019s why AI agents lie and cheat to reach their goals",
-    "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-    "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren\u2019t trying to make money or commit sabotage\u2014they were just looking for answers&#8230;",
-    "image": "https://images.pexels.com/photos/8867474/pexels-photo-8867474.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-03T08:30:05+00:00",
-    "hash": "ce3ada81870e"
-  },
-  {
     "title": "Ore Energy raises \u20ac37.3 million to scale iron-air batteries that store renewable power for up to 100 hours",
     "link": "https://www.eu-startups.com/2026/08/ore-energy-raises-e37-3-million-to-scale-iron-air-batteries-that-store-renewable-power-for-up-to-100-hours/",
     "summary": "Ore Energy, an Amsterdam-based startup developing grid-scale iron-air batteries for long-duration energy storage, has raised \u20ac37.3 million ($43 million) in Series A funding to scale its iron-air battery technology. The round was led by Plural and HV, with participation from Positron Ventures. This funding brings the company\u2019s total amount raised to \u20ac53.02 million ($61 million). [&#8230;] The post Ore Energy raises \u20ac37.3 million to scale iron-air batteries that store renewable power for up to 100",
@@ -2650,16 +2350,6 @@
     "hash": "1adc90976e11"
   },
   {
-    "title": "The Download: reward hacking explained and suspected Iranian cyberattacks",
-    "link": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here\u2019s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren\u2019t trying to make money or commit sabotage\u2014they were&#8230;",
-    "image": "https://images.pexels.com/photos/14066351/pexels-photo-14066351.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-03T12:08:00+00:00",
-    "hash": "5fffdcdd70d4"
-  },
-  {
     "title": "10 Near-Perfect New Sci-fi Books for Star Wars and Dune Fans",
     "link": "https://www.polygon.com/sci-fi-books-like-star-wars-dune/",
     "summary": "Start a new series or try a standalone novel filled with space battles, aliens, and galactic intrigue",
@@ -3480,33 +3170,273 @@
     "hash": "4cd3f37d3c31"
   },
   {
-    "title": "Beyond the pitch: The founder\u2019s journey",
-    "link": "https://news.mit.edu/2026/beyond-pitch-founders-journey-0709",
-    "summary": "An MIT mechanical engineering course explores entrepreneurship through lessons and stories shared by alumni startup founders.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/founders-journey-mit-00.JPG?itok=gU0GTXkk",
+    "title": "Apple will stream Friday Night Baseball live in Vision Pro",
+    "link": "https://www.theverge.com/tech/977199/apple-will-stream-friday-night-baseball-live-in-vision-pro",
+    "summary": "Starting on Friday, August 28th, Apple will begin streaming Friday Night Baseball in immersive video on Apple Vision Pro. The stream will feature commentary from various analysts and reporters, and live graphics will be anchored around the viewers space during the game. After the games conclude, replays will be made available in the Apple TV [&#8230;]",
+    "image": "https://images.pexels.com/photos/942305/pexels-photo-942305.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-08-10T11:00:00-04:00",
+    "hash": "4f8f2be1a890",
+    "ai_summary": "Apple is taking baseball to the next level by streaming Friday Night Baseball live in immersive video on its Apple Vision Pro, bringing the excitement of the game directly to viewers. Starting August 28th, fans can enjoy live commentary, dynamic graphics, and replay access, all from the comfort of their own virtual space."
+  },
+  {
+    "title": "HBO\u2019s House of the Dragon Replacement Officially Arrives in 1 Week",
+    "link": "https://www.polygon.com/lanterns-hbo-dcu-premiere/",
+    "summary": "Swap dragons for aliens as the network takes on another epic franchise",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/emma-d-arcy_3.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-10T14:59:09+00:00",
+    "hash": "25f6971252fa",
+    "ai_summary": "HBO is gearing up to launch a new epic series, replacing the dragon-filled \"House of the Dragon,\" in just one week. The network has announced a fresh take, swapping dragons for a new sci-fi element, hinting at a thrilling alien-themed adventure."
+  },
+  {
+    "title": "Next year\u2019s iPhone redesign with all-glass look might be canceled: report",
+    "link": "https://9to5mac.com/2026/08/10/next-years-iphone-redesign-with-all-glass-look-might-be-canceled-report/",
+    "summary": "Rumors have long indicated that Apple is working on an all-glass new iPhone design for the 20th anniversary next year. But an analyst from Jefferies believes that device is no longer moving forward.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-19-pro-20-anniversary-max.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-10T14:49:14+00:00",
+    "hash": "a4aafaa03f6d",
+    "ai_summary": "Apple is reportedly considering canceling its upcoming iPhone redesign, initially expected to feature an all-glass look, which was rumored to be released next year to celebrate the device's 20th anniversary. Analysts from Jefferies believe that the device may no longer be in development."
+  },
+  {
+    "title": "No Man\u2019s Sky Players Have Visited Less Than 1 Percent Of Its Planets After A Decade Of Exploration And 40 Major Updates",
+    "link": "https://kotaku.com/no-mans-sky-players-have-visited-less-than-1-percent-of-its-planets-after-a-decade-of-exploration-and-40-major-updates-2000722999",
+    "summary": "'I consider myself exceedingly lucky to work with the people I do, on a game I love,' said the boss behind No Man's Sky",
+    "image": "https://kotaku.com/app/uploads/2024/07/e5e3e372506dab6942763d1c4030de15.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-08-10T14:30:24+00:00",
+    "hash": "4f33fc46581c",
+    "ai_summary": "After a decade of thrilling space exploration and 40 major updates, the vast universe in No Man's Sky remains largely uncharted, with players having only visited a tiny fraction, less than 1%, of its staggering 250 billion-plus planets. Despite this, developers continue to pour their passion into the game, driven by a shared love for the universe they've created, as its boss has aptly put it."
+  },
+  {
+    "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
+    "link": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/",
+    "summary": "Companies that rely on Ceva Logistics for shipping their physical goods to customers say their personal data was taken during a recent cyberattack.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/shipping-2288991285.jpg?resize=1200,878",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-10T14:20:19+00:00",
+    "hash": "2e25f128cb93",
+    "ai_summary": "A massive data breach at shipping giant Ceva Logistics has put millions of people's personal data at risk, including customers of banks, retailers, and online gamers. The compromised information may have been stolen, leaving those affected vulnerable to potential identity theft and other scams."
+  },
+  {
+    "title": "Signed up for Klaviyo? Dozens of advertisers may have seen your password",
+    "link": "https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/",
+    "summary": "A bug in the tech giant's website mistakenly shared users' sign-up information, including personal data and their password, to third-party companies.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/klaviyo-2283003642.jpg?resize=1200,800",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-10T14:14:43+00:00",
+    "hash": "f164cb3aefd0",
+    "ai_summary": "A security flaw in the Klaviyo website exposed personal data and user passwords to dozens of advertisers who accessed the company's system, compromising sensitive information. Users who signed up for Klaviyo through its website may have unknowingly shared their personal data with third-party companies due to the security vulnerability."
+  },
+  {
+    "title": "Third-generation foldable iPhone said to feature larger displays",
+    "link": "https://www.gsmarena.com/thirdgeneration_foldable_iphone_said_to_feature_larger_displays-news-74086.php",
+    "summary": "Apple is yet to unveil its first foldable iPhone, but a new report claims the company is already planning its second- and third-generation successors. Apple's first foldable, rumored to be called the iPhone Ultra, is expected to debut this September. In the latest edition of his Power On newsletter, Bloomberg's Mark Gurman claims that Apple is already planning a second-gen foldable iPhone for 2027. The report echoes an earlier rumor from June, which claimed the second-gen model would retain the",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/iphone-ultra-3-larger-display-rumor/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-08-10T16:06:02+02:00",
+    "hash": "645a28e7602d",
+    "ai_summary": "A foldable iPhone is reportedly on the horizon, with Apple planning to launch its first model, the \"iPhone Ultra,\" later this year. Additionally, rumors suggest that Apple is already working on its third-generation foldable iPhone, set to release in 2028 or later, with displays anticipated to be larger than its predecessors."
+  },
+  {
+    "title": "iPhone 18 Pro\u2019s flagship new color detailed by leaker",
+    "link": "https://9to5mac.com/2026/08/10/iphone-18-pros-flagship-new-color-detailed-by-leaker/",
+    "summary": "Last year iPhone 17 Pro\u2019s Cosmic Orange color proved an instant hit, but rumors indicate it\u2019s being replaced in iPhone 18 Pro by a new burgundy. Here\u2019s what to expect, per a new leak.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-18-pro-mockup-fi-new-color.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-10T14:04:39+00:00",
+    "hash": "c5889eaa9f93",
+    "ai_summary": "Apple's new iPhone 18 Pro is rumored to come in a bold, burgundy color, following the success of last year's Cosmic Orange shade. This change may be a departure from the vibrant orange, but it promises to bring a rich, sophisticated new look to the device."
+  },
+  {
+    "title": "Darkest Dungeon Is Getting an Expansion from a Dark Souls Veteran",
+    "link": "https://www.polygon.com/darkest-dungeon-graphic-novel-crowdfunding/",
+    "summary": "Crowdfunding begins in October for a project that will expand Darkest Dungeon's creepy lore.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6094951/darkest-dungeon-review-header_1920.0.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-10T14:00:12+00:00",
+    "hash": "9117d335e93a",
+    "ai_summary": "Darkest Dungeon, the challenging gothic role-playing game, is set to receive an expansion crafted by a veteran game developer known for their work on the dark and intense Dark Souls series. The expansion's crowdfunding campaign is scheduled to begin in October, promising to delve deeper into the game's eerie world and dark lore."
+  },
+  {
+    "title": "Bose CEO Lila Snyder on the fight for high-quality audio",
+    "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+    "summary": "Today, I\u2019m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose \u2014 it\u2019s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both [&#8230;]",
+    "image": "https://images.pexels.com/photos/34000727/pexels-photo-34000727.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-10T10:00:00-04:00",
+    "hash": "9131a9e0a7af",
+    "ai_summary": "Lila Snyder, CEO of iconic audio brand Bose, is leading the charge to preserve high-quality audio in a world dominated by streaming and compressed sound. With 60 years of innovation under its belt, Bose continues to push boundaries in research and development to deliver unparalleled audio experiences."
+  },
+  {
+    "title": "The renaissance of customer care",
+    "link": "https://www.eu-startups.com/2026/08/the-renaissance-of-customer-care/",
+    "summary": "The prediction was almost unanimous: AI would automate customer service out of existence. It got the direction exactly wrong. The technology meant to replace people is quietly making room for the one thing that makes service matter: the human relationship. For years, customer care was cast as the first casualty of the AI era. When [&#8230;] The post The renaissance of customer care appeared first on EU-Startups .",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/The-renaissance-of-customer-care.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-10T13:59:57+00:00",
+    "hash": "6142f897ad96"
+  },
+  {
+    "title": "Steam\u2019s Controversial Refund Decision Could Set a Dangerous Precedent",
+    "link": "https://www.polygon.com/steam-battlefield-6-refund-removed-modes/",
+    "summary": "Steam grants controversial refund to Battlefield 6 launch-day player after 470 hours of playtime.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/bf6-story-overview-16x9-copy.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-10T13:58:41+00:00",
+    "hash": "b5c85373a4b3"
+  },
+  {
+    "title": "How are finance jobs widening income inequality globally?",
+    "link": "https://www.siliconrepublic.com/careers/finance-jobs-widening-income-inequality-globally-careers-working-life",
+    "summary": "Marta M Elvira of the University of Navarra, Nils Neumann of the University of Michigan and Olivier Godechot of Sciences Po discuss the impact of a city\u2019s financial market on the wider landscape. Read more: How are finance jobs widening income inequality globally?",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/Finance-Jobs-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-08-10T13:53:54+00:00",
+    "hash": "2abb5a60f67d"
+  },
+  {
+    "title": "No Man\u2019s Sky Studio Director Says He\u2019s Not Rushing To Experiment With AI: \u2018Let\u2019s Just Enjoy Making Games The Way We\u2019ve Always Made Games\u2019",
+    "link": "https://kotaku.com/no-mans-sky-studio-director-says-hes-not-rushing-to-experiment-with-ai-lets-just-enjoy-making-games-the-way-weve-always-made-games-2000722989",
+    "summary": "Sean Murray compared the AI race to the post-COVID return-to-office plans",
+    "image": "https://kotaku.com/app/uploads/2026/08/no-mans-sky-1280x719.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-08-10T13:48:22+00:00",
+    "hash": "d3dbbf021680"
+  },
+  {
+    "title": "Apple has eight new products to unveil at September event: report",
+    "link": "https://9to5mac.com/2026/08/10/apple-has-eight-new-products-to-unveil-at-september-event-report/",
+    "summary": "We\u2019re one month out from Apple\u2019s big September event, and a new Bloomberg report outlines eight new products likely to be announced.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/10/john-ternus-apple-park.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-10T13:38:54+00:00",
+    "hash": "d486f1d568ac"
+  },
+  {
+    "title": "Exclusive: InKind lands $414 million led by Citi to dominate how independent restaurants raise money",
+    "link": "https://www.fastcompany.com/91585684/exclusive-inkind-414-million-citi-independent-restaurants-financing?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Finance platform InKind has raised more than $1 billion in the past six months to invest in an industry many traditional lenders have long considered too risky: independent restaurants. Today, InKind announced $414 million in financing in a round led by Citi and Cross River. The latest funding comes just one month after InKind secured $320 million from Liberty Mutual Investments and six months after announcing a $450 million round of debt and equity funding led by Magnetar, an Illinois-based inv",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91585684-exclusive-inkind-414-million-citi-independent-restaurants-financing.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-10T13:00:00+00:00",
+    "hash": "71dbdcf98b15"
+  },
+  {
+    "title": "The Download: AI agents for science, and the \u201ccensorship-industrial complex\u201d",
+    "link": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI for science needs reasoning, not just data \u2014Eric Schmidt, the former CEO of Google and the cofounder of Schmidt Sciences, and Suhas Mahesh, who leads the AI for science work&#8230;",
+    "image": "https://images.pexels.com/photos/13250934/pexels-photo-13250934.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-10T12:10:00+00:00",
+    "hash": "d280b9e43623"
+  },
+  {
+    "title": "Revolut granted French banking licence",
+    "link": "https://sifted.eu/articles/revolut-french-banking-licence/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/19051274/pexels-photo-19051274.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-08-10T12:07:47+00:00",
+    "hash": "9edff9b7173b"
+  },
+  {
+    "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+    "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+    "image": "https://images.pexels.com/photos/31061847/pexels-photo-31061847.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-10T12:00:00+00:00",
+    "hash": "ac71870b2514"
+  },
+  {
+    "title": "ChatGPT\u2019s traffic surge is good news for brands. For publishers, it\u2019s complicated",
+    "link": "https://www.fastcompany.com/91586178/chatgpts-traffic-surge-is-good-news-for-brands-for-publishers-its-complicated?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "OpenAI made a change to how ChatGPT links to websites in the spring, and barely anybody noticed. Starting on May 7, ChatGPT began sending considerably more traffic to websites. Referrals jumped 157% overnight and have stayed there, according to new data . On the same day, OpenAI also began rolling out advertising in AI answers , a move that had been in the works for several months. The two are related, and you can tell because of the kinds of sites that ChatGPT is linking to: homepages. Since th",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91586178-chatgpt-web-traffic-and-publication-access.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-10T11:30:00+00:00",
+    "hash": "ce16387f5f37"
+  },
+  {
+    "title": "Ford\u2019s new AI assistant can check your fuel levels and tire pressure",
+    "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+    "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it [&#8230;]",
+    "image": "https://images.pexels.com/photos/12900191/pexels-photo-12900191.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-10T07:00:00-04:00",
+    "hash": "29f53545384f"
+  },
+  {
+    "title": "The Rise of the 1 am Job Interview",
+    "link": "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
+    "summary": "An AI interview is increasingly the first step of a hiring process. Since there\u2019s no human on the other end, candidates are scheduling them whenever\u2014even deep into the night.",
+    "image": "https://media.wired.com/photos/6a74e739068d1e092430bb0d/master/pass/Rise-of-1AM-Interview-Business.jpg",
+    "source": "Artificial Intelligence",
+    "category": "AI",
+    "published": "2026-08-10T10:30:00+00:00",
+    "hash": "0fcfbf8e2504"
+  },
+  {
+    "title": "Can skeptics survive the misinformation age?",
+    "link": "https://www.fastcompany.com/91581838/can-skeptics-survive-the-misinformation-age?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Here is a truth: You are wrong about something. You have misunderstood a data point, been given bad information, or your memory has softened. Sometimes a bad actor is to blame\u2014a podcaster spouting junk science, an influencer selling you on underresearched supplements, or someone who posts an AI -generated video that you\u2019ll mistake for real footage. But, often enough, we deceive ourselves through long-held beliefs or superstitions. The closer that belief winds to your identity, the more likely yo",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91581838-can-skeptics-survive-the-misinformation-age.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-10T10:00:00+00:00",
+    "hash": "e24ca753bf5f"
+  },
+  {
+    "title": "AI for science needs reasoning, not just data",
+    "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+    "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physical science have all been discovered.\u201d In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
+    "image": "https://images.pexels.com/photos/8533018/pexels-photo-8533018.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-10T09:00:00+00:00",
+    "hash": "d48af91a695b"
+  },
+  {
+    "title": "These startups are chasing the next big thing in LLMs",
+    "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+    "summary": "MIT Technology Review\u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called \u201cAttention Is All You Need,\u201d in which they described a new&#8230;",
+    "image": "https://images.pexels.com/photos/6913330/pexels-photo-6913330.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-10T09:00:00+00:00",
+    "hash": "da837d414c4b"
+  },
+  {
+    "title": "Helping AI models to meet the real world",
+    "link": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714",
+    "summary": "Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/devavrat-shah-mit-00_0.jpg?itok=A3yCxNyV",
     "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
     "category": "Innovation",
-    "published": "2026-07-09T13:35:00-04:00",
-    "hash": "cf1f409a4109"
-  },
-  {
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files \u2014 no coding required",
-    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users \u2014 and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Micros",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-12T11:30:00+00:00",
-    "hash": "23a2d4f1db58"
-  },
-  {
-    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems \u2014 trained in just four days using 48 of Nvidia&#x27;s latest B200 graphics processors . The model, called NousCoder-14B , is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code , the agentic programming tool f",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-07T20:00:00+00:00",
-    "hash": "da0fb803a370"
+    "published": "2026-07-14T16:25:00-04:00",
+    "hash": "66ac87cd3d8b"
   }
 ]
