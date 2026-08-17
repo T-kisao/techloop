@@ -1,265 +1,5 @@
 [
   {
-    "title": "Apple will stream Friday Night Baseball live in Vision Pro",
-    "link": "https://www.theverge.com/tech/977199/apple-will-stream-friday-night-baseball-live-in-vision-pro",
-    "summary": "Starting on Friday, August 28th, Apple will begin streaming Friday Night Baseball in immersive video on Apple Vision Pro. The stream will feature commentary from various analysts and reporters, and live graphics will be anchored around the viewers space during the game. After the games conclude, replays will be made available in the Apple TV [&#8230;]",
-    "image": "https://images.pexels.com/photos/942305/pexels-photo-942305.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-08-10T11:00:00-04:00",
-    "hash": "4f8f2be1a890",
-    "ai_summary": "Apple is taking baseball to the next level by streaming Friday Night Baseball live in immersive video on its Apple Vision Pro, bringing the excitement of the game directly to viewers. Starting August 28th, fans can enjoy live commentary, dynamic graphics, and replay access, all from the comfort of their own virtual space."
-  },
-  {
-    "title": "HBO\u2019s House of the Dragon Replacement Officially Arrives in 1 Week",
-    "link": "https://www.polygon.com/lanterns-hbo-dcu-premiere/",
-    "summary": "Swap dragons for aliens as the network takes on another epic franchise",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/emma-d-arcy_3.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-10T14:59:09+00:00",
-    "hash": "25f6971252fa",
-    "ai_summary": "HBO is gearing up to launch a new epic series, replacing the dragon-filled \"House of the Dragon,\" in just one week. The network has announced a fresh take, swapping dragons for a new sci-fi element, hinting at a thrilling alien-themed adventure."
-  },
-  {
-    "title": "Next year\u2019s iPhone redesign with all-glass look might be canceled: report",
-    "link": "https://9to5mac.com/2026/08/10/next-years-iphone-redesign-with-all-glass-look-might-be-canceled-report/",
-    "summary": "Rumors have long indicated that Apple is working on an all-glass new iPhone design for the 20th anniversary next year. But an analyst from Jefferies believes that device is no longer moving forward.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-19-pro-20-anniversary-max.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-10T14:49:14+00:00",
-    "hash": "a4aafaa03f6d",
-    "ai_summary": "Apple is reportedly considering canceling its upcoming iPhone redesign, initially expected to feature an all-glass look, which was rumored to be released next year to celebrate the device's 20th anniversary. Analysts from Jefferies believe that the device may no longer be in development."
-  },
-  {
-    "title": "No Man\u2019s Sky Players Have Visited Less Than 1 Percent Of Its Planets After A Decade Of Exploration And 40 Major Updates",
-    "link": "https://kotaku.com/no-mans-sky-players-have-visited-less-than-1-percent-of-its-planets-after-a-decade-of-exploration-and-40-major-updates-2000722999",
-    "summary": "'I consider myself exceedingly lucky to work with the people I do, on a game I love,' said the boss behind No Man's Sky",
-    "image": "https://kotaku.com/app/uploads/2024/07/e5e3e372506dab6942763d1c4030de15.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-10T14:30:24+00:00",
-    "hash": "4f33fc46581c",
-    "ai_summary": "After a decade of thrilling space exploration and 40 major updates, the vast universe in No Man's Sky remains largely uncharted, with players having only visited a tiny fraction, less than 1%, of its staggering 250 billion-plus planets. Despite this, developers continue to pour their passion into the game, driven by a shared love for the universe they've created, as its boss has aptly put it."
-  },
-  {
-    "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
-    "link": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/",
-    "summary": "Companies that rely on Ceva Logistics for shipping their physical goods to customers say their personal data was taken during a recent cyberattack.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/shipping-2288991285.jpg?resize=1200,878",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-10T14:20:19+00:00",
-    "hash": "2e25f128cb93",
-    "ai_summary": "A massive data breach at shipping giant Ceva Logistics has put millions of people's personal data at risk, including customers of banks, retailers, and online gamers. The compromised information may have been stolen, leaving those affected vulnerable to potential identity theft and other scams."
-  },
-  {
-    "title": "Signed up for Klaviyo? Dozens of advertisers may have seen your password",
-    "link": "https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/",
-    "summary": "A bug in the tech giant's website mistakenly shared users' sign-up information, including personal data and their password, to third-party companies.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/klaviyo-2283003642.jpg?resize=1200,800",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-10T14:14:43+00:00",
-    "hash": "f164cb3aefd0",
-    "ai_summary": "A security flaw in the Klaviyo website exposed personal data and user passwords to dozens of advertisers who accessed the company's system, compromising sensitive information. Users who signed up for Klaviyo through its website may have unknowingly shared their personal data with third-party companies due to the security vulnerability."
-  },
-  {
-    "title": "Third-generation foldable iPhone said to feature larger displays",
-    "link": "https://www.gsmarena.com/thirdgeneration_foldable_iphone_said_to_feature_larger_displays-news-74086.php",
-    "summary": "Apple is yet to unveil its first foldable iPhone, but a new report claims the company is already planning its second- and third-generation successors. Apple's first foldable, rumored to be called the iPhone Ultra, is expected to debut this September. In the latest edition of his Power On newsletter, Bloomberg's Mark Gurman claims that Apple is already planning a second-gen foldable iPhone for 2027. The report echoes an earlier rumor from June, which claimed the second-gen model would retain the",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/iphone-ultra-3-larger-display-rumor/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-08-10T16:06:02+02:00",
-    "hash": "645a28e7602d",
-    "ai_summary": "A foldable iPhone is reportedly on the horizon, with Apple planning to launch its first model, the \"iPhone Ultra,\" later this year. Additionally, rumors suggest that Apple is already working on its third-generation foldable iPhone, set to release in 2028 or later, with displays anticipated to be larger than its predecessors."
-  },
-  {
-    "title": "iPhone 18 Pro\u2019s flagship new color detailed by leaker",
-    "link": "https://9to5mac.com/2026/08/10/iphone-18-pros-flagship-new-color-detailed-by-leaker/",
-    "summary": "Last year iPhone 17 Pro\u2019s Cosmic Orange color proved an instant hit, but rumors indicate it\u2019s being replaced in iPhone 18 Pro by a new burgundy. Here\u2019s what to expect, per a new leak.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-18-pro-mockup-fi-new-color.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-10T14:04:39+00:00",
-    "hash": "c5889eaa9f93",
-    "ai_summary": "Apple's new iPhone 18 Pro is rumored to come in a bold, burgundy color, following the success of last year's Cosmic Orange shade. This change may be a departure from the vibrant orange, but it promises to bring a rich, sophisticated new look to the device."
-  },
-  {
-    "title": "Darkest Dungeon Is Getting an Expansion from a Dark Souls Veteran",
-    "link": "https://www.polygon.com/darkest-dungeon-graphic-novel-crowdfunding/",
-    "summary": "Crowdfunding begins in October for a project that will expand Darkest Dungeon's creepy lore.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6094951/darkest-dungeon-review-header_1920.0.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-10T14:00:12+00:00",
-    "hash": "9117d335e93a",
-    "ai_summary": "Darkest Dungeon, the challenging gothic role-playing game, is set to receive an expansion crafted by a veteran game developer known for their work on the dark and intense Dark Souls series. The expansion's crowdfunding campaign is scheduled to begin in October, promising to delve deeper into the game's eerie world and dark lore."
-  },
-  {
-    "title": "Bose CEO Lila Snyder on the fight for high-quality audio",
-    "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
-    "summary": "Today, I\u2019m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose \u2014 it\u2019s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both [&#8230;]",
-    "image": "https://images.pexels.com/photos/34000727/pexels-photo-34000727.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-08-10T10:00:00-04:00",
-    "hash": "9131a9e0a7af",
-    "ai_summary": "Lila Snyder, CEO of iconic audio brand Bose, is leading the charge to preserve high-quality audio in a world dominated by streaming and compressed sound. With 60 years of innovation under its belt, Bose continues to push boundaries in research and development to deliver unparalleled audio experiences."
-  },
-  {
-    "title": "The renaissance of customer care",
-    "link": "https://www.eu-startups.com/2026/08/the-renaissance-of-customer-care/",
-    "summary": "The prediction was almost unanimous: AI would automate customer service out of existence. It got the direction exactly wrong. The technology meant to replace people is quietly making room for the one thing that makes service matter: the human relationship. For years, customer care was cast as the first casualty of the AI era. When [&#8230;] The post The renaissance of customer care appeared first on EU-Startups .",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/The-renaissance-of-customer-care.png",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-10T13:59:57+00:00",
-    "hash": "6142f897ad96"
-  },
-  {
-    "title": "Steam\u2019s Controversial Refund Decision Could Set a Dangerous Precedent",
-    "link": "https://www.polygon.com/steam-battlefield-6-refund-removed-modes/",
-    "summary": "Steam grants controversial refund to Battlefield 6 launch-day player after 470 hours of playtime.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/bf6-story-overview-16x9-copy.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-10T13:58:41+00:00",
-    "hash": "b5c85373a4b3"
-  },
-  {
-    "title": "How are finance jobs widening income inequality globally?",
-    "link": "https://www.siliconrepublic.com/careers/finance-jobs-widening-income-inequality-globally-careers-working-life",
-    "summary": "Marta M Elvira of the University of Navarra, Nils Neumann of the University of Michigan and Olivier Godechot of Sciences Po discuss the impact of a city\u2019s financial market on the wider landscape. Read more: How are finance jobs widening income inequality globally?",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/Finance-Jobs-330x251.jpeg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-08-10T13:53:54+00:00",
-    "hash": "2abb5a60f67d"
-  },
-  {
-    "title": "No Man\u2019s Sky Studio Director Says He\u2019s Not Rushing To Experiment With AI: \u2018Let\u2019s Just Enjoy Making Games The Way We\u2019ve Always Made Games\u2019",
-    "link": "https://kotaku.com/no-mans-sky-studio-director-says-hes-not-rushing-to-experiment-with-ai-lets-just-enjoy-making-games-the-way-weve-always-made-games-2000722989",
-    "summary": "Sean Murray compared the AI race to the post-COVID return-to-office plans",
-    "image": "https://kotaku.com/app/uploads/2026/08/no-mans-sky-1280x719.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-10T13:48:22+00:00",
-    "hash": "d3dbbf021680"
-  },
-  {
-    "title": "Apple has eight new products to unveil at September event: report",
-    "link": "https://9to5mac.com/2026/08/10/apple-has-eight-new-products-to-unveil-at-september-event-report/",
-    "summary": "We\u2019re one month out from Apple\u2019s big September event, and a new Bloomberg report outlines eight new products likely to be announced.",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/10/john-ternus-apple-park.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-10T13:38:54+00:00",
-    "hash": "d486f1d568ac"
-  },
-  {
-    "title": "Exclusive: InKind lands $414 million led by Citi to dominate how independent restaurants raise money",
-    "link": "https://www.fastcompany.com/91585684/exclusive-inkind-414-million-citi-independent-restaurants-financing?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Finance platform InKind has raised more than $1 billion in the past six months to invest in an industry many traditional lenders have long considered too risky: independent restaurants. Today, InKind announced $414 million in financing in a round led by Citi and Cross River. The latest funding comes just one month after InKind secured $320 million from Liberty Mutual Investments and six months after announcing a $450 million round of debt and equity funding led by Magnetar, an Illinois-based inv",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91585684-exclusive-inkind-414-million-citi-independent-restaurants-financing.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-10T13:00:00+00:00",
-    "hash": "71dbdcf98b15"
-  },
-  {
-    "title": "The Download: AI agents for science, and the \u201ccensorship-industrial complex\u201d",
-    "link": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI for science needs reasoning, not just data \u2014Eric Schmidt, the former CEO of Google and the cofounder of Schmidt Sciences, and Suhas Mahesh, who leads the AI for science work&#8230;",
-    "image": "https://images.pexels.com/photos/13250934/pexels-photo-13250934.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-10T12:10:00+00:00",
-    "hash": "d280b9e43623"
-  },
-  {
-    "title": "Revolut granted French banking licence",
-    "link": "https://sifted.eu/articles/revolut-french-banking-licence/",
-    "summary": "",
-    "image": "https://images.pexels.com/photos/19051274/pexels-photo-19051274.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-08-10T12:07:47+00:00",
-    "hash": "9edff9b7173b"
-  },
-  {
-    "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
-    "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-    "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
-    "image": "https://images.pexels.com/photos/31061847/pexels-photo-31061847.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-10T12:00:00+00:00",
-    "hash": "ac71870b2514"
-  },
-  {
-    "title": "ChatGPT\u2019s traffic surge is good news for brands. For publishers, it\u2019s complicated",
-    "link": "https://www.fastcompany.com/91586178/chatgpts-traffic-surge-is-good-news-for-brands-for-publishers-its-complicated?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "OpenAI made a change to how ChatGPT links to websites in the spring, and barely anybody noticed. Starting on May 7, ChatGPT began sending considerably more traffic to websites. Referrals jumped 157% overnight and have stayed there, according to new data . On the same day, OpenAI also began rolling out advertising in AI answers , a move that had been in the works for several months. The two are related, and you can tell because of the kinds of sites that ChatGPT is linking to: homepages. Since th",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91586178-chatgpt-web-traffic-and-publication-access.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-10T11:30:00+00:00",
-    "hash": "ce16387f5f37"
-  },
-  {
-    "title": "Ford\u2019s new AI assistant can check your fuel levels and tire pressure",
-    "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
-    "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it [&#8230;]",
-    "image": "https://images.pexels.com/photos/12900191/pexels-photo-12900191.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-08-10T07:00:00-04:00",
-    "hash": "29f53545384f"
-  },
-  {
-    "title": "The Rise of the 1 am Job Interview",
-    "link": "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
-    "summary": "An AI interview is increasingly the first step of a hiring process. Since there\u2019s no human on the other end, candidates are scheduling them whenever\u2014even deep into the night.",
-    "image": "https://media.wired.com/photos/6a74e739068d1e092430bb0d/master/pass/Rise-of-1AM-Interview-Business.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-08-10T10:30:00+00:00",
-    "hash": "0fcfbf8e2504"
-  },
-  {
-    "title": "Can skeptics survive the misinformation age?",
-    "link": "https://www.fastcompany.com/91581838/can-skeptics-survive-the-misinformation-age?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Here is a truth: You are wrong about something. You have misunderstood a data point, been given bad information, or your memory has softened. Sometimes a bad actor is to blame\u2014a podcaster spouting junk science, an influencer selling you on underresearched supplements, or someone who posts an AI -generated video that you\u2019ll mistake for real footage. But, often enough, we deceive ourselves through long-held beliefs or superstitions. The closer that belief winds to your identity, the more likely yo",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91581838-can-skeptics-survive-the-misinformation-age.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-10T10:00:00+00:00",
-    "hash": "e24ca753bf5f"
-  },
-  {
-    "title": "AI for science needs reasoning, not just data",
-    "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-    "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physical science have all been discovered.\u201d In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
-    "image": "https://images.pexels.com/photos/8533018/pexels-photo-8533018.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-10T09:00:00+00:00",
-    "hash": "d48af91a695b"
-  },
-  {
-    "title": "These startups are chasing the next big thing in LLMs",
-    "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-    "summary": "MIT Technology Review\u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called \u201cAttention Is All You Need,\u201d in which they described a new&#8230;",
-    "image": "https://images.pexels.com/photos/6913330/pexels-photo-6913330.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-10T09:00:00+00:00",
-    "hash": "da837d414c4b"
-  },
-  {
     "title": "Xiaomi and Redmi's India launch roadmap leaks",
     "link": "https://www.gsmarena.com/xiaomi_and_redmis_india_launch_roadmap_leaks-news-74105.php",
     "summary": "Today, a tipster over on X has purportedly revealed the launch roadmap for Xiaomi and Redmi devices in India for the rest of the year. According to him, the Redmi 17 series is going to be launched in the country on September 5. Then, the Redmi Note 17 Pro series will join the already official Redmi Note 17, either on September 18 or September 20. Finally, the Xiaomi 18 Pro series will allegedly arrive in India \"by December\". Redmi Note 17 This has been rumored before, and it's notable because la",
@@ -478,16 +218,6 @@
     "category": "Innovation",
     "published": "2026-08-10T17:35:01+00:00",
     "hash": "2b014d76b015"
-  },
-  {
-    "title": "What happens to Bose when headphones become AI?",
-    "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
-    "summary": "Today, I\u2019m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose \u2014 it\u2019s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both [&#8230;]",
-    "image": "https://images.pexels.com/photos/29617989/pexels-photo-29617989.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-08-10T10:00:00-04:00",
-    "hash": "c4880ff3f11e"
   },
   {
     "title": "Kyoto Fusioneering starts work on key fusion power plant device",
@@ -3280,43 +3010,313 @@
     "hash": "76c8edadb563"
   },
   {
-    "title": "These AI Barons Are Ready to Give Away Their Fortunes",
-    "link": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
-    "summary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?",
-    "image": "https://media.wired.com/photos/6a724999f2d8472b4d0de644/master/pass/AI-Barons-Business.gif",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-08-09T09:30:00+00:00",
-    "hash": "3658eec04c77"
+    "title": "Gravis Robotics hits $1bn valuation with $200m investment from SoftBank",
+    "link": "https://sifted.eu/articles/gravis-robotics-1bn-valuation-200m-softbank/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=1920,quality=75,fit=cover,format=auto/wp-content/uploads/2026/08/17155047/sindy-sussengut-TIrwwuVr0Ys-unsplash-1.jpg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-08-17T15:51:10+00:00",
+    "hash": "f2e00eac970a",
+    "ai_summary": "..."
   },
   {
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing \u2014 ranging from $20 to $200 per month depending on usage \u2014 has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose , an open-source AI agent developed by B",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-19T14:00:00+00:00",
-    "hash": "65248b0266dc"
+    "title": "Challenge and opportunity in Ireland\u2019s regulatory pharma space",
+    "link": "https://www.siliconrepublic.com/people/challenge-opportunity-ireland-regulatory-pharma-space-working-life",
+    "summary": "Viatris\u2019 Suzanne Keating discusses the changing face of pharma frameworks in Ireland and offers advice for young professionals Read more: Challenge and opportunity in Ireland\u2019s regulatory pharma space",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/Suzanne-Keating-330x251.jpg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-08-17T15:00:12+00:00",
+    "hash": "5e90a9472e2b",
+    "ai_summary": "Viatris\u2019 Suzanne Keating discusses the changing face of pharma frameworks in Ireland and offers advice for young professionals Read more: Challenge and opportunity in Ireland\u2019s regulatory pharma space..."
   },
   {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 \u2014 a fifth of his marketing budget \u2014 on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin ni",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-01-16T14:01:00+00:00",
-    "hash": "b38a14630ce1"
+    "title": "Marvel Cosmic Invasion Doctor Doom DLC Arrives this Fall",
+    "link": "https://www.polygon.com/marvel-cosmic-invasion-doctor-doom-dlc-announced/",
+    "summary": "Marvel Cosmic Invasion The Siege of Castle Doom DLC is on the way just in time for Doctor Doom's reign of villainy in December's Avengers Doomsday.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/marvel-cosmic-invasion-the-siege-of-castle-doom-dlc-2-key-art-cropped.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-17T15:00:12+00:00",
+    "hash": "a48c3cf8bcb7",
+    "ai_summary": "Marvel Cosmic Invasion The Siege of Castle Doom DLC is on the way just in time for Doctor Doom's reign of villainy in December's Avengers Doomsday...."
   },
   {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees. The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce&#x27;s most aggressive move yet to position Slack at the center of the emerging \"agen",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
+    "title": "Even Sony hasn't made its mind up about the PlayStation 6 release date, admits CEO Hiroki Totoki",
+    "link": "https://www.eurogamer.net/sony-ps6-internal-release-date-component-shortage",
+    "summary": "We already know that console manufacturing is being heavily impacted by the on-going component shortage , driven by the proliferation of AI datacenters, the war in Iran, and accusations of price fixing . It turns out that these factors are putting so much pressure on console manufacturers that Sony hasn't even got a release date for the PlayStation 6 internally. Read more",
+    "image": "https://assetsio.gnwcdn.com/ps5-ram-calendar.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "source": "Eurogamer.net Latest Articles Feed",
+    "category": "Gaming",
+    "published": "2026-08-17T14:58:18+00:00",
+    "hash": "1ea28f95ed60",
+    "ai_summary": "We already know that console manufacturing is being heavily impacted by the on-going component shortage , driven by the proliferation of AI datacenters, the war in Iran, and accusations of price fixin..."
+  },
+  {
+    "title": "WordPress.com targets the next generation of web creators with a free student plan",
+    "link": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
+    "summary": "WordPress.com Education lets teachers offer their students free domains, plugin support and professional website-building tools.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/wp-education_program-announcement_evergreen_blog.png?w=1176",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-17T14:56:00+00:00",
+    "hash": "28578f950413",
+    "ai_summary": "WordPress.com Education lets teachers offer their students free domains, plugin support and professional website-building tools...."
+  },
+  {
+    "title": "'Resident Evil Requiem' Star Has Reportedly Found Her Next Starring Role",
+    "link": "https://www.polygon.com/tides-of-annihilation-lead-actor-resident-evil-requiem-grace/",
+    "summary": "A Resident Evil Requiem star is reportedly taking over for Jennifer English in an upcoming RPG after the Expedition 33 lead had to step away.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/resident-evil-requiem-tips.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-17T14:41:21+00:00",
+    "hash": "01e13b570bbb",
+    "ai_summary": "A Resident Evil Requiem star is reportedly taking over for Jennifer English in an upcoming RPG after the Expedition 33 lead had to step away...."
+  },
+  {
+    "title": "We Almost Got A Loot-Based Star Wars RPG Featuring Jedi And Mandalorians",
+    "link": "https://kotaku.com/we-almost-got-a-loot-based-star-wars-rpg-featuring-jedi-and-mandalorians-2000724976",
+    "summary": "Project Magellan was planned to feature different classes and online multiplayer",
+    "image": "https://kotaku.com/app/uploads/2026/08/starwars-RPG-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-08-17T14:40:07+00:00",
+    "hash": "5f5ea784f66e",
+    "ai_summary": "Project Magellan was planned to feature different classes and online multiplayer..."
+  },
+  {
+    "title": "'Skip and Loafer' Season 2 Anime Finally Coming in 2027",
+    "link": "https://www.polygon.com/skip-and-loafer-season-2-release-date-announced/",
+    "summary": "2023's charming romcom anime perfect for fans of Horimiya and You and I Are Polar Opposites returns April 2027.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24762706/skip_and_loafer_01.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-17T14:37:16+00:00",
+    "hash": "60a67275ee9d",
+    "ai_summary": "2023's charming romcom anime perfect for fans of Horimiya and You and I Are Polar Opposites returns April 2027...."
+  },
+  {
+    "title": "Legal AI will create more work, but not for lawyers",
+    "link": "https://www.eu-startups.com/2026/08/legal-ai-will-create-more-work-but-not-for-lawyers/",
+    "summary": "Every wave of generative AI produces the same two headlines: &#8220;AI is destroying the industry&#8221; and &#8220;actually, AI is creating more work for the industry.&#8221; Whether this is for graphic designers, developers, or copywriters, the debate plays out the same way across sectors. Legal is no exception. Against this backdrop, the legal industry provides a [&#8230;] The post Legal AI will create more work, but not for lawyers appeared first on EU-Startups .",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/Legal-AI-will-create-more-work-but-not-for-lawyers.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-17T14:32:27+00:00",
+    "hash": "d3d4c2610296",
+    "ai_summary": "Every wave of generative AI produces the same two headlines: &#8220;AI is destroying the industry&#8221; and &#8220;actually, AI is creating more work for the industry.&#8221; Whether this is for grap..."
+  },
+  {
+    "title": "'Marvel Rivals' Players Are Exploiting a Cheat That Lets Them End Matches Without Penalties",
+    "link": "https://www.polygon.com/marvel-rivals-match-quit-hack/",
+    "summary": "Marvel Rivals players discovered that by editing the game's config files mid-match, they can end a game without being penalized.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/marvel-rivals-black-widow-rework.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-17T14:27:51+00:00",
+    "hash": "82ea15f18bc7",
+    "ai_summary": "Marvel Rivals players discovered that by editing the game's config files mid-match, they can end a game without being penalized...."
+  },
+  {
+    "title": "Uber partners with Zipline on Eats drone deliveries",
+    "link": "https://www.theverge.com/transportation/980912/uber-eats-zipline-drone-delivery-investment",
+    "summary": "Uber is teaming up with drone company Zipline to start airborne takeout deliveries later this year, with the goal of reaching one million daily drone deliveries by 2029. Uber also said it was making a strategic investment in Zipline, a California-based company that has been orchestrating drone deliveries in Texas since 2025. The news comes [&#8230;]",
+    "image": "https://images.pexels.com/photos/30079102/pexels-photo-30079102.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-08-17T10:24:35-04:00",
+    "hash": "ed1dd1a8c20d"
+  },
+  {
+    "title": "AI companies are buying used books by the thousands. Some may be destroyed for training",
+    "link": "https://www.fastcompany.com/91591196/ai-companies-buying-used-books-by-thousands?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Not too many years ago, before the dawn of Kindles , used bookstores were a refuge for budget-minded, voracious readers. As the industry evolved, many suffered. Now they&#8217;re seeing a resurgence in sales, but the customers increasingly aren&#8217;t bookworms. They&#8217;re AI companies. Barter Books, for instance, typically sells 2,000 to 3,000 books per week, which isn&#8217;t bad for a used bookstore in Northumberland, the least densely populated county in England. Recently, however, the o",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91591196-used-bookstores-ai.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-17T14:20:44+00:00",
+    "hash": "706d33de96d8"
+  },
+  {
+    "title": "Apple Wallet driver\u2019s license is coming to new US state soon",
+    "link": "https://9to5mac.com/2026/08/17/apple-wallet-drivers-license-is-coming-to-new-us-state-soon/",
+    "summary": "Apple Wallet\u2019s support for digital driver\u2019s licenses keeps expanding, with North Carolina the latest state to announce that it\u2019s launching soon. Here are the details.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/apple-wallet-ios-27-app-icon-colors.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-17T14:16:01+00:00",
+    "hash": "5c51dead8841"
+  },
+  {
+    "title": "Samsung Galaxy S26 FE, A08 and A07s surface on the Google Play Console",
+    "link": "https://www.gsmarena.com/samsung_galaxy_s26_fe_a08_and_a07s_surface_on_the_google_play_console-news-74203.php",
+    "summary": "After clearing the FCC, the Samsung Galaxy S26 FE is now past another major hurdle \u2013 it is now listed on the Google Play Console. Two entry-level models joined it, the Galaxy A08 and A07s. The Galaxy S26 FE specs leaked in detail last week. The console confirms the chipset as S5E9955, aka the Exynos 2500. The phone (SM-S741U) is configured with 8GB of RAM and a 1,080 x 2,340px display as expected. Samsung Galaxy S26 FE image and specs from the Google Play Console The GPC offered one image of the",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/google-play-console.galaxy-s26-fe-a08-a07s/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-08-17T16:11:02+02:00",
+    "hash": "cba0b3bf0bb4"
+  },
+  {
+    "title": "This iPad keyboard case is the perfect addition to our Back to School tech roundup",
+    "link": "https://9to5mac.com/2026/08/17/this-ipad-keyboard-case-is-the-perfect-addition-to-our-back-to-school-tech-roundup/",
+    "summary": "If you have kids returning to school or college, the back to school sales are great timing to equip them with tech that can help them carry out their study assignments. Apple last month launched its own back to school promotion , offering a $150 gift card with qualifying Mac and iPad purchases, and you can also pick up some great deals on Amazon, too. We\u2019ve rounded up a number of perfect tech options for kids returning to school below.",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/Inateck-AceTouch-lifestyle.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-17T14:07:35+00:00",
+    "hash": "7f5336d1d6d2"
+  },
+  {
+    "title": "It\u2019s about ethics in journalism, with Ben Smith",
+    "link": "https://www.theverge.com/podcast/980759/ben-smith-semafor-ethics-journalism-ai-events-buzzfeed-media-news",
+    "summary": "Today I\u2019m talking to Ben Smith, the editor-in-chief of Semafor. Everywhere you go, people say they don\u2019t trust the media \u2014 and yet they\u2019ve never consumed more of it. Audiences have moved on from legacy names in favor of Substacks and podcasts and TikTok news influencers that seem to be everywhere in our feeds.&#160; Why [&#8230;]",
+    "image": "https://images.pexels.com/photos/38482457/pexels-photo-38482457.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-08-17T10:00:00-04:00",
+    "hash": "ab323f45a1ce"
+  },
+  {
+    "title": "Apple will comply with \u2018fairer\u2019 App Tracking Transparency rules in the EU",
+    "link": "https://9to5mac.com/2026/08/17/apple-will-comply-with-fairer-app-tracking-transparency-rules-in-the-eu/",
+    "summary": "App Tracking Transparency (ATT) is an Apple privacy initiative intended to allow iPhone owners greater control over how developers collect and use their data. However, the company was accused of treating its own apps more favourably than third-party ones. The company has now agreed to apply new rules to how ATT works throughout the EU, following an investigation by the German antitrust regulator \u2026",
+    "image": "https://images.pexels.com/photos/3670208/pexels-photo-3670208.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-17T13:58:11+00:00",
+    "hash": "b650ca4f6f2c"
+  },
+  {
+    "title": "Gravis Robotics becomes Europe\u2019s latest unicorn after \u20ac172 million Series A",
+    "link": "https://www.eu-startups.com/2026/08/gravis-robotics-becomes-europes-latest-robotics-unicorn-after-e172-million-series-a/",
+    "summary": "Switzerland-based Gravis Robotics, a ConTech company developing autonomous technology for heavy machinery, has raised \u20ac172 million ($200 million) in a Series A round, giving the company an \u20ac862 million ($1 billion) post-money valuation &#8211; becoming Europe\u2019s latest robotics unicorn. SoftBank is the sole investor in the round, which Gravis says is the largest Series A [&#8230;] The post Gravis Robotics becomes Europe\u2019s latest unicorn after \u20ac172 million Series A appeared first on EU-Startups .",
+    "image": "https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-17T13:51:18+00:00",
+    "hash": "b6b7a8e8983c"
+  },
+  {
+    "title": "Tipperary\u2019s Jamie Palmer on Icarus Robotics and an industrialised orbit",
+    "link": "https://www.siliconrepublic.com/innovation/jamie-palmer-icarus-space-robots-joy-tipperary",
+    "summary": "The two-year-old New York-based start-up will test its robot aboard the ISS early next year. Read more: Tipperary\u2019s Jamie Palmer on Icarus Robotics and an industrialised orbit",
+    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/08/icarus-330x251.jpeg",
+    "source": "Silicon Republic",
+    "category": "Startups",
+    "published": "2026-08-17T13:48:19+00:00",
+    "hash": "b195ebf75b0b"
+  },
+  {
+    "title": "The Download: dead robot friends and the \u201ccensorship-industrial complex\u201d",
+    "link": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What happens when a kid\u2019s robot best friend dies? When Xander first met Moxie, she taught him how to calm down when he was anxious or mad. Six years later, she&#8230;",
+    "image": "https://images.pexels.com/photos/4102557/pexels-photo-4102557.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-17T12:10:00+00:00",
+    "hash": "80d51dd67206"
+  },
+  {
+    "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+    "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This [&#8230;]",
+    "image": "https://images.pexels.com/photos/7037463/pexels-photo-7037463.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-17T06:57:13-04:00",
+    "hash": "d01612071d6e"
+  },
+  {
+    "title": "Watch Duty is expanding beyond wildfires as disasters grow more extreme",
+    "link": "https://www.fastcompany.com/91590856/watch-duty-is-expanding-beyond-wildfires-as-disasters-grow-more-extreme?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "It&#8217;s mid-August, and Watch Duty&#8217;s CEO, John Mills, says fire season is only going to get worse. With British Columbia under a province-wide state of emergency and Spokane reeling from the most destructive wildfire in Washington state history, Mills takes us inside the most catastrophic fire season his team has ever faced. Since the L.A. wildfires made Watch Duty a household name, the Santa Rosa, California-based nonprofit has doubled its head count and revenue\u2014growth Mills describes",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91590856-watch-duty-is-expanding-beyond-wildfires-as-disasters-grow-more-extreme.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-17T10:00:00+00:00",
+    "hash": "371d371766b9"
+  },
+  {
+    "title": "How much hydrogen awaits us underground?",
+    "link": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/",
+    "summary": "In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of geochemists found water that had been confined underground for more than a billion years. This ancient brine turned out to be a habitat&#8230;",
+    "image": "https://images.pexels.com/photos/12032155/pexels-photo-12032155.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-17T09:00:00+00:00",
+    "hash": "2077c857c5b2"
+  },
+  {
+    "title": "What happens when a kid\u2019s robot best friend dies?",
+    "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+    "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they\u2019ve known each other,&#8230;",
+    "image": "https://images.pexels.com/photos/8294826/pexels-photo-8294826.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-08-17T09:00:00+00:00",
+    "hash": "602a0ef51a04"
+  },
+  {
+    "title": "Your AI is emailing my AI\u2014and nobody\u2019s in charge",
+    "link": "https://www.fastcompany.com/91588570/ai-emailing-ai-nobodys-in-charge?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Not long ago, a colleague of mine received a courteous and professionally worded email. It informed him about the current state of a shared project and listed the next steps required and who was accountable for each. A perfectly ordinary email\u2014except it was, from start to finish, the work of an AI agent that had been set up to act on behalf of the person it represented. My colleague\u2019s experience is still relatively unusual, but it is also the canary in the coal mine. In May, Bloomberg profiled T",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91588570-Tech-CN-Your-AI-is-emailing-my-AI\u2014and-nobodys-in-charge.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-17T09:00:00+00:00",
+    "hash": "9a3487c00d36"
+  },
+  {
+    "title": "Not every AI-in-education tale is a horror story. How the world\u2019s leading education company makes AI that\u2019s actually useful for students",
+    "link": "https://www.fastcompany.com/91589122/how-pearson-is-trying-to-make-ai-actually-useful-for-students?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Most of the AI industry treats a model\u2019s ability to answer questions as a basic measure of progress. That standard becomes less useful when the goal is learning. In education, an answer can be factually correct and still fail the student because it gives away too much or solves a problem without helping the learner understand it. Pearson has spent the past three years confronting that problem. Its CEO, Omar Abbosh, says the company\u2019s AI transformation has reinforced a basic lesson: Model capabil",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91589122-how-pearson-is-trying-to-make-ai-actually-useful-for-students.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-17T09:00:00+00:00",
+    "hash": "4dee6ad9e795"
+  },
+  {
+    "title": "MIT researchers tackle the economic realities of fusion power",
+    "link": "https://news.mit.edu/2026/mit-researchers-tackle-economic-realities-fusion-power-0810",
+    "summary": "Their new study aims to give budding industry a framework for understanding how fusion can be profitable.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-FusionEconomics-01-press_1.jpg?itok=tXuhPoKt",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-08-10T00:00:00-04:00",
+    "hash": "0a397cbe78f4"
+  },
+  {
+    "title": "Beyond the pitch: The founder\u2019s journey",
+    "link": "https://news.mit.edu/2026/beyond-pitch-founders-journey-0709",
+    "summary": "An MIT mechanical engineering course explores entrepreneurship through lessons and stories shared by alumni startup founders.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/founders-journey-mit-00.JPG?itok=gU0GTXkk",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-07-09T13:35:00-04:00",
+    "hash": "cf1f409a4109"
+  },
+  {
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files \u2014 no coding required",
+    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users \u2014 and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Micros",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
     "source": "AI | VentureBeat",
     "category": "AI",
-    "published": "2026-01-13T13:00:00+00:00",
-    "hash": "37f7465d4311"
+    "published": "2026-01-12T11:30:00+00:00",
+    "hash": "23a2d4f1db58"
+  },
+  {
+    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems \u2014 trained in just four days using 48 of Nvidia&#x27;s latest B200 graphics processors . The model, called NousCoder-14B , is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code , the agentic programming tool f",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
+    "source": "AI | VentureBeat",
+    "category": "AI",
+    "published": "2026-01-07T20:00:00+00:00",
+    "hash": "da0fb803a370"
   }
 ]
