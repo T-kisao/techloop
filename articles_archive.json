@@ -1,255 +1,5 @@
 [
   {
-    "title": "Spider-Man Punches Racists At Minneapolis Protest And Gets Arrested",
-    "link": "https://kotaku.com/spider-man-jake-lang-minneapolis-protest-shiloh-hendrix-2000727520",
-    "summary": "And now he needs our help",
-    "image": "https://kotaku.com/app/uploads/2026/08/spiderman-minneapolis.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-24T15:00:12+00:00",
-    "hash": "7ea9093b3e22",
-    "ai_summary": "And now he needs our help..."
-  },
-  {
-    "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-    "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-    "summary": "Inside the frontier lab\u2019s push to bring AI agents from software engineers to the masses.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-23-at-8.41.55-PM.png?w=729",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-24T15:00:00+00:00",
-    "hash": "5dbee4f2621a",
-    "ai_summary": "Inside the frontier lab\u2019s push to bring AI agents from software engineers to the masses...."
-  },
-  {
-    "title": "Smart thermostat maker Boldr raises \u20ac4.2 million to grow connected heating and cooling platform",
-    "link": "https://www.eu-startups.com/2026/08/smart-thermostat-maker-boldr-raises-e4-2-million-to-grow-connected-heating-and-cooling-platform/",
-    "summary": "London-based energy management startup Boldr has raised \u20ac4.2 million ($5 million) in a pre-Series A round to expand its smart climate technology across North America, develop its contractor software platform, and move into a broader range of residential and commercial heating and cooling systems. The round was led by Unconventional Ventures, with participation from Ada [&#8230;] The post Smart thermostat maker Boldr raises \u20ac4.2 million to grow connected heating and cooling platform appeared firs",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/Boldr.png",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-24T14:54:49+00:00",
-    "hash": "4da2210e12a2",
-    "ai_summary": "London-based energy management startup Boldr has raised \u20ac4.2 million ($5 million) in a pre-Series A round to expand its smart climate technology across North America, develop its contractor software p..."
-  },
-  {
-    "title": "Raspberry Pi shares its official tutorial for making a cyberdeck",
-    "link": "https://www.theverge.com/tech/983786/raspberry-pi-cyberdeck-tutorial-price-increases",
-    "summary": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to get away from cyberdecks this year.\" Tiny portable computers made out of things like purses, jewelry boxes, and other thrifted or recycled parts have gone viral on TikTok and other social media platforms over the past year, [&#8230;]",
-    "image": "https://images.pexels.com/photos/30885920/pexels-photo-30885920.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-08-24T10:49:44-04:00",
-    "hash": "4146ccd5227a",
-    "ai_summary": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to get away from cyberdecks this year.\" Tiny portable computers made out of things..."
-  },
-  {
-    "title": "Final Fantasy 7, Witcher 3, And More: Everything To Expect From The Big Gamescom Showcase",
-    "link": "https://kotaku.com/gamescom-opening-night-live-where-watch-date-time-stream-2000727546",
-    "summary": "Geoff Keighley\u2019s next big showcase promises Final Fantasy , The Witcher , and more",
-    "image": "https://kotaku.com/app/uploads/2026/06/ff7-1280x719.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-08-24T14:30:53+00:00",
-    "hash": "97e806b66ca2",
-    "ai_summary": "Geoff Keighley\u2019s next big showcase promises Final Fantasy , The Witcher , and more..."
-  },
-  {
-    "title": "Pokemon\u2019s Creators Are Ready to Officially Ditch a 30-Year-Old Series Tradition",
-    "link": "https://www.polygon.com/pokemon-turn-based-gameplay-changes/",
-    "summary": "'Pokemon Champions'' director teases that the series' traditional turn-based play could change in the future.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/pokemon-winds-and-waves.png",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-24T14:25:37+00:00",
-    "hash": "f5fad3d786a5",
-    "ai_summary": "'Pokemon Champions'' director teases that the series' traditional turn-based play could change in the future...."
-  },
-  {
-    "title": "Honkai Star Rail version 4.5 release time in your time zone",
-    "link": "https://www.polygon.com/honkai-star-rail-version-4-5-release-time-maintenance-start-end/",
-    "summary": "Here's what time Honkai: Star Rail version 4.5 launches in your time zone, as well as what to expect from the new patch.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/kv_en.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-24T14:25:18+00:00",
-    "hash": "332c88f5cce6",
-    "ai_summary": "Here's what time Honkai: Star Rail version 4.5 launches in your time zone, as well as what to expect from the new patch...."
-  },
-  {
-    "title": "How to encourage smarter AI use in the classroom",
-    "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-    "summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/8947cf02-f42b-04bb-03ce-c05c80e44d46.jpg?resize=1200,600",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-24T14:20:19+00:00",
-    "hash": "27af3174afc9",
-    "ai_summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools..."
-  },
-  {
-    "title": "Brake problems in GM EVs draw greater federal scrutiny",
-    "link": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
-    "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
-    "image": "https://techcrunch.com/wp-content/uploads/2022/09/MY24-Chevrolet-Equinox-EV-3LT.jpg?resize=1200,632",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-24T14:18:47+00:00",
-    "hash": "a6b8818a1606",
-    "ai_summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"..."
-  },
-  {
-    "title": "How SMEs can grow internationally without opening local offices",
-    "link": "https://www.eu-startups.com/2026/08/how-smes-can-grow-internationally-without-opening-local-offices/",
-    "summary": "The old rule of international expansion was simple: commit first, learn later. Today, that approach is increasingly unnecessary. International expansion used to mean long timelines, specialist support, and significant upfront investment before a business could make its first sale in a new market. For many SMEs, the barrier was never ambition, but the cost and [&#8230;] The post How SMEs can grow internationally without opening local offices appeared first on EU-Startups .",
-    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/How-SMEs-can-grow-internationally-without-openinG-Local-offices.png",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-24T14:15:10+00:00",
-    "hash": "db27fb515d8e",
-    "ai_summary": "The old rule of international expansion was simple: commit first, learn later. Today, that approach is increasingly unnecessary. International expansion used to mean long timelines, specialist support..."
-  },
-  {
-    "title": "25 Years Later, Anime\u2019s First Cinematic Masterpiece Is Officially Returning to Theaters",
-    "link": "https://www.polygon.com/vampire-hunter-d-bloodlust-new-theatrical-release-gkids/",
-    "summary": "GKIDS announced during Anime NYC that it is bringing the cult anime film Vampire Hunter D: Bloodlust to North American theaters next year",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/vampire-hunter-d-mier-link.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-08-24T14:13:32+00:00",
-    "hash": "ed771e67ea9c"
-  },
-  {
-    "title": "Apple starts testing AI shopping assistant in the Apple Store app",
-    "link": "https://9to5mac.com/2026/08/24/apple-store-app-is-testing-an-ai-shopping-assistant/",
-    "summary": "Last month, a report suggested Apple was working on a new AI-powered shopping assistant for the Apple Store app on iPhone and iPad. The company now appears to be rolling that out to select users as part of an \u201cEarly Preview.\u201d",
-    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/apple-store-ai-shopping.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-24T14:07:53+00:00",
-    "hash": "fa30312452f3"
-  },
-  {
-    "title": "Lava Virat V1 Pro 5G launches with 120Hz screen, 6,000 mAh battery, low price",
-    "link": "https://www.gsmarena.com/lava_virat_v1_pro_5g_launches_with_120hz_screen_6000_mah_battery_low_price-news-74307.php",
-    "summary": "Lava has added a new device to its portfolio in India today, the Virat V1 Pro 5G. It comes with a 6.75-inch 720x1600 screen with a 120Hz refresh rate, a 50MP main camera, and a 6,000 mAh battery. Lava Virat V1 Pro 5G marketing images It's powered by the Unisoc T8200 SoC, paired with 6GB of RAM and 128GB of expandable storage via a Hybrid SIM slot. The phone runs \"clean Android 16\". It's IP64 rated for dust and splash resistance. Lava Virat V1 Pro 5G official images It measures 168.29 x 77.64 x 8",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/lava-virat-v1-pro-5g-official/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-08-24T16:06:02+02:00",
-    "hash": "14ea96ab03e4"
-  },
-  {
-    "title": "How GoFundMe became America\u2019s backup plan",
-    "link": "https://www.theverge.com/podcast/982901/gofundme-ceo-tim-cadogan-fundraising-healthcare-medical-expenses",
-    "summary": "Today on Decoder, I\u2019m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe \u2014 it\u2019s a major fundraising platform where you can donate to help people with everything from medical expenses to little league uniforms to starting a new business. Tim took over as CEO in March 2020 \u2014 a fascinating and chaotic [&#8230;]",
-    "image": "https://images.pexels.com/photos/9643169/pexels-photo-9643169.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-08-24T10:00:00-04:00",
-    "hash": "4df2b05a952b"
-  },
-  {
-    "title": "\"I want to keep pouring my energy into game creation going forward\" - Hideo Kojima still wants to make games even at 63",
-    "link": "https://www.eurogamer.net/hideo-kojima-63-years-old-still-wants-to-make-games",
-    "summary": "Hideo Kojima - known as the director of the Death Stranding and Metal Gear Solid series - celebrated his 63rd birthday recently. Don't worry though, he's not interested in retiring just yet. Read more",
-    "image": "https://assetsio.gnwcdn.com/Hideo-Kojima-in-Prada&#39;s-space-based-short-film.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-08-24T13:57:16+00:00",
-    "hash": "a818e7218a81"
-  },
-  {
-    "title": "iPhone 20 Pro\u2019s all-glass design gets new update from leaker",
-    "link": "https://9to5mac.com/2026/08/24/iphone-20-pros-all-glass-design-gets-new-update-from-leaker/",
-    "summary": "Next year\u2019s iPhone Pro models are expected to feature a new, all-glass design timed for the iPhone\u2019s 20th anniversary. And a new leak today details Apple\u2019s progress on the innovative models.",
-    "image": "https://images.pexels.com/photos/3623359/pexels-photo-3623359.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-24T13:48:09+00:00",
-    "hash": "b260bcdaac12"
-  },
-  {
-    "title": "Fresh from \u20ac1.2 billion raise, NEURA Robotics acquires Adlatus Robotics to give cleaning robots a \u201cnew brain\u201d",
-    "link": "https://www.eu-startups.com/2026/08/fresh-from-e1-2-billion-raise-neura-robotics-acquires-adlatus-robotics-to-give-cleaning-robots-a-new-brain/",
-    "summary": "NEURA Robotics, a Metzingen-based cognitive robotics startup, today announced that it is acquiring 100% of the shares in Adlatus Robotics, an Ulm-based maker of autonomous cleaning robots. The deal was carried out through NEURA Mobile Robots GmbH, the group&#8217;s logistics and automated-vehicle arm, and folds Adlatus&#8217;s installed base of cleaning and sweeping robots into NEURA&#8217;s [&#8230;] The post Fresh from \u20ac1.2 billion raise, NEURA Robotics acquires Adlatus Robotics to give cleani",
-    "image": "https://images.pexels.com/photos/8279240/pexels-photo-8279240.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "EU-Startups",
-    "category": "Startups",
-    "published": "2026-08-24T13:47:54+00:00",
-    "hash": "aa54f25e9e27"
-  },
-  {
-    "title": "Hugging Face reportedly in talks to be acquired for $13B",
-    "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-    "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
-    "image": "https://images.pexels.com/photos/6699453/pexels-photo-6699453.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-08-24T13:47:26+00:00",
-    "hash": "8f2fbc7e0e3d"
-  },
-  {
-    "title": "AirTag 2 now just $20 each ahead of new feature coming soon",
-    "link": "https://9to5mac.com/2026/08/24/airtag-2-deal-best-price/",
-    "summary": "Last week delivered a collection of particularly notable price drops on current-generation Apple gear, from AirPods Pro 3 at 25% off to the latest AirPods Max 2 at $120 off the list price, but we are not done yet. While those deals are indeed still live, Amazon has just delivered the lowest price ever on Apple\u2019s 2026 AirTag 2 \u2013 you can now land them as low as $20 a pop.",
-    "image": "https://images.pexels.com/photos/17077360/pexels-photo-17077360.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-08-24T13:20:18+00:00",
-    "hash": "8d662566e2a2"
-  },
-  {
-    "title": "The Download: kids outlearning AI, and space travel agents",
-    "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids outlearn AI\u2014and we still don\u2019t know why Teaching a computer to use human language requires an inhuman amount of data. An LLM can easily churn through a hundred thousand times&#8230;",
-    "image": "https://images.pexels.com/photos/8535159/pexels-photo-8535159.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-24T12:10:00+00:00",
-    "hash": "505d41a989e5"
-  },
-  {
-    "title": "The AI \u2018new era\u2019 illusion: why every boom looks different\u2014but ends the same",
-    "link": "https://www.fastcompany.com/91591730/ai-new-era-illusion-why-every-boom-looks-different-ends-same?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The beginning of the 20th century, much like the beginning of the 21st, was an era of increasing optimism. The financial panics of 1873 and 1893 were in the past, new technologies like electricity and internal combustion were just gaining traction and Morganization was creating trusts insulated from the ravages of competition. The financial journalist Alexander Dana Noyes wrote at the time that the market \u201cbased its ideas and conduct on the assumption that we were living in a New Era; that old r",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91591730-the-ai-new-era-illusion-why-every-boom-looks-differentbut-ends-the-same.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-24T11:30:00+00:00",
-    "hash": "cfbb712fd849"
-  },
-  {
-    "title": "AI is taking over logistics\u2019 endless calls and emails",
-    "link": "https://www.fastcompany.com/91593679/ai-is-taking-over-logistics-endless-calls-and-emails?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The multi-trillion-dollar logistics industry runs on trucks and trains, ships and planes. It also runs on calls, texts, and email. \u201cWe get hundreds of thousands of emails saying, \u2018Hey, I have this freight that needs to move from X to Y\u2014how much would it cost?\u2019\u201d says Mike Neill, chief technology officer at logistics provider C.H. Robinson . The details vary from load to load and mode to mode, but generally a company that wants to ship a load of goods reaches out to freight brokers, who in turn co",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91593679-ai-is-taking-over-logistics-endless-calls-and-emails.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-08-24T10:09:00+00:00",
-    "hash": "f62603534c2b"
-  },
-  {
-    "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
-    "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
-    "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content\u2014and how difficult it was to find accountability.",
-    "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-08-24T09:30:00+00:00",
-    "hash": "a4e02cd4721f"
-  },
-  {
-    "title": "Kids outlearn AI\u2014and we still don\u2019t know why",
-    "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-    "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&#8230;",
-    "image": "https://images.pexels.com/photos/11344277/pexels-photo-11344277.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-08-24T09:00:00+00:00",
-    "hash": "29f21474e33b"
-  },
-  {
     "title": "Lunar founders raise \u20ac8.2m to launch AI-native audit startup Repodo",
     "link": "https://sifted.eu/articles/e8m-pre-seed-ai-native-audit-startup-repodo/",
     "summary": "",
@@ -3500,23 +3250,263 @@
     "hash": "b270f102fca5"
   },
   {
-    "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
-    "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-    "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference , Google announced a sweeping redesign of the search box itself \u2014 the literal text field where billions of queries begin every day \u2014 transforming it from a simple keyword input into a dynamic, AI-driven convers",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
-    "category": "AI",
-    "published": "2026-05-19T17:45:00+00:00",
-    "hash": "dc6dee8bbf6b"
+    "title": "The Blood of Dawnwalker Is the Most Freeing RPG I've Ever Played",
+    "link": "https://www.polygon.com/blood-of-dawnwalker-impressions/",
+    "summary": "After 30 hours of playtime, The Blood of Dawnwalker proves surprisingly innovative",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/the-blood-of-dawnwalker-impressions-1.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-31T15:00:14+00:00",
+    "hash": "70585a6371d9",
+    "ai_summary": "After 30 hours of playtime, The Blood of Dawnwalker proves surprisingly innovative..."
   },
   {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures , Redpoint , and Unusual Ventures . The investment values Railway as one of the most significant infrastructur",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&q=30",
-    "source": "AI | VentureBeat",
+    "title": "Onimusha: Way of the Sword Review: Capcom\u2019s Samurai Epic Overstays Its Welcome",
+    "link": "https://www.polygon.com/onimusha-way-of-the-sword-review/",
+    "summary": "Onimusha: Way of the Sword impresses with its thrilling duels, but it\u2019s bogged down by a glut of recycled content.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/onimusha-way-of-the-sword-feather-battle.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-31T15:00:14+00:00",
+    "hash": "6b7a8721aa71",
+    "ai_summary": "Onimusha: Way of the Sword impresses with its thrilling duels, but it\u2019s bogged down by a glut of recycled content...."
+  },
+  {
+    "title": "Hunter x Hunter Teases the Manga's Officially Returning Sooner Than Expected",
+    "link": "https://www.polygon.com/hunter-x-hunter-new-chapters-421-when-manga-return/",
+    "summary": "Togashi's status updates and a Shonen Jump announcement tease that Hunter x Hunter won't be going away for long this time.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/hunter-x-hunter-manga-return.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-31T14:57:39+00:00",
+    "hash": "b6899cc2fcda",
+    "ai_summary": "Togashi's status updates and a Shonen Jump announcement tease that Hunter x Hunter won't be going away for long this time...."
+  },
+  {
+    "title": "MapQuest\u2019s app surges to No. 1 in Navigation after refusing to rename Lake Ontario",
+    "link": "https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario/",
+    "summary": "MapQuest is getting an unexpected boost from its decision to defy President Trump\u2019s renaming of Lake Ontario.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/mapquest-lake-ontario.jpg?resize=1200,891",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-31T14:51:33+00:00",
+    "hash": "f905ecd127f5",
+    "ai_summary": "MapQuest is getting an unexpected boost from its decision to defy President Trump\u2019s renaming of Lake Ontario...."
+  },
+  {
+    "title": "Trump \u2018directly\u2019 pushing Apple to update Lake Ontario name to Lake America in Maps",
+    "link": "https://9to5mac.com/2026/08/31/trump-directly-pushing-apple-to-update-lake-ontario-name-to-lake-america-in-maps/",
+    "summary": "President Trump has \u201creached out to Apple directly\u201d about changing Lake Ontario\u2019s name to Lake America in Apple Maps, according to U.S.\u00a0Interior Secretary Doug Burgum. more\u2026",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/apple-maps-ios-27-app-icon-colors.jpg?quality=82&strip=all&resize=1200,628",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-31T14:47:16+00:00",
+    "hash": "7746cf0d5c7b",
+    "ai_summary": "President Trump has \u201creached out to Apple directly\u201d about changing Lake Ontario\u2019s name to Lake America in Apple Maps, according to U.S.\u00a0Interior Secretary Doug Burgum. more\u2026..."
+  },
+  {
+    "title": "Pok\u00e9mon Knows Its Worlds Lottery System Sucks, But Doesn\u2019t Have A Better Idea: \u2018The Public Is Unaware Of The Level Of Demand\u2019",
+    "link": "https://kotaku.com/pokemon-world-championships-xp-lottery-system-singapore-2000729877",
+    "summary": "Hopeful attendees had to sign up for a lottery and cross their fingers they\u2019d get a ticket",
+    "image": "https://kotaku.com/app/uploads/2026/08/pkmnworlds-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-08-31T14:45:14+00:00",
+    "hash": "019c2a7064db",
+    "ai_summary": "Hopeful attendees had to sign up for a lottery and cross their fingers they\u2019d get a ticket..."
+  },
+  {
+    "title": "Pokemon Champions Adding Z Evolutions and Bringing Back a Fan Favorite",
+    "link": "https://www.polygon.com/pokemon-champions-z-evolutions-mega-heatran/",
+    "summary": "'Pokemon Champions' Regulation Set M-C is coming out next week, and we got a look at new Mega Evolutions coming to the game.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mega-lucario-z.png",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-31T14:39:56+00:00",
+    "hash": "ce3892dd1395",
+    "ai_summary": "'Pokemon Champions' Regulation Set M-C is coming out next week, and we got a look at new Mega Evolutions coming to the game...."
+  },
+  {
+    "title": "Reducing preterm birth risks in foetal surgery, KOVE Medical secures \u20ac1.7 million",
+    "link": "https://www.eu-startups.com/2026/08/reducing-preterm-birth-risks-in-foetal-surgery-kove-medical-secures-e1-7-million/",
+    "summary": "Zurich-based MedTech startup KOVE Medical has closed a \u20ac1.7 million (CHF 1.6 million) to develop an implantable medical device designed to reduce the risk of preterm birth following foetal surgery, with the fresh capital set to support the company as it progresses towards First-in-Human studies. The round was backed by a syndicate of angel investors. [&#8230;] The post Reducing preterm birth risks in foetal surgery, KOVE Medical secures \u20ac1.7 million appeared first on EU-Startups .",
+    "image": "https://www.eu-startups.com/wp-content/uploads/2026/08/KOVE-Medical.png",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-31T14:37:23+00:00",
+    "hash": "f938de4099b4",
+    "ai_summary": "Zurich-based MedTech startup KOVE Medical has closed a \u20ac1.7 million (CHF 1.6 million) to develop an implantable medical device designed to reduce the risk of preterm birth following foetal surgery, wi..."
+  },
+  {
+    "title": "Stardew Valley Creator Offers Wholesome Haunted Chocolatier Update: \u2018I Don\u2019t Stress Too Much About How Long It\u2019s Taking\u2019",
+    "link": "https://www.polygon.com/haunted-chocolatier-concernedape-update-august-2026/",
+    "summary": "ConcernedApe published an update on the development of Haunted Chocolatier, and it seems that he's working on some rather interesting additions.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/01/haunted-chocolatier-interior.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-08-31T14:35:02+00:00",
+    "hash": "2e715289d3c9",
+    "ai_summary": "ConcernedApe published an update on the development of Haunted Chocolatier, and it seems that he's working on some rather interesting additions...."
+  },
+  {
+    "title": "vivo T5 5G camera specs revealed ahead of launch",
+    "link": "https://www.gsmarena.com/vivo_t5_5g_camera_specs_revealed_ahead_of_launch-news-74412.php",
+    "summary": "The vivo T5 5G will debut in India later this week. Ahead of the unveiling, the company has already confirmed several details about the upcoming smartphone. Now, vivo has revealed the camera specs of the device. In a post on X, vivo confirmed that the smartphone will feature a 50MP primary rear camera with 4-axis optical image stabilization (OIS). Meanwhile, the Flipkart microsite for the vivo T5 5G reveals that the 50MP primary camera will use a Sony IMX882 sensor. The phone will also feature a",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/08/vivo-t5-5g-camera-specs/-952x498w6/gsmarena_00.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-08-31T16:23:02+02:00",
+    "hash": "fb9d0917c0e2",
+    "ai_summary": "The vivo T5 5G will debut in India later this week. Ahead of the unveiling, the company has already confirmed several details about the upcoming smartphone. Now, vivo has revealed the camera specs of ..."
+  },
+  {
+    "title": "New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
+    "link": "https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response",
+    "summary": "Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers from making firearms - and taunting governor Kathy Hochul in the process. But Hochul isn't having it. In this week's episode of Decoder, Hochul responded to Wilson's \"Hochulization\" tool, warning [&#8230;]",
+    "image": "https://images.pexels.com/photos/3944426/pexels-photo-3944426.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Tech | The Verge",
+    "category": "Gadgets",
+    "published": "2026-08-31T10:20:00-04:00",
+    "hash": "fa641b7cb06b"
+  },
+  {
+    "title": "iPhone 18 Pro is coming: Here\u2019s what\u2019s new with each model",
+    "link": "https://9to5mac.com/2026/08/31/iphone-18-pro-is-coming-heres-whats-new-with-each-model/",
+    "summary": "iPhone 18 Pro will be unveiled next week on September 9 , with new Pro and Pro Max models debuting. Here\u2019s what rumors say is new with each model. more\u2026",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-18-pro-mockup-fi-new-color.jpg?quality=82&strip=all&resize=1200,628",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-31T14:06:04+00:00",
+    "hash": "35a6d1d76065"
+  },
+  {
+    "title": "New York Governor Kathy Hochul thinks AI should be \u2018less evil\u2019",
+    "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+    "summary": "Today, I\u2019m talking with New York Governor Kathy Hochul, and I\u2019ll just warn you \u2014 this episode moves really fast. It\u2019s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached [&#8230;]",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "source": "AI | The Verge",
     "category": "AI",
-    "published": "2026-01-22T14:00:00+00:00",
-    "hash": "5d53b2a70527"
+    "published": "2026-08-31T10:00:00-04:00",
+    "hash": "6cc7bd3e1ab4"
+  },
+  {
+    "title": "Today is Tim Cook\u2019s last day as Apple CEO, John Ternus takes over tomorrow",
+    "link": "https://9to5mac.com/2026/08/31/tim-cook-last-day-john-ternus-apple-ceo/",
+    "summary": "After 15 years at the helm, today is officially Tim Cook\u2019s last day as Apple CEO. In April, Apple announced that Cook would step down as CEO on September 1, with John Ternus set to take the reins. Cook, of course, isn\u2019t going away completely. Instead, he\u2019s set to become executive chairman of Apple\u2019s board of directors. more\u2026",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/john-ternus-tim-cook-ceo-apple.jpg?quality=82&strip=all&resize=1200,628",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-08-31T13:52:39+00:00",
+    "hash": "eb099f30bf5b"
+  },
+  {
+    "title": "ChatGPT to face tougher regulation in the EU",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+    "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and [&#8230;]",
+    "image": "https://images.pexels.com/photos/20870794/pexels-photo-20870794.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-31T09:27:36-04:00",
+    "hash": "804b8d8cf573"
+  },
+  {
+    "title": "Stockholm-based Elekta secures \u20ac100 million EIB loan to advance cancer and neurological treatments",
+    "link": "https://www.eu-startups.com/2026/08/stockholm-based-elekta-secures-e100-million-eib-loan-to-advance-cancer-and-neurological-treatments/",
+    "summary": "Stockholm-based HealthTech company Elekta has secured a loan of up to \u20ac100 million from the European Investment Bank (EIB), the European Union&#8217;s financing arm. The financing falls under the EIB Group&#8217;s TechEU programme, which is designed to strengthen European investment in strategic technologies and innovation, and it also feeds into EU objectives around health research, [&#8230;] The post Stockholm-based Elekta secures \u20ac100 million EIB loan to advance cancer and neurological treatm",
+    "image": "https://images.pexels.com/photos/29525075/pexels-photo-29525075.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "EU-Startups",
+    "category": "Startups",
+    "published": "2026-08-31T13:18:17+00:00",
+    "hash": "1c16ec685397"
+  },
+  {
+    "title": "Renewed online debate about German bureaucracy sparks criticism over startup scene: \u2018Things need to change\u2019",
+    "link": "https://sifted.eu/articles/german-bureaucracy-online-debate-startups-innovation/",
+    "summary": "",
+    "image": "https://images.pexels.com/photos/14766055/pexels-photo-14766055.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-08-31T13:07:05+00:00",
+    "hash": "2d8aa4433cd5"
+  },
+  {
+    "title": "Instagram cracks down on AI accounts pretending to be human",
+    "link": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+    "summary": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile [&#8230;]",
+    "image": "https://images.pexels.com/photos/9900293/pexels-photo-9900293.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-08-31T09:00:00-04:00",
+    "hash": "1b7f5dc750f8"
+  },
+  {
+    "title": "Meeting notetaker Circleback adds a free tier to attract more customers",
+    "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+    "summary": "Circleback is also introducing new pricing plans starting from $14 per month",
+    "image": "https://images.pexels.com/photos/7964490/pexels-photo-7964490.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-08-31T12:56:46+00:00",
+    "hash": "6818b52e15b4"
+  },
+  {
+    "title": "Inside Walmart\u2019s push to build its own EV charging network",
+    "link": "https://www.fastcompany.com/91598142/inside-walmarts-push-to-build-its-own-ev-charging-network?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Walmart installed its first company-branded EV charger last year. Now, the retailer has 838 charging ports in place at a hundred stores, and construction is underway at a hundred other sites. Last month, it grew faster than any electric vehicle charging network other than Tesla\u2019s. And by 2030, the retailer has said that it plans to have a network that extends to thousands of locations. The expansion could have an outsized impact. Roughly 90% of Americans live within 10 minutes of a Walmart store",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91598142-walmart-ev-network.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-31T11:00:00+00:00",
+    "hash": "bd8e63ee66c0"
+  },
+  {
+    "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+    "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+    "summary": "Of the Glassdoor reviews from claims adjusters that mentioned AI, a staggering 98 percent were negative. \u201cAI is just a tool,\u201d one person tells WIRED. \u201cIt should never be given the keys.\u201d",
+    "image": "https://media.wired.com/photos/6a90caf6df5e45f6df862f92/master/pass/You-Know-Who-Really-Hates-AI-Business.jpg",
+    "source": "Artificial Intelligence",
+    "category": "AI",
+    "published": "2026-08-31T10:30:00+00:00",
+    "hash": "9e7b5649d8c9"
+  },
+  {
+    "title": "AI cannot optimize a company it cannot understand",
+    "link": "https://www.fastcompany.com/91595669/ai-cannot-optimize-a-company-it-cannot-understand?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "For many weeks now, I have been trying to describe in my Fast Company essays what I think is the future of corporate AI . Now imagine that someone, somewhere, comes up with a solution that fulfills the requirements I have been drafting here. Would your company be able to jump on its platform and access all the advantages we have been describing? To start optimizing a company with artificial intelligence , AI needs to understand what you want to optimize; AI cannot properly optimize what it canno",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91595669-Tech-CN-AI-cannot-optimize-a-company-it-cannot-understand-.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-31T10:30:00+00:00",
+    "hash": "30e6a9b4c537"
+  },
+  {
+    "title": "Governors who courted AI data centers are now trying to rein them in",
+    "link": "https://www.fastcompany.com/91598011/governors-who-courted-ai-data-centers-are-now-trying-to-rein-them-in?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "AI may be booming, but the infrastructure powering it has become a political liability . For years, governors competed to lure data centers with tax breaks, expedited permitting, and promises of jobs and investment. Now, as sprawling AI campuses drive concerns over electricity prices, water use, and local control, some of those same governors are pulling back. The shift comes as data centers become an increasingly potent political issue ahead of the midterm elections. Governors facing reelection",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91598011-Tech-Tracking-all-the-governors-U-turns-on-data-centers.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-31T10:00:00+00:00",
+    "hash": "be7604793019"
+  },
+  {
+    "title": "The Pentagon spent decades chasing Iron Man. The exoskeletons that actually work are much simpler",
+    "link": "https://www.fastcompany.com/91597597/the-pentagon-spent-decades-chasing-iron-man-the-exoskeletons-that-actually-work-are-much-simpler?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "This article is republished with permission from Laser Wars , a newsletter about military laser weapons and other futuristic defense technology. The soldier of the future doesn\u2019t carry his weapon into battle\u2014he simply wears it. In Robert Heinlein\u2019s beloved 1959 novel Starship Troopers , Johnny Rico\u2019s powered battlesuit is a second skin of servos and armor that makes him faster, stronger, and more lethal than any warrior in the history of warfare. Standard issue for members of the Mobile Infantry",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91597597-Tech-Laser-Wars-The-Powered-Armor-Fantasy.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-08-31T09:00:00+00:00",
+    "hash": "ba94d9eed734"
+  },
+  {
+    "title": "Then and now: How MIT Lincoln Laboratory has served as a driving force in national security innovation",
+    "link": "https://news.mit.edu/2026/mit-lincoln-laboratory-driving-force-national-security-innovation-0805",
+    "summary": "Members of the laboratory community reflect on technology impacts that shaped the United States and the world over the past 75 years.",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/KREMS-Radars-00_0.jpeg?itok=I4Xcd9ku",
+    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "category": "Innovation",
+    "published": "2026-08-05T14:10:00-04:00",
+    "hash": "92d5139e58b0"
   }
 ]
