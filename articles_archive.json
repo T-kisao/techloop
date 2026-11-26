@@ -1,605 +1,5 @@
 [
   {
-    "title": "Shelly\u2019s new smart valve shuts off your home\u2019s water before a leak becomes a flood",
-    "link": "https://www.theverge.com/tech/1036494/shelly-neo-smart-home-water-valve-sensor-shut-off",
-    "summary": "After releasing a $28 leak sensor earlier this year that conveniently runs off a battery for two years, Shelly is announcing an accompanying smart valve you can install on your home's main water line to automatically turn off the flow when one of those sensors detects a problem. The Shelly Neo Smart Water Valve is [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/shelly1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.740836125969%2C100%2C78.518327748063&amp;w=1200",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-11-18T11:00:00-05:00",
-    "hash": "4fa3bbbf2d25",
-    "ai_summary": "After releasing a $28 leak sensor earlier this year that conveniently runs off a battery for two years, Shelly is announcing an accompanying smart valve you can install on your home's main water line ..."
-  },
-  {
-    "title": "8BitDo\u2019s new gamepad modernizes the Nintendo GameCube\u2019s Wavebird",
-    "link": "https://www.theverge.com/tech/1036578/8bitdo-gb-bluetooth-gamepad-wireless-controller-nintendo-gamecube-wavebird",
-    "summary": "The 8BitDo 64 was a loose remake of the Nintendo 64's unusual triple-grip controller that did away with that gamepad's centered analog stick. But with its new GC Bluetooth Gamepad, 8BitDo has done a much better job at staying faithful to the design of the Nintendo GameCube's excellent controllers, including their unique button layout, thumbstick [&#8230;]",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/8bitdogc1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.77427453053%2C100%2C78.45145093894&amp;w=1200",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-11-18T11:00:00-05:00",
-    "hash": "4cff5832079d",
-    "ai_summary": "The 8BitDo 64 was a loose remake of the Nintendo 64's unusual triple-grip controller that did away with that gamepad's centered analog stick. But with its new GC Bluetooth Gamepad, 8BitDo has done a m..."
-  },
-  {
-    "title": "Sony\u2019s updated turntable is an easy entry into the world of vinyl",
-    "link": "https://techcrunch.com/2026/11/18/sonys-updated-turntable-is-an-easy-entry-into-the-world-of-vinyl/",
-    "summary": "Sony's updated turntable for beginners features automatic playback, USB connectivity, and aptX Adaptive Bluetooth.",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/PS-LX3BT_Sony.png?w=1200",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-11-18T16:00:00+00:00",
-    "hash": "d09afbb0f0d9",
-    "ai_summary": "Sony's updated turntable for beginners features automatic playback, USB connectivity, and aptX Adaptive Bluetooth...."
-  },
-  {
-    "title": "9to5Mac Daily: November 18, 2026 \u2013 More on iOS 27.3, iPhone Duo",
-    "link": "https://9to5mac.com/2026/11/18/daily-november-18-2026/",
-    "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple\u2019s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more\u2026",
-    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?quality=82&strip=all&resize=1200,628",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-11-18T15:58:33+00:00",
-    "hash": "c8b413402f53",
-    "ai_summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple\u2019s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for O..."
-  },
-  {
-    "title": "Dublin-headquartered Disseqt AI raises $8m in funds",
-    "link": "https://www.siliconrepublic.com/business/disseqt-ai-raises-funds-nova-ucd-dublin-expansion-scaling",
-    "summary": "The funds raised will be put towards expanding internationally and hiring across sales, operations and technology. Read more: Dublin-headquartered Disseqt AI raises $8m in funds",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/11/founders-Disseqt-AI-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-11-18T15:45:27+00:00",
-    "hash": "a8b7c4f72666",
-    "ai_summary": "The funds raised will be put towards expanding internationally and hiring across sales, operations and technology. Read more: Dublin-headquartered Disseqt AI raises $8m in funds..."
-  },
-  {
-    "title": "Remember the frontier AI pause? Chip companies don\u2019t either",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-    "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used [&#8230;]",
-    "image": "https://images.pexels.com/photos/7033643/pexels-photo-7033643.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T10:44:02-05:00",
-    "hash": "55cc1af3687a",
-    "ai_summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and ..."
-  },
-  {
-    "title": "GTA 6 breaks the all-time livestream viewer record hours before it's  available to play for most of the world",
-    "link": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken",
-    "summary": "Hours before it's even playable in most of the world, Grand Theft Auto 6 has already broken the record for the most viewers across livestreaming platforms like Twitch . Read more",
-    "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-man-holding-phone-near-lucia.png?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-11-18T15:42:50+00:00",
-    "hash": "32ac00da9e98",
-    "ai_summary": "Hours before it's even playable in most of the world, Grand Theft Auto 6 has already broken the record for the most viewers across livestreaming platforms like Twitch . Read more..."
-  },
-  {
-    "title": "Live Updates On GTA 6: The Biggest Launch In Gaming History",
-    "link": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
-    "summary": "We're tracking all of the news, discoveries, and conversations as Rockstar's new open-world blockbuster goes live",
-    "image": "https://kotaku.com/app/uploads/2026/11/gta-6-live-blog-1280x752.jpg",
-    "source": "Kotaku",
-    "category": "Gaming",
-    "published": "2026-11-18T15:40:07+00:00",
-    "hash": "91158a2467a6",
-    "ai_summary": "We're tracking all of the news, discoveries, and conversations as Rockstar's new open-world blockbuster goes live..."
-  },
-  {
-    "title": "Expedition 33 Narrative Lead Officially Exits Award-Winning Studio",
-    "link": "https://www.polygon.com/clair-obscur-expedition-33-jennifer-svedberg-yen-sandfall/",
-    "summary": "Key writer Jennifer Svedberg-Yen left Clair Obscur: Expedition 33 studio Sandfall Interactive back in July, she revealed in a new interview.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/clair-obscur-expedition-33-gustave-giving-up.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-18T15:32:11+00:00",
-    "hash": "38a94b628093",
-    "ai_summary": "Key writer Jennifer Svedberg-Yen left Clair Obscur: Expedition 33 studio Sandfall Interactive back in July, she revealed in a new interview...."
-  },
-  {
-    "title": "\u2018We need to act now\u2019: Senator plans AI hearings after tests discover these alarming national security risks",
-    "link": "https://www.fastcompany.com/91644823/we-need-act-now-senator-plans-ai-hearings-after-tests-discover-alarming-national-security-risks?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "The incoming chair of the Senate Homeland Security Committee is preparing hearings on AI after government watchdogs found the four most-used platforms \u2014 ChatGPT , Claude , Gemini and Grok \u2014 all created proposals for a terrorist attack in the U.S. when prompted by investigators. Sen. Maggie Hassan, D-N.H., who will helm the panel in the new year, tasked the Government Accountability Office with investigating how commercially available AI could be used for malicious purposes, posing national secur",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26316521022344.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T15:29:58+00:00",
-    "hash": "79f805e4c11a",
-    "ai_summary": "The incoming chair of the Senate Homeland Security Committee is preparing hearings on AI after government watchdogs found the four most-used platforms \u2014 ChatGPT , Claude , Gemini and Grok \u2014 all create..."
-  },
-  {
-    "title": "More details about Apple's 20th-anniversary iPhone emerge",
-    "link": "https://www.gsmarena.com/more_details_about_apples_20thanniversary_iphone_emerge-news-75520.php",
-    "summary": "Apple is reportedly planning a major redesign for its 20th-anniversary iPhone 20 Pro lineup next year, with quad-curved displays and several other improvements. A new leak has now revealed more details about the upcoming models. Tipster Ice Universe shared the latest details about the 20th-anniversary iPhones on X, claiming that Apple is developing four models for next year. Two of the models will feature flat cover glass, while the other two will sport the much-rumored quad-curved design. Apple",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/new-details-iphone-20-pro-rumor/-952x498w6/gsmarena_00.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-18T16:21:02+01:00",
-    "hash": "81ced684b5df"
-  },
-  {
-    "title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
-    "link": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations",
-    "summary": "Last night, The Game Awards 2026 nominations were officially announced , and fans immediately noticed the prestigious Game of the Year category - previously won by the likes of Astro Bot , Clair Obscur, and Elden Ring - does not feature a PlayStation-published game this year. It's a rare sight for PlayStation Studios, which has secured a Game of the Year nomination every year since 2015. Read more",
-    "image": "https://assetsio.gnwcdn.com/1_NSDDo7c.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-11-18T15:17:10+00:00",
-    "hash": "7cb00966904e"
-  },
-  {
-    "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
-    "link": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
-    "summary": "If you've been online at all today, you'll know that what feels like the entire world is currently fawning over GTA 6. As the reviews dropped , one thing quickly became very clear: this is a game absolutely packed with detail. Our own Chris noted that, thanks to this focus on specific detail and unbelievable nuance, Grand Theft Auto 6 is \"the most unbelievable video game world ever made\". And it's no accident: this is something Rockstar put a lot of dedicated effort into. Read more",
-    "image": "https://assetsio.gnwcdn.com/gta-waveform.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
-    "source": "Eurogamer.net Latest Articles Feed",
-    "category": "Gaming",
-    "published": "2026-11-18T15:10:30+00:00",
-    "hash": "8c9505c72058"
-  },
-  {
-    "title": "iPhone 18, iPhone Air 2 get new release timing updates",
-    "link": "https://9to5mac.com/2026/11/18/iphone-18-iphone-air-2-get-new-release-timing-updates/",
-    "summary": "Apple only launched high-end \u2018Pro\u2019 and \u2018Duo\u2019 iPhones this fall, marking a departure from previous years when more affordable models debuted too. But iPhone 18 and iPhone Air 2 are still coming, and a new report offers an update on release timing. more\u2026",
-    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2025/11/iphone-air-2-camera-concept-blue.jpg?quality=82&strip=all&resize=1200,628",
-    "source": "9to5Mac",
-    "category": "Gadgets",
-    "published": "2026-11-18T15:09:06+00:00",
-    "hash": "6e51dc7b547c"
-  },
-  {
-    "title": "World of Warcraft Forever Officially Hits Player Peak it Hasn't Seen in 15 Years",
-    "link": "https://www.polygon.com/world-of-warcraft-forever-player-count-record/",
-    "summary": "World of Warcraft Forever breaks records with most players for Blizzard\u2019s MMO in 15 years",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/wow_forever_cinematic_still_10.jpeg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-18T15:08:25+00:00",
-    "hash": "a5e66c9236c6"
-  },
-  {
-    "title": "How Payhawk raised $280m amid fintech downturn",
-    "link": "https://sifted.eu/articles/payhawk-series-c/",
-    "summary": "",
-    "image": "https://images.pexels.com/photos/6132777/pexels-photo-6132777.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-18T15:03:22+00:00",
-    "hash": "1d59261d76fa"
-  },
-  {
-    "title": "\u2018Just Ridiculous\u2019: A Famed Philosopher Takes on AI Consciousness",
-    "link": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
-    "summary": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
-    "image": "https://media.wired.com/photos/6afcfb207b0def85d03dac43/master/pass/Thomas-Nagel-QandA-Business.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-11-18T15:02:40+00:00",
-    "hash": "c9f9635642a5"
-  },
-  {
-    "title": "British hackers face prison for GTA 6 data breach and crypto thefts",
-    "link": "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
-    "summary": "Two British hackers face lengthy prison sentences for hacks that broke into the Grand Theft Auto gamemaker and for stealing millions in crypto.",
-    "image": "https://images.pexels.com/photos/5380681/pexels-photo-5380681.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-11-18T14:55:13+00:00",
-    "hash": "2861a34b085f"
-  },
-  {
-    "title": "The AI Hype Index: AI is everywhere",
-    "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-    "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone\u2019s rooms. Go to the supermarket, and&#8230;",
-    "image": "https://images.pexels.com/photos/6478886/pexels-photo-6478886.png?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-11-18T14:42:44+00:00",
-    "hash": "b1d4dc410d72"
-  },
-  {
-    "title": "Why preventative design is key for network resilience",
-    "link": "https://www.siliconrepublic.com/comms/why-preventative-design-is-key-for-network-resilience",
-    "summary": "Aurora Telecom\u2019s Phelim Dolan discusses the ways that network infrastructure can be kept secure and Ireland\u2019s \u2018strategically important position\u2019 in the global digital economy. Read more: Why preventative design is key for network resilience",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/11/Phelim_Dolan_Aurora-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-11-18T14:25:12+00:00",
-    "hash": "95539da902dd"
-  },
-  {
-    "title": "It\u2019s launch day for \u2018Grand Theft Auto VI\u2019. The 13-year wait is over at midnight",
-    "link": "https://www.fastcompany.com/91644796/its-launch-day-for-grand-theft-auto-vi-the-13-year-wait-is-over-at-midnight?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "After a 13-year wait , one of entertainment&#8217;s biggest releases is finally here. &#8220;Grand Theft Auto VI&#8221; launches Thursday, sending players back to Vice City and testing whether Rockstar Games can follow one of the bestselling video games ever made with another cultural and commercial phenomenon . The latest installment becomes playable at midnight local time on PlayStation 5 and Xbox Series X&#8217;S, meaning players in Asia and other regions will begin entering the game hours be",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26322012517816.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T14:10:15+00:00",
-    "hash": "6e2b900e7c7f"
-  },
-  {
-    "title": "Will Wright\u2019s next game uses AI to map your memories",
-    "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-    "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. [&#8230;]",
-    "image": "https://images.pexels.com/photos/7915414/pexels-photo-7915414.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T09:00:00-05:00",
-    "hash": "c54abd73f851"
-  },
-  {
-    "title": "An Eric Trump-backed startup unveils a powerful new humanoid robot\u2014and won\u2019t rule out arming it",
-    "link": "https://www.fastcompany.com/91643258/foundation-future-industries-humanoid-robot-war?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Foundation Future Industries, a startup backed by Eric Trump, has unveiled a humanoid robot that can carry 200 pounds while walking through rain, snow, and dust. The company wants its new Phantom MKII to work on construction sites and in factories\u2014but the CEO isn&#8217;t ruling out putting weapons in its hands. Sankaet Pathak, founder and CEO of Foundation, tells Fast Company his company would consider arming its machines if asked to by the U.S. military, arguing that deploying robots on the gro",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91643258-foundation-future-industries-humanoid-robot-war.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T13:50:00+00:00",
-    "hash": "69edfdd68659"
-  },
-  {
-    "title": "AI dominates 2027 Stripe YSTE entries",
-    "link": "https://www.siliconrepublic.com/innovation/ai-dominates-2027-stripe-yste-entries",
-    "summary": "Organisers said that analysis of projects 'reveals a generation of students increasingly focused on solving real-world problems through evidence-based research'. Read more: AI dominates 2027 Stripe YSTE entries",
-    "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/11/StripeYSTEhall2026-330x251.jpg",
-    "source": "Silicon Republic",
-    "category": "Startups",
-    "published": "2026-11-18T13:14:54+00:00",
-    "hash": "97b3ff4d93e0"
-  },
-  {
-    "title": "The Download: AI learns to smell and hydropower struggles",
-    "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human\u2019s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes\u2014\u201cnutty,\u201d \u201cpeachy,\u201d&#8230;",
-    "image": "https://images.pexels.com/photos/27623570/pexels-photo-27623570.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-11-18T13:10:00+00:00",
-    "hash": "b15cd461265e"
-  },
-  {
-    "title": "Nvidia isn\u2019t selling any more AI chips to China",
-    "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-    "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [&#8230;]",
-    "image": "https://images.pexels.com/photos/10558582/pexels-photo-10558582.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T08:01:05-05:00",
-    "hash": "5ef99321d5f4"
-  },
-  {
-    "title": "This new scorecard shows whether your favorite retailer is using Flock cameras",
-    "link": "https://www.fastcompany.com/91644413/this-new-scorecard-shows-if-your-favorite-retailer-is-using-flock-cameras?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Automated license plate readers from Flock Safety and other vendors have become increasingly controversial across the country after reports of misuse by officers, high error rates that can lead to dangerous police encounters , and concerns about access by Immigration and Customs Enforcement . Flock, in particular, operates a nationwide camera network, with data from cameras operated in\u00a0one jurisdiction frequently accessed by investigators from elsewhere, making it hard for local officials to und",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91644413-this-new-scorecard-shows-if-your-favorite-retailer-is-using-flock-cameras.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T13:00:00+00:00",
-    "hash": "bb59f86a8979"
-  },
-  {
-    "title": "Anthropic\u2019s IPO asks investors to bet that a product can build a company, not the other way around",
-    "link": "https://www.fastcompany.com/91643255/anthropics-ipo-asks-investors-to-bet-that-a-product-can-build-a-company-not-the-other-way-around?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "When Anthropic launches its initial public offering this Thursday, it will be another test of how much further the AI industry&#8217;s seemingly unchecked growth can go. The company is seeking a valuation of $1.4 trillion, asking investors to buy into the idea that artificial intelligence will become a major contributor to the economy. But the IPO also asks investors to make a more unusual bet: on a company whose own product could eventually do much of the work of building the business itself. I",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91643255-anthropics-ipo-asks-investors-to-bet-that-a-product-can-build-a-company-not-the-other-way-around.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T11:00:00+00:00",
-    "hash": "5ca234ae91d0"
-  },
-  {
-    "title": "Jeff Bezos\u2019s $41 billion AI startup Prometheus is shrouded in secrecy. We found out who\u2019s building it",
-    "link": "https://www.fastcompany.com/91642361/jeff-bezoss-41-billion-ai-startup-prometheus-is-shrouded-in-secrecy-we-found-out-whos-building-it?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "For many in the tech industry, physical AI is the next world to conquer. While developers of large language models like OpenAI and Anthropic seek to push reasoning models distilled on billions of streams of text to their limits, an emerging crop of companies are focusing on an even more ambitious goal: developing AI programs designed to speak the language of physics . Should they succeed, these firms have a stake in everything from building models that might power self-driving manufacturing or e",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91642361-jeff-bezoss-41-billion-ai-startup-prometheus-is-shrouded-in-secrecy-we-found-out-whos-building-it.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T10:00:00+00:00",
-    "hash": "2d1359701a8a"
-  },
-  {
-    "title": "Motorola Razr Fold finally receives Android 17 stable update",
-    "link": "https://www.gsmarena.com/motorola_razr_fold_android_17_stable_update-news-75536.php",
-    "summary": "Motorola rolled out the stable Android 17 update to some of its folding and non-folding smartphones, but it left users of its most expensive folding smartphone, the Razr Fold, waiting. Well, the wait is finally over, as Motorola has released the stable Android 17 update for the Razr Fold. [#InlinePriceWidget,14402,1#] Motorola hasn't made an official announcement about Android 17's rollout for the Razr Fold, but multiple Reddit users reported receiving it. The update has firmware version A171WB.",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/06/moto-razr-fold-ifr/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-19T08:51:02+01:00",
-    "hash": "57cf992a3e1b",
-    "ai_summary": "Motorola rolled out the stable Android 17 update to some of its folding and non-folding smartphones, but it left users of its most expensive folding smartphone, the Razr Fold, waiting. Well, the wait ..."
-  },
-  {
-    "title": "Motorola confirms key specs for the Edge 70 Neo now",
-    "link": "https://www.gsmarena.com/motorola_edge_70_neo_now_has_an_official_launch_date_and_its_main_specs_confirmed-news-75533.php",
-    "summary": "Yesterday, Motorola started teasing the upcoming Edge 70 Neo, revealing its official launch date for the phone, which will be November 24. Later, Motorola also confirmed that its main camera uses a 50MP Sony Lytia 710 sensor. The screen is a 6.8-inch Extreme AMOLED Super HD panel with 1.5K resolution, 144Hz refresh rate, 5,200-nit peak brightness, and Gorilla Glass 7i on top. The device is powered by the Snapdragon 7s Gen 3 chipset, paired with up to 8GB of RAM. Its 7,000 mAh battery promises to",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/motorola-edge-70-neo-launch-date-specs/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-19T07:31:02+01:00",
-    "hash": "eaf262b4f939",
-    "ai_summary": "Yesterday, Motorola started teasing the upcoming Edge 70 Neo, revealing its official launch date for the phone, which will be November 24. Later, Motorola also confirmed that its main camera uses a 50..."
-  },
-  {
-    "title": "Honor confirms which Magic9 models will be available in the UK",
-    "link": "https://www.gsmarena.com/honor_confirms_which_magic9_models_will_be_available_in_the_uk-news-75531.php",
-    "summary": "Honor launched the Magic9, Magic9 Super, and Magic9 Pro Max in China in late September, and a few weeks later its UK website revealed that the Magic9 series would arrive there in January. At the time, the site only showed the Pro Max, but its \"Magic9 series\" wording suggested at least one more model would make the trip. Now we know which one it is. Today, Honor UK took to X to share a few behind-the-scenes photos as it sets up a Magic9 series event in London. According to the company, the two Ma",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-magic9-series-uk-revealed/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-19T06:31:02+01:00",
-    "hash": "304787d5982c",
-    "ai_summary": "Honor launched the Magic9, Magic9 Super, and Magic9 Pro Max in China in late September, and a few weeks later its UK website revealed that the Magic9 series would arrive there in January. At the time,..."
-  },
-  {
-    "title": "Replit\u2019s CEO on its stunning turnaround, \u2018AI psychosis,\u2019 and the risk Silicon Valley is ignoring",
-    "link": "https://www.fastcompany.com/91645039/replits-ceo-on-its-stunning-turnaround-ai-psychosis-and-the-risk-silicon-valley-is-ignoring?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "A couple of years ago, Replit was flatlining at a few million dollars in annual revenue and running a mostly empty office after a layoff. Today the vibe coding pioneer is valued at $9 billion, up from $3 billion just six months ago. CEO Amjad Masad reveals what made the turnaround possible. Masad also weighs in on what he calls \u201c AI psychosis,\u201d and says cybersecurity, not AI extinction, is the risk worth focusing on. This is an abridged transcript of an interview from Rapid Response , recorded l",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91645039-replits-ceo-on-its-stunning-turnaround-ai-psychosis-and-the-risk-silicon-valley-is-ignoring.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-19T05:15:00+00:00",
-    "hash": "757b98e72e00",
-    "ai_summary": "A couple of years ago, Replit was flatlining at a few million dollars in annual revenue and running a mostly empty office after a layoff. Today the vibe coding pioneer is valued at $9 billion, up from..."
-  },
-  {
-    "title": "All Cheat Codes in GTA 6",
-    "link": "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
-    "summary": "Grand Theft Auto 6 features a huge list of cheats. Here's how to unlock them all, and what each one does.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gta-6-jasopn-lucia-bank-robbery.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T05:01:18+00:00",
-    "hash": "2aabcec8656f",
-    "ai_summary": "Grand Theft Auto 6 features a huge list of cheats. Here's how to unlock them all, and what each one does...."
-  },
-  {
-    "title": "GTA 6 Cast List: Who plays Jason, Lucia and More",
-    "link": "https://www.polygon.com/gta-6-cast-list-actors-cameos-grand-theft-auto/",
-    "summary": "Grand Theft Auto 6 features an enormous cast of characters. Here's who plays Jason, Lucia, and the rest of the major players.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/vintage_vice_city_pack_exclusive_looks_01-1.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T05:01:18+00:00",
-    "hash": "95d2f8c8d469",
-    "ai_summary": "Grand Theft Auto 6 features an enormous cast of characters. Here's who plays Jason, Lucia, and the rest of the major players...."
-  },
-  {
-    "title": "How Long Does It Take To Beat GTA 6?",
-    "link": "https://www.polygon.com/gta-6-how-long-to-beat-grand-theft-auto/",
-    "summary": "GTA 6 has the biggest story in the series' history. Here's how long it will take you to beat it.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/jason_and_lucia_11.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T05:01:18+00:00",
-    "hash": "c9633a6748bf",
-    "ai_summary": "GTA 6 has the biggest story in the series' history. Here's how long it will take you to beat it...."
-  },
-  {
-    "title": "Exclusive: Schneider Electric Ventures brings accelerator scheme to Europe",
-    "link": "https://sifted.eu/articles/schneider-electric-ventures-accelerator-scheme-europe/",
-    "summary": "",
-    "image": "https://images.sifted.eu/cdn-cgi/image/width=2048,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/18195026/DSC01193-scaled.jpg",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-19T05:00:42+00:00",
-    "hash": "4aa0fa115dde",
-    "ai_summary": "..."
-  },
-  {
-    "title": "The next big bets in AI compute",
-    "link": "https://sifted.eu/articles/inside-the-next-big-bets-in-ai-compute/",
-    "summary": "",
-    "image": "https://images.sifted.eu/cdn-cgi/image/width=2048,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/18155305/whats-next-in-ai-compute-hero-scaled.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-19T05:00:20+00:00",
-    "hash": "5cf6999ba83d",
-    "ai_summary": "..."
-  },
-  {
-    "title": "'Calvin and Hobbes' Best Miss Wormwood Quote Is Still Among the Smartest in Comic Strip History",
-    "link": "https://www.polygon.com/miss-wormwood-calvin-hobbes/",
-    "summary": "Looking back at Miss Wormwood's best moments in Calvin and Hobbes",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/calvin-and-hobbes-revenge-of-the-babysat-textless-back-cover-art.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T05:00:17+00:00",
-    "hash": "05ceb756c1ac",
-    "ai_summary": "Looking back at Miss Wormwood's best moments in Calvin and Hobbes..."
-  },
-  {
-    "title": "AI is making teams smaller \u2014 and the fight for real talent harder",
-    "link": "https://sifted.eu/articles/eqt-ai-talent-polly-barnes-opinion/",
-    "summary": "",
-    "image": "https://images.sifted.eu/cdn-cgi/image/width=1164,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/18143940/444600040016-scaled-e1795012804143.jpg",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-19T05:00:16+00:00",
-    "hash": "d4222697a67e"
-  },
-  {
-    "title": "The other Staniszewski brother just raised $4.7m \u2013 and Paul Graham is a backer",
-    "link": "https://sifted.eu/articles/lato-seed-round/",
-    "summary": "",
-    "image": "https://images.sifted.eu/cdn-cgi/image/width=1536,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/18153847/IMG_4070_blurred-scaled.jpg",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-19T05:00:14+00:00",
-    "hash": "36733475b1fe"
-  },
-  {
-    "title": "Ineffable\u2019s David Silver on the race to superintelligence \u2014 and how to keep it safe",
-    "link": "https://sifted.eu/articles/ineffable-david-silver-ai-super-intelligence-safety/",
-    "summary": "",
-    "image": "https://content.sifted.eu/wp-content/uploads/2026/02/18101800/Screenshot-2026-02-18-at-10.02.44-1024x587.png",
-    "source": "Sifted",
-    "category": "Startups",
-    "published": "2026-11-19T05:00:10+00:00",
-    "hash": "232e0b9bb301"
-  },
-  {
-    "title": "Xiaomi Watch S5 41mm Ceramic Edition unboxing and hands-on",
-    "link": "https://www.gsmarena.com/xiaomi_watch_s5_41mm_ceramic_edition_-news-75532.php",
-    "summary": "This is the Xiaomi Watch S5 41mm, the smaller counterpart to the 46mm model, and it's now on sale globally. The model comes in Black, Light Blue, and Ceramic White and is \u20ac260. It ships with the same two-pin magnetic charger as the larger model, and yes, it's USB-A, not USB-C. The Xiaomi Watch S5 41mm follows closely in its predecessor's footsteps (hands-on with the Watch S4 41mm model here). It has a very similar design and specs, but it's improved in some major ways. The screen is the same siz",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/xiaomi-watch-s5-41-unboxing/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-19T05:01:02+01:00",
-    "hash": "c9bb3e9ee52c"
-  },
-  {
-    "title": "Honor Magic V7 will reportedly be a wide foldable",
-    "link": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
-    "summary": "Honor has reportedly been working on a wide foldable of its own for a while now, to take on the likes of the Samsung Galaxy Z Fold8 and the iPhone Duo. Back in early October, a rumor claimed that it's launching in January, but its name wasn't mentioned. Today, a tipster on X has shed some light on that. According to the tipster, the Magic V7 will be the one with the new wide form factor. Not only that, but it also seems like Honor won't release a \"normal\" big foldable next year. That would be a",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-magic-v7-wide/-952x498w6/gsmarena_000.jpg",
-    "source": "GSMArena.com - Latest articles",
-    "category": "Gadgets",
-    "published": "2026-11-19T03:11:02+01:00",
-    "hash": "44940203f8d3"
-  },
-  {
-    "title": "Elon Musk tries to explain what&#8217;s going on with Ukraine and Starlink",
-    "link": "https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook",
-    "summary": "Elon Musk said Ukrainian president Volodymyr Zelenskyy is lying about disruptions to Starshield in Ukraine and that he's trying to misuse SpaceX's consumer service, Starlink, for military purposes. Musk made the comments at The New York Times' DealBook Summit on Wednesday as he tried to explain the conflict following weeks of back and forth between [&#8230;]",
-    "image": "https://images.pexels.com/photos/15061966/pexels-photo-15061966.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "Tech | The Verge",
-    "category": "Gadgets",
-    "published": "2026-11-18T20:39:45-05:00",
-    "hash": "9fd01190aed7"
-  },
-  {
-    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-    "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-    "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-    "image": "https://images.pexels.com/photos/1181207/pexels-photo-1181207.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "TechCrunch",
-    "category": "Startups",
-    "published": "2026-11-19T00:42:56+00:00",
-    "hash": "ff2a67f6a68d"
-  },
-  {
-    "title": "GTA 6 Officially Cuts A Controversial Franchise Feature After 25 Years",
-    "link": "https://www.polygon.com/gta-6-prostitutes-hookers-strippers-where-are-npcs-rockstar/",
-    "summary": "The suggestive mechanic absent in GTA 6 has appeared in many GTA games, across multiple hardware generations",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/vice_city_06.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T00:21:46+00:00",
-    "hash": "1b932d3bc087"
-  },
-  {
-    "title": "The 10 greatest games to never get a GOTY nomination",
-    "link": "https://www.polygon.com/greatest-games-no-goty-nominations/",
-    "summary": "If your favorite game wasn\u2019t nominated, you\u2019re not alone.",
-    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/mina-the-hollower-best-area-order-3.jpg",
-    "source": "Polygon.com",
-    "category": "Gaming",
-    "published": "2026-11-19T00:00:18+00:00",
-    "hash": "6ef6ee229452"
-  },
-  {
-    "title": "The nation\u2019s largest school districts consider ditching Google Search",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-    "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice [&#8230;]",
-    "image": "https://images.pexels.com/photos/13566489/pexels-photo-13566489.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T18:18:35-05:00",
-    "hash": "e68ea354b938"
-  },
-  {
-    "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It\u2019s Got This",
-    "link": "https://www.wired.com/story/guys-really-we-got-this/",
-    "summary": "WIRED is tallying up how many times Nvidia\u2019s interim CEO has assured everyone that the company has everything under control.",
-    "image": "https://media.wired.com/photos/6afe216b809613f3f77a2770/master/pass/Does-NVIDIA-Got-This-Business.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-11-18T22:16:23+00:00",
-    "hash": "c713768ced8a"
-  },
-  {
-    "title": "America\u2019s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-    "link": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-    "summary": "The Trump administration announced plans to clamp down on China\u2019s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
-    "image": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/master/pass/AI-Lab-US-Chip-War-Business.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-11-18T21:15:00+00:00",
-    "hash": "f82f9699eeab"
-  },
-  {
-    "title": "Trump\u2019s latest land grab is an AI hub in the Philippines",
-    "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-    "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional [&#8230;]",
-    "image": "https://images.pexels.com/photos/21856658/pexels-photo-21856658.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T14:40:36-05:00",
-    "hash": "6d4288b53c5a"
-  },
-  {
-    "title": "Nvidia\u2019s rise, visualized",
-    "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-    "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of [&#8230;]",
-    "image": "https://images.pexels.com/photos/8622911/pexels-photo-8622911.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T14:30:00-05:00",
-    "hash": "b6628aac98e4"
-  },
-  {
-    "title": "Tech lawsuits defined 2026 \u2014 and lawmakers want more",
-    "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-    "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online [&#8230;]",
-    "image": "https://images.pexels.com/photos/32266769/pexels-photo-32266769.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "AI | The Verge",
-    "category": "AI",
-    "published": "2026-11-18T14:07:29-05:00",
-    "hash": "397ca207a9c5"
-  },
-  {
-    "title": "Why 2 Pinterest vets and a neurosurgeon are building a Reddit for doctors",
-    "link": "https://www.fastcompany.com/91637496/roon-reddit-pinterest-social-media-doctors?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Medicine&#8217;s complexity and ever-evolving nature means doctors will always have more to learn and discuss\u2014but in the digital age, there&#8217;s also a question of where those conversations can best take place. Online, healthcare workers&#8217; discourse is distributed across various social media platforms, forums, and group chats. Meanwhile, offline, medical professionals are &#8220;hyper-specialized,&#8221; with limited opportunities to work with colleagues from other disciplines, according",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91637496-Roon-physician-social-media-platform.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T19:00:00+00:00",
-    "hash": "1a47120b877d"
-  },
-  {
-    "title": "The smartest AI might be the one that leaves us alone",
-    "link": "https://www.fastcompany.com/91640411/the-smartest-ai-might-be-the-one-that-leaves-us-alone?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "One of the ideas I\u2019m always trying to tell my students is that their brains are something, an asset, if you like, they need to protect. The human brain is an amazing optimizer: Provide it with an effortless way to achieve something, and it will quickly start to use it. We used to memorize a ton of phone numbers a few decades ago. Now we can hardly memorize our own, simply because our brain knows the number is a few clicks away. A clear example is why I never use AI to write my articles: simply b",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91640411-the-best-AI-might-be-the-one-that-leaves-us-alone.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T09:30:00+00:00",
-    "hash": "bd6e58bb631d"
-  },
-  {
-    "title": "Apple is turning your iPhone into a car key for 3 popular brands. Unlocking is only the beginning",
-    "link": "https://www.fastcompany.com/91635167/apple-iphone-wallet-car-key-cadillac-chevrolet-gmc?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
-    "summary": "Cadillac, Chevrolet, and GMC drivers will now be able to unlock their vehicles with their phones. As first reported by MacRumors , General Motors announced that it\u00a0has begun rolling out the Apple Wallet feature to select models. More vehicles are expected to be added over time.\u00a0Eligible customers will receive notifications in the \u201cWhat\u2019s New\u201d section of their vehicle\u2019s app when digital-key support is available. Users will be able to use their smartphones or Apple Watches much like a physical key",
-    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/apple-wallet-car-keys-inc.jpg",
-    "source": "Fast Company - technology",
-    "category": "Innovation",
-    "published": "2026-11-18T09:00:00+00:00",
-    "hash": "a7f756b52a28"
-  },
-  {
-    "title": "Designing the next chapter for professional athletes",
-    "link": "https://news.mit.edu/2026/founders-academy-designing-next-chapter-professional-athletes-1118",
-    "summary": "MIT Sloan student Collin Johnson, a former NFL player, worked with MIT DesignX faculty to create Founders Academy, a program to help athletes plan their futures off the field.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-designx-Founders-Academy.JPG?itok=z42MvFLh",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
-    "category": "Innovation",
-    "published": "2026-11-18T03:30:00-05:00",
-    "hash": "0614bffe327d"
-  },
-  {
     "title": "'Yellowjackets' Season 4 Review: A Chaotic Finale That Goes Out on Its Own Terms",
     "link": "https://www.polygon.com/yellowjackets-season-4-review/",
     "summary": "Midlife crises, murder plots, and a third timeline: Yellowjackets\u2019 final season embraces the chaos to the very end.",
@@ -1720,16 +1120,6 @@
     "hash": "0d5c5bdc4839"
   },
   {
-    "title": "Inside Nvidia\u2019s First Post-Jensen All-Hands: Pay Raises and More Equity",
-    "link": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
-    "summary": "Interim CEO Colette Kress sought to ease employee concerns following Jensen Huang\u2019s ouster, in part by promising to increase compensation.",
-    "image": "https://media.wired.com/photos/6afddee377c5562ae471019b/master/pass/GettyImages-2304258889.jpg",
-    "source": "Artificial Intelligence",
-    "category": "AI",
-    "published": "2026-11-18T17:33:07+00:00",
-    "hash": "639d03f58baa"
-  },
-  {
     "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
     "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
     "summary": "An actor has licensed his face to a microdrama startup \u2014 in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
@@ -1928,16 +1318,6 @@
     "category": "Startups",
     "published": "2026-11-20T13:00:51+00:00",
     "hash": "8facd71d5a49"
-  },
-  {
-    "title": "This smell startup says its AI nose is as good as a human\u2019s",
-    "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-    "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes\u2014\u201cnutty,\u201d \u201cpeachy,\u201d \u201cmarine\u201d\u2014are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world\u2019s first foundation&#8230;",
-    "image": "https://images.pexels.com/photos/30210734/pexels-photo-30210734.jpeg?auto=compress&cs=tinysrgb&h=350",
-    "source": "MIT Technology Review",
-    "category": "AI",
-    "published": "2026-11-18T10:20:30+00:00",
-    "hash": "e55355524b8f"
   },
   {
     "title": "'Calvin and Hobbes' Best Bully Quote Is Still Among the Wisest in Comic Strip History",
@@ -3620,13 +3000,313 @@
     "hash": "6e59e45b2655"
   },
   {
-    "title": "Streamlining metal parts production to revitalize American industry",
-    "link": "https://news.mit.edu/2026/streamlining-metal-parts-production-revitalize-american-industry-fabri-1110",
-    "summary": "Founded by MIT alumni, Fabri uses 3D printing and software to eliminate many of the steps that slow down traditional metal casting.",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Fabri-01-press.jpg?itok=vLqRlOFF",
-    "source": "MIT News - Innovation and Entrepreneurship (I&amp;E)",
+    "title": "Nothing releases new images of the Ear (note) AI notetaker earbuds",
+    "link": "https://www.gsmarena.com/nothing_releases_new_images_of_the_ear_note_ai_notetaker_earbuds-news-75643.php",
+    "summary": "Yesterday we learned that Nothing's first AI-native device is a pair of earbuds called the Ear (note), and today the company has made it official with a first look at the product, ahead of its December 8 launch. The first step in our AI vision will change how we work. And play. This is Ear (note), an AI notetaker with our best in-ear audio to date. 8 December. https://t.co/fFQjqFfTlZ\u2014 Nothing (@nothing) November 25, 2026 Nothing describes the Ear (note) as an AI notetaker paired with its best in",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/nothing-ear-note/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-11-26T08:41:02+01:00",
+    "hash": "fd57f3357705",
+    "ai_summary": "Yesterday we learned that Nothing's first AI-native device is a pair of earbuds called the Ear (note), and today the company has made it official with a first look at the product, ahead of its Decembe..."
+  },
+  {
+    "title": "Redmi K100 Ultra camera details leak, big upgrades incoming",
+    "link": "https://www.gsmarena.com/redmi_k100_ultra_camera_details_leak_big_upgrades_incoming-news-75644.php",
+    "summary": "Redmi launched the K90 Ultra back in June, and it looks like its successor is already in the works. Today Digital Chat Station on Weibo shared the specs of the latest engineering sample of the K100 Ultra. The device allegedly has three 50MP cameras on the back. The main one uses a large sensor of around 1/1.3\", and the ultrawide is getting an upgrade too. The telephoto is still being A/B tested with medium-sized and small sensors, but its focal length has moved to around 3x. Up front there's a 3",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/redmi-k100-ultra-camera-details-leak/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-11-26T07:31:02+01:00",
+    "hash": "8a34f47658a5",
+    "ai_summary": "Redmi launched the K90 Ultra back in June, and it looks like its successor is already in the works. Today Digital Chat Station on Weibo shared the specs of the latest engineering sample of the K100 Ul..."
+  },
+  {
+    "title": "AI may not be a bubble. But the way we\u2019re financing it might be",
+    "link": "https://www.fastcompany.com/91648541/ai-may-not-be-a-bubble-but-the-way-were-financing-it-might-be?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Jensen Huang is back at Nvidia. On November 23, the semiconductor giant reinstated its cofounder as president and CEO, less than two weeks after his abrupt resignation threw the company into a leadership crisis. Investors may be relieved to have Huang back. But the events of the past two weeks have shown just how much Nvidia\u2014and the wider AI industry\u2014still depends on one man. The board said it had consulted senior U.S. government officials before reinstating Huang and concluded that his return p",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91648541-AI-finance-bubble.jpg",
+    "source": "Fast Company - technology",
     "category": "Innovation",
-    "published": "2026-11-10T00:00:00-05:00",
-    "hash": "e61004702a3f"
+    "published": "2026-11-26T05:22:00+00:00",
+    "hash": "d9599699ad4e",
+    "ai_summary": "Jensen Huang is back at Nvidia. On November 23, the semiconductor giant reinstated its cofounder as president and CEO, less than two weeks after his abrupt resignation threw the company into a leaders..."
+  },
+  {
+    "title": "Exclusive: Starforge raises $6.6m to build nuclear fusion reactors at scale",
+    "link": "https://sifted.eu/articles/exclusive-starforge-fundraise-nuclear-fusion-reactors/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=2048,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/25154309/Team_Sitting-scaled.jpg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-11-26T05:00:51+00:00",
+    "hash": "81e9647774a5",
+    "ai_summary": "..."
+  },
+  {
+    "title": "Meet Goldfish: The kings of Slush aiming to take on Apple",
+    "link": "https://sifted.eu/articles/goldfish-slush-100-winners/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=800,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/25141242/1781435357247.jpeg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-11-26T05:00:35+00:00",
+    "hash": "1086ab7d6c4f",
+    "ai_summary": "..."
+  },
+  {
+    "title": "\u2018It\u2019s not a fair fight\u2019: Bolt\u2019s Markus Villig on why Europe must protect homegrown tech",
+    "link": "https://sifted.eu/articles/bolt-markus-villig-ceo-interview-europe/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=1598,quality=75,fit=cover,format=auto/wp-content/uploads/2024/12/02175359/1.-Markus-Villig-portrait-e1733240178872.jpeg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-11-26T05:00:25+00:00",
+    "hash": "421a060400f5",
+    "ai_summary": "..."
+  },
+  {
+    "title": "Monzo cofounder Tom Blomfield leaves Anthropic after less than six months, reports say",
+    "link": "https://sifted.eu/articles/anthropic-monzo-tom-blomfield-quits/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=469,quality=75,fit=cover,format=auto/wp-content/uploads/2023/03/03152359/Tom-Blomfield.png",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-11-26T05:00:18+00:00",
+    "hash": "56ea0d89bcfe",
+    "ai_summary": "..."
+  },
+  {
+    "title": "10 Classic Books Worth Reading Over and Over",
+    "link": "https://www.polygon.com/10-classic-books-worth-reading-over-and-over/",
+    "summary": "From Russian masterpieces to modern dystopias, these are the books that never get old.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/pride-and-prejudice.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-11-26T05:00:18+00:00",
+    "hash": "8302cf9979eb",
+    "ai_summary": "From Russian masterpieces to modern dystopias, these are the books that never get old...."
+  },
+  {
+    "title": "Proxima Fusion CEO calls out \u2018short-termism\u2019 amid AI boom",
+    "link": "https://sifted.eu/articles/proxima-fusion-ceo-ai-bubble-japan-supply-chain/",
+    "summary": "",
+    "image": "https://images.sifted.eu/cdn-cgi/image/width=2000,quality=75,fit=cover,format=auto/wp-content/uploads/2026/11/25131426/Francesco-Sciortino-scaled-e1795612497731.jpg",
+    "source": "Sifted",
+    "category": "Startups",
+    "published": "2026-11-26T05:00:01+00:00",
+    "hash": "b9467928b5d8",
+    "ai_summary": "..."
+  },
+  {
+    "title": "6 Fantasy Books Better Than Harry Potter",
+    "link": "https://www.polygon.com/fantasy-books-better-than-harry-potter/",
+    "summary": "Great fantasy books like Darker by Four, Impossible Creatures, and Six of Crows are arguably even better than Harry Potter.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/10/impossible-creatures-key-art.jpeg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-11-26T04:57:17+00:00",
+    "hash": "8f4b7a4784eb",
+    "ai_summary": "Great fantasy books like Darker by Four, Impossible Creatures, and Six of Crows are arguably even better than Harry Potter...."
+  },
+  {
+    "title": "HMD Rise leaks on its way to India",
+    "link": "https://www.gsmarena.com/hmd_rise_leaks_on_its_way_to_india-news-75639.php",
+    "summary": "According to a usually reliable source of HMD-related information, the company is currently working on a new device for the Indian market. It's called the HMD Rise 4G, and it will be sold through Flipkart. It has a 5,000 mAh battery as you can see from the leaked promotional images below, and it comes with a \"premium dual-tone design\". The source says this is nothing but a rebranded HMD Arc 2, which launched in some markets back in July. HMD Rise 4G leaked promotional images If this pans out, th",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/hmd-rise-4g-leak/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-11-26T05:02:02+01:00",
+    "hash": "c9c1afe5d9ec"
+  },
+  {
+    "title": "Apple pulls popular Chinese AI chatbot from the App Store amid child safety concerns",
+    "link": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
+    "summary": "Following reports that its characters sent inappropriate messages to minors, Apple has removed the popular Chinese AI companion app Talkie from the App Store. Here are the details. more\u2026",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/05/App-Store-fraud.webp?resize=1200,628",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-11-26T02:12:24+00:00",
+    "hash": "490158300f3d"
+  },
+  {
+    "title": "Redmi Note 18 5G has seemingly been certified, here's its charging speed",
+    "link": "https://www.gsmarena.com/redmi_note_18_5g_has_seemingly_been_certified_heres_its_charging_speed-news-75634.php",
+    "summary": "The Redmi Note 17 was unveiled in China back in July, and Xiaomi already seems to be preparing its successor. Today, a device with the model number M077CE has appeared in China's 3C certification database. A tipster on X says it's allegedly the upcoming vanilla Redmi Note 18 5G. The listing reveals support for 45W wired charging, the same as its predecessor. Another Redmi Note 18 model has already shown up with 67W charging, and that's probably the Redmi Note 18 Pro. A previous leak claimed the",
+    "image": "https://fdn.gsmarena.com/imgroot/news/26/11/redmi-note-18-5g-certified/-952x498w6/gsmarena_000.jpg",
+    "source": "GSMArena.com - Latest articles",
+    "category": "Gadgets",
+    "published": "2026-11-26T03:02:02+01:00",
+    "hash": "2d85047bd02a"
+  },
+  {
+    "title": "Wispr Flow improves dictation accuracy with new Canto-2 speech-to-text model",
+    "link": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+    "summary": "Popular AI dictation app Wispr Flow is rolling out a new speech-to-text model for Mac, iPhone, and other platforms, promising fewer transcription errors and better recognition of names and technical terms. Here are the details. more\u2026",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/wispr-canto-2.jpg?quality=82&strip=all&resize=1200,628",
+    "source": "9to5Mac",
+    "category": "Gadgets",
+    "published": "2026-11-26T00:35:52+00:00",
+    "hash": "3d86e8ed3f06"
+  },
+  {
+    "title": "Denny\u2019s Posts Statement Celebrating Jensen Huang\u2019s Return As Nvidia CEO: \u2018Some Things You Just Don\u2019t Take Off The Menu\u2019",
+    "link": "https://kotaku.com/dennys-posts-statement-celebrating-jensen-huangs-return-as-nvidia-ceo-some-things-you-just-dont-take-off-the-menu-2001000521",
+    "summary": "The temporarily fired Nvidia boss previously worked at the diner chain",
+    "image": "https://kotaku.com/app/uploads/2026/11/jensenhuang-1-1280x720.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-11-26T00:03:24+00:00",
+    "hash": "ba2172efd4bb"
+  },
+  {
+    "title": "Ridley Scott\u2019s Sci-Fi Thriller Masterpiece Is Officially Being Removed From Netflix",
+    "link": "https://www.polygon.com/ridley-scott-alien-leaving-netflix/",
+    "summary": "Ridley Scott's Alien leaves Netflix on Dec. 1. Here's why the 1979 sci-fi horror classic's restraint still makes it the best movie in the franchise.",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/alien_2.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-11-26T00:01:17+00:00",
+    "hash": "d6d4a5bf900d"
+  },
+  {
+    "title": "How to get adrenaline in GTA 6",
+    "link": "https://www.polygon.com/gta-6-adrenaline-how-to-get/",
+    "summary": "You can get more adrenaline in GTA 6 by looking in specific places at robbery locations or in ambulances. Here's how to get adrenaline in GTA 6",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gta-6-adrenaline.jpg",
+    "source": "Polygon.com",
+    "category": "Gaming",
+    "published": "2026-11-25T22:57:40+00:00",
+    "hash": "670751f9d7c1"
+  },
+  {
+    "title": "Mike Tomlin Lives His Best Life In Minecraft While The Steelers Implode",
+    "link": "https://kotaku.com/mike-tomlin-lives-his-best-life-in-minecraft-while-the-steelers-implode-2001000512",
+    "summary": "The ex-NFL coach is enjoying his retirement as fans debate if he'd ever come back",
+    "image": "https://kotaku.com/app/uploads/2026/11/minecraft-steelers-1280x668.jpg",
+    "source": "Kotaku",
+    "category": "Gaming",
+    "published": "2026-11-25T22:55:05+00:00",
+    "hash": "d1b39c04e68f"
+  },
+  {
+    "title": "S&P considers Nvidia credit downgrade over governance and \u2018key man\u2019 risks",
+    "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+    "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+    "image": "https://images.pexels.com/photos/6704945/pexels-photo-6704945.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "TechCrunch",
+    "category": "Startups",
+    "published": "2026-11-25T22:44:32+00:00",
+    "hash": "433bb9ee9a9c"
+  },
+  {
+    "title": "Google\u2019s patent for custom AI video feeds paints a bleak picture of entertainment\u2019s future",
+    "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+    "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come [&#8230;]",
+    "image": "https://images.pexels.com/photos/16564263/pexels-photo-16564263.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-11-25T16:51:26-05:00",
+    "hash": "75414d9a416a"
+  },
+  {
+    "title": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space",
+    "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [&#8230;]",
+    "image": "https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-11-25T12:44:51-05:00",
+    "hash": "54de3998af34"
+  },
+  {
+    "title": "Digital Duty of Care Act passes in Australia. Opposition say the law is \u2018authoritarian\u2019",
+    "link": "https://www.fastcompany.com/91648939/digital-duty-care-act-passes-australia-opposition-says-law-authoritarian?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Australia&#8217;s Parliament on Wednesday passed online safety laws that could expose tech giants to multibillion-dollar fines for failing to prevent foreseeable online harms . The United States and the Australian opposition party warned that the legislation would lead to censorship of lawful speech . The Digital Duty of Care Act requires Big Tech to proactively reduce the risk of harm before it occurs, according to an Australian government statement. Australian online law falls in line with EU",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26329339098257.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-11-25T17:15:03+00:00",
+    "hash": "764aabae72c5"
+  },
+  {
+    "title": "How data centers are driving a US natural-gas boom",
+    "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+    "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I\u2019ve lost count of how many times he\u2019s already been proved right. Sure, it\u2019s technically possible to meet the world\u2019s rising electricity demand with other power sources, including renewables like&#8230;",
+    "image": "https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-11-25T17:00:00+00:00",
+    "hash": "6294ca84d797"
+  },
+  {
+    "title": "Nothing offers a full look at its AI earbuds and charging case",
+    "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+    "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you [&#8230;]",
+    "image": "https://images.pexels.com/photos/6344630/pexels-photo-6344630.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-11-25T11:00:59-05:00",
+    "hash": "8dd8c4205f5b"
+  },
+  {
+    "title": "The 10-person board that voted to reinstate Nvidia\u2019s CEO is also now under scrutiny",
+    "link": "https://www.fastcompany.com/91648944/10-person-board-voted-reinstate-nvidias-ceo-also-now-under-scrutiny?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Jensen Huang has been under a spotlight for weeks, but after the 11-day period of disorder that included the resignation and reinstatement of the Nvidia executive, the company&#8217;s board is joining him at the center of scrutiny. The 10-person board voted unanimously to rehire Huang as Nvidia&#8217;s president, CEO and a fellow board member, writing in an announcement Monday that the decision emerged after discussions with Huang and &#8220;input from senior levels of the United States governme",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26316465316211.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-11-25T16:00:00+00:00",
+    "hash": "40fe7d531517"
+  },
+  {
+    "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+    "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+    "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, [&#8230;]",
+    "image": "https://images.pexels.com/photos/14309815/pexels-photo-14309815.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "AI | The Verge",
+    "category": "AI",
+    "published": "2026-11-25T09:12:33-05:00",
+    "hash": "f7c92502e7a5"
+  },
+  {
+    "title": "The Download: AI swamping open records, and firefighting for permafrost",
+    "link": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is straining America\u2019s open records systems AI has intensified investors&#8217; interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data&#8230;",
+    "image": "https://images.pexels.com/photos/7645271/pexels-photo-7645271.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "published": "2026-11-25T13:10:00+00:00",
+    "hash": "f4eefef3d13d"
+  },
+  {
+    "title": "TouchTunes just added a social feed to your local jukebox",
+    "link": "https://www.fastcompany.com/91648105/touchtunes-just-added-a-social-feed-to-your-local-jukebox?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "The streaming jukebox giant TouchTunes wants to be the online social hub for your local bar. The New York-based company boasts jukeboxes in more than 60,000 locations that users can control through touch screens or apps on their own smartphones. Now, it has added a \u201c social feed \u201d that lets users of its apps communicate with each other and see who\u2019s connected to the jukebox in a particular establishment, even when they\u2019re not physically there. App users can add comments and emoji-style reactions",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91648105-touchtunes-just-added-a-social-feed-to-your-local-jukebox.png",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-11-25T12:00:00+00:00",
+    "hash": "e9f8a88d551b"
+  },
+  {
+    "title": "This Thanksgiving, let\u2019s just not talk about AI",
+    "link": "https://www.fastcompany.com/91647586/this-thanksgiving-lets-just-not-talk-about-ai?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "Maybe we just don\u2019t talk about AI this Thanksgiving. Of course, we need some common conversation topics to throw around the dining room with friends and relatives we haven\u2019t seen in a while. And though AI seems to be showing up everywhere now, we still have a lot of other stuff to talk about\u2014sports, food, movies, and the like. Or there\u2019s always that thing where you go around the table and everybody says something they\u2019re thankful for. Unless somebody actually says \u201cClaude\u201d (which is fine). Mostl",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91647586-lets-not-talk-about-AI-this-thanksgiving.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-11-25T11:08:00+00:00",
+    "hash": "f666eaaab398"
+  },
+  {
+    "title": "To tap the planet\u2019s heat for clean energy, this Texas company leaned on oil industry knowledge",
+    "link": "https://www.fastcompany.com/91647946/to-tap-the-planets-heath-for-clean-energy-this-texas-company-leaned-on-oil-industry-knowledge?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "summary": "In the heart of a forest near the Newberry Volcano in central Oregon, a Texas company has struck a different kind of liquid gold than the other wildcatters searching for oil and gas. Mazama Energy has already drilled past 10,000 feet and is pushing toward a goal of over 15,000 to tap into the vast reserves of underground heat. The operation is part of a pilot program by the geothermal energy startup to prove it can dig deeper and create clean energy more cheaply than its competitors. Company CEO",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91647946-mazama.jpg",
+    "source": "Fast Company - technology",
+    "category": "Innovation",
+    "published": "2026-11-25T10:00:00+00:00",
+    "hash": "6edee53dd187"
   }
 ]
